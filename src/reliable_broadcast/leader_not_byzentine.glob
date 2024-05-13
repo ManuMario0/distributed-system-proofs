@@ -1,0 +1,1316 @@
+DIGEST 4a1eac5eec3aef3a0971a649d554e8a2
+Fdsys.reliable_broadcast.leader_not_byzentine
+R15:24 dsys.common.IOA <> <> lib
+R42:51 dsys.common.LTL <> <> lib
+R69:75 dsys.P2P.P2P <> <> lib
+R93:105 dsys.common.tactic <> <> lib
+R123:152 dsys.reliable_broadcast.definitions <> <> lib
+R170:203 dsys.reliable_broadcast.transition_prop <> <> lib
+R221:223 Coq.micromega.Lia <> <> lib
+R241:245 Coq.Arith.Arith <> <> lib
+R263:266 Coq.Bool.Bool <> <> lib
+sec 327:346 <> Leader_not_byzentine
+var 360:360 Leader_not_byzentine f
+R364:366 Coq.Init.Datatypes <> nat ind
+var 380:391 Leader_not_byzentine root_message
+R395:401 dsys.reliable_broadcast.definitions <> Message defax
+var 417:430 Leader_not_byzentine Hf_not_too_big
+R437:439 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R435:435 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R436:436 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R440:444 dsys.reliable_broadcast.definitions <> count defax
+def 461:470 <> Other_type
+R479:480 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R482:484 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R488:490 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R508:509 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R485:487 Coq.Init.Datatypes <> nat ind
+binder 481:481 <> n:4
+R492:494 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R496:498 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R495:495 dsys.reliable_broadcast.leader_not_byzentine <> n:4 var
+R495:495 dsys.reliable_broadcast.leader_not_byzentine <> n:4 var
+R504:506 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R499:503 dsys.reliable_broadcast.definitions <> count defax
+R507:507 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+ax 521:548 <> other_type_proof_irrelevence
+R569:578 dsys.reliable_broadcast.leader_not_byzentine <> Other_type def
+binder 563:563 <> p:5
+binder 565:565 <> q:6
+R606:609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R592:594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R581:589 Coq.Init.Specif <> proj1_sig def
+R591:591 dsys.reliable_broadcast.leader_not_byzentine <> p:5 var
+R595:603 Coq.Init.Specif <> proj1_sig def
+R605:605 dsys.reliable_broadcast.leader_not_byzentine <> q:6 var
+R611:613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R610:610 dsys.reliable_broadcast.leader_not_byzentine <> p:5 var
+R614:614 dsys.reliable_broadcast.leader_not_byzentine <> q:6 var
+def 631:644 <> Byzentine_type
+R653:654 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R656:658 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R662:664 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R685:686 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R659:661 Coq.Init.Datatypes <> nat ind
+binder 655:655 <> n:8
+R672:675 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R677:679 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R670:670 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R665:669 dsys.reliable_broadcast.definitions <> count defax
+R671:671 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R676:676 dsys.reliable_broadcast.leader_not_byzentine <> n:8 var
+R676:676 dsys.reliable_broadcast.leader_not_byzentine <> n:8 var
+R680:684 dsys.reliable_broadcast.definitions <> count defax
+ax 698:729 <> byzentine_type_proof_irrelevence
+R750:763 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 744:744 <> p:9
+binder 746:746 <> q:10
+R791:794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R777:779 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R766:774 Coq.Init.Specif <> proj1_sig def
+R776:776 dsys.reliable_broadcast.leader_not_byzentine <> p:9 var
+R780:788 Coq.Init.Specif <> proj1_sig def
+R790:790 dsys.reliable_broadcast.leader_not_byzentine <> q:10 var
+R796:798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R795:795 dsys.reliable_broadcast.leader_not_byzentine <> p:9 var
+R799:799 dsys.reliable_broadcast.leader_not_byzentine <> q:10 var
+ind 815:830 <> Composition_type
+constr 841:848 <> Leader_T
+constr 875:881 <> Other_T
+constr 922:930 <> Network_T
+constr 957:967 <> Byzentine_T
+R852:867 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type:12 ind
+R895:898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R885:894 dsys.reliable_broadcast.leader_not_byzentine <> Other_type def
+R899:914 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type:12 ind
+R934:949 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type:12 ind
+R985:988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R971:984 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R989:1004 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type:12 ind
+scheme 815:830 <> Composition_type_rect
+scheme 815:830 <> Composition_type_ind
+scheme 815:830 <> Composition_type_rec
+scheme 815:830 <> Composition_type_sind
+def 1021:1039 <> Composition_type_eq
+R1052:1067 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type ind
+binder 1046:1046 <> i:14
+binder 1048:1048 <> j:15
+R1085:1087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1084:1084 dsys.reliable_broadcast.leader_not_byzentine <> i:14 var
+R1088:1088 dsys.reliable_broadcast.leader_not_byzentine <> j:15 var
+def 1105:1127 <> process_from_other_type
+R1134:1143 dsys.reliable_broadcast.leader_not_byzentine <> Other_type def
+binder 1130:1130 <> p:16
+R1148:1154 dsys.reliable_broadcast.definitions <> Process def
+R1181:1189 Coq.Init.Specif <> proj1_sig def
+R1172:1178 dsys.reliable_broadcast.definitions <> Process def
+R1181:1189 Coq.Init.Specif <> proj1_sig def
+def 1272:1298 <> process_from_byzentine_type
+R1305:1318 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 1301:1301 <> p:17
+R1323:1329 dsys.reliable_broadcast.definitions <> Process def
+R1356:1364 Coq.Init.Specif <> proj1_sig def
+R1347:1353 dsys.reliable_broadcast.definitions <> Process def
+R1356:1364 Coq.Init.Specif <> proj1_sig def
+R1536:1538 Coq.Init.Specif <> sig ind
+R1536:1538 Coq.Init.Specif <> sig ind
+R1650:1654 Coq.Init.Specif <> exist constr
+def 1707:1739 <> composition_type_from_process_aux
+R1746:1752 dsys.reliable_broadcast.definitions <> Process def
+binder 1742:1742 <> p:18
+R1761:1761 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1763:1765 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1782:1790 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2004:2009 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1766:1781 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type ind
+binder 1762:1762 <> q:19
+R1797:1805 Coq.Init.Specif <> proj1_sig def
+R1807:1807 dsys.reliable_broadcast.leader_not_byzentine <> p:18 var
+R1830:1832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1829:1829 dsys.reliable_broadcast.leader_not_byzentine <> q:19 var
+R1833:1840 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R1863:1863 dsys.reliable_broadcast.leader_not_byzentine <> q:19 var
+R1888:1894 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R1901:1911 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R1931:1933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1919:1927 Coq.Init.Specif <> proj1_sig def
+R1934:1942 Coq.Init.Specif <> proj1_sig def
+R1944:1944 dsys.reliable_broadcast.leader_not_byzentine <> p:18 var
+R1931:1933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1919:1927 Coq.Init.Specif <> proj1_sig def
+R1934:1942 Coq.Init.Specif <> proj1_sig def
+R1944:1944 dsys.reliable_broadcast.leader_not_byzentine <> p:18 var
+R1969:1973 Coq.Init.Logic <> False ind
+R2036:2039 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R2025:2033 Coq.Init.Specif <> proj1_sig def
+R2036:2039 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R2025:2033 Coq.Init.Specif <> proj1_sig def
+R2092:2099 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R2081:2085 Coq.Init.Specif <> exist constr
+R2092:2099 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R2081:2085 Coq.Init.Specif <> exist constr
+R2147:2150 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R2136:2144 Coq.Init.Specif <> proj1_sig def
+R2156:2158 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2151:2155 dsys.reliable_broadcast.definitions <> count defax
+R2159:2159 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R2147:2150 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R2136:2144 Coq.Init.Specif <> proj1_sig def
+R2156:2158 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2151:2155 dsys.reliable_broadcast.definitions <> count defax
+R2159:2159 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R2218:2226 Coq.Init.Specif <> proj1_sig def
+R2206:2215 dsys.reliable_broadcast.leader_not_byzentine <> Other_type def
+R2218:2226 Coq.Init.Specif <> proj1_sig def
+R2263:2269 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R2251:2255 Coq.Init.Specif <> exist constr
+R2263:2269 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R2251:2255 Coq.Init.Specif <> exist constr
+R2375:2383 Coq.Init.Specif <> proj1_sig def
+R2359:2372 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R2375:2383 Coq.Init.Specif <> proj1_sig def
+R2444:2454 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R2432:2436 Coq.Init.Specif <> exist constr
+R2444:2454 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R2432:2436 Coq.Init.Specif <> exist constr
+def 2553:2581 <> composition_type_from_process
+R2588:2594 dsys.reliable_broadcast.definitions <> Process def
+binder 2584:2584 <> p:21
+R2604:2612 Coq.Init.Specif <> proj1_sig def
+R2615:2647 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R2649:2649 dsys.reliable_broadcast.leader_not_byzentine <> p:21 var
+prf 2662:2688 <> if_process_zero_then_leader
+R2707:2713 dsys.reliable_broadcast.definitions <> Process def
+binder 2703:2703 <> p:22
+R2737:2746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2733:2735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2722:2730 Coq.Init.Specif <> proj1_sig def
+R2732:2732 dsys.reliable_broadcast.leader_not_byzentine <> p:22 var
+R2778:2780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2747:2775 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R2777:2777 dsys.reliable_broadcast.leader_not_byzentine <> p:22 var
+R2781:2788 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R2860:2888 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+prf 2924:2971 <> if_process_non_zero_and_not_byzentine_then_other
+R2990:2996 dsys.reliable_broadcast.definitions <> Process def
+binder 2986:2986 <> p:23
+R3021:3030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3016:3019 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3005:3013 Coq.Init.Specif <> proj1_sig def
+R3015:3015 dsys.reliable_broadcast.leader_not_byzentine <> p:23 var
+R3054:3063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3042:3044 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3031:3039 Coq.Init.Specif <> proj1_sig def
+R3041:3041 dsys.reliable_broadcast.leader_not_byzentine <> p:23 var
+R3050:3052 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3045:3049 dsys.reliable_broadcast.definitions <> count defax
+R3053:3053 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R3064:3070 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3073:3074 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3071:3072 <> p':24
+R3106:3108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3075:3103 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R3105:3105 dsys.reliable_broadcast.leader_not_byzentine <> p:23 var
+R3109:3115 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R3117:3118 dsys.reliable_broadcast.leader_not_byzentine <> p':24 var
+R3181:3209 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R3226:3258 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R3261:3265 Coq.Init.Specif <> exist constr
+R3276:3278 Coq.Init.Datatypes <> nat ind
+binder 3272:3272 <> n:25
+R3284:3286 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3283:3283 dsys.reliable_broadcast.leader_not_byzentine <> n:25 var
+R3287:3291 dsys.reliable_broadcast.definitions <> count defax
+R3226:3258 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R3261:3265 Coq.Init.Specif <> exist constr
+R3276:3278 Coq.Init.Datatypes <> nat ind
+binder 3272:3272 <> n:26
+R3284:3286 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3283:3283 dsys.reliable_broadcast.leader_not_byzentine <> n:26 var
+R3287:3291 dsys.reliable_broadcast.definitions <> count defax
+prf 3491:3525 <> if_process_byzentine_then_byzentine
+R3544:3550 dsys.reliable_broadcast.definitions <> Process def
+binder 3540:3540 <> p:27
+R3578:3587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3570:3572 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3559:3567 Coq.Init.Specif <> proj1_sig def
+R3569:3569 dsys.reliable_broadcast.leader_not_byzentine <> p:27 var
+R3573:3577 dsys.reliable_broadcast.definitions <> count defax
+R3612:3621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3599:3602 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R3588:3596 Coq.Init.Specif <> proj1_sig def
+R3598:3598 dsys.reliable_broadcast.leader_not_byzentine <> p:27 var
+R3608:3610 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3603:3607 dsys.reliable_broadcast.definitions <> count defax
+R3611:3611 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R3622:3628 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3631:3632 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3629:3630 <> p':28
+R3664:3666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3633:3661 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R3663:3663 dsys.reliable_broadcast.leader_not_byzentine <> p:27 var
+R3667:3677 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R3679:3680 dsys.reliable_broadcast.leader_not_byzentine <> p':28 var
+R3743:3771 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R3788:3820 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R3823:3827 Coq.Init.Specif <> exist constr
+R3838:3840 Coq.Init.Datatypes <> nat ind
+binder 3834:3834 <> n:29
+R3846:3848 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3845:3845 dsys.reliable_broadcast.leader_not_byzentine <> n:29 var
+R3849:3853 dsys.reliable_broadcast.definitions <> count defax
+R3788:3820 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R3823:3827 Coq.Init.Specif <> exist constr
+R3838:3840 Coq.Init.Datatypes <> nat ind
+binder 3834:3834 <> n:30
+R3846:3848 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3845:3845 dsys.reliable_broadcast.leader_not_byzentine <> n:30 var
+R3849:3853 dsys.reliable_broadcast.definitions <> count defax
+prf 4043:4066 <> conversion_never_network
+R4085:4091 dsys.reliable_broadcast.definitions <> Process def
+binder 4081:4081 <> p:31
+R4131:4134 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4100:4128 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R4130:4130 dsys.reliable_broadcast.leader_not_byzentine <> p:31 var
+R4135:4143 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R4178:4206 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R4223:4255 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R4223:4255 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+def 4365:4367 <> Ref
+R4400:4403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4386:4399 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R4404:4409 dsys.common.IOA <> IOADef rec
+R4411:4424 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 4374:4382 <> byzentine:32
+R4436:4451 dsys.reliable_broadcast.leader_not_byzentine <> Composition_type ind
+binder 4432:4432 <> n:33
+R4460:4465 dsys.common.IOA <> IOADef rec
+R4467:4480 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R4495:4495 dsys.reliable_broadcast.leader_not_byzentine <> n:33 var
+R4508:4515 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R4520:4534 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R4538:4549 dsys.reliable_broadcast.transition_prop <> process_zero def
+R4536:4536 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R4557:4563 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R4570:4584 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R4589:4611 dsys.reliable_broadcast.leader_not_byzentine <> process_from_other_type def
+R4586:4586 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R4622:4630 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R4635:4644 dsys.reliable_broadcast.definitions <> P2PNetwork def
+R4652:4662 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R4669:4677 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:32 var
+R4808:4824 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R4808:4824 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R5011:5025 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R5011:5025 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R5890:5904 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R5890:5904 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R7112:7126 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R7112:7126 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R7188:7192 dsys.common.IOA <> Input constr
+R7188:7192 dsys.common.IOA <> Input constr
+R7235:7240 dsys.common.IOA <> Output constr
+R7235:7240 dsys.common.IOA <> Output constr
+R7954:7959 dsys.common.IOA <> Unused constr
+R7954:7959 dsys.common.IOA <> Unused constr
+R8003:8006 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R7992:8000 Coq.Init.Specif <> proj1_sig def
+R8196:8202 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R8269:8276 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R7284:7287 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R7273:7281 Coq.Init.Specif <> proj1_sig def
+R7365:7372 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R7423:7426 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R7412:7420 Coq.Init.Specif <> proj1_sig def
+R7432:7434 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7427:7431 dsys.reliable_broadcast.definitions <> count defax
+R7435:7435 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R7534:7542 Coq.Init.Specif <> proj1_sig def
+R7641:7647 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R7738:7746 Coq.Init.Specif <> proj1_sig def
+R7845:7855 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R7202:7210 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R5966:5971 dsys.common.IOA <> Output constr
+R5966:5971 dsys.common.IOA <> Output constr
+R6014:6018 dsys.common.IOA <> Input constr
+R6014:6018 dsys.common.IOA <> Input constr
+R6732:6737 dsys.common.IOA <> Unused constr
+R6732:6737 dsys.common.IOA <> Unused constr
+R6781:6784 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6770:6778 Coq.Init.Specif <> proj1_sig def
+R6974:6980 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R7047:7054 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R6062:6065 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6051:6059 Coq.Init.Specif <> proj1_sig def
+R6143:6150 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R6201:6204 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R6190:6198 Coq.Init.Specif <> proj1_sig def
+R6210:6212 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6205:6209 dsys.reliable_broadcast.definitions <> count defax
+R6213:6213 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R6312:6320 Coq.Init.Specif <> proj1_sig def
+R6419:6425 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R6516:6524 Coq.Init.Specif <> proj1_sig def
+R6623:6633 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R5981:5989 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R5084:5089 dsys.common.IOA <> Output constr
+R5084:5089 dsys.common.IOA <> Output constr
+R5801:5806 dsys.common.IOA <> Unused constr
+R5801:5806 dsys.common.IOA <> Unused constr
+R5849:5853 dsys.common.IOA <> Input constr
+R5849:5853 dsys.common.IOA <> Input constr
+R5816:5824 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R5132:5135 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R5121:5129 Coq.Init.Specif <> proj1_sig def
+R5213:5220 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R5271:5274 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R5260:5268 Coq.Init.Specif <> proj1_sig def
+R5280:5282 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5275:5279 dsys.reliable_broadcast.definitions <> count defax
+R5283:5283 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R5382:5390 Coq.Init.Specif <> proj1_sig def
+R5489:5495 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R5586:5594 Coq.Init.Specif <> proj1_sig def
+R5693:5703 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_T constr
+R4880:4884 dsys.common.IOA <> Input constr
+R4880:4884 dsys.common.IOA <> Input constr
+R4926:4931 dsys.common.IOA <> Unused constr
+R4926:4931 dsys.common.IOA <> Unused constr
+R4941:4949 dsys.reliable_broadcast.leader_not_byzentine <> Network_T constr
+R4894:4901 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R8478:8480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8460:8470 dsys.common.IOA <> ActionClass proj
+R8478:8480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8460:8470 dsys.common.IOA <> ActionClass proj
+R8647:8649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8629:8639 dsys.common.IOA <> ActionClass proj
+R8647:8649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8629:8639 dsys.common.IOA <> ActionClass proj
+R8720:8724 dsys.common.IOA <> Input constr
+R8720:8724 dsys.common.IOA <> Input constr
+R8873:8878 dsys.common.IOA <> Output constr
+R8873:8878 dsys.common.IOA <> Output constr
+R9027:9032 dsys.common.IOA <> Unused constr
+R9027:9032 dsys.common.IOA <> Unused constr
+prf 9335:9358 <> composition_extended_hyp
+R9391:9394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9377:9390 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R9395:9400 dsys.common.IOA <> IOADef rec
+R9402:9415 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 9365:9373 <> byzentine:35
+R9453:9466 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 9449:9449 <> p:36
+R9477:9488 dsys.common.IOA <> is_byzentine def
+R9543:9551 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:35 var
+R9553:9553 dsys.reliable_broadcast.leader_not_byzentine <> p:36 var
+R9491:9505 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R9510:9536 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R9538:9538 dsys.reliable_broadcast.leader_not_byzentine <> p:36 var
+R9507:9507 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 9423:9432 <> Hbyzentine:37
+R9568:9589 dsys.common.IOA <> CompositionExtendedHyp def
+R9607:9609 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R9611:9619 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:35 var
+R9597:9598 Coq.Init.Logic <> eq ind
+R9643:9654 dsys.common.IOA <> is_byzentine def
+R10242:10244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10196:10200 Coq.Init.Specif <> exist constr
+R10211:10213 Coq.Init.Datatypes <> nat ind
+binder 10207:10207 <> n:38
+R10219:10221 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10223:10225 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10222:10222 dsys.reliable_broadcast.leader_not_byzentine <> n:38 var
+R10222:10222 dsys.reliable_broadcast.leader_not_byzentine <> n:38 var
+R10231:10233 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10226:10230 dsys.reliable_broadcast.definitions <> count defax
+R10234:10234 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10245:10249 Coq.Init.Specif <> exist constr
+R10260:10262 Coq.Init.Datatypes <> nat ind
+binder 10256:10256 <> n:39
+R10268:10270 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10272:10274 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10271:10271 dsys.reliable_broadcast.leader_not_byzentine <> n:39 var
+R10271:10271 dsys.reliable_broadcast.leader_not_byzentine <> n:39 var
+R10280:10282 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10275:10279 dsys.reliable_broadcast.definitions <> count defax
+R10283:10283 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10242:10244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10196:10200 Coq.Init.Specif <> exist constr
+R10211:10213 Coq.Init.Datatypes <> nat ind
+binder 10207:10207 <> n:40
+R10219:10221 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10223:10225 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10222:10222 dsys.reliable_broadcast.leader_not_byzentine <> n:40 var
+R10222:10222 dsys.reliable_broadcast.leader_not_byzentine <> n:40 var
+R10231:10233 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10226:10230 dsys.reliable_broadcast.definitions <> count defax
+R10234:10234 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10245:10249 Coq.Init.Specif <> exist constr
+R10260:10262 Coq.Init.Datatypes <> nat ind
+binder 10256:10256 <> n:41
+R10268:10270 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10272:10274 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10271:10271 dsys.reliable_broadcast.leader_not_byzentine <> n:41 var
+R10271:10271 dsys.reliable_broadcast.leader_not_byzentine <> n:41 var
+R10280:10282 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10275:10279 dsys.reliable_broadcast.definitions <> count defax
+R10283:10283 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10305:10332 dsys.reliable_broadcast.leader_not_byzentine <> other_type_proof_irrelevence prfax
+R10305:10332 dsys.reliable_broadcast.leader_not_byzentine <> other_type_proof_irrelevence prfax
+R10457:10459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10406:10410 Coq.Init.Specif <> exist constr
+R10421:10423 Coq.Init.Datatypes <> nat ind
+binder 10417:10417 <> n:42
+R10437:10440 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10442:10444 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10433:10435 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10428:10432 dsys.reliable_broadcast.definitions <> count defax
+R10436:10436 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10441:10441 dsys.reliable_broadcast.leader_not_byzentine <> n:42 var
+R10441:10441 dsys.reliable_broadcast.leader_not_byzentine <> n:42 var
+R10445:10449 dsys.reliable_broadcast.definitions <> count defax
+R10460:10464 Coq.Init.Specif <> exist constr
+R10475:10477 Coq.Init.Datatypes <> nat ind
+binder 10471:10471 <> n:43
+R10491:10494 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10496:10498 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10487:10489 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10482:10486 dsys.reliable_broadcast.definitions <> count defax
+R10490:10490 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10495:10495 dsys.reliable_broadcast.leader_not_byzentine <> n:43 var
+R10495:10495 dsys.reliable_broadcast.leader_not_byzentine <> n:43 var
+R10499:10503 dsys.reliable_broadcast.definitions <> count defax
+R10457:10459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10406:10410 Coq.Init.Specif <> exist constr
+R10421:10423 Coq.Init.Datatypes <> nat ind
+binder 10417:10417 <> n:44
+R10437:10440 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10442:10444 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10433:10435 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10428:10432 dsys.reliable_broadcast.definitions <> count defax
+R10436:10436 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10441:10441 dsys.reliable_broadcast.leader_not_byzentine <> n:44 var
+R10441:10441 dsys.reliable_broadcast.leader_not_byzentine <> n:44 var
+R10445:10449 dsys.reliable_broadcast.definitions <> count defax
+R10460:10464 Coq.Init.Specif <> exist constr
+R10475:10477 Coq.Init.Datatypes <> nat ind
+binder 10471:10471 <> n:45
+R10491:10494 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10496:10498 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10487:10489 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10482:10486 dsys.reliable_broadcast.definitions <> count defax
+R10490:10490 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10495:10495 dsys.reliable_broadcast.leader_not_byzentine <> n:45 var
+R10495:10495 dsys.reliable_broadcast.leader_not_byzentine <> n:45 var
+R10499:10503 dsys.reliable_broadcast.definitions <> count defax
+R10525:10556 dsys.reliable_broadcast.leader_not_byzentine <> byzentine_type_proof_irrelevence prfax
+R10525:10556 dsys.reliable_broadcast.leader_not_byzentine <> byzentine_type_proof_irrelevence prfax
+R10676:10678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10630:10634 Coq.Init.Specif <> exist constr
+R10645:10647 Coq.Init.Datatypes <> nat ind
+binder 10641:10641 <> n:46
+R10653:10655 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10657:10659 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10656:10656 dsys.reliable_broadcast.leader_not_byzentine <> n:46 var
+R10656:10656 dsys.reliable_broadcast.leader_not_byzentine <> n:46 var
+R10665:10667 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10660:10664 dsys.reliable_broadcast.definitions <> count defax
+R10668:10668 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10679:10683 Coq.Init.Specif <> exist constr
+R10694:10696 Coq.Init.Datatypes <> nat ind
+binder 10690:10690 <> n:47
+R10702:10704 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10706:10708 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10705:10705 dsys.reliable_broadcast.leader_not_byzentine <> n:47 var
+R10705:10705 dsys.reliable_broadcast.leader_not_byzentine <> n:47 var
+R10714:10716 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10709:10713 dsys.reliable_broadcast.definitions <> count defax
+R10717:10717 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10676:10678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10630:10634 Coq.Init.Specif <> exist constr
+R10645:10647 Coq.Init.Datatypes <> nat ind
+binder 10641:10641 <> n:48
+R10653:10655 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10657:10659 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10656:10656 dsys.reliable_broadcast.leader_not_byzentine <> n:48 var
+R10656:10656 dsys.reliable_broadcast.leader_not_byzentine <> n:48 var
+R10665:10667 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10660:10664 dsys.reliable_broadcast.definitions <> count defax
+R10668:10668 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10679:10683 Coq.Init.Specif <> exist constr
+R10694:10696 Coq.Init.Datatypes <> nat ind
+binder 10690:10690 <> n:49
+R10702:10704 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10706:10708 Coq.Init.Peano <> ::nat_scope:x_'<'_x_'<'_x not
+R10705:10705 dsys.reliable_broadcast.leader_not_byzentine <> n:49 var
+R10705:10705 dsys.reliable_broadcast.leader_not_byzentine <> n:49 var
+R10714:10716 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10709:10713 dsys.reliable_broadcast.definitions <> count defax
+R10717:10717 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10739:10766 dsys.reliable_broadcast.leader_not_byzentine <> other_type_proof_irrelevence prfax
+R10739:10766 dsys.reliable_broadcast.leader_not_byzentine <> other_type_proof_irrelevence prfax
+R10891:10893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10840:10844 Coq.Init.Specif <> exist constr
+R10855:10857 Coq.Init.Datatypes <> nat ind
+binder 10851:10851 <> n:50
+R10871:10874 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10876:10878 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10867:10869 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10862:10866 dsys.reliable_broadcast.definitions <> count defax
+R10870:10870 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10875:10875 dsys.reliable_broadcast.leader_not_byzentine <> n:50 var
+R10875:10875 dsys.reliable_broadcast.leader_not_byzentine <> n:50 var
+R10879:10883 dsys.reliable_broadcast.definitions <> count defax
+R10894:10898 Coq.Init.Specif <> exist constr
+R10909:10911 Coq.Init.Datatypes <> nat ind
+binder 10905:10905 <> n:51
+R10925:10928 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10930:10932 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10921:10923 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10916:10920 dsys.reliable_broadcast.definitions <> count defax
+R10924:10924 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10929:10929 dsys.reliable_broadcast.leader_not_byzentine <> n:51 var
+R10929:10929 dsys.reliable_broadcast.leader_not_byzentine <> n:51 var
+R10933:10937 dsys.reliable_broadcast.definitions <> count defax
+R10891:10893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10840:10844 Coq.Init.Specif <> exist constr
+R10855:10857 Coq.Init.Datatypes <> nat ind
+binder 10851:10851 <> n:52
+R10871:10874 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10876:10878 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10867:10869 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10862:10866 dsys.reliable_broadcast.definitions <> count defax
+R10870:10870 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10875:10875 dsys.reliable_broadcast.leader_not_byzentine <> n:52 var
+R10875:10875 dsys.reliable_broadcast.leader_not_byzentine <> n:52 var
+R10879:10883 dsys.reliable_broadcast.definitions <> count defax
+R10894:10898 Coq.Init.Specif <> exist constr
+R10909:10911 Coq.Init.Datatypes <> nat ind
+binder 10905:10905 <> n:53
+R10925:10928 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10930:10932 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R10921:10923 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10916:10920 dsys.reliable_broadcast.definitions <> count defax
+R10924:10924 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R10929:10929 dsys.reliable_broadcast.leader_not_byzentine <> n:53 var
+R10929:10929 dsys.reliable_broadcast.leader_not_byzentine <> n:53 var
+R10933:10937 dsys.reliable_broadcast.definitions <> count defax
+R10959:10990 dsys.reliable_broadcast.leader_not_byzentine <> byzentine_type_proof_irrelevence prfax
+R10959:10990 dsys.reliable_broadcast.leader_not_byzentine <> byzentine_type_proof_irrelevence prfax
+def 11059:11071 <> exists_output
+R11080:11093 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 11074:11076 <> act:54
+R11098:11101 Coq.Init.Datatypes <> bool ind
+R11116:11118 dsys.reliable_broadcast.leader_not_byzentine <> act:54 var
+R11133:11149 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R11156:11160 Coq.Init.Datatypes <> false constr
+R11170:11184 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R11192:11206 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R11217:11231 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R11242:11245 Coq.Init.Datatypes <> true constr
+R11242:11245 Coq.Init.Datatypes <> true constr
+R11242:11245 Coq.Init.Datatypes <> true constr
+prf 11265:11282 <> exists_output_spec
+R11315:11318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11301:11314 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R11319:11324 dsys.common.IOA <> IOADef rec
+R11326:11339 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 11289:11297 <> byzentine:56
+R11377:11390 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 11373:11373 <> p:57
+R11401:11412 dsys.common.IOA <> is_byzentine def
+R11467:11475 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:56 var
+R11477:11477 dsys.reliable_broadcast.leader_not_byzentine <> p:57 var
+R11415:11429 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R11434:11460 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R11462:11462 dsys.reliable_broadcast.leader_not_byzentine <> p:57 var
+R11431:11431 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 11347:11356 <> Hbyzentine:58
+R11492:11501 dsys.common.IOA <> OutputSpec def
+R11519:11531 dsys.reliable_broadcast.leader_not_byzentine <> exists_output def
+R11504:11506 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R11508:11516 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:56 var
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11773:11781 Coq.Init.Specif <> proj2_sig def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11709:11715 Coq.Arith.PeanoNat Nat sub def
+R11773:11781 Coq.Init.Specif <> proj2_sig def
+R11773:11781 Coq.Init.Specif <> proj2_sig def
+R11773:11781 Coq.Init.Specif <> proj2_sig def
+R11773:11781 Coq.Init.Specif <> proj2_sig def
+def 12067:12078 <> exists_input
+R12087:12100 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 12081:12083 <> act:59
+R12105:12108 Coq.Init.Datatypes <> bool ind
+R12123:12125 dsys.reliable_broadcast.leader_not_byzentine <> act:59 var
+R12140:12156 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R12162:12176 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R12186:12200 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R12211:12214 Coq.Init.Datatypes <> true constr
+R12211:12214 Coq.Init.Datatypes <> true constr
+R12211:12214 Coq.Init.Datatypes <> true constr
+R12224:12238 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R12247:12251 Coq.Init.Datatypes <> false constr
+prf 12271:12287 <> exists_input_spec
+R12320:12323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12306:12319 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R12324:12329 dsys.common.IOA <> IOADef rec
+R12331:12344 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 12294:12302 <> byzentine:61
+R12382:12395 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 12378:12378 <> p:62
+R12406:12417 dsys.common.IOA <> is_byzentine def
+R12472:12480 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:61 var
+R12482:12482 dsys.reliable_broadcast.leader_not_byzentine <> p:62 var
+R12420:12434 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R12439:12465 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R12467:12467 dsys.reliable_broadcast.leader_not_byzentine <> p:62 var
+R12436:12436 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 12352:12361 <> Hbyzentine:63
+R12497:12505 dsys.common.IOA <> InputSpec def
+R12523:12534 dsys.reliable_broadcast.leader_not_byzentine <> exists_input def
+R12508:12510 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R12512:12520 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:61 var
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12776:12784 Coq.Init.Specif <> proj2_sig def
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12712:12718 Coq.Arith.PeanoNat Nat sub def
+R12776:12784 Coq.Init.Specif <> proj2_sig def
+R12776:12784 Coq.Init.Specif <> proj2_sig def
+def 13058:13070 <> forall_unused
+R13079:13092 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 13073:13075 <> act:64
+R13097:13100 Coq.Init.Datatypes <> bool ind
+R13109:13113 Coq.Init.Datatypes <> false constr
+prf 13125:13142 <> forall_unused_spec
+R13175:13178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13161:13174 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R13179:13184 dsys.common.IOA <> IOADef rec
+R13186:13199 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 13149:13157 <> byzentine:65
+R13237:13250 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 13233:13233 <> p:66
+R13261:13272 dsys.common.IOA <> is_byzentine def
+R13327:13335 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:65 var
+R13337:13337 dsys.reliable_broadcast.leader_not_byzentine <> p:66 var
+R13275:13289 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R13294:13320 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R13322:13322 dsys.reliable_broadcast.leader_not_byzentine <> p:66 var
+R13291:13291 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 13207:13216 <> Hbyzentine:67
+R13352:13361 dsys.common.IOA <> UnusedSpec def
+R13379:13391 dsys.reliable_broadcast.leader_not_byzentine <> forall_unused def
+R13364:13366 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R13368:13376 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:65 var
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13808:13816 Coq.Init.Specif <> proj2_sig def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13713:13719 Coq.Arith.PeanoNat Nat sub def
+R13808:13816 Coq.Init.Specif <> proj2_sig def
+R13808:13816 Coq.Init.Specif <> proj2_sig def
+R13808:13816 Coq.Init.Specif <> proj2_sig def
+R13808:13816 Coq.Init.Specif <> proj2_sig def
+def 13886:13893 <> BrachaRB
+R13926:13929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13912:13925 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R13930:13935 dsys.common.IOA <> IOADef rec
+R13937:13950 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 13900:13908 <> byzentine:68
+R13988:14001 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 13984:13984 <> p:69
+R14012:14023 dsys.common.IOA <> is_byzentine def
+R14078:14086 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:68 var
+R14088:14088 dsys.reliable_broadcast.leader_not_byzentine <> p:69 var
+R14026:14040 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R14045:14071 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R14073:14073 dsys.reliable_broadcast.leader_not_byzentine <> p:69 var
+R14042:14042 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 13958:13967 <> Hbyzentine:70
+R14103:14108 dsys.common.IOA <> IOADef rec
+R14110:14123 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R14132:14150 dsys.common.IOA <> CompositionExtended def
+R14323:14340 dsys.reliable_broadcast.leader_not_byzentine <> forall_unused_spec thm
+R14352:14361 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:70 var
+R14342:14350 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:68 var
+R14276:14292 dsys.reliable_broadcast.leader_not_byzentine <> exists_input_spec thm
+R14304:14313 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:70 var
+R14294:14302 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:68 var
+R14228:14245 dsys.reliable_broadcast.leader_not_byzentine <> exists_output_spec thm
+R14257:14266 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:70 var
+R14247:14255 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:68 var
+R14174:14197 dsys.reliable_broadcast.leader_not_byzentine <> composition_extended_hyp thm
+R14209:14218 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:70 var
+R14199:14207 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:68 var
+R14158:14165 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+prf 14377:14402 <> proj1_zero_is_process_zero
+R14421:14427 dsys.reliable_broadcast.definitions <> Process def
+binder 14417:14417 <> p:71
+R14451:14454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14447:14449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14436:14444 Coq.Init.Specif <> proj1_sig def
+R14446:14446 dsys.reliable_broadcast.leader_not_byzentine <> p:71 var
+R14456:14458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14455:14455 dsys.reliable_broadcast.leader_not_byzentine <> p:71 var
+R14459:14470 dsys.reliable_broadcast.transition_prop <> process_zero def
+R14513:14515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14502:14510 Coq.Init.Specif <> proj1_sig def
+R14516:14524 Coq.Init.Specif <> proj1_sig def
+R14526:14537 dsys.reliable_broadcast.transition_prop <> process_zero def
+R14513:14515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14502:14510 Coq.Init.Specif <> proj1_sig def
+R14516:14524 Coq.Init.Specif <> proj1_sig def
+R14526:14537 dsys.reliable_broadcast.transition_prop <> process_zero def
+R14557:14581 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R14557:14581 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+prf 14606:14639 <> action_modulo_process_equality_dec
+R14680:14683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14666:14679 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R14684:14689 dsys.common.IOA <> IOADef rec
+R14691:14704 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 14654:14662 <> byzentine:72
+R14743:14756 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 14739:14739 <> p:73
+R14759:14770 dsys.common.IOA <> is_byzentine def
+R14825:14833 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:72 var
+R14835:14835 dsys.reliable_broadcast.leader_not_byzentine <> p:73 var
+R14773:14787 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R14792:14818 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R14820:14820 dsys.reliable_broadcast.leader_not_byzentine <> p:73 var
+R14789:14789 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 14718:14727 <> Hbyzentine:74
+R14855:14867 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 14851:14851 <> m:75
+binder 14877:14877 <> s:76
+R14884:14884 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15020:15029 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15166:15166 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14885:14891 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14893:14894 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14892:14892 <> p:77
+R14918:14921 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14906:14908 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14895:14903 Coq.Init.Specif <> proj1_sig def
+R14905:14905 dsys.reliable_broadcast.leader_not_byzentine <> p:77 var
+R14914:14916 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14909:14913 dsys.reliable_broadcast.definitions <> count defax
+R14917:14917 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R14978:14980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14922:14928 dsys.common.IOA <> opt_act proj
+R14946:14953 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R14965:14974 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:74 var
+R14955:14963 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:72 var
+R14977:14977 dsys.reliable_broadcast.leader_not_byzentine <> s:76 var
+R14930:14943 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R14981:14984 Coq.Init.Datatypes <> Some constr
+R14987:15001 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15018:15018 dsys.reliable_broadcast.leader_not_byzentine <> m:75 var
+R15005:15016 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15003:15003 dsys.reliable_broadcast.leader_not_byzentine <> p:77 var
+binder 15037:15037 <> p:78
+R15063:15066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15051:15053 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15040:15048 Coq.Init.Specif <> proj1_sig def
+R15050:15050 dsys.reliable_broadcast.leader_not_byzentine <> p:78 var
+R15059:15061 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15054:15058 dsys.reliable_broadcast.definitions <> count defax
+R15062:15062 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15123:15126 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15067:15073 dsys.common.IOA <> opt_act proj
+R15091:15098 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15110:15119 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:74 var
+R15100:15108 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:72 var
+R15122:15122 dsys.reliable_broadcast.leader_not_byzentine <> s:76 var
+R15075:15088 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15127:15130 Coq.Init.Datatypes <> Some constr
+R15133:15147 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15164:15164 dsys.reliable_broadcast.leader_not_byzentine <> m:75 var
+R15151:15162 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15149:15149 dsys.reliable_broadcast.leader_not_byzentine <> p:78 var
+binder 15253:15253 <> p:79
+R15281:15284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15269:15271 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15258:15266 Coq.Init.Specif <> proj1_sig def
+R15268:15268 dsys.reliable_broadcast.leader_not_byzentine <> p:79 var
+R15277:15279 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15272:15276 dsys.reliable_broadcast.definitions <> count defax
+R15280:15280 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15341:15344 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15285:15291 dsys.common.IOA <> opt_act proj
+R15309:15316 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15293:15306 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15345:15348 Coq.Init.Datatypes <> Some constr
+R15351:15365 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15369:15380 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15367:15367 dsys.reliable_broadcast.leader_not_byzentine <> p:79 var
+R15203:15235 dsys.reliable_broadcast.definitions <> forall_process_property_decidable thm
+binder 15253:15253 <> p:80
+R15281:15284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15269:15271 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15258:15266 Coq.Init.Specif <> proj1_sig def
+R15268:15268 dsys.reliable_broadcast.leader_not_byzentine <> p:80 var
+R15277:15279 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15272:15276 dsys.reliable_broadcast.definitions <> count defax
+R15280:15280 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15341:15344 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15285:15291 dsys.common.IOA <> opt_act proj
+R15309:15316 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15293:15306 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15345:15348 Coq.Init.Datatypes <> Some constr
+R15351:15365 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15369:15380 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15367:15367 dsys.reliable_broadcast.leader_not_byzentine <> p:80 var
+R15203:15235 dsys.reliable_broadcast.definitions <> forall_process_property_decidable thm
+R15422:15425 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R15411:15419 Coq.Init.Specif <> proj1_sig def
+R15431:15433 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15426:15430 dsys.reliable_broadcast.definitions <> count defax
+R15434:15434 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15422:15425 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R15411:15419 Coq.Init.Specif <> proj1_sig def
+R15431:15433 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15426:15430 dsys.reliable_broadcast.definitions <> count defax
+R15434:15434 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15515:15521 dsys.common.IOA <> opt_act proj
+R15539:15546 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15523:15536 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15574:15577 Coq.Init.Datatypes <> Some constr
+R15580:15594 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15598:15609 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15478:15501 dsys.reliable_broadcast.definitions <> BrachaRBOptionAction_dec thm
+R15515:15521 dsys.common.IOA <> opt_act proj
+R15539:15546 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15523:15536 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15574:15577 Coq.Init.Datatypes <> Some constr
+R15580:15594 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15598:15609 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15478:15501 dsys.reliable_broadcast.definitions <> BrachaRBOptionAction_dec thm
+R15725:15728 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R15714:15722 Coq.Init.Specif <> proj1_sig def
+R15734:15736 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15729:15733 dsys.reliable_broadcast.definitions <> count defax
+R15737:15737 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15725:15728 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R15714:15722 Coq.Init.Specif <> proj1_sig def
+R15734:15736 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15729:15733 dsys.reliable_broadcast.definitions <> count defax
+R15737:15737 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R15835:15841 dsys.common.IOA <> opt_act proj
+R15859:15866 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15843:15856 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15894:15897 Coq.Init.Datatypes <> Some constr
+R15900:15914 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15918:15929 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15798:15821 dsys.reliable_broadcast.definitions <> BrachaRBOptionAction_dec thm
+R15835:15841 dsys.common.IOA <> opt_act proj
+R15859:15866 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15843:15856 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R15894:15897 Coq.Init.Datatypes <> Some constr
+R15900:15914 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R15918:15929 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15798:15821 dsys.reliable_broadcast.definitions <> BrachaRBOptionAction_dec thm
+R15977:15987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15965:15967 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15954:15962 Coq.Init.Specif <> proj1_sig def
+R15973:15975 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15968:15972 dsys.reliable_broadcast.definitions <> count defax
+R15976:15976 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R16044:16047 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15988:15994 dsys.common.IOA <> opt_act proj
+R16012:16019 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15996:16009 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R16048:16051 Coq.Init.Datatypes <> Some constr
+R16054:16068 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R16072:16083 dsys.reliable_broadcast.transition_prop <> process_zero def
+R15977:15987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15965:15967 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15954:15962 Coq.Init.Specif <> proj1_sig def
+R15973:15975 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15968:15972 dsys.reliable_broadcast.definitions <> count defax
+R15976:15976 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R16044:16047 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15988:15994 dsys.common.IOA <> opt_act proj
+R16012:16019 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R15996:16009 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R16048:16051 Coq.Init.Datatypes <> Some constr
+R16054:16068 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R16072:16083 dsys.reliable_broadcast.transition_prop <> process_zero def
+R16169:16179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16157:16159 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16146:16154 Coq.Init.Specif <> proj1_sig def
+R16165:16167 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16160:16164 dsys.reliable_broadcast.definitions <> count defax
+R16168:16168 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R16236:16239 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R16180:16186 dsys.common.IOA <> opt_act proj
+R16204:16211 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R16188:16201 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R16240:16243 Coq.Init.Datatypes <> Some constr
+R16246:16260 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R16264:16275 dsys.reliable_broadcast.transition_prop <> process_zero def
+R16169:16179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16157:16159 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16146:16154 Coq.Init.Specif <> proj1_sig def
+R16165:16167 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16160:16164 dsys.reliable_broadcast.definitions <> count defax
+R16168:16168 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R16236:16239 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R16180:16186 dsys.common.IOA <> opt_act proj
+R16204:16211 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R16188:16201 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R16240:16243 Coq.Init.Datatypes <> Some constr
+R16246:16260 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R16264:16275 dsys.reliable_broadcast.transition_prop <> process_zero def
+prf 16344:16378 <> send_ready_then_condition_satisfied
+R16419:16422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16405:16418 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R16423:16428 dsys.common.IOA <> IOADef rec
+R16430:16443 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 16393:16401 <> byzentine:81
+R16482:16495 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 16478:16478 <> p:82
+R16498:16509 dsys.common.IOA <> is_byzentine def
+R16564:16572 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+R16574:16574 dsys.reliable_broadcast.leader_not_byzentine <> p:82 var
+R16512:16526 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R16531:16557 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R16559:16559 dsys.reliable_broadcast.leader_not_byzentine <> p:82 var
+R16528:16528 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 16457:16466 <> Hbyzentine:83
+R16596:16611 dsys.common.IOA <> ExecFragmentType def
+R16619:16626 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R16638:16647 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:83 var
+R16628:16636 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+binder 16592:16592 <> e:84
+R16663:16672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16657:16660 dsys.common.IOA <> Exec def
+R16662:16662 dsys.reliable_broadcast.leader_not_byzentine <> e:84 var
+R16684:16686 Coq.Init.Datatypes <> nat ind
+binder 16680:16680 <> i:85
+R16700:16706 dsys.reliable_broadcast.definitions <> Message defax
+binder 16696:16696 <> m:86
+R16720:16726 dsys.reliable_broadcast.definitions <> Process def
+binder 16716:16716 <> p:87
+R16760:16771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16748:16750 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16737:16745 Coq.Init.Specif <> proj1_sig def
+R16747:16747 dsys.reliable_broadcast.leader_not_byzentine <> p:87 var
+R16756:16758 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16751:16755 dsys.reliable_broadcast.definitions <> count defax
+R16759:16759 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R16778:16806 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R16808:16808 dsys.reliable_broadcast.leader_not_byzentine <> p:87 var
+R16827:16834 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R17001:17018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16994:16996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16853:16870 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R16971:16971 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16984:16985 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16993:16993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16972:16983 dsys.reliable_broadcast.transition_prop <> process_zero def
+R16986:16990 dsys.reliable_broadcast.definitions <> Ready constr
+R16992:16992 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R16889:16890 dsys.common.IOA <> st proj
+R16908:16915 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R16927:16936 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:83 var
+R16917:16925 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+R16940:16940 dsys.reliable_broadcast.leader_not_byzentine <> e:84 var
+R16942:16942 dsys.reliable_broadcast.leader_not_byzentine <> i:85 var
+R16945:16952 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R16892:16905 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R16997:17000 Coq.Init.Datatypes <> true constr
+R17029:17030 dsys.common.IOA <> st proj
+R17048:17055 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R17067:17076 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:83 var
+R17057:17065 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+R17080:17080 dsys.reliable_broadcast.leader_not_byzentine <> e:84 var
+R17082:17082 dsys.reliable_broadcast.leader_not_byzentine <> i:85 var
+R17085:17092 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R17032:17045 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 17023:17024 <> st:88
+R17131:17174 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17304:17341 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17126:17129 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17111:17122 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R17124:17125 dsys.reliable_broadcast.leader_not_byzentine <> st:88 var
+R17218:17261 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R17209:17212 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17175:17196 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R17202:17205 dsys.reliable_broadcast.definitions <> Echo constr
+R17207:17207 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R17198:17199 dsys.reliable_broadcast.leader_not_byzentine <> st:88 var
+R17216:17216 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17214:17214 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R17215:17215 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R17297:17300 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17262:17283 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R17289:17293 dsys.reliable_broadcast.definitions <> Ready constr
+R17295:17295 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R17285:17286 dsys.reliable_broadcast.leader_not_byzentine <> st:88 var
+R17302:17302 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17301:17301 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R17355:17361 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R17533:17550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17526:17528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17382:17399 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R17503:17503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17516:17517 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17525:17525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17504:17515 dsys.reliable_broadcast.transition_prop <> process_zero def
+R17518:17522 dsys.reliable_broadcast.definitions <> Ready constr
+R17524:17524 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R17418:17419 dsys.common.IOA <> st proj
+R17437:17444 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R17456:17465 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:83 var
+R17446:17454 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+R17469:17469 dsys.reliable_broadcast.leader_not_byzentine <> e:84 var
+R17471:17471 dsys.reliable_broadcast.leader_not_byzentine <> i:85 var
+R17475:17481 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R17421:17434 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R17529:17532 Coq.Init.Datatypes <> true constr
+R17561:17562 dsys.common.IOA <> st proj
+R17580:17587 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R17599:17608 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:83 var
+R17589:17597 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:81 var
+R17612:17612 dsys.reliable_broadcast.leader_not_byzentine <> e:84 var
+R17614:17614 dsys.reliable_broadcast.leader_not_byzentine <> i:85 var
+R17618:17624 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R17564:17577 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 17555:17556 <> st:89
+R17666:17709 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17839:17876 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17661:17664 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17646:17657 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R17659:17660 dsys.reliable_broadcast.leader_not_byzentine <> st:89 var
+R17753:17796 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R17744:17747 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17710:17731 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R17737:17740 dsys.reliable_broadcast.definitions <> Echo constr
+R17742:17742 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R17733:17734 dsys.reliable_broadcast.leader_not_byzentine <> st:89 var
+R17751:17751 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17749:17749 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R17750:17750 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R17832:17835 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17797:17818 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R17824:17828 dsys.reliable_broadcast.definitions <> Ready constr
+R17830:17830 dsys.reliable_broadcast.leader_not_byzentine <> m:86 var
+R17820:17821 dsys.reliable_broadcast.leader_not_byzentine <> st:89 var
+R17837:17837 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17836:17836 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R17895:17899 Coq.Init.Logic <> False ind
+R17946:17974 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R17946:17974 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R18056:18088 dsys.common.IOA <> project_execution_exist_with_exec thm
+R18056:18088 dsys.common.IOA <> project_execution_exist_with_exec thm
+R18119:18126 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R18119:18126 dsys.reliable_broadcast.leader_not_byzentine <> Leader_T constr
+R18144:18145 Coq.Init.Logic <> ex ind
+R18147:18149 Coq.Init.Logic <> and ind
+R18151:18152 Coq.Init.Logic <> or ind
+R18144:18145 Coq.Init.Logic <> ex ind
+R18147:18149 Coq.Init.Logic <> and ind
+R18151:18152 Coq.Init.Logic <> or ind
+R18212:18214 Coq.Init.Logic <> and ind
+R18212:18214 Coq.Init.Logic <> and ind
+R18261:18268 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R18342:18376 dsys.reliable_broadcast.transition_prop <> send_ready_then_condition_satisfied thm
+R18342:18376 dsys.reliable_broadcast.transition_prop <> send_ready_then_condition_satisfied thm
+R18423:18455 dsys.common.IOA <> project_execution_exist_with_exec thm
+R18423:18455 dsys.common.IOA <> project_execution_exist_with_exec thm
+R18487:18493 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R18487:18493 dsys.reliable_broadcast.leader_not_byzentine <> Other_T constr
+R18514:18515 Coq.Init.Logic <> ex ind
+R18517:18519 Coq.Init.Logic <> and ind
+R18521:18522 Coq.Init.Logic <> or ind
+R18514:18515 Coq.Init.Logic <> ex ind
+R18517:18519 Coq.Init.Logic <> and ind
+R18521:18522 Coq.Init.Logic <> or ind
+R18582:18584 Coq.Init.Logic <> and ind
+R18582:18584 Coq.Init.Logic <> and ind
+R18631:18638 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R18712:18746 dsys.reliable_broadcast.transition_prop <> send_ready_then_condition_satisfied thm
+R18712:18746 dsys.reliable_broadcast.transition_prop <> send_ready_then_condition_satisfied thm
+R18781:18809 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R18832:18864 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R18832:18864 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R18940:18968 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R18992:19024 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+R18992:19024 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process_aux def
+prf 19146:19165 <> two_ready_are_equals
+R19206:19209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19192:19205 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+R19210:19215 dsys.common.IOA <> IOADef rec
+R19217:19230 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 19180:19188 <> byzentine:90
+R19269:19282 dsys.reliable_broadcast.leader_not_byzentine <> Byzentine_type def
+binder 19265:19265 <> p:91
+R19285:19296 dsys.common.IOA <> is_byzentine def
+R19351:19359 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:90 var
+R19361:19361 dsys.reliable_broadcast.leader_not_byzentine <> p:91 var
+R19299:19313 dsys.reliable_broadcast.definitions <> BrachaRBProcess def
+R19318:19344 dsys.reliable_broadcast.leader_not_byzentine <> process_from_byzentine_type def
+R19346:19346 dsys.reliable_broadcast.leader_not_byzentine <> p:91 var
+R19315:19315 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+binder 19244:19253 <> Hbyzentine:92
+R19383:19398 dsys.common.IOA <> ExecFragmentType def
+R19406:19413 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R19425:19434 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:92 var
+R19415:19423 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:90 var
+binder 19379:19379 <> e:93
+R19450:19459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19444:19447 dsys.common.IOA <> Exec def
+R19449:19449 dsys.reliable_broadcast.leader_not_byzentine <> e:93 var
+R19473:19475 Coq.Init.Datatypes <> nat ind
+binder 19467:19467 <> i:94
+binder 19469:19469 <> j:95
+R19492:19498 dsys.reliable_broadcast.definitions <> Message defax
+binder 19485:19485 <> m:96
+binder 19487:19488 <> m':97
+R19514:19520 dsys.reliable_broadcast.definitions <> Process def
+binder 19508:19508 <> p:98
+binder 19510:19510 <> q:99
+R19554:19557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19542:19544 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R19531:19539 Coq.Init.Specif <> proj1_sig def
+R19541:19541 dsys.reliable_broadcast.leader_not_byzentine <> p:98 var
+R19550:19552 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R19545:19549 dsys.reliable_broadcast.definitions <> count defax
+R19553:19553 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R19581:19592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19569:19571 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R19558:19566 Coq.Init.Specif <> proj1_sig def
+R19568:19568 dsys.reliable_broadcast.leader_not_byzentine <> q:99 var
+R19577:19579 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R19572:19576 dsys.reliable_broadcast.definitions <> count defax
+R19580:19580 dsys.reliable_broadcast.leader_not_byzentine <> Leader_not_byzentine.f var
+R19703:19714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19653:19655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19593:19599 dsys.common.IOA <> opt_act proj
+R19617:19624 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R19636:19645 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:92 var
+R19626:19634 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:90 var
+R19649:19649 dsys.reliable_broadcast.leader_not_byzentine <> e:93 var
+R19651:19651 dsys.reliable_broadcast.leader_not_byzentine <> i:94 var
+R19601:19614 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R19656:19659 Coq.Init.Datatypes <> Some constr
+R19662:19676 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R19694:19698 dsys.reliable_broadcast.definitions <> Ready constr
+R19700:19700 dsys.reliable_broadcast.leader_not_byzentine <> m:96 var
+R19680:19691 dsys.reliable_broadcast.transition_prop <> process_zero def
+R19678:19678 dsys.reliable_broadcast.leader_not_byzentine <> p:98 var
+R19826:19837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19775:19777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19715:19721 dsys.common.IOA <> opt_act proj
+R19739:19746 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R19758:19767 dsys.reliable_broadcast.leader_not_byzentine <> Hbyzentine:92 var
+R19748:19756 dsys.reliable_broadcast.leader_not_byzentine <> byzentine:90 var
+R19771:19771 dsys.reliable_broadcast.leader_not_byzentine <> e:93 var
+R19773:19773 dsys.reliable_broadcast.leader_not_byzentine <> j:95 var
+R19723:19736 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R19778:19781 Coq.Init.Datatypes <> Some constr
+R19784:19798 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R19816:19820 dsys.reliable_broadcast.definitions <> Ready constr
+R19822:19823 dsys.reliable_broadcast.leader_not_byzentine <> m':97 var
+R19802:19813 dsys.reliable_broadcast.transition_prop <> process_zero def
+R19800:19800 dsys.reliable_broadcast.leader_not_byzentine <> q:99 var
+R19839:19841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19838:19838 dsys.reliable_broadcast.leader_not_byzentine <> m:96 var
+R19842:19843 dsys.reliable_broadcast.leader_not_byzentine <> m':97 var
+R19880:19890 dsys.reliable_broadcast.definitions <> Message_dec defax
+R19880:19890 dsys.reliable_broadcast.definitions <> Message_dec defax
+R20092:20093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 19932:19932 <> s:100
+R19940:19973 dsys.reliable_broadcast.leader_not_byzentine <> action_modulo_process_equality_dec thm
+R20033:20033 dsys.reliable_broadcast.leader_not_byzentine <> s:100 var
+R20000:20004 dsys.reliable_broadcast.definitions <> Ready constr
+R20068:20072 Coq.Init.Datatypes <> false constr
+R20058:20061 Coq.Init.Datatypes <> true constr
+R20094:20097 Coq.Init.Datatypes <> true constr
+R20092:20093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 19932:19932 <> s:101
+R19940:19973 dsys.reliable_broadcast.leader_not_byzentine <> action_modulo_process_equality_dec thm
+R20033:20033 dsys.reliable_broadcast.leader_not_byzentine <> s:101 var
+R20000:20004 dsys.reliable_broadcast.definitions <> Ready constr
+R20068:20072 Coq.Init.Datatypes <> false constr
+R20058:20061 Coq.Init.Datatypes <> true constr
+R20094:20097 Coq.Init.Datatypes <> true constr
+R20197:20233 dsys.common.IOA <> existence_of_first_state_for_property thm
+R20197:20233 dsys.common.IOA <> existence_of_first_state_for_property thm
+R20420:20421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 20259:20259 <> s:102
+R20267:20300 dsys.reliable_broadcast.leader_not_byzentine <> action_modulo_process_equality_dec thm
+R20361:20361 dsys.reliable_broadcast.leader_not_byzentine <> s:102 var
+R20327:20331 dsys.reliable_broadcast.definitions <> Ready constr
+R20396:20400 Coq.Init.Datatypes <> false constr
+R20386:20389 Coq.Init.Datatypes <> true constr
+R20422:20425 Coq.Init.Datatypes <> true constr
+R20420:20421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 20259:20259 <> s:103
+R20267:20300 dsys.reliable_broadcast.leader_not_byzentine <> action_modulo_process_equality_dec thm
+R20361:20361 dsys.reliable_broadcast.leader_not_byzentine <> s:103 var
+R20327:20331 dsys.reliable_broadcast.definitions <> Ready constr
+R20396:20400 Coq.Init.Datatypes <> false constr
+R20386:20389 Coq.Init.Datatypes <> true constr
+R20422:20425 Coq.Init.Datatypes <> true constr
+R20525:20561 dsys.common.IOA <> existence_of_first_state_for_property thm
+R20525:20561 dsys.common.IOA <> existence_of_first_state_for_property thm
+R20612:20613 Coq.Init.Logic <> ex ind
+R20615:20617 Coq.Init.Logic <> and ind
+R20619:20620 Coq.Init.Logic <> or ind
+R20612:20613 Coq.Init.Logic <> ex ind
+R20615:20617 Coq.Init.Logic <> and ind
+R20619:20620 Coq.Init.Logic <> or ind
+R20638:20639 Coq.Init.Logic <> ex ind
+R20641:20643 Coq.Init.Logic <> and ind
+R20645:20646 Coq.Init.Logic <> or ind
+R20638:20639 Coq.Init.Logic <> ex ind
+R20641:20643 Coq.Init.Logic <> and ind
+R20645:20646 Coq.Init.Logic <> or ind
+R20957:20989 dsys.common.IOA <> project_execution_exist_with_exec thm
+R21079:21081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21082:21085 Coq.Init.Datatypes <> Some constr
+R21088:21102 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R21120:21124 dsys.reliable_broadcast.definitions <> Ready constr
+R21106:21117 dsys.reliable_broadcast.transition_prop <> process_zero def
+R21079:21081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21082:21085 Coq.Init.Datatypes <> Some constr
+R21088:21102 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R21120:21124 dsys.reliable_broadcast.definitions <> Ready constr
+R21106:21117 dsys.reliable_broadcast.transition_prop <> process_zero def
+R21170:21172 Coq.Init.Logic <> and ind
+R21170:21172 Coq.Init.Logic <> and ind
+R21200:21207 dsys.reliable_broadcast.leader_not_byzentine <> BrachaRB def
+R21273:21283 dsys.common.IOA <> ActionClass proj
+R21366:21380 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R21398:21402 dsys.reliable_broadcast.definitions <> Ready constr
+R21384:21395 dsys.reliable_broadcast.transition_prop <> process_zero def
+R21301:21303 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R21316:21344 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R21273:21283 dsys.common.IOA <> ActionClass proj
+R21366:21380 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R21398:21402 dsys.reliable_broadcast.definitions <> Ready constr
+R21384:21395 dsys.reliable_broadcast.transition_prop <> process_zero def
+R21301:21303 dsys.reliable_broadcast.leader_not_byzentine <> Ref def
+R21316:21344 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def
+R21491:21519 dsys.reliable_broadcast.leader_not_byzentine <> composition_type_from_process def

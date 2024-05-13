@@ -1,0 +1,762 @@
+DIGEST 4aee442a6180ef3f6bb1f0c1e1650f09
+Fdsys.P2P.P2P
+R15:24 dsys.common.IOA <> <> lib
+R42:51 dsys.common.LTL <> <> lib
+R69:71 Coq.micromega.Lia <> <> lib
+R89:93 Coq.Arith.Arith <> <> lib
+R111:123 dsys.common.tactic <> <> lib
+sec 160:162 <> P2P
+var 176:182 P2P Message
+var 204:214 P2P Message_dec
+R232:238 dsys.P2P.P2P <> P2P.Message var
+binder 225:225 <> m:2
+binder 227:228 <> m':3
+R241:241 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R248:250 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R258:258 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R243:245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R242:242 dsys.P2P.P2P <> m:2 var
+R246:247 dsys.P2P.P2P <> m':3 var
+R252:255 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R251:251 dsys.P2P.P2P <> m:2 var
+R256:257 dsys.P2P.P2P <> m':3 var
+var 274:291 P2P Message_forall_dec
+R313:316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R306:312 dsys.P2P.P2P <> P2P.Message var
+binder 302:302 <> P:5
+R323:323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R356:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R335:341 dsys.P2P.P2P <> P2P.Message var
+binder 331:331 <> m:6
+R344:344 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R348:350 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R355:355 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R345:345 dsys.P2P.P2P <> P:5 var
+R347:347 dsys.P2P.P2P <> m:6 var
+R351:351 Coq.Init.Logic <> ::type_scope:'~'_x not
+R352:352 dsys.P2P.P2P <> P:5 var
+R354:354 dsys.P2P.P2P <> m:6 var
+R361:361 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R385:387 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R412:412 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R373:379 dsys.P2P.P2P <> P2P.Message var
+binder 369:369 <> m:7
+R382:382 dsys.P2P.P2P <> P:5 var
+R384:384 dsys.P2P.P2P <> m:7 var
+R388:388 Coq.Init.Logic <> ::type_scope:'~'_x not
+R400:406 dsys.P2P.P2P <> P2P.Message var
+binder 396:396 <> m:8
+R409:409 dsys.P2P.P2P <> P:5 var
+R411:411 dsys.P2P.P2P <> m:8 var
+var 426:435 P2P ActionPool
+prf 453:466 <> Message_dec_eq
+R481:487 dsys.P2P.P2P <> P2P.Message var
+binder 477:477 <> m:11
+R490:496 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R506:508 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R502:504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R501:501 dsys.P2P.P2P <> m:11 var
+R505:505 dsys.P2P.P2P <> m:11 var
+binder 497:497 <> e:12
+R524:526 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R509:519 dsys.P2P.P2P <> P2P.Message_dec var
+R523:523 dsys.P2P.P2P <> m:11 var
+R521:521 dsys.P2P.P2P <> m:11 var
+R527:530 Coq.Init.Specif <> left constr
+R532:532 dsys.P2P.P2P <> e:12 var
+R565:575 dsys.P2P.P2P <> P2P.Message_dec var
+R565:575 dsys.P2P.P2P <> P2P.Message_dec var
+ind 650:661 <> P2PInterface
+constr 678:684 <> P2PRecv
+constr 718:724 <> P2PSend
+R695:698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R688:694 dsys.P2P.P2P <> P2P.Message var
+R699:710 dsys.P2P.P2P <> P2PInterface:13 ind
+R735:738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R728:734 dsys.P2P.P2P <> P2P.Message var
+R739:750 dsys.P2P.P2P <> P2PInterface:13 ind
+scheme 650:661 <> P2PInterface_rect
+scheme 650:661 <> P2PInterface_ind
+scheme 650:661 <> P2PInterface_rec
+scheme 650:661 <> P2PInterface_sind
+var 765:773 P2P Interface
+R787:790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R777:786 dsys.P2P.P2P <> P2P.ActionPool var
+R791:796 Coq.Init.Datatypes <> option ind
+R798:809 dsys.P2P.P2P <> P2PInterface ind
+var 825:843 P2P Interface_injective
+R858:869 dsys.P2P.P2P <> P2PInterface ind
+binder 854:854 <> a:16
+R872:878 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R895:896 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R885:894 dsys.P2P.P2P <> P2P.ActionPool var
+binder 879:881 <> act:17
+R910:912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R897:905 dsys.P2P.P2P <> P2P.Interface var
+R907:909 dsys.P2P.P2P <> act:17 var
+R913:916 Coq.Init.Datatypes <> Some constr
+R918:918 dsys.P2P.P2P <> a:16 var
+def 936:943 <> P2PState
+R959:962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R952:958 dsys.P2P.P2P <> P2P.Message var
+R963:965 Coq.Init.Datatypes <> nat ind
+def 982:999 <> P2PState_empty_set
+R1003:1010 dsys.P2P.P2P <> P2PState def
+R1027:1033 dsys.P2P.P2P <> P2P.Message var
+binder 1023:1023 <> m:19
+def 1055:1066 <> P2PState_add
+R1074:1081 dsys.P2P.P2P <> P2PState def
+binder 1069:1070 <> st:20
+R1089:1095 dsys.P2P.P2P <> P2P.Message var
+binder 1085:1085 <> m:21
+R1100:1107 dsys.P2P.P2P <> P2PState def
+R1125:1131 dsys.P2P.P2P <> P2P.Message var
+binder 1120:1121 <> m0:22
+R1139:1149 dsys.P2P.P2P <> P2P.Message_dec var
+R1153:1154 dsys.P2P.P2P <> m0:22 var
+R1151:1151 dsys.P2P.P2P <> m:21 var
+R1178:1179 dsys.P2P.P2P <> st:20 var
+R1181:1182 dsys.P2P.P2P <> m0:22 var
+R1161:1161 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1167:1170 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1162:1163 dsys.P2P.P2P <> st:20 var
+R1165:1166 dsys.P2P.P2P <> m0:22 var
+def 1199:1210 <> P2PState_sub
+R1218:1225 dsys.P2P.P2P <> P2PState def
+binder 1213:1214 <> st:23
+R1233:1239 dsys.P2P.P2P <> P2P.Message var
+binder 1229:1229 <> m:24
+R1244:1251 dsys.P2P.P2P <> P2PState def
+R1269:1275 dsys.P2P.P2P <> P2P.Message var
+binder 1264:1265 <> m0:25
+R1283:1293 dsys.P2P.P2P <> P2P.Message_dec var
+R1297:1298 dsys.P2P.P2P <> m0:25 var
+R1295:1295 dsys.P2P.P2P <> m:24 var
+R1322:1323 dsys.P2P.P2P <> st:23 var
+R1325:1326 dsys.P2P.P2P <> m0:25 var
+R1305:1305 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1311:1314 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1306:1307 dsys.P2P.P2P <> st:23 var
+R1309:1310 dsys.P2P.P2P <> m0:25 var
+prf 1338:1357 <> P2PUnusedActionLemma
+R1377:1386 dsys.P2P.P2P <> P2P.ActionPool var
+binder 1371:1373 <> act:26
+R1525:1533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1516:1518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1400:1408 dsys.P2P.P2P <> P2P.Interface var
+R1410:1412 dsys.P2P.P2P <> act:26 var
+R1426:1429 Coq.Init.Datatypes <> Some constr
+R1432:1438 dsys.P2P.P2P <> P2PRecv constr
+R1446:1451 dsys.common.IOA <> Output constr
+R1460:1463 Coq.Init.Datatypes <> Some constr
+R1466:1472 dsys.P2P.P2P <> P2PSend constr
+R1480:1484 dsys.common.IOA <> Input constr
+R1493:1496 Coq.Init.Datatypes <> None constr
+R1501:1506 dsys.common.IOA <> Unused constr
+R1519:1524 dsys.common.IOA <> Unused constr
+R1550:1557 dsys.P2P.P2P <> P2PState def
+binder 1541:1542 <> st:27
+binder 1544:1546 <> st':28
+R1567:1577 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1584:1592 dsys.P2P.P2P <> P2P.Interface var
+R1594:1596 dsys.P2P.P2P <> act:26 var
+R1614:1617 Coq.Init.Datatypes <> Some constr
+R1620:1626 dsys.P2P.P2P <> P2PRecv constr
+R1646:1652 dsys.P2P.P2P <> P2P.Message var
+binder 1641:1642 <> m':29
+R1660:1662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1655:1656 dsys.P2P.P2P <> st:27 var
+R1658:1659 dsys.P2P.P2P <> m':29 var
+R1663:1674 dsys.P2P.P2P <> P2PState_add def
+R1682:1683 dsys.P2P.P2P <> m':29 var
+R1676:1678 dsys.P2P.P2P <> st':28 var
+R1696:1699 Coq.Init.Datatypes <> Some constr
+R1702:1708 dsys.P2P.P2P <> P2PSend constr
+R1728:1734 dsys.P2P.P2P <> P2P.Message var
+binder 1723:1724 <> m':30
+R1743:1745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1737:1739 dsys.P2P.P2P <> st':28 var
+R1741:1742 dsys.P2P.P2P <> m':30 var
+R1746:1757 dsys.P2P.P2P <> P2PState_add def
+R1764:1765 dsys.P2P.P2P <> m':30 var
+R1759:1760 dsys.P2P.P2P <> st:27 var
+R1778:1781 Coq.Init.Datatypes <> None constr
+R1786:1790 Coq.Init.Logic <> False ind
+R1853:1861 dsys.P2P.P2P <> P2P.Interface var
+R1853:1861 dsys.P2P.P2P <> P2P.Interface var
+def 2004:2006 <> P2P
+R2010:2015 dsys.common.IOA <> IOADef rec
+R2017:2026 dsys.P2P.P2P <> P2P.ActionPool var
+R2035:2042 dsys.common.IOA <> mkIOADef constr
+R2584:2603 dsys.P2P.P2P <> P2PUnusedActionLemma thm
+R2289:2296 dsys.P2P.P2P <> P2PState def
+binder 2284:2285 <> st:31
+R2306:2315 dsys.P2P.P2P <> P2P.ActionPool var
+binder 2300:2302 <> act:32
+R2325:2332 dsys.P2P.P2P <> P2PState def
+binder 2319:2321 <> st':33
+R2353:2361 dsys.P2P.P2P <> P2P.Interface var
+R2363:2365 dsys.P2P.P2P <> act:32 var
+R2385:2388 Coq.Init.Datatypes <> Some constr
+R2391:2397 dsys.P2P.P2P <> P2PRecv constr
+R2417:2423 dsys.P2P.P2P <> P2P.Message var
+binder 2412:2413 <> m':34
+R2431:2433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2426:2427 dsys.P2P.P2P <> st:31 var
+R2429:2430 dsys.P2P.P2P <> m':34 var
+R2434:2445 dsys.P2P.P2P <> P2PState_add def
+R2453:2454 dsys.P2P.P2P <> m':34 var
+R2447:2449 dsys.P2P.P2P <> st':33 var
+R2469:2472 Coq.Init.Datatypes <> Some constr
+R2475:2481 dsys.P2P.P2P <> P2PSend constr
+R2501:2507 dsys.P2P.P2P <> P2P.Message var
+binder 2496:2497 <> m':35
+R2516:2518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2510:2512 dsys.P2P.P2P <> st':33 var
+R2514:2515 dsys.P2P.P2P <> m':35 var
+R2519:2530 dsys.P2P.P2P <> P2PState_add def
+R2537:2538 dsys.P2P.P2P <> m':35 var
+R2532:2533 dsys.P2P.P2P <> st:31 var
+R2558:2562 Coq.Init.Logic <> False ind
+R2235:2242 dsys.P2P.P2P <> P2PState def
+binder 2230:2231 <> st:36
+R2249:2251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2247:2248 dsys.P2P.P2P <> st:36 var
+R2252:2269 dsys.P2P.P2P <> P2PState_empty_set def
+R2061:2070 dsys.P2P.P2P <> P2P.ActionPool var
+binder 2055:2057 <> act:37
+R2089:2097 dsys.P2P.P2P <> P2P.Interface var
+R2099:2101 dsys.P2P.P2P <> act:37 var
+R2119:2122 Coq.Init.Datatypes <> Some constr
+R2125:2131 dsys.P2P.P2P <> P2PRecv constr
+R2139:2144 dsys.common.IOA <> Output constr
+R2157:2160 Coq.Init.Datatypes <> Some constr
+R2163:2169 dsys.P2P.P2P <> P2PSend constr
+R2177:2181 dsys.common.IOA <> Input constr
+R2199:2204 dsys.common.IOA <> Unused constr
+def 2623:2640 <> P2P_get_next_state
+R2648:2655 dsys.P2P.P2P <> P2PState def
+binder 2643:2644 <> st:38
+R2665:2674 dsys.P2P.P2P <> P2P.ActionPool var
+binder 2659:2661 <> act:39
+R2691:2699 dsys.P2P.P2P <> P2P.Interface var
+R2701:2703 dsys.P2P.P2P <> act:39 var
+R2723:2726 Coq.Init.Datatypes <> Some constr
+R2729:2735 dsys.P2P.P2P <> P2PRecv constr
+R2743:2754 dsys.P2P.P2P <> P2PState_sub def
+R2756:2757 dsys.P2P.P2P <> st:38 var
+R2774:2777 Coq.Init.Datatypes <> Some constr
+R2780:2786 dsys.P2P.P2P <> P2PSend constr
+R2794:2805 dsys.P2P.P2P <> P2PState_add def
+R2807:2808 dsys.P2P.P2P <> st:38 var
+R2830:2831 dsys.P2P.P2P <> st:38 var
+prf 2852:2868 <> P2PTransision_dec
+R2889:2896 dsys.P2P.P2P <> P2PState def
+binder 2884:2885 <> st:40
+R2906:2915 dsys.P2P.P2P <> P2P.ActionPool var
+binder 2900:2902 <> act:41
+R2925:2932 dsys.P2P.P2P <> P2PState def
+binder 2919:2921 <> st':42
+R2936:2936 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2962:2964 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2991:2991 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2937:2946 dsys.common.IOA <> Transition proj
+R2959:2961 dsys.P2P.P2P <> st':42 var
+R2955:2957 dsys.P2P.P2P <> act:41 var
+R2952:2953 dsys.P2P.P2P <> st:40 var
+R2948:2950 dsys.P2P.P2P <> P2P def
+R2965:2965 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2966:2975 dsys.common.IOA <> Transition proj
+R2988:2990 dsys.P2P.P2P <> st':42 var
+R2984:2986 dsys.P2P.P2P <> act:41 var
+R2981:2982 dsys.P2P.P2P <> st:40 var
+R2977:2979 dsys.P2P.P2P <> P2P def
+R3039:3047 dsys.P2P.P2P <> P2P.Interface var
+R3039:3047 dsys.P2P.P2P <> P2P.Interface var
+prf 3219:3240 <> P2P_only_recv_decrease
+R3261:3268 dsys.P2P.P2P <> P2PState def
+binder 3256:3257 <> st:43
+R3278:3287 dsys.P2P.P2P <> P2P.ActionPool var
+binder 3272:3274 <> act:44
+R3297:3304 dsys.P2P.P2P <> P2PState def
+binder 3291:3293 <> st':45
+R3312:3318 dsys.P2P.P2P <> P2P.Message var
+binder 3308:3308 <> m:46
+R3353:3356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3328:3337 dsys.common.IOA <> Transition proj
+R3350:3352 dsys.P2P.P2P <> st':45 var
+R3346:3348 dsys.P2P.P2P <> act:44 var
+R3343:3344 dsys.P2P.P2P <> st:43 var
+R3339:3341 dsys.P2P.P2P <> P2P def
+R3375:3378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3361:3363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3357:3358 dsys.P2P.P2P <> st:43 var
+R3360:3360 dsys.P2P.P2P <> m:46 var
+R3364:3364 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3370:3373 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3365:3367 dsys.P2P.P2P <> st':45 var
+R3369:3369 dsys.P2P.P2P <> m:46 var
+R3392:3394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3379:3387 dsys.P2P.P2P <> P2P.Interface var
+R3389:3391 dsys.P2P.P2P <> act:44 var
+R3395:3398 Coq.Init.Datatypes <> Some constr
+R3400:3406 dsys.P2P.P2P <> P2PRecv constr
+R3408:3408 dsys.P2P.P2P <> m:46 var
+R3487:3498 dsys.P2P.P2P <> P2PState_add def
+R3588:3599 dsys.P2P.P2P <> P2PState_add def
+prf 3664:3688 <> P2P_not_recv_enabled_is_0
+R3709:3716 dsys.P2P.P2P <> P2PState def
+binder 3704:3705 <> st:47
+R3726:3735 dsys.P2P.P2P <> P2P.ActionPool var
+binder 3720:3722 <> act:48
+R3743:3749 dsys.P2P.P2P <> P2P.Message var
+binder 3739:3739 <> m:49
+R3791:3794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3772:3774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3759:3767 dsys.P2P.P2P <> P2P.Interface var
+R3769:3771 dsys.P2P.P2P <> act:48 var
+R3775:3778 Coq.Init.Datatypes <> Some constr
+R3781:3787 dsys.P2P.P2P <> P2PRecv constr
+R3789:3789 dsys.P2P.P2P <> m:49 var
+R3795:3795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3847:3851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3810:3817 dsys.P2P.P2P <> P2PState def
+binder 3804:3806 <> st':50
+R3821:3821 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3822:3831 dsys.common.IOA <> Transition proj
+R3844:3846 dsys.P2P.P2P <> st':50 var
+R3840:3842 dsys.P2P.P2P <> act:48 var
+R3837:3838 dsys.P2P.P2P <> st:47 var
+R3833:3835 dsys.P2P.P2P <> P2P def
+R3856:3858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3852:3853 dsys.P2P.P2P <> st:47 var
+R3855:3855 dsys.P2P.P2P <> m:49 var
+R3900:3903 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3900:3903 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3970:3987 dsys.P2P.P2P <> P2P_get_next_state def
+R3970:3987 dsys.P2P.P2P <> P2P_get_next_state def
+R4020:4037 dsys.P2P.P2P <> P2P_get_next_state def
+R4039:4050 dsys.P2P.P2P <> P2PState_sub def
+R4052:4063 dsys.P2P.P2P <> P2PState_add def
+R4065:4067 dsys.common.IOA <> st' proj
+R4119:4130 dsys.P2P.P2P <> P2PState_sub def
+R4132:4143 dsys.P2P.P2P <> P2PState_add def
+R4145:4147 dsys.common.IOA <> st' proj
+prf 4242:4266 <> P2P_recv_enabled_is_non_0
+R4287:4294 dsys.P2P.P2P <> P2PState def
+binder 4282:4283 <> st:51
+R4304:4313 dsys.P2P.P2P <> P2P.ActionPool var
+binder 4298:4300 <> act:52
+R4321:4327 dsys.P2P.P2P <> P2P.Message var
+binder 4317:4317 <> m:53
+R4369:4372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4350:4352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4337:4345 dsys.P2P.P2P <> P2P.Interface var
+R4347:4349 dsys.P2P.P2P <> act:52 var
+R4353:4356 Coq.Init.Datatypes <> Some constr
+R4359:4365 dsys.P2P.P2P <> P2PRecv constr
+R4367:4367 dsys.P2P.P2P <> m:53 var
+R4373:4373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4424:4428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4374:4381 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4396:4398 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4388:4395 dsys.P2P.P2P <> P2PState def
+binder 4382:4384 <> st':54
+R4399:4408 dsys.common.IOA <> Transition proj
+R4421:4423 dsys.P2P.P2P <> st':54 var
+R4417:4419 dsys.P2P.P2P <> act:52 var
+R4414:4415 dsys.P2P.P2P <> st:51 var
+R4410:4412 dsys.P2P.P2P <> P2P def
+R4433:4435 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R4429:4430 dsys.P2P.P2P <> st:51 var
+R4432:4432 dsys.P2P.P2P <> m:53 var
+R4491:4494 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R4491:4494 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R4601:4612 dsys.P2P.P2P <> P2PState_add def
+prf 4671:4692 <> P2P_zero_then_not_recv
+R4713:4720 dsys.P2P.P2P <> P2PState def
+binder 4708:4709 <> st:55
+R4730:4739 dsys.P2P.P2P <> P2P.ActionPool var
+binder 4724:4726 <> act:56
+R4749:4756 dsys.P2P.P2P <> P2PState def
+binder 4743:4745 <> st':57
+R4764:4770 dsys.P2P.P2P <> P2P.Message var
+binder 4760:4760 <> m:58
+R4788:4791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4784:4786 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4780:4781 dsys.P2P.P2P <> st:55 var
+R4783:4783 dsys.P2P.P2P <> m:58 var
+R4824:4827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4805:4807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4792:4800 dsys.P2P.P2P <> P2P.Interface var
+R4802:4804 dsys.P2P.P2P <> act:56 var
+R4808:4811 Coq.Init.Datatypes <> Some constr
+R4814:4820 dsys.P2P.P2P <> P2PRecv constr
+R4822:4822 dsys.P2P.P2P <> m:58 var
+R4828:4829 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4830:4839 dsys.common.IOA <> Transition proj
+R4852:4854 dsys.P2P.P2P <> st':57 var
+R4848:4850 dsys.P2P.P2P <> act:56 var
+R4845:4846 dsys.P2P.P2P <> st:55 var
+R4841:4843 dsys.P2P.P2P <> P2P def
+R4953:4964 dsys.P2P.P2P <> P2PState_add def
+prf 5021:5042 <> P2P_only_send_increase
+R5063:5070 dsys.P2P.P2P <> P2PState def
+binder 5058:5059 <> st:59
+R5080:5089 dsys.P2P.P2P <> P2P.ActionPool var
+binder 5074:5076 <> act:60
+R5099:5106 dsys.P2P.P2P <> P2PState def
+binder 5093:5095 <> st':61
+R5114:5120 dsys.P2P.P2P <> P2P.Message var
+binder 5110:5110 <> m:62
+R5155:5158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5130:5139 dsys.common.IOA <> Transition proj
+R5152:5154 dsys.P2P.P2P <> st':61 var
+R5148:5150 dsys.P2P.P2P <> act:60 var
+R5145:5146 dsys.P2P.P2P <> st:59 var
+R5141:5143 dsys.P2P.P2P <> P2P def
+R5177:5180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5164:5166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5159:5161 dsys.P2P.P2P <> st':61 var
+R5163:5163 dsys.P2P.P2P <> m:62 var
+R5167:5167 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5172:5175 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5168:5169 dsys.P2P.P2P <> st:59 var
+R5171:5171 dsys.P2P.P2P <> m:62 var
+R5194:5196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5181:5189 dsys.P2P.P2P <> P2P.Interface var
+R5191:5193 dsys.P2P.P2P <> act:60 var
+R5197:5200 Coq.Init.Datatypes <> Some constr
+R5202:5208 dsys.P2P.P2P <> P2PSend constr
+R5210:5210 dsys.P2P.P2P <> m:62 var
+R5285:5296 dsys.P2P.P2P <> P2PState_add def
+R5356:5367 dsys.P2P.P2P <> P2PState_add def
+prf 5453:5474 <> P2P_send_then_non_zero
+R5496:5503 dsys.P2P.P2P <> P2PState def
+binder 5491:5492 <> st:63
+R5513:5522 dsys.P2P.P2P <> P2P.ActionPool var
+binder 5507:5509 <> act:64
+R5532:5539 dsys.P2P.P2P <> P2PState def
+binder 5526:5528 <> st':65
+R5547:5553 dsys.P2P.P2P <> P2P.Message var
+binder 5543:5543 <> m:66
+R5588:5591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5563:5572 dsys.common.IOA <> Transition proj
+R5585:5587 dsys.P2P.P2P <> st':65 var
+R5581:5583 dsys.P2P.P2P <> act:64 var
+R5578:5579 dsys.P2P.P2P <> st:63 var
+R5574:5576 dsys.P2P.P2P <> P2P def
+R5624:5627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5605:5607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5592:5600 dsys.P2P.P2P <> P2P.Interface var
+R5602:5604 dsys.P2P.P2P <> act:64 var
+R5608:5611 Coq.Init.Datatypes <> Some constr
+R5614:5620 dsys.P2P.P2P <> P2PSend constr
+R5622:5622 dsys.P2P.P2P <> m:66 var
+R5633:5635 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R5628:5630 dsys.P2P.P2P <> st':65 var
+R5632:5632 dsys.P2P.P2P <> m:66 var
+R5688:5699 dsys.P2P.P2P <> P2PState_add def
+R5751:5762 dsys.P2P.P2P <> P2PState_add def
+prf 5824:5855 <> P2P_get_next_state_is_transition
+R5876:5883 dsys.P2P.P2P <> P2PState def
+binder 5871:5872 <> st:67
+R5893:5902 dsys.P2P.P2P <> P2P.ActionPool var
+binder 5887:5889 <> act:68
+R5906:5906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5955:5959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5907:5913 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5928:5929 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5920:5927 dsys.P2P.P2P <> P2PState def
+binder 5914:5916 <> st':69
+R5930:5939 dsys.common.IOA <> Transition proj
+R5952:5954 dsys.P2P.P2P <> st':69 var
+R5948:5950 dsys.P2P.P2P <> act:68 var
+R5945:5946 dsys.P2P.P2P <> st:67 var
+R5941:5943 dsys.P2P.P2P <> P2P def
+R5960:5969 dsys.common.IOA <> Transition proj
+R5983:6000 dsys.P2P.P2P <> P2P_get_next_state def
+R6005:6007 dsys.P2P.P2P <> act:68 var
+R6002:6003 dsys.P2P.P2P <> st:67 var
+R5978:5980 dsys.P2P.P2P <> act:68 var
+R5975:5976 dsys.P2P.P2P <> st:67 var
+R5971:5973 dsys.P2P.P2P <> P2P def
+R6074:6091 dsys.P2P.P2P <> P2P_get_next_state def
+R6093:6104 dsys.P2P.P2P <> P2PState_add def
+R6106:6117 dsys.P2P.P2P <> P2PState_sub def
+R6165:6189 dsys.P2P.P2P <> P2P_recv_enabled_is_non_0 thm
+R6165:6189 dsys.P2P.P2P <> P2P_recv_enabled_is_non_0 thm
+R6217:6234 dsys.P2P.P2P <> P2P_get_next_state def
+R6236:6247 dsys.P2P.P2P <> P2PState_add def
+R6249:6260 dsys.P2P.P2P <> P2PState_sub def
+R6309:6326 dsys.P2P.P2P <> P2P_get_next_state def
+R6328:6339 dsys.P2P.P2P <> P2PState_add def
+R6341:6352 dsys.P2P.P2P <> P2PState_sub def
+prf 6455:6471 <> P2P_non_zero_recv
+R6491:6506 dsys.common.IOA <> ExecFragmentType def
+R6523:6532 dsys.P2P.P2P <> P2P.ActionPool var
+binder 6487:6487 <> e:70
+R6541:6543 Coq.Init.Datatypes <> nat ind
+binder 6537:6537 <> i:71
+R6551:6557 dsys.P2P.P2P <> P2P.Message var
+binder 6547:6547 <> m:72
+R6581:6590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6567:6578 dsys.common.IOA <> FairFragment def
+R6580:6580 dsys.P2P.P2P <> e:70 var
+R6605:6614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6591:6602 dsys.common.IOA <> ExecFragment def
+R6604:6604 dsys.P2P.P2P <> e:70 var
+R6664:6673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6616:6618 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R6620:6623 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R6615:6615 dsys.P2P.P2P <> e:70 var
+R6619:6619 dsys.P2P.P2P <> i:71 var
+R6624:6626 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R6663:6663 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 6631:6631 <> s:73
+R6659:6661 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R6637:6638 dsys.common.IOA <> st proj
+R6651:6653 dsys.P2P.P2P <> P2P def
+R6655:6655 dsys.P2P.P2P <> s:73 var
+R6640:6649 dsys.P2P.P2P <> P2P.ActionPool var
+R6658:6658 dsys.P2P.P2P <> m:72 var
+R6675:6677 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R6679:6682 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R6674:6674 dsys.P2P.P2P <> e:70 var
+R6678:6678 dsys.P2P.P2P <> i:71 var
+R6683:6685 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R6782:6782 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R6686:6688 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R6781:6781 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 6693:6693 <> s:74
+R6698:6704 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6708:6709 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6705:6707 <> act:75
+R6745:6749 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6734:6736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6710:6716 dsys.common.IOA <> opt_act proj
+R6729:6731 dsys.P2P.P2P <> P2P def
+R6733:6733 dsys.P2P.P2P <> s:74 var
+R6718:6727 dsys.P2P.P2P <> P2P.ActionPool var
+R6737:6740 Coq.Init.Datatypes <> Some constr
+R6742:6744 dsys.P2P.P2P <> act:75 var
+R6763:6765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6750:6758 dsys.P2P.P2P <> P2P.Interface var
+R6760:6762 dsys.P2P.P2P <> act:75 var
+R6766:6769 Coq.Init.Datatypes <> Some constr
+R6771:6777 dsys.P2P.P2P <> P2PRecv constr
+R6779:6779 dsys.P2P.P2P <> m:72 var
+R6843:6849 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6864:6865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6854:6863 dsys.P2P.P2P <> P2P.ActionPool var
+binder 6850:6850 <> a:76
+R6877:6879 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6866:6874 dsys.P2P.P2P <> P2P.Interface var
+R6876:6876 dsys.P2P.P2P <> a:76 var
+R6880:6883 Coq.Init.Datatypes <> Some constr
+R6885:6891 dsys.P2P.P2P <> P2PRecv constr
+R6843:6849 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6864:6865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6854:6863 dsys.P2P.P2P <> P2P.ActionPool var
+binder 6850:6850 <> a:77
+R6877:6879 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6866:6874 dsys.P2P.P2P <> P2P.Interface var
+R6876:6876 dsys.P2P.P2P <> a:77 var
+R6880:6883 Coq.Init.Datatypes <> Some constr
+R6885:6891 dsys.P2P.P2P <> P2PRecv constr
+R7096:7098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7096:7098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7165:7171 dsys.common.LTL <> ltl_now def
+R7174:7182 dsys.common.LTL <> ltl_apply def
+R7208:7217 dsys.common.IOA <> Transition proj
+R7220:7222 dsys.P2P.P2P <> P2P def
+R7340:7351 dsys.P2P.P2P <> P2PState_sub def
+R7340:7351 dsys.P2P.P2P <> P2PState_sub def
+R7401:7412 dsys.P2P.P2P <> P2PState_add def
+R7415:7426 dsys.P2P.P2P <> P2PState_sub def
+R7569:7571 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7569:7571 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7631:7633 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7631:7633 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7651:7657 dsys.common.LTL <> ltl_now def
+R7684:7690 dsys.common.IOA <> opt_act proj
+R7703:7705 dsys.P2P.P2P <> P2P def
+R7713:7715 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7692:7701 dsys.P2P.P2P <> P2P.ActionPool var
+R7684:7690 dsys.common.IOA <> opt_act proj
+R7703:7705 dsys.P2P.P2P <> P2P def
+R7713:7715 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7692:7701 dsys.P2P.P2P <> P2P.ActionPool var
+R7800:7801 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7800:7801 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7946:7948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7942:7944 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7938:7940 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R7946:7948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7942:7944 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7938:7940 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8019:8025 dsys.common.LTL <> ltl_now def
+R8129:8129 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8162:8164 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8198:8198 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8143:8145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8130:8138 dsys.P2P.P2P <> P2P.Interface var
+R8146:8149 Coq.Init.Datatypes <> Some constr
+R8152:8158 dsys.P2P.P2P <> P2PRecv constr
+R8165:8165 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8179:8181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8166:8174 dsys.P2P.P2P <> P2P.Interface var
+R8182:8185 Coq.Init.Datatypes <> Some constr
+R8188:8194 dsys.P2P.P2P <> P2PRecv constr
+R8129:8129 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8162:8164 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8198:8198 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8143:8145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8130:8138 dsys.P2P.P2P <> P2P.Interface var
+R8146:8149 Coq.Init.Datatypes <> Some constr
+R8152:8158 dsys.P2P.P2P <> P2PRecv constr
+R8165:8165 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8179:8181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8166:8174 dsys.P2P.P2P <> P2P.Interface var
+R8182:8185 Coq.Init.Datatypes <> Some constr
+R8188:8194 dsys.P2P.P2P <> P2PRecv constr
+R8285:8287 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8285:8287 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8434:8439 dsys.common.IOA <> st proj
+R8452:8454 dsys.P2P.P2P <> P2P def
+R8441:8450 dsys.P2P.P2P <> P2P.ActionPool var
+R8402:8426 dsys.P2P.P2P <> P2P_not_recv_enabled_is_0 thm
+R8434:8439 dsys.common.IOA <> st proj
+R8452:8454 dsys.P2P.P2P <> P2P def
+R8441:8450 dsys.P2P.P2P <> P2P.ActionPool var
+R8402:8426 dsys.P2P.P2P <> P2P_not_recv_enabled_is_0 thm
+R8530:8532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8526:8528 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8522:8524 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8530:8532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8526:8528 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8522:8524 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8639:8641 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8639:8641 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8871:8879 dsys.P2P.P2P <> P2P.Interface var
+R8871:8879 dsys.P2P.P2P <> P2P.Interface var
+R8992:9003 dsys.P2P.P2P <> P2PState_add def
+R9187:9198 dsys.P2P.P2P <> P2PState_add def
+R9289:9300 dsys.P2P.P2P <> P2PState_add def
+prf 9400:9423 <> P2P_all_messages_arrives
+R9442:9457 dsys.common.IOA <> ExecFragmentType def
+R9474:9483 dsys.P2P.P2P <> P2P.ActionPool var
+binder 9438:9438 <> e:78
+R9499:9502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9493:9496 dsys.common.IOA <> Exec def
+R9498:9498 dsys.P2P.P2P <> e:78 var
+R9517:9526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9503:9514 dsys.common.IOA <> FairFragment def
+R9516:9516 dsys.P2P.P2P <> e:78 var
+R9538:9544 dsys.P2P.P2P <> P2P.Message var
+binder 9534:9534 <> m:79
+R9556:9558 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9560:9563 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9555:9555 dsys.P2P.P2P <> e:78 var
+R9564:9566 dsys.common.LTL <> ::ltl_scope:'G'_x not
+R9865:9866 dsys.common.LTL <> ::ltl_scope:'G'_x not
+R9700:9724 dsys.common.LTL <> ::ltl_scope:x_'-->'_x not
+R9567:9569 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R9699:9699 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 9574:9574 <> s:80
+R9579:9585 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9589:9590 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9586:9588 <> act:81
+R9626:9667 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9615:9617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9591:9597 dsys.common.IOA <> opt_act proj
+R9610:9612 dsys.P2P.P2P <> P2P def
+R9614:9614 dsys.P2P.P2P <> s:80 var
+R9599:9608 dsys.P2P.P2P <> P2P.ActionPool var
+R9618:9621 Coq.Init.Datatypes <> Some constr
+R9623:9625 dsys.P2P.P2P <> act:81 var
+R9681:9683 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9668:9676 dsys.P2P.P2P <> P2P.Interface var
+R9678:9680 dsys.P2P.P2P <> act:81 var
+R9684:9687 Coq.Init.Datatypes <> Some constr
+R9689:9695 dsys.P2P.P2P <> P2PSend constr
+R9697:9697 dsys.P2P.P2P <> m:79 var
+R9725:9727 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R9864:9864 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R9728:9730 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R9863:9863 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 9735:9735 <> s:82
+R9740:9746 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9750:9751 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9747:9749 <> act:83
+R9787:9831 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9776:9778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9752:9758 dsys.common.IOA <> opt_act proj
+R9771:9773 dsys.P2P.P2P <> P2P def
+R9775:9775 dsys.P2P.P2P <> s:82 var
+R9760:9769 dsys.P2P.P2P <> P2P.ActionPool var
+R9779:9782 Coq.Init.Datatypes <> Some constr
+R9784:9786 dsys.P2P.P2P <> act:83 var
+R9845:9847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9832:9840 dsys.P2P.P2P <> P2P.Interface var
+R9842:9844 dsys.P2P.P2P <> act:83 var
+R9848:9851 Coq.Init.Datatypes <> Some constr
+R9853:9859 dsys.P2P.P2P <> P2PRecv constr
+R9861:9861 dsys.P2P.P2P <> m:79 var
+R9982:9985 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9989:9993 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9987:9987 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9994:9996 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R10093:10093 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R9997:9999 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R10092:10092 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 10004:10004 <> s:84
+R10009:10015 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10019:10020 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10016:10018 <> act:85
+R10056:10060 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10045:10047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10021:10027 dsys.common.IOA <> opt_act proj
+R10040:10042 dsys.P2P.P2P <> P2P def
+R10044:10044 dsys.P2P.P2P <> s:84 var
+R10029:10038 dsys.P2P.P2P <> P2P.ActionPool var
+R10048:10051 Coq.Init.Datatypes <> Some constr
+R10053:10055 dsys.P2P.P2P <> act:85 var
+R10074:10076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10061:10069 dsys.P2P.P2P <> P2P.Interface var
+R10071:10073 dsys.P2P.P2P <> act:85 var
+R10077:10080 Coq.Init.Datatypes <> Some constr
+R10082:10088 dsys.P2P.P2P <> P2PRecv constr
+R9982:9985 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9989:9993 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R9987:9987 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9994:9996 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R10093:10093 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R9997:9999 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R10092:10092 dsys.common.LTL <> ::ltl_scope:'N'_x not
+binder 10004:10004 <> s:86
+R10009:10015 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10019:10020 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10016:10018 <> act:87
+R10056:10060 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10045:10047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10021:10027 dsys.common.IOA <> opt_act proj
+R10040:10042 dsys.P2P.P2P <> P2P def
+R10044:10044 dsys.P2P.P2P <> s:86 var
+R10029:10038 dsys.P2P.P2P <> P2P.ActionPool var
+R10048:10051 Coq.Init.Datatypes <> Some constr
+R10053:10055 dsys.P2P.P2P <> act:87 var
+R10074:10076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10061:10069 dsys.P2P.P2P <> P2P.Interface var
+R10071:10073 dsys.P2P.P2P <> act:87 var
+R10077:10080 Coq.Init.Datatypes <> Some constr
+R10082:10088 dsys.P2P.P2P <> P2PRecv constr
+R10112:10128 dsys.P2P.P2P <> P2P_non_zero_recv thm
+R10112:10128 dsys.P2P.P2P <> P2P_non_zero_recv thm
+R10211:10213 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R10211:10213 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R10255:10276 dsys.P2P.P2P <> P2P_send_then_non_zero thm
+R10255:10276 dsys.P2P.P2P <> P2P_send_then_non_zero thm
+R10460:10466 dsys.common.LTL <> ltl_now def
+R10469:10477 dsys.common.LTL <> ltl_apply def
+R10668:10670 dsys.P2P.P2P P2P <> sec

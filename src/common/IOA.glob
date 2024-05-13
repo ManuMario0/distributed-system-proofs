@@ -1,0 +1,2769 @@
+DIGEST 6699e28c2ab713edd0bf3512422a9bb1
+Fdsys.common.IOA
+R15:32 Coq.Sets.Ensembles <> <> lib
+R50:64 Coq.Classes.RelationClasses <> <> lib
+R82:85 Coq.Lists.List <> <> lib
+R103:112 dsys.common.LTL <> <> lib
+R130:132 Coq.Init.Nat <> <> lib
+R150:154 Coq.Arith.Arith <> <> lib
+R172:175 Coq.Bool.Bool <> <> lib
+R193:211 Coq.Classes.Equivalence <> <> lib
+R229:258 Coq.Relations.Relation_Definitions <> <> lib
+R276:288 dsys.common.tactic <> <> lib
+R298:310 Coq.Lists.List ListNotations <> mod
+R320:328 Coq.Sets.Ensembles <> <> mod
+R346:348 Coq.micromega.Lia <> <> lib
+sec 360:362 <> IOA
+var 434:443 IOA ActionPool
+ind 465:474 <> ActionType
+constr 489:494 <> Intern
+constr 513:518 <> Output
+constr 537:541 <> Input
+constr 560:565 <> Unused
+R498:507 dsys.common.IOA <> ActionType:2 ind
+R522:531 dsys.common.IOA <> ActionType:2 ind
+R545:554 dsys.common.IOA <> ActionType:2 ind
+R569:578 dsys.common.IOA <> ActionType:2 ind
+scheme 465:474 <> ActionType_rect
+scheme 465:474 <> ActionType_ind
+scheme 465:474 <> ActionType_rec
+scheme 465:474 <> ActionType_sind
+rec 1084:1089 <> IOADef
+proj 1124:1128 <> State
+proj 1145:1150 <> Action
+proj 1181:1191 <> ActionClass
+proj 1225:1229 <> Start
+proj 1256:1265 <> Transition
+proj 1311:1325 <> UnusedActionHyp
+R1161:1170 dsys.common.IOA <> IOA.ActionPool var
+R1201:1204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1195:1200 dsys.common.IOA <> Action:6 meth
+R1205:1214 dsys.common.IOA <> ActionType ind
+R1238:1241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1233:1237 dsys.common.IOA <> State:5 meth
+R1274:1277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1269:1273 dsys.common.IOA <> State:5 meth
+R1284:1287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1278:1283 dsys.common.IOA <> Action:6 meth
+R1293:1296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1288:1292 dsys.common.IOA <> State:5 meth
+R1352:1361 dsys.common.IOA <> IOA.ActionPool var
+binder 1346:1348 <> act:10
+R1388:1391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1379:1381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1364:1374 dsys.common.IOA <> ActionClass:7 meth
+R1376:1378 dsys.common.IOA <> act:10 var
+R1382:1387 dsys.common.IOA <> Unused constr
+R1408:1412 dsys.common.IOA <> State:5 meth
+binder 1399:1400 <> st:11
+binder 1402:1404 <> st':12
+R1415:1416 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1417:1426 dsys.common.IOA <> Transition:9 meth
+R1435:1437 dsys.common.IOA <> st':12 var
+R1431:1433 dsys.common.IOA <> act:10 var
+R1428:1429 dsys.common.IOA <> st:11 var
+def 1462:1468 <> IOAType
+R1480:1485 dsys.common.IOA <> IOADef rec
+rec 1527:1537 <> ExecSection
+proj 1591:1592 <> st
+proj 1615:1621 <> opt_act
+proj 1652:1654 <> st'
+proj 1677:1690 <> is_well_formed
+R1544:1550 dsys.common.IOA <> IOAType def
+binder 1540:1540 <> A:14
+R1599:1603 dsys.common.IOA <> State proj
+R1596:1596 dsys.common.IOA <> A:14 var
+R1625:1630 Coq.Init.Datatypes <> option ind
+R1633:1638 dsys.common.IOA <> Action proj
+R1640:1640 dsys.common.IOA <> A:14 var
+R1661:1665 dsys.common.IOA <> State proj
+R1658:1658 dsys.common.IOA <> A:14 var
+R1708:1714 dsys.common.IOA <> opt_act:17 meth
+R1733:1736 Coq.Init.Datatypes <> Some constr
+R1748:1757 dsys.common.IOA <> Transition proj
+R1745:1745 dsys.common.IOA <> A:14 var
+R1767:1769 dsys.common.IOA <> st':18 meth
+R1760:1761 dsys.common.IOA <> st:16 meth
+R1783:1786 Coq.Init.Datatypes <> None constr
+R1793:1795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1791:1792 dsys.common.IOA <> st:16 meth
+R1796:1798 dsys.common.IOA <> st':18 meth
+def 1862:1881 <> ActionEnabledInState
+R1888:1894 dsys.common.IOA <> IOAType def
+binder 1884:1884 <> A:21
+R1904:1909 dsys.common.IOA <> Action proj
+R1911:1911 dsys.common.IOA <> A:21 var
+binder 1898:1900 <> act:22
+R1920:1924 dsys.common.IOA <> State proj
+R1926:1926 dsys.common.IOA <> A:21 var
+binder 1915:1916 <> st:23
+R1943:1949 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1963:1964 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1956:1960 dsys.common.IOA <> State proj
+R1962:1962 dsys.common.IOA <> A:21 var
+binder 1950:1952 <> st':24
+R1965:1974 dsys.common.IOA <> Transition proj
+R1983:1985 dsys.common.IOA <> st':24 var
+R1979:1981 dsys.common.IOA <> act:22 var
+R1976:1977 dsys.common.IOA <> st:23 var
+def 2002:2020 <> ActionEnabledAlways
+R2027:2033 dsys.common.IOA <> IOAType def
+binder 2023:2023 <> A:25
+R2043:2048 dsys.common.IOA <> Action proj
+R2050:2050 dsys.common.IOA <> A:25 var
+binder 2037:2039 <> act:26
+R2079:2083 dsys.common.IOA <> State proj
+R2085:2085 dsys.common.IOA <> A:25 var
+binder 2074:2075 <> st:27
+R2088:2107 dsys.common.IOA <> ActionEnabledInState def
+R2113:2114 dsys.common.IOA <> st:27 var
+R2109:2111 dsys.common.IOA <> act:26 var
+def 2131:2143 <> InternEnabled
+R2150:2156 dsys.common.IOA <> IOAType def
+binder 2146:2146 <> A:28
+R2186:2191 dsys.common.IOA <> Action proj
+R2193:2193 dsys.common.IOA <> A:28 var
+binder 2180:2182 <> act:29
+R2220:2223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2211:2213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2196:2206 dsys.common.IOA <> ActionClass proj
+R2208:2210 dsys.common.IOA <> act:29 var
+R2214:2219 dsys.common.IOA <> Intern constr
+R2224:2242 dsys.common.IOA <> ActionEnabledAlways def
+R2244:2246 dsys.common.IOA <> act:29 var
+def 2484:2499 <> ExecFragmentType
+R2506:2512 dsys.common.IOA <> IOAType def
+binder 2502:2502 <> A:30
+R2525:2527 dsys.common.LTL <> Run def
+R2530:2540 dsys.common.IOA <> ExecSection rec
+R2542:2542 dsys.common.IOA <> A:30 var
+def 2560:2571 <> ExecFragment
+R2578:2584 dsys.common.IOA <> IOAType def
+binder 2574:2574 <> A:31
+R2592:2607 dsys.common.IOA <> ExecFragmentType def
+R2615:2615 dsys.common.IOA <> A:31 var
+binder 2588:2588 <> s:32
+R2644:2646 Coq.Init.Datatypes <> nat ind
+binder 2640:2640 <> i:33
+R2660:2662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2649:2651 dsys.common.IOA <> st' proj
+R2653:2653 dsys.common.IOA <> A:31 var
+R2656:2656 dsys.common.IOA <> s:32 var
+R2658:2658 dsys.common.IOA <> i:33 var
+R2663:2664 dsys.common.IOA <> st proj
+R2666:2666 dsys.common.IOA <> A:31 var
+R2669:2669 dsys.common.IOA <> s:32 var
+R2673:2673 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2672:2672 dsys.common.IOA <> i:33 var
+def 2693:2696 <> Exec
+R2703:2709 dsys.common.IOA <> IOAType def
+binder 2699:2699 <> A:34
+R2717:2732 dsys.common.IOA <> ExecFragmentType def
+binder 2713:2713 <> s:35
+R2763:2766 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2749:2760 dsys.common.IOA <> ExecFragment def
+R2762:2762 dsys.common.IOA <> s:35 var
+R2767:2771 dsys.common.IOA <> Start proj
+R2776:2777 dsys.common.IOA <> st proj
+R2779:2779 dsys.common.IOA <> A:34 var
+R2782:2782 dsys.common.IOA <> s:35 var
+R2773:2773 dsys.common.IOA <> A:34 var
+def 2828:2839 <> FairFragment
+R2846:2852 dsys.common.IOA <> IOAType def
+binder 2842:2842 <> A:36
+R2860:2875 dsys.common.IOA <> ExecFragmentType def
+binder 2856:2856 <> s:37
+R2903:2908 dsys.common.IOA <> Action proj
+R2910:2910 dsys.common.IOA <> A:36 var
+binder 2899:2899 <> a:38
+R2996:3007 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2920:2922 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R2924:2928 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R2995:2995 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R2919:2919 dsys.common.IOA <> s:37 var
+R2929:2932 dsys.common.LTL <> ::ltl_scope:'IM'_x not
+R2994:2994 dsys.common.LTL <> ::ltl_scope:'IM'_x not
+R2933:2935 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R2993:2993 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R2950:2960 dsys.common.IOA <> ExecSection rec
+R2962:2962 dsys.common.IOA <> A:36 var
+binder 2940:2946 <> section:39
+R2984:2986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2967:2973 dsys.common.IOA <> opt_act proj
+R2975:2975 dsys.common.IOA <> A:36 var
+R2977:2983 dsys.common.IOA <> section:39 var
+R2987:2990 Coq.Init.Datatypes <> Some constr
+R2992:2992 dsys.common.IOA <> a:38 var
+R3009:3011 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R3013:3017 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R3115:3115 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R3008:3008 dsys.common.IOA <> s:37 var
+R3018:3021 dsys.common.LTL <> ::ltl_scope:'IM'_x not
+R3114:3114 dsys.common.LTL <> ::ltl_scope:'IM'_x not
+R3022:3024 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R3113:3113 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R3039:3049 dsys.common.IOA <> ExecSection rec
+R3051:3051 dsys.common.IOA <> A:36 var
+binder 3029:3035 <> section:40
+R3070:3074 dsys.common.IOA <> State proj
+R3076:3076 dsys.common.IOA <> A:36 var
+binder 3063:3066 <> st'0:41
+R3079:3080 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3081:3090 dsys.common.IOA <> Transition proj
+R3109:3112 dsys.common.IOA <> st'0:41 var
+R3107:3107 dsys.common.IOA <> a:38 var
+R3093:3094 dsys.common.IOA <> st proj
+R3096:3096 dsys.common.IOA <> A:36 var
+R3098:3104 dsys.common.IOA <> section:40 var
+def 3132:3136 <> Event
+R3143:3149 dsys.common.IOA <> IOAType def
+binder 3139:3139 <> A:42
+R3160:3165 dsys.common.IOA <> Action proj
+R3167:3167 dsys.common.IOA <> A:42 var
+binder 3153:3156 <> _act:43
+R3175:3190 dsys.common.IOA <> ExecFragmentType def
+binder 3171:3171 <> s:44
+R3208:3210 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R3212:3215 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R3207:3207 dsys.common.IOA <> s:44 var
+R3216:3218 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R3285:3285 dsys.common.LTL <> ::ltl_scope:'F'_x not
+R3219:3221 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R3284:3284 dsys.common.LTL <> ::ltl_scope:'N'_x not
+R3236:3246 dsys.common.IOA <> ExecSection rec
+R3248:3248 dsys.common.IOA <> A:42 var
+binder 3226:3232 <> section:45
+R3272:3274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3262:3268 dsys.common.IOA <> opt_act proj
+R3270:3270 dsys.common.IOA <> A:42 var
+R3253:3259 dsys.common.IOA <> section:45 var
+R3275:3278 Coq.Init.Datatypes <> Some constr
+R3280:3283 dsys.common.IOA <> _act:43 var
+def 3328:3341 <> CombinedAction
+R3350:3356 dsys.common.IOA <> IOAType def
+binder 3344:3344 <> A:46
+binder 3346:3346 <> B:47
+R3377:3379 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3369:3374 dsys.common.IOA <> Action proj
+R3376:3376 dsys.common.IOA <> A:46 var
+R3380:3385 dsys.common.IOA <> Action proj
+R3387:3387 dsys.common.IOA <> B:47 var
+ind 3403:3411 <> EmptyTask
+constr 3427:3431 <> Emtpy
+R3435:3443 dsys.common.IOA <> EmptyTask:48 ind
+scheme 3403:3411 <> EmptyTask_rect
+scheme 3403:3411 <> EmptyTask_ind
+scheme 3403:3411 <> EmptyTask_rec
+scheme 3403:3411 <> EmptyTask_sind
+var 3460:3465 IOA eq_dec
+R3480:3486 dsys.common.IOA <> IOAType def
+binder 3476:3476 <> A:50
+R3502:3507 dsys.common.IOA <> Action proj
+R3509:3509 dsys.common.IOA <> A:50 var
+binder 3496:3496 <> x:51
+binder 3498:3498 <> y:52
+R3512:3512 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3518:3522 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3529:3529 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3514:3516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3513:3513 dsys.common.IOA <> x:51 var
+R3517:3517 dsys.common.IOA <> y:52 var
+R3524:3527 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3523:3523 dsys.common.IOA <> x:51 var
+R3528:3528 dsys.common.IOA <> y:52 var
+prf 3541:3568 <> existence_of_first_state_dec
+R3575:3581 dsys.common.IOA <> IOAType def
+binder 3571:3571 <> A:54
+R3601:3616 dsys.common.IOA <> ExecFragmentType def
+binder 3597:3597 <> e:55
+R3643:3646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3630:3640 dsys.common.IOA <> ExecSection rec
+R3642:3642 dsys.common.IOA <> A:54 var
+R3647:3650 Coq.Init.Datatypes <> bool ind
+binder 3626:3626 <> P:56
+R3664:3666 Coq.Init.Datatypes <> nat ind
+binder 3660:3660 <> i:57
+R3673:3673 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3714:3716 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3756:3756 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3685:3687 Coq.Init.Datatypes <> nat ind
+binder 3681:3681 <> j:58
+R3695:3698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3691:3693 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3690:3690 dsys.common.IOA <> j:58 var
+R3694:3694 dsys.common.IOA <> i:57 var
+R3706:3708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3699:3699 dsys.common.IOA <> P:56 var
+R3702:3702 dsys.common.IOA <> e:55 var
+R3704:3704 dsys.common.IOA <> j:58 var
+R3709:3713 Coq.Init.Datatypes <> false constr
+R3717:3723 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3731:3732 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3728:3730 Coq.Init.Datatypes <> nat ind
+binder 3724:3724 <> j:59
+R3738:3741 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3734:3736 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3733:3733 dsys.common.IOA <> j:59 var
+R3737:3737 dsys.common.IOA <> i:57 var
+R3749:3751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3742:3742 dsys.common.IOA <> P:56 var
+R3745:3745 dsys.common.IOA <> e:55 var
+R3747:3747 dsys.common.IOA <> j:59 var
+R3752:3755 Coq.Init.Datatypes <> true constr
+R3917:3920 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3917:3920 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+prf 4059:4095 <> existence_of_first_state_for_property
+R4102:4108 dsys.common.IOA <> IOAType def
+binder 4098:4098 <> A:60
+R4128:4143 dsys.common.IOA <> ExecFragmentType def
+binder 4124:4124 <> e:61
+R4170:4173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4157:4167 dsys.common.IOA <> ExecSection rec
+R4169:4169 dsys.common.IOA <> A:60 var
+R4174:4177 Coq.Init.Datatypes <> bool ind
+binder 4153:4153 <> P:62
+R4191:4193 Coq.Init.Datatypes <> nat ind
+binder 4187:4187 <> i:63
+R4216:4225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4209:4211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4202:4202 dsys.common.IOA <> P:62 var
+R4205:4205 dsys.common.IOA <> e:61 var
+R4207:4207 dsys.common.IOA <> i:63 var
+R4212:4215 Coq.Init.Datatypes <> true constr
+R4226:4232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4240:4241 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4237:4239 Coq.Init.Datatypes <> nat ind
+binder 4233:4233 <> i:64
+R4256:4259 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4249:4251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4242:4242 dsys.common.IOA <> P:62 var
+R4245:4245 dsys.common.IOA <> e:61 var
+R4247:4247 dsys.common.IOA <> i:64 var
+R4252:4255 Coq.Init.Datatypes <> true constr
+R4271:4273 Coq.Init.Datatypes <> nat ind
+binder 4267:4267 <> j:65
+R4281:4284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4277:4279 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4276:4276 dsys.common.IOA <> j:65 var
+R4280:4280 dsys.common.IOA <> i:64 var
+R4292:4294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4285:4285 dsys.common.IOA <> P:62 var
+R4288:4288 dsys.common.IOA <> e:61 var
+R4290:4290 dsys.common.IOA <> j:65 var
+R4295:4299 Coq.Init.Datatypes <> false constr
+R4346:4348 Coq.Init.Datatypes <> nat ind
+binder 4342:4342 <> i:66
+binder 4358:4358 <> k:67
+R4367:4370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4362:4365 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4361:4361 dsys.common.IOA <> k:67 var
+R4366:4366 dsys.common.IOA <> i:66 var
+R4385:4394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4378:4380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4376:4376 dsys.common.IOA <> k:67 var
+R4381:4384 Coq.Init.Datatypes <> true constr
+R4395:4401 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4409:4410 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4406:4408 Coq.Init.Datatypes <> nat ind
+binder 4402:4402 <> i:68
+R4425:4428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4418:4420 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4416:4416 dsys.common.IOA <> i:68 var
+R4421:4424 Coq.Init.Datatypes <> true constr
+R4440:4442 Coq.Init.Datatypes <> nat ind
+binder 4436:4436 <> j:69
+R4450:4453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4446:4448 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4445:4445 dsys.common.IOA <> j:69 var
+R4449:4449 dsys.common.IOA <> i:68 var
+R4461:4463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4459:4459 dsys.common.IOA <> j:69 var
+R4464:4468 Coq.Init.Datatypes <> false constr
+R4346:4348 Coq.Init.Datatypes <> nat ind
+binder 4342:4342 <> i:70
+binder 4358:4358 <> k:71
+R4367:4370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4362:4365 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4361:4361 dsys.common.IOA <> k:71 var
+R4366:4366 dsys.common.IOA <> i:70 var
+R4385:4394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4378:4380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4376:4376 dsys.common.IOA <> k:71 var
+R4381:4384 Coq.Init.Datatypes <> true constr
+R4395:4401 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4409:4410 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4406:4408 Coq.Init.Datatypes <> nat ind
+binder 4402:4402 <> i:72
+R4425:4428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4418:4420 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4416:4416 dsys.common.IOA <> i:72 var
+R4421:4424 Coq.Init.Datatypes <> true constr
+R4440:4442 Coq.Init.Datatypes <> nat ind
+binder 4436:4436 <> j:73
+R4450:4453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4446:4448 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4445:4445 dsys.common.IOA <> j:73 var
+R4449:4449 dsys.common.IOA <> i:72 var
+R4461:4463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4459:4459 dsys.common.IOA <> j:73 var
+R4464:4468 Coq.Init.Datatypes <> false constr
+R4544:4571 dsys.common.IOA <> existence_of_first_state_dec thm
+R4544:4571 dsys.common.IOA <> existence_of_first_state_dec thm
+def 4713:4726 <> CompositionHyp
+R4735:4741 dsys.common.IOA <> IOAType def
+binder 4729:4729 <> A:74
+binder 4731:4731 <> B:75
+R4771:4776 dsys.common.IOA <> Action proj
+R4778:4778 dsys.common.IOA <> A:74 var
+binder 4765:4767 <> act:76
+R4797:4801 dsys.common.IOA <> State proj
+R4803:4803 dsys.common.IOA <> A:74 var
+binder 4788:4789 <> st:77
+binder 4791:4793 <> st':78
+R4833:4836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4812:4821 dsys.common.IOA <> Transition proj
+R4830:4832 dsys.common.IOA <> st':78 var
+R4826:4828 dsys.common.IOA <> act:76 var
+R4823:4824 dsys.common.IOA <> st:77 var
+R4846:4849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4839:4842 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4837:4838 dsys.common.IOA <> st:77 var
+R4843:4845 dsys.common.IOA <> st':78 var
+R4874:4878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4937:4937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4865:4867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4850:4860 dsys.common.IOA <> ActionClass proj
+R4862:4864 dsys.common.IOA <> act:76 var
+R4868:4873 dsys.common.IOA <> Intern constr
+R4899:4903 dsys.common.IOA <> State proj
+R4905:4905 dsys.common.IOA <> B:75 var
+binder 4886:4889 <> st_b:79
+binder 4891:4895 <> st_b':80
+R4908:4910 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4936:4936 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4911:4920 dsys.common.IOA <> Transition proj
+R4931:4935 dsys.common.IOA <> st_b':80 var
+R4927:4929 dsys.common.IOA <> act:76 var
+R4922:4925 dsys.common.IOA <> st_b:79 var
+prf 4949:4974 <> CompositionUnusedActionHyp
+R4983:4989 dsys.common.IOA <> IOAType def
+binder 4977:4977 <> A:81
+binder 4979:4979 <> B:82
+R5011:5020 dsys.common.IOA <> IOA.ActionPool var
+binder 5005:5007 <> act:83
+R5638:5647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5629:5631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5035:5045 dsys.common.IOA <> ActionClass proj
+R5056:5058 dsys.common.IOA <> act:83 var
+R5053:5053 dsys.common.IOA <> A:81 var
+R5073:5078 dsys.common.IOA <> Intern constr
+R5089:5099 dsys.common.IOA <> ActionClass proj
+R5110:5112 dsys.common.IOA <> act:83 var
+R5107:5107 dsys.common.IOA <> B:82 var
+R5138:5143 dsys.common.IOA <> Output constr
+R5148:5153 dsys.common.IOA <> Output constr
+R5174:5178 dsys.common.IOA <> Input constr
+R5183:5187 dsys.common.IOA <> Input constr
+R5213:5218 dsys.common.IOA <> Intern constr
+R5249:5254 dsys.common.IOA <> Output constr
+R5259:5264 dsys.common.IOA <> Output constr
+R5274:5278 dsys.common.IOA <> Input constr
+R5289:5299 dsys.common.IOA <> ActionClass proj
+R5310:5312 dsys.common.IOA <> act:83 var
+R5307:5307 dsys.common.IOA <> B:82 var
+R5337:5342 dsys.common.IOA <> Output constr
+R5347:5352 dsys.common.IOA <> Output constr
+R5377:5381 dsys.common.IOA <> Input constr
+R5411:5416 dsys.common.IOA <> Unused constr
+R5427:5437 dsys.common.IOA <> ActionClass proj
+R5448:5450 dsys.common.IOA <> act:83 var
+R5445:5445 dsys.common.IOA <> B:82 var
+R5476:5481 dsys.common.IOA <> Intern constr
+R5486:5491 dsys.common.IOA <> Intern constr
+R5512:5517 dsys.common.IOA <> Output constr
+R5522:5527 dsys.common.IOA <> Output constr
+R5548:5552 dsys.common.IOA <> Input constr
+R5557:5561 dsys.common.IOA <> Input constr
+R5582:5587 dsys.common.IOA <> Unused constr
+R5592:5597 dsys.common.IOA <> Unused constr
+R5632:5637 dsys.common.IOA <> Unused constr
+R5671:5673 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5664:5668 dsys.common.IOA <> State proj
+R5670:5670 dsys.common.IOA <> A:81 var
+R5674:5678 dsys.common.IOA <> State proj
+R5680:5680 dsys.common.IOA <> B:82 var
+binder 5655:5656 <> st:84
+binder 5658:5660 <> st':85
+R5691:5703 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6748:6748 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5724:5725 dsys.common.IOA <> st:84 var
+binder 5709:5712 <> st_A:86
+binder 5715:5718 <> st_B:87
+R5763:5765 dsys.common.IOA <> st':85 var
+binder 5746:5750 <> st_A':88
+binder 5753:5757 <> st_B':89
+R5787:5797 dsys.common.IOA <> ActionClass proj
+R5808:5810 dsys.common.IOA <> act:83 var
+R5805:5805 dsys.common.IOA <> A:81 var
+R5830:5835 dsys.common.IOA <> Intern constr
+R5881:5884 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5865:5868 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5840:5849 dsys.common.IOA <> Transition proj
+R5860:5864 dsys.common.IOA <> st_A':88 var
+R5856:5858 dsys.common.IOA <> act:83 var
+R5851:5854 dsys.common.IOA <> st_A:86 var
+R5873:5875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5869:5872 dsys.common.IOA <> st_B:87 var
+R5876:5880 dsys.common.IOA <> st_B':89 var
+R5910:5913 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5885:5894 dsys.common.IOA <> Transition proj
+R5905:5909 dsys.common.IOA <> st_B':89 var
+R5901:5903 dsys.common.IOA <> act:83 var
+R5896:5899 dsys.common.IOA <> st_B:87 var
+R5918:5920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5914:5917 dsys.common.IOA <> st_A:86 var
+R5921:5925 dsys.common.IOA <> st_A':88 var
+R5940:5945 dsys.common.IOA <> Output constr
+R5971:5981 dsys.common.IOA <> ActionClass proj
+R5992:5994 dsys.common.IOA <> act:83 var
+R5989:5989 dsys.common.IOA <> B:82 var
+R6018:6022 dsys.common.IOA <> Input constr
+R6052:6055 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6027:6036 dsys.common.IOA <> Transition proj
+R6047:6051 dsys.common.IOA <> st_A':88 var
+R6043:6045 dsys.common.IOA <> act:83 var
+R6038:6041 dsys.common.IOA <> st_A:86 var
+R6056:6065 dsys.common.IOA <> Transition proj
+R6076:6080 dsys.common.IOA <> st_B':89 var
+R6072:6074 dsys.common.IOA <> act:83 var
+R6067:6070 dsys.common.IOA <> st_B:87 var
+R6145:6148 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6129:6132 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6104:6113 dsys.common.IOA <> Transition proj
+R6124:6128 dsys.common.IOA <> st_A':88 var
+R6120:6122 dsys.common.IOA <> act:83 var
+R6115:6118 dsys.common.IOA <> st_A:86 var
+R6137:6139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6133:6136 dsys.common.IOA <> st_B:87 var
+R6140:6144 dsys.common.IOA <> st_B':89 var
+R6174:6177 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6149:6158 dsys.common.IOA <> Transition proj
+R6169:6173 dsys.common.IOA <> st_B':89 var
+R6165:6167 dsys.common.IOA <> act:83 var
+R6160:6163 dsys.common.IOA <> st_B:87 var
+R6182:6184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6178:6181 dsys.common.IOA <> st_A:86 var
+R6185:6189 dsys.common.IOA <> st_A':88 var
+R6223:6227 dsys.common.IOA <> Input constr
+R6253:6263 dsys.common.IOA <> ActionClass proj
+R6274:6276 dsys.common.IOA <> act:83 var
+R6271:6271 dsys.common.IOA <> B:82 var
+R6300:6305 dsys.common.IOA <> Output constr
+R6335:6338 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6310:6319 dsys.common.IOA <> Transition proj
+R6330:6334 dsys.common.IOA <> st_A':88 var
+R6326:6328 dsys.common.IOA <> act:83 var
+R6321:6324 dsys.common.IOA <> st_A:86 var
+R6339:6348 dsys.common.IOA <> Transition proj
+R6359:6363 dsys.common.IOA <> st_B':89 var
+R6355:6357 dsys.common.IOA <> act:83 var
+R6350:6353 dsys.common.IOA <> st_B:87 var
+R6428:6431 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6412:6415 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6387:6396 dsys.common.IOA <> Transition proj
+R6407:6411 dsys.common.IOA <> st_A':88 var
+R6403:6405 dsys.common.IOA <> act:83 var
+R6398:6401 dsys.common.IOA <> st_A:86 var
+R6420:6422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6416:6419 dsys.common.IOA <> st_B:87 var
+R6423:6427 dsys.common.IOA <> st_B':89 var
+R6457:6460 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6432:6441 dsys.common.IOA <> Transition proj
+R6452:6456 dsys.common.IOA <> st_B':89 var
+R6448:6450 dsys.common.IOA <> act:83 var
+R6443:6446 dsys.common.IOA <> st_B:87 var
+R6465:6467 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6461:6464 dsys.common.IOA <> st_A:86 var
+R6468:6472 dsys.common.IOA <> st_A':88 var
+R6506:6511 dsys.common.IOA <> Unused constr
+R6522:6532 dsys.common.IOA <> ActionClass proj
+R6543:6545 dsys.common.IOA <> act:83 var
+R6540:6540 dsys.common.IOA <> B:82 var
+R6576:6581 dsys.common.IOA <> Unused constr
+R6586:6590 Coq.Init.Logic <> False ind
+R6662:6665 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6646:6649 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6621:6630 dsys.common.IOA <> Transition proj
+R6641:6645 dsys.common.IOA <> st_A':88 var
+R6637:6639 dsys.common.IOA <> act:83 var
+R6632:6635 dsys.common.IOA <> st_A:86 var
+R6654:6656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6650:6653 dsys.common.IOA <> st_B:87 var
+R6657:6661 dsys.common.IOA <> st_B':89 var
+R6691:6694 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6666:6675 dsys.common.IOA <> Transition proj
+R6686:6690 dsys.common.IOA <> st_B':89 var
+R6682:6684 dsys.common.IOA <> act:83 var
+R6677:6680 dsys.common.IOA <> st_B:87 var
+R6699:6701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6695:6698 dsys.common.IOA <> st_A:86 var
+R6702:6706 dsys.common.IOA <> st_A':88 var
+R6785:6795 dsys.common.IOA <> ActionClass proj
+R6785:6795 dsys.common.IOA <> ActionClass proj
+R6854:6864 dsys.common.IOA <> ActionClass proj
+R6854:6864 dsys.common.IOA <> ActionClass proj
+R6955:6965 dsys.common.IOA <> ActionClass proj
+R6955:6965 dsys.common.IOA <> ActionClass proj
+R7037:7047 dsys.common.IOA <> ActionClass proj
+R7037:7047 dsys.common.IOA <> ActionClass proj
+var 12393:12402 IOA SkipAction
+R12406:12415 dsys.common.IOA <> IOA.ActionPool var
+prf 12427:12446 <> IdIOAUnusedActionHyp
+R12464:12467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12454:12463 dsys.common.IOA <> IOA.ActionPool var
+R12483:12486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12474:12476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12468:12473 dsys.common.IOA <> Unused constr
+R12477:12482 dsys.common.IOA <> Unused constr
+R12491:12494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12487:12490 Coq.Init.Datatypes <> unit ind
+R12499:12502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12495:12498 Coq.Init.Datatypes <> unit ind
+R12503:12504 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12505:12509 Coq.Init.Logic <> False ind
+def 12552:12556 <> IdIOA
+R12560:12565 dsys.common.IOA <> IOADef rec
+R12574:12581 dsys.common.IOA <> mkIOADef constr
+R12742:12761 dsys.common.IOA <> IdIOAUnusedActionHyp thm
+R12672:12675 Coq.Init.Datatypes <> unit ind
+binder 12667:12668 <> st:91
+R12685:12694 dsys.common.IOA <> IOA.ActionPool var
+binder 12679:12681 <> act:92
+R12704:12707 Coq.Init.Datatypes <> unit ind
+binder 12698:12700 <> st':93
+R12722:12726 Coq.Init.Logic <> False ind
+R12638:12641 Coq.Init.Datatypes <> unit ind
+binder 12633:12634 <> st:94
+R12648:12650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12646:12647 dsys.common.IOA <> st:94 var
+R12651:12652 Coq.Init.Datatypes <> tt constr
+R12600:12609 dsys.common.IOA <> IOA.ActionPool var
+binder 12594:12596 <> act:95
+R12614:12619 dsys.common.IOA <> Unused constr
+var 12779:12792 IOA CompositionSet
+var 12812:12819 IOA NonEmpty
+R12823:12836 dsys.common.IOA <> IOA.CompositionSet var
+var 12850:12875 IOA CompositionSet_equivalence
+R12879:12886 Coq.Relations.Relation_Definitions <> relation def
+R12888:12901 dsys.common.IOA <> IOA.CompositionSet var
+var 12917:12945 IOA CompositionSet_equivalenceHyp
+R12949:12953 Coq.Relations.Relation_Definitions <> equiv def
+R12970:12995 dsys.common.IOA <> IOA.CompositionSet_equivalence var
+R12955:12968 dsys.common.IOA <> IOA.CompositionSet var
+var 13011:13028 IOA CompositionSet_dec
+R13049:13062 dsys.common.IOA <> IOA.CompositionSet var
+binder 13043:13043 <> i:100
+binder 13045:13045 <> j:101
+R13065:13065 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13096:13098 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13130:13130 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13066:13091 dsys.common.IOA <> IOA.CompositionSet_equivalence var
+R13095:13095 dsys.common.IOA <> j:101 var
+R13093:13093 dsys.common.IOA <> i:100 var
+R13099:13099 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13100:13125 dsys.common.IOA <> IOA.CompositionSet_equivalence var
+R13129:13129 dsys.common.IOA <> j:101 var
+R13127:13127 dsys.common.IOA <> i:100 var
+var 13144:13144 IOA A
+R13162:13165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13148:13161 dsys.common.IOA <> IOA.CompositionSet var
+R13166:13172 dsys.common.IOA <> IOAType def
+var 13188:13198 IOA A_is_proper
+R13219:13232 dsys.common.IOA <> IOA.CompositionSet var
+binder 13213:13213 <> i:104
+binder 13215:13215 <> j:105
+R13265:13268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13235:13260 dsys.common.IOA <> IOA.CompositionSet_equivalence var
+R13264:13264 dsys.common.IOA <> j:105 var
+R13262:13262 dsys.common.IOA <> i:104 var
+R13272:13274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13269:13269 dsys.common.IOA <> IOA.A var
+R13271:13271 dsys.common.IOA <> i:104 var
+R13275:13275 dsys.common.IOA <> IOA.A var
+R13277:13277 dsys.common.IOA <> j:105 var
+def 13294:13315 <> CompositionExtendedHyp
+R13344:13357 dsys.common.IOA <> IOA.CompositionSet var
+binder 13338:13338 <> i:107
+binder 13340:13340 <> j:108
+R13398:13408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13718:13725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13366:13367 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13368:13393 dsys.common.IOA <> IOA.CompositionSet_equivalence var
+R13397:13397 dsys.common.IOA <> j:108 var
+R13395:13395 dsys.common.IOA <> i:107 var
+R13409:13409 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13595:13609 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13717:13717 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13423:13428 dsys.common.IOA <> Action proj
+R13431:13431 dsys.common.IOA <> IOA.A var
+R13433:13433 dsys.common.IOA <> i:107 var
+binder 13417:13419 <> act:109
+R13453:13457 dsys.common.IOA <> State proj
+R13460:13460 dsys.common.IOA <> IOA.A var
+R13462:13462 dsys.common.IOA <> i:107 var
+binder 13444:13445 <> st:110
+binder 13447:13449 <> st':111
+R13498:13501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13477:13486 dsys.common.IOA <> Transition proj
+R13495:13497 dsys.common.IOA <> st':111 var
+R13491:13493 dsys.common.IOA <> act:109 var
+R13488:13489 dsys.common.IOA <> st:110 var
+R13539:13542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13530:13532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13502:13512 dsys.common.IOA <> ActionClass proj
+R13527:13529 dsys.common.IOA <> act:109 var
+R13521:13521 dsys.common.IOA <> IOA.A var
+R13523:13523 dsys.common.IOA <> i:107 var
+R13533:13538 dsys.common.IOA <> Intern constr
+R13559:13563 dsys.common.IOA <> State proj
+R13566:13566 dsys.common.IOA <> IOA.A var
+R13568:13568 dsys.common.IOA <> j:108 var
+binder 13550:13551 <> st:112
+binder 13553:13555 <> st':113
+R13572:13573 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13574:13583 dsys.common.IOA <> Transition proj
+R13592:13594 dsys.common.IOA <> st':113 var
+R13588:13590 dsys.common.IOA <> act:109 var
+R13585:13586 dsys.common.IOA <> st:112 var
+R13623:13628 dsys.common.IOA <> Action proj
+R13631:13631 dsys.common.IOA <> IOA.A var
+R13633:13633 dsys.common.IOA <> i:107 var
+binder 13617:13619 <> act:114
+R13674:13677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13665:13667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13637:13647 dsys.common.IOA <> ActionClass proj
+R13662:13664 dsys.common.IOA <> act:114 var
+R13656:13656 dsys.common.IOA <> IOA.A var
+R13658:13658 dsys.common.IOA <> i:107 var
+R13668:13673 dsys.common.IOA <> Output constr
+R13678:13679 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13708:13710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13680:13690 dsys.common.IOA <> ActionClass proj
+R13705:13707 dsys.common.IOA <> act:114 var
+R13699:13699 dsys.common.IOA <> IOA.A var
+R13701:13701 dsys.common.IOA <> j:108 var
+R13711:13716 dsys.common.IOA <> Output constr
+def 13742:13751 <> OutputSpec
+R13768:13771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13758:13767 dsys.common.IOA <> IOA.ActionPool var
+R13772:13775 Coq.Init.Datatypes <> bool ind
+binder 13754:13754 <> f:115
+R13805:13814 dsys.common.IOA <> IOA.ActionPool var
+binder 13799:13801 <> act:116
+R13829:13833 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13822:13824 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13817:13817 dsys.common.IOA <> f:115 var
+R13819:13821 dsys.common.IOA <> act:116 var
+R13825:13828 Coq.Init.Datatypes <> true constr
+R13834:13840 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13859:13860 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13845:13858 dsys.common.IOA <> IOA.CompositionSet var
+binder 13841:13841 <> i:117
+R13889:13892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13861:13871 dsys.common.IOA <> ActionClass proj
+R13886:13888 dsys.common.IOA <> act:116 var
+R13880:13880 dsys.common.IOA <> IOA.A var
+R13882:13882 dsys.common.IOA <> i:117 var
+R13893:13898 dsys.common.IOA <> Output constr
+def 13915:13923 <> InputSpec
+R13940:13943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13930:13939 dsys.common.IOA <> IOA.ActionPool var
+R13944:13947 Coq.Init.Datatypes <> bool ind
+binder 13926:13926 <> f:118
+R13977:13986 dsys.common.IOA <> IOA.ActionPool var
+binder 13971:13973 <> act:119
+R14001:14005 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13994:13996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13989:13989 dsys.common.IOA <> f:118 var
+R13991:13993 dsys.common.IOA <> act:119 var
+R13997:14000 Coq.Init.Datatypes <> true constr
+R14006:14012 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14031:14032 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14017:14030 dsys.common.IOA <> IOA.CompositionSet var
+binder 14013:14013 <> i:120
+R14061:14063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14033:14043 dsys.common.IOA <> ActionClass proj
+R14058:14060 dsys.common.IOA <> act:119 var
+R14052:14052 dsys.common.IOA <> IOA.A var
+R14054:14054 dsys.common.IOA <> i:120 var
+R14064:14068 dsys.common.IOA <> Input constr
+def 14085:14094 <> UnusedSpec
+R14111:14114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14101:14110 dsys.common.IOA <> IOA.ActionPool var
+R14115:14118 Coq.Init.Datatypes <> bool ind
+binder 14097:14097 <> f:121
+R14148:14157 dsys.common.IOA <> IOA.ActionPool var
+binder 14142:14144 <> act:122
+R14172:14176 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14165:14167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14160:14160 dsys.common.IOA <> f:121 var
+R14162:14164 dsys.common.IOA <> act:122 var
+R14168:14171 Coq.Init.Datatypes <> true constr
+R14188:14201 dsys.common.IOA <> IOA.CompositionSet var
+binder 14184:14184 <> i:123
+R14232:14234 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14204:14214 dsys.common.IOA <> ActionClass proj
+R14229:14231 dsys.common.IOA <> act:122 var
+R14223:14223 dsys.common.IOA <> IOA.A var
+R14225:14225 dsys.common.IOA <> i:123 var
+R14235:14240 dsys.common.IOA <> Unused constr
+prf 14252:14285 <> CompositionExtendedUnusedActionHyp
+R14296:14317 dsys.common.IOA <> CompositionExtendedHyp def
+binder 14292:14292 <> H:124
+R14345:14348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14335:14344 dsys.common.IOA <> IOA.ActionPool var
+R14349:14352 Coq.Init.Datatypes <> bool ind
+binder 14325:14331 <> FOutput:125
+R14374:14383 dsys.common.IOA <> OutputSpec def
+R14385:14391 dsys.common.IOA <> FOutput:125 var
+binder 14360:14370 <> FOutputSpec:126
+R14418:14421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14408:14417 dsys.common.IOA <> IOA.ActionPool var
+R14422:14425 Coq.Init.Datatypes <> bool ind
+binder 14399:14404 <> FInput:127
+R14446:14454 dsys.common.IOA <> InputSpec def
+R14456:14461 dsys.common.IOA <> FInput:127 var
+binder 14433:14442 <> FInputSpec:128
+R14489:14492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14479:14488 dsys.common.IOA <> IOA.ActionPool var
+R14493:14496 Coq.Init.Datatypes <> bool ind
+binder 14469:14475 <> FUnused:129
+R14518:14527 dsys.common.IOA <> UnusedSpec def
+R14529:14535 dsys.common.IOA <> FUnused:129 var
+binder 14504:14514 <> FUnusedSpec:130
+R14561:14570 dsys.common.IOA <> IOA.ActionPool var
+binder 14555:14557 <> act:131
+R14690:14699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14579:14579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14680:14683 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14583:14589 dsys.common.IOA <> FOutput:125 var
+R14591:14593 dsys.common.IOA <> act:131 var
+R14615:14620 dsys.common.IOA <> FInput:127 var
+R14622:14624 dsys.common.IOA <> act:131 var
+R14645:14651 dsys.common.IOA <> FUnused:129 var
+R14653:14655 dsys.common.IOA <> act:131 var
+R14674:14679 dsys.common.IOA <> Intern constr
+R14662:14667 dsys.common.IOA <> Unused constr
+R14631:14635 dsys.common.IOA <> Input constr
+R14600:14605 dsys.common.IOA <> Output constr
+R14684:14689 dsys.common.IOA <> Unused constr
+R14727:14740 dsys.common.IOA <> IOA.CompositionSet var
+binder 14723:14723 <> i:132
+R14743:14747 dsys.common.IOA <> State proj
+R14750:14750 dsys.common.IOA <> IOA.A var
+R14752:14752 dsys.common.IOA <> i:132 var
+binder 14707:14708 <> st:133
+binder 14710:14712 <> st':134
+R14764:14776 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15053:15053 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14788:14801 dsys.common.IOA <> IOA.CompositionSet var
+binder 14784:14784 <> i:135
+R14818:14818 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14884:14904 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14819:14825 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14844:14845 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14830:14843 dsys.common.IOA <> IOA.CompositionSet var
+binder 14826:14826 <> j:136
+R14874:14877 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14846:14856 dsys.common.IOA <> ActionClass proj
+R14871:14873 dsys.common.IOA <> act:131 var
+R14865:14865 dsys.common.IOA <> IOA.A var
+R14867:14867 dsys.common.IOA <> j:136 var
+R14878:14883 dsys.common.IOA <> Unused constr
+R14905:14905 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14977:14998 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15052:15052 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14944:14947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14934:14937 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14906:14916 dsys.common.IOA <> ActionClass proj
+R14931:14933 dsys.common.IOA <> act:131 var
+R14925:14925 dsys.common.IOA <> IOA.A var
+R14927:14927 dsys.common.IOA <> i:135 var
+R14938:14943 dsys.common.IOA <> Unused constr
+R14948:14957 dsys.common.IOA <> Transition proj
+R14971:14973 dsys.common.IOA <> st':134 var
+R14975:14975 dsys.common.IOA <> i:135 var
+R14966:14968 dsys.common.IOA <> act:131 var
+R14960:14961 dsys.common.IOA <> st:133 var
+R14963:14963 dsys.common.IOA <> i:135 var
+R15036:15039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15027:15029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14999:15009 dsys.common.IOA <> ActionClass proj
+R15024:15026 dsys.common.IOA <> act:131 var
+R15018:15018 dsys.common.IOA <> IOA.A var
+R15020:15020 dsys.common.IOA <> i:135 var
+R15030:15035 dsys.common.IOA <> Unused constr
+R15044:15046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15040:15041 dsys.common.IOA <> st:133 var
+R15043:15043 dsys.common.IOA <> i:135 var
+R15047:15049 dsys.common.IOA <> st':134 var
+R15051:15051 dsys.common.IOA <> i:135 var
+R15330:15337 dsys.common.IOA <> IOA.NonEmpty var
+R15330:15337 dsys.common.IOA <> IOA.NonEmpty var
+R15526:15528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15498:15508 dsys.common.IOA <> ActionClass proj
+R15517:15517 dsys.common.IOA <> IOA.A var
+R15529:15534 dsys.common.IOA <> Unused constr
+R15526:15528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15498:15508 dsys.common.IOA <> ActionClass proj
+R15517:15517 dsys.common.IOA <> IOA.A var
+R15529:15534 dsys.common.IOA <> Unused constr
+def 15594:15612 <> CompositionExtended
+R15623:15644 dsys.common.IOA <> CompositionExtendedHyp def
+binder 15619:15619 <> H:137
+R15672:15675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15662:15671 dsys.common.IOA <> IOA.ActionPool var
+R15676:15679 Coq.Init.Datatypes <> bool ind
+binder 15652:15658 <> FOutput:138
+R15701:15710 dsys.common.IOA <> OutputSpec def
+R15712:15718 dsys.common.IOA <> FOutput:138 var
+binder 15687:15697 <> FOutputSpec:139
+R15745:15748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15735:15744 dsys.common.IOA <> IOA.ActionPool var
+R15749:15752 Coq.Init.Datatypes <> bool ind
+binder 15726:15731 <> FInput:140
+R15773:15781 dsys.common.IOA <> InputSpec def
+R15783:15788 dsys.common.IOA <> FInput:140 var
+binder 15760:15769 <> FInputSpec:141
+R15816:15819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15806:15815 dsys.common.IOA <> IOA.ActionPool var
+R15820:15823 Coq.Init.Datatypes <> bool ind
+binder 15796:15802 <> FUnused:142
+R15845:15854 dsys.common.IOA <> UnusedSpec def
+R15856:15862 dsys.common.IOA <> FUnused:142 var
+binder 15831:15841 <> FUnusedSpec:143
+R15871:15876 dsys.common.IOA <> IOADef rec
+R15885:15892 dsys.common.IOA <> mkIOADef constr
+R16666:16699 dsys.common.IOA <> CompositionExtendedUnusedActionHyp thm
+R16726:16736 dsys.common.IOA <> FUnusedSpec:143 var
+R16715:16724 dsys.common.IOA <> FInputSpec:141 var
+R16703:16713 dsys.common.IOA <> FOutputSpec:139 var
+R16701:16701 dsys.common.IOA <> H:137 var
+R16254:16267 dsys.common.IOA <> IOA.CompositionSet var
+binder 16250:16250 <> i:144
+R16270:16274 dsys.common.IOA <> State proj
+R16277:16277 dsys.common.IOA <> IOA.A var
+R16279:16279 dsys.common.IOA <> i:144 var
+binder 16238:16239 <> st:145
+R16290:16299 dsys.common.IOA <> IOA.ActionPool var
+binder 16284:16286 <> act:146
+R16320:16333 dsys.common.IOA <> IOA.CompositionSet var
+binder 16316:16316 <> i:147
+R16336:16340 dsys.common.IOA <> State proj
+R16343:16343 dsys.common.IOA <> IOA.A var
+R16345:16345 dsys.common.IOA <> i:147 var
+binder 16303:16305 <> st':148
+R16372:16385 dsys.common.IOA <> IOA.CompositionSet var
+binder 16368:16368 <> i:149
+R16399:16399 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16465:16499 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16649:16656 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16400:16406 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16425:16426 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16411:16424 dsys.common.IOA <> IOA.CompositionSet var
+binder 16407:16407 <> j:150
+R16455:16458 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R16427:16437 dsys.common.IOA <> ActionClass proj
+R16452:16454 dsys.common.IOA <> act:146 var
+R16446:16446 dsys.common.IOA <> IOA.A var
+R16448:16448 dsys.common.IOA <> j:150 var
+R16459:16464 dsys.common.IOA <> Unused constr
+R16500:16500 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16572:16594 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16648:16648 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16539:16542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16529:16532 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R16501:16511 dsys.common.IOA <> ActionClass proj
+R16526:16528 dsys.common.IOA <> act:146 var
+R16520:16520 dsys.common.IOA <> IOA.A var
+R16522:16522 dsys.common.IOA <> i:149 var
+R16533:16538 dsys.common.IOA <> Unused constr
+R16543:16552 dsys.common.IOA <> Transition proj
+R16566:16568 dsys.common.IOA <> st':148 var
+R16570:16570 dsys.common.IOA <> i:149 var
+R16561:16563 dsys.common.IOA <> act:146 var
+R16555:16556 dsys.common.IOA <> st:145 var
+R16558:16558 dsys.common.IOA <> i:149 var
+R16632:16635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16623:16625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16595:16605 dsys.common.IOA <> ActionClass proj
+R16620:16622 dsys.common.IOA <> act:146 var
+R16614:16614 dsys.common.IOA <> IOA.A var
+R16616:16616 dsys.common.IOA <> i:149 var
+R16626:16631 dsys.common.IOA <> Unused constr
+R16640:16642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16636:16637 dsys.common.IOA <> st:145 var
+R16639:16639 dsys.common.IOA <> i:149 var
+R16643:16645 dsys.common.IOA <> st':148 var
+R16647:16647 dsys.common.IOA <> i:149 var
+R16139:16152 dsys.common.IOA <> IOA.CompositionSet var
+binder 16135:16135 <> i:151
+R16155:16159 dsys.common.IOA <> State proj
+R16162:16162 dsys.common.IOA <> IOA.A var
+R16164:16164 dsys.common.IOA <> i:151 var
+binder 16123:16124 <> st:152
+R16190:16203 dsys.common.IOA <> IOA.CompositionSet var
+binder 16186:16186 <> i:153
+R16206:16210 dsys.common.IOA <> Start proj
+R16219:16220 dsys.common.IOA <> st:152 var
+R16222:16222 dsys.common.IOA <> i:153 var
+R16213:16213 dsys.common.IOA <> IOA.A var
+R16215:16215 dsys.common.IOA <> i:153 var
+R15911:15920 dsys.common.IOA <> IOA.ActionPool var
+binder 15905:15907 <> act:154
+R15940:15940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15952:15953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15964:15964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15941:15947 dsys.common.IOA <> FOutput:138 var
+R15949:15951 dsys.common.IOA <> act:154 var
+R15954:15959 dsys.common.IOA <> FInput:140 var
+R15961:15963 dsys.common.IOA <> act:154 var
+R15982:15982 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15987:15988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15990:15990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15983:15986 Coq.Init.Datatypes <> true constr
+R15995:16000 dsys.common.IOA <> Output constr
+R16013:16013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16019:16020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16025:16025 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16014:16018 Coq.Init.Datatypes <> false constr
+R16021:16024 Coq.Init.Datatypes <> true constr
+R16030:16034 dsys.common.IOA <> Input constr
+R16055:16061 dsys.common.IOA <> FUnused:142 var
+R16063:16065 dsys.common.IOA <> act:154 var
+R16084:16089 dsys.common.IOA <> Intern constr
+R16072:16077 dsys.common.IOA <> Unused constr
+def 16757:16768 <> is_byzentine
+R16782:16788 dsys.common.IOA <> IOAType def
+binder 16771:16778 <> Original:155
+R16804:16810 dsys.common.IOA <> IOAType def
+binder 16792:16800 <> Byzentine:156
+R16840:16849 dsys.common.IOA <> IOA.ActionPool var
+binder 16834:16836 <> act:157
+R16883:16885 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16852:16862 dsys.common.IOA <> ActionClass proj
+R16880:16882 dsys.common.IOA <> act:157 var
+R16870:16877 dsys.common.IOA <> Original:155 var
+R16886:16896 dsys.common.IOA <> ActionClass proj
+R16915:16917 dsys.common.IOA <> act:157 var
+R16904:16912 dsys.common.IOA <> Byzentine:156 var
+def 19342:19362 <> project_execution_aux
+R19373:19394 dsys.common.IOA <> CompositionExtendedHyp def
+binder 19369:19369 <> H:158
+R19422:19425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19412:19421 dsys.common.IOA <> IOA.ActionPool var
+R19426:19429 Coq.Init.Datatypes <> bool ind
+binder 19402:19408 <> FOutput:159
+R19451:19460 dsys.common.IOA <> OutputSpec def
+R19462:19468 dsys.common.IOA <> FOutput:159 var
+binder 19437:19447 <> FOutputSpec:160
+R19495:19498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19485:19494 dsys.common.IOA <> IOA.ActionPool var
+R19499:19502 Coq.Init.Datatypes <> bool ind
+binder 19476:19481 <> FInput:161
+R19523:19531 dsys.common.IOA <> InputSpec def
+R19533:19538 dsys.common.IOA <> FInput:161 var
+binder 19510:19519 <> FInputSpec:162
+R19566:19569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19556:19565 dsys.common.IOA <> IOA.ActionPool var
+R19570:19573 Coq.Init.Datatypes <> bool ind
+binder 19546:19552 <> FUnused:163
+R19595:19604 dsys.common.IOA <> UnusedSpec def
+R19606:19612 dsys.common.IOA <> FUnused:163 var
+binder 19581:19591 <> FUnusedSpec:164
+R19627:19640 dsys.common.IOA <> IOA.CompositionSet var
+binder 19620:19623 <> comp:165
+R19652:19667 dsys.common.IOA <> ExecFragmentType def
+R19675:19693 dsys.common.IOA <> CompositionExtended def
+R19720:19730 dsys.common.IOA <> FUnusedSpec:164 var
+R19709:19718 dsys.common.IOA <> FInputSpec:162 var
+R19697:19707 dsys.common.IOA <> FOutputSpec:160 var
+R19695:19695 dsys.common.IOA <> H:158 var
+binder 19648:19648 <> e:166
+R19743:19745 Coq.Init.Datatypes <> nat ind
+binder 19739:19739 <> i:167
+R19754:19761 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R19763:19765 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R19786:19794 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R20386:20391 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R19766:19776 dsys.common.IOA <> ExecSection rec
+R19779:19779 dsys.common.IOA <> IOA.A var
+R19781:19784 dsys.common.IOA <> comp:165 var
+binder 19762:19762 <> s:168
+R19883:19894 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19867:19869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19795:19796 dsys.common.IOA <> st proj
+R19799:19817 dsys.common.IOA <> CompositionExtended def
+R19844:19854 dsys.common.IOA <> FUnusedSpec:164 var
+R19833:19842 dsys.common.IOA <> FInputSpec:162 var
+R19821:19831 dsys.common.IOA <> FOutputSpec:160 var
+R19819:19819 dsys.common.IOA <> H:158 var
+R19858:19858 dsys.common.IOA <> e:166 var
+R19860:19860 dsys.common.IOA <> i:167 var
+R19863:19866 dsys.common.IOA <> comp:165 var
+R19870:19871 dsys.common.IOA <> st proj
+R19874:19874 dsys.common.IOA <> IOA.A var
+R19876:19879 dsys.common.IOA <> comp:165 var
+R19882:19882 dsys.common.IOA <> s:168 var
+R19985:19996 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19968:19970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19895:19897 dsys.common.IOA <> st' proj
+R19900:19918 dsys.common.IOA <> CompositionExtended def
+R19945:19955 dsys.common.IOA <> FUnusedSpec:164 var
+R19934:19943 dsys.common.IOA <> FInputSpec:162 var
+R19922:19932 dsys.common.IOA <> FOutputSpec:160 var
+R19920:19920 dsys.common.IOA <> H:158 var
+R19959:19959 dsys.common.IOA <> e:166 var
+R19961:19961 dsys.common.IOA <> i:167 var
+R19964:19967 dsys.common.IOA <> comp:165 var
+R19971:19973 dsys.common.IOA <> st' proj
+R19976:19976 dsys.common.IOA <> IOA.A var
+R19978:19981 dsys.common.IOA <> comp:165 var
+R19984:19984 dsys.common.IOA <> s:168 var
+R20003:20009 dsys.common.IOA <> opt_act proj
+R20012:20030 dsys.common.IOA <> CompositionExtended def
+R20057:20067 dsys.common.IOA <> FUnusedSpec:164 var
+R20046:20055 dsys.common.IOA <> FInputSpec:162 var
+R20034:20044 dsys.common.IOA <> FOutputSpec:160 var
+R20032:20032 dsys.common.IOA <> H:158 var
+R20071:20071 dsys.common.IOA <> e:166 var
+R20073:20073 dsys.common.IOA <> i:167 var
+R20099:20102 Coq.Init.Datatypes <> None constr
+R20125:20127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20107:20113 dsys.common.IOA <> opt_act proj
+R20116:20116 dsys.common.IOA <> IOA.A var
+R20118:20121 dsys.common.IOA <> comp:165 var
+R20124:20124 dsys.common.IOA <> s:168 var
+R20128:20131 Coq.Init.Datatypes <> None constr
+R20151:20154 Coq.Init.Datatypes <> Some constr
+R20189:20199 dsys.common.IOA <> ActionClass proj
+R20207:20207 dsys.common.IOA <> IOA.A var
+R20209:20212 dsys.common.IOA <> comp:165 var
+R20248:20253 dsys.common.IOA <> Unused constr
+R20276:20278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20258:20264 dsys.common.IOA <> opt_act proj
+R20267:20267 dsys.common.IOA <> IOA.A var
+R20269:20272 dsys.common.IOA <> comp:165 var
+R20275:20275 dsys.common.IOA <> s:168 var
+R20279:20282 Coq.Init.Datatypes <> None constr
+R20331:20333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20313:20319 dsys.common.IOA <> opt_act proj
+R20322:20322 dsys.common.IOA <> IOA.A var
+R20324:20327 dsys.common.IOA <> comp:165 var
+R20330:20330 dsys.common.IOA <> s:168 var
+R20334:20337 Coq.Init.Datatypes <> Some constr
+R20407:20413 dsys.common.IOA <> opt_act proj
+R20416:20434 dsys.common.IOA <> CompositionExtended def
+R20407:20413 dsys.common.IOA <> opt_act proj
+R20416:20434 dsys.common.IOA <> CompositionExtended def
+R20504:20514 dsys.common.IOA <> ActionClass proj
+R20522:20522 dsys.common.IOA <> IOA.A var
+R20650:20653 Coq.Init.Datatypes <> Some constr
+R20662:20671 dsys.common.IOA <> Transition proj
+R20712:20715 Coq.Init.Datatypes <> None constr
+R20728:20730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20887:20899 dsys.common.IOA <> mkExecSection constr
+R20910:20910 dsys.common.IOA <> IOA.A var
+R20868:20872 Coq.Init.Specif <> exist constr
+R20504:20514 dsys.common.IOA <> ActionClass proj
+R20522:20522 dsys.common.IOA <> IOA.A var
+R20650:20653 Coq.Init.Datatypes <> Some constr
+R20662:20671 dsys.common.IOA <> Transition proj
+R20712:20715 Coq.Init.Datatypes <> None constr
+R20728:20730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20887:20899 dsys.common.IOA <> mkExecSection constr
+R20910:20910 dsys.common.IOA <> IOA.A var
+R20868:20872 Coq.Init.Specif <> exist constr
+R20650:20653 Coq.Init.Datatypes <> Some constr
+R20662:20671 dsys.common.IOA <> Transition proj
+R20712:20715 Coq.Init.Datatypes <> None constr
+R20728:20730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20887:20899 dsys.common.IOA <> mkExecSection constr
+R20910:20910 dsys.common.IOA <> IOA.A var
+R20868:20872 Coq.Init.Specif <> exist constr
+R20650:20653 Coq.Init.Datatypes <> Some constr
+R20662:20671 dsys.common.IOA <> Transition proj
+R20712:20715 Coq.Init.Datatypes <> None constr
+R20728:20730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20887:20899 dsys.common.IOA <> mkExecSection constr
+R20910:20910 dsys.common.IOA <> IOA.A var
+R20868:20872 Coq.Init.Specif <> exist constr
+R20650:20653 Coq.Init.Datatypes <> Some constr
+R20662:20671 dsys.common.IOA <> Transition proj
+R20712:20715 Coq.Init.Datatypes <> None constr
+R20728:20730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20887:20899 dsys.common.IOA <> mkExecSection constr
+R20910:20910 dsys.common.IOA <> IOA.A var
+R21078:21081 Coq.Init.Datatypes <> None constr
+R21100:21103 Coq.Init.Datatypes <> Some constr
+R21112:21121 dsys.common.IOA <> Transition proj
+R21162:21165 Coq.Init.Datatypes <> None constr
+R21178:21180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21078:21081 Coq.Init.Datatypes <> None constr
+R21100:21103 Coq.Init.Datatypes <> Some constr
+R21112:21121 dsys.common.IOA <> Transition proj
+R21162:21165 Coq.Init.Datatypes <> None constr
+R21178:21180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21284:21296 dsys.common.IOA <> mkExecSection constr
+R21307:21307 dsys.common.IOA <> IOA.A var
+R21342:21345 Coq.Init.Datatypes <> None constr
+R21265:21269 Coq.Init.Specif <> exist constr
+R21284:21296 dsys.common.IOA <> mkExecSection constr
+R21307:21307 dsys.common.IOA <> IOA.A var
+R21342:21345 Coq.Init.Datatypes <> None constr
+R21265:21269 Coq.Init.Specif <> exist constr
+R21493:21496 Coq.Init.Datatypes <> None constr
+R21515:21518 Coq.Init.Datatypes <> Some constr
+R21527:21536 dsys.common.IOA <> Transition proj
+R21577:21580 Coq.Init.Datatypes <> None constr
+R21593:21595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21493:21496 Coq.Init.Datatypes <> None constr
+R21515:21518 Coq.Init.Datatypes <> Some constr
+R21527:21536 dsys.common.IOA <> Transition proj
+R21577:21580 Coq.Init.Datatypes <> None constr
+R21593:21595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21687:21699 dsys.common.IOA <> mkExecSection constr
+R21710:21710 dsys.common.IOA <> IOA.A var
+R21745:21748 Coq.Init.Datatypes <> None constr
+R21668:21672 Coq.Init.Specif <> exist constr
+R21687:21699 dsys.common.IOA <> mkExecSection constr
+R21710:21710 dsys.common.IOA <> IOA.A var
+R21745:21748 Coq.Init.Datatypes <> None constr
+R21668:21672 Coq.Init.Specif <> exist constr
+def 21835:21851 <> project_execution
+R21862:21883 dsys.common.IOA <> CompositionExtendedHyp def
+binder 21858:21858 <> H:174
+R21911:21914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21901:21910 dsys.common.IOA <> IOA.ActionPool var
+R21915:21918 Coq.Init.Datatypes <> bool ind
+binder 21891:21897 <> FOutput:175
+R21940:21949 dsys.common.IOA <> OutputSpec def
+R21951:21957 dsys.common.IOA <> FOutput:175 var
+binder 21926:21936 <> FOutputSpec:176
+R21984:21987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21974:21983 dsys.common.IOA <> IOA.ActionPool var
+R21988:21991 Coq.Init.Datatypes <> bool ind
+binder 21965:21970 <> FInput:177
+R22012:22020 dsys.common.IOA <> InputSpec def
+R22022:22027 dsys.common.IOA <> FInput:177 var
+binder 21999:22008 <> FInputSpec:178
+R22055:22058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22045:22054 dsys.common.IOA <> IOA.ActionPool var
+R22059:22062 Coq.Init.Datatypes <> bool ind
+binder 22035:22041 <> FUnused:179
+R22084:22093 dsys.common.IOA <> UnusedSpec def
+R22095:22101 dsys.common.IOA <> FUnused:179 var
+binder 22070:22080 <> FUnusedSpec:180
+R22116:22129 dsys.common.IOA <> IOA.CompositionSet var
+binder 22109:22112 <> comp:181
+R22141:22156 dsys.common.IOA <> ExecFragmentType def
+R22164:22182 dsys.common.IOA <> CompositionExtended def
+R22209:22219 dsys.common.IOA <> FUnusedSpec:180 var
+R22198:22207 dsys.common.IOA <> FInputSpec:178 var
+R22186:22196 dsys.common.IOA <> FOutputSpec:176 var
+R22184:22184 dsys.common.IOA <> H:174 var
+binder 22137:22137 <> e:182
+R22232:22234 Coq.Init.Datatypes <> nat ind
+binder 22228:22228 <> i:183
+R22243:22253 dsys.common.IOA <> ExecSection rec
+R22256:22256 dsys.common.IOA <> IOA.A var
+R22258:22261 dsys.common.IOA <> comp:181 var
+R22276:22284 Coq.Init.Specif <> proj1_sig def
+R22287:22307 dsys.common.IOA <> project_execution_aux def
+R22276:22284 Coq.Init.Specif <> proj1_sig def
+R22287:22307 dsys.common.IOA <> project_execution_aux def
+prf 22343:22381 <> project_execution_has_same_start_states
+R22392:22413 dsys.common.IOA <> CompositionExtendedHyp def
+binder 22388:22388 <> H:184
+R22441:22444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22431:22440 dsys.common.IOA <> IOA.ActionPool var
+R22445:22448 Coq.Init.Datatypes <> bool ind
+binder 22421:22427 <> FOutput:185
+R22470:22479 dsys.common.IOA <> OutputSpec def
+R22481:22487 dsys.common.IOA <> FOutput:185 var
+binder 22456:22466 <> FOutputSpec:186
+R22514:22517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22504:22513 dsys.common.IOA <> IOA.ActionPool var
+R22518:22521 Coq.Init.Datatypes <> bool ind
+binder 22495:22500 <> FInput:187
+R22542:22550 dsys.common.IOA <> InputSpec def
+R22552:22557 dsys.common.IOA <> FInput:187 var
+binder 22529:22538 <> FInputSpec:188
+R22585:22588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22575:22584 dsys.common.IOA <> IOA.ActionPool var
+R22589:22592 Coq.Init.Datatypes <> bool ind
+binder 22565:22571 <> FUnused:189
+R22614:22623 dsys.common.IOA <> UnusedSpec def
+R22625:22631 dsys.common.IOA <> FUnused:189 var
+binder 22600:22610 <> FUnusedSpec:190
+R22654:22667 dsys.common.IOA <> IOA.CompositionSet var
+binder 22647:22650 <> comp:191
+R22685:22700 dsys.common.IOA <> ExecFragmentType def
+binder 22681:22681 <> e:192
+R22720:22722 Coq.Init.Datatypes <> nat ind
+binder 22716:22716 <> i:193
+R22805:22819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22733:22734 dsys.common.IOA <> st proj
+R22737:22755 dsys.common.IOA <> CompositionExtended def
+R22782:22792 dsys.common.IOA <> FUnusedSpec:190 var
+R22771:22780 dsys.common.IOA <> FInputSpec:188 var
+R22759:22769 dsys.common.IOA <> FOutputSpec:186 var
+R22757:22757 dsys.common.IOA <> H:184 var
+R22796:22796 dsys.common.IOA <> e:192 var
+R22798:22798 dsys.common.IOA <> i:193 var
+R22801:22804 dsys.common.IOA <> comp:191 var
+R22820:22821 dsys.common.IOA <> st proj
+R22824:22824 dsys.common.IOA <> IOA.A var
+R22826:22829 dsys.common.IOA <> comp:191 var
+R22833:22849 dsys.common.IOA <> project_execution def
+R22858:22858 dsys.common.IOA <> i:193 var
+R22856:22856 dsys.common.IOA <> e:192 var
+R22851:22854 dsys.common.IOA <> comp:191 var
+R22895:22903 Coq.Init.Specif <> proj2_sig def
+R22906:22926 dsys.common.IOA <> project_execution_aux def
+R22895:22903 Coq.Init.Specif <> proj2_sig def
+R22906:22926 dsys.common.IOA <> project_execution_aux def
+prf 22958:22994 <> project_execution_has_same_end_states
+R23005:23026 dsys.common.IOA <> CompositionExtendedHyp def
+binder 23001:23001 <> H:194
+R23054:23057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23044:23053 dsys.common.IOA <> IOA.ActionPool var
+R23058:23061 Coq.Init.Datatypes <> bool ind
+binder 23034:23040 <> FOutput:195
+R23083:23092 dsys.common.IOA <> OutputSpec def
+R23094:23100 dsys.common.IOA <> FOutput:195 var
+binder 23069:23079 <> FOutputSpec:196
+R23127:23130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23117:23126 dsys.common.IOA <> IOA.ActionPool var
+R23131:23134 Coq.Init.Datatypes <> bool ind
+binder 23108:23113 <> FInput:197
+R23155:23163 dsys.common.IOA <> InputSpec def
+R23165:23170 dsys.common.IOA <> FInput:197 var
+binder 23142:23151 <> FInputSpec:198
+R23198:23201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23188:23197 dsys.common.IOA <> IOA.ActionPool var
+R23202:23205 Coq.Init.Datatypes <> bool ind
+binder 23178:23184 <> FUnused:199
+R23227:23236 dsys.common.IOA <> UnusedSpec def
+R23238:23244 dsys.common.IOA <> FUnused:199 var
+binder 23213:23223 <> FUnusedSpec:200
+R23267:23280 dsys.common.IOA <> IOA.CompositionSet var
+binder 23260:23263 <> comp:201
+R23298:23313 dsys.common.IOA <> ExecFragmentType def
+binder 23294:23294 <> e:202
+R23333:23335 Coq.Init.Datatypes <> nat ind
+binder 23329:23329 <> i:203
+R23419:23433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23346:23348 dsys.common.IOA <> st' proj
+R23351:23369 dsys.common.IOA <> CompositionExtended def
+R23396:23406 dsys.common.IOA <> FUnusedSpec:200 var
+R23385:23394 dsys.common.IOA <> FInputSpec:198 var
+R23373:23383 dsys.common.IOA <> FOutputSpec:196 var
+R23371:23371 dsys.common.IOA <> H:194 var
+R23410:23410 dsys.common.IOA <> e:202 var
+R23412:23412 dsys.common.IOA <> i:203 var
+R23415:23418 dsys.common.IOA <> comp:201 var
+R23434:23436 dsys.common.IOA <> st' proj
+R23439:23439 dsys.common.IOA <> IOA.A var
+R23441:23444 dsys.common.IOA <> comp:201 var
+R23448:23464 dsys.common.IOA <> project_execution def
+R23473:23473 dsys.common.IOA <> i:203 var
+R23471:23471 dsys.common.IOA <> e:202 var
+R23466:23469 dsys.common.IOA <> comp:201 var
+R23510:23518 Coq.Init.Specif <> proj2_sig def
+R23521:23541 dsys.common.IOA <> project_execution_aux def
+R23510:23518 Coq.Init.Specif <> proj2_sig def
+R23521:23541 dsys.common.IOA <> project_execution_aux def
+prf 23573:23606 <> project_execution_has_same_actions
+R23617:23638 dsys.common.IOA <> CompositionExtendedHyp def
+binder 23613:23613 <> H:204
+R23666:23669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23656:23665 dsys.common.IOA <> IOA.ActionPool var
+R23670:23673 Coq.Init.Datatypes <> bool ind
+binder 23646:23652 <> FOutput:205
+R23695:23704 dsys.common.IOA <> OutputSpec def
+R23706:23712 dsys.common.IOA <> FOutput:205 var
+binder 23681:23691 <> FOutputSpec:206
+R23739:23742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23729:23738 dsys.common.IOA <> IOA.ActionPool var
+R23743:23746 Coq.Init.Datatypes <> bool ind
+binder 23720:23725 <> FInput:207
+R23767:23775 dsys.common.IOA <> InputSpec def
+R23777:23782 dsys.common.IOA <> FInput:207 var
+binder 23754:23763 <> FInputSpec:208
+R23810:23813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23800:23809 dsys.common.IOA <> IOA.ActionPool var
+R23814:23817 Coq.Init.Datatypes <> bool ind
+binder 23790:23796 <> FUnused:209
+R23839:23848 dsys.common.IOA <> UnusedSpec def
+R23850:23856 dsys.common.IOA <> FUnused:209 var
+binder 23825:23835 <> FUnusedSpec:210
+R23879:23892 dsys.common.IOA <> IOA.CompositionSet var
+binder 23872:23875 <> comp:211
+R23910:23925 dsys.common.IOA <> ExecFragmentType def
+binder 23906:23906 <> e:212
+R23945:23947 Coq.Init.Datatypes <> nat ind
+binder 23941:23941 <> i:213
+R23964:23970 dsys.common.IOA <> opt_act proj
+R23973:23991 dsys.common.IOA <> CompositionExtended def
+R24018:24028 dsys.common.IOA <> FUnusedSpec:210 var
+R24007:24016 dsys.common.IOA <> FInputSpec:208 var
+R23995:24005 dsys.common.IOA <> FOutputSpec:206 var
+R23993:23993 dsys.common.IOA <> H:204 var
+R24032:24032 dsys.common.IOA <> e:212 var
+R24034:24034 dsys.common.IOA <> i:213 var
+R24060:24063 Coq.Init.Datatypes <> None constr
+R24113:24115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24068:24074 dsys.common.IOA <> opt_act proj
+R24077:24077 dsys.common.IOA <> IOA.A var
+R24079:24082 dsys.common.IOA <> comp:211 var
+R24086:24102 dsys.common.IOA <> project_execution def
+R24111:24111 dsys.common.IOA <> i:213 var
+R24109:24109 dsys.common.IOA <> e:212 var
+R24104:24107 dsys.common.IOA <> comp:211 var
+R24116:24119 Coq.Init.Datatypes <> None constr
+R24139:24142 Coq.Init.Datatypes <> Some constr
+R24177:24187 dsys.common.IOA <> ActionClass proj
+R24195:24195 dsys.common.IOA <> IOA.A var
+R24197:24200 dsys.common.IOA <> comp:211 var
+R24236:24241 dsys.common.IOA <> Unused constr
+R24291:24293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24246:24252 dsys.common.IOA <> opt_act proj
+R24255:24255 dsys.common.IOA <> IOA.A var
+R24257:24260 dsys.common.IOA <> comp:211 var
+R24264:24280 dsys.common.IOA <> project_execution def
+R24289:24289 dsys.common.IOA <> i:213 var
+R24287:24287 dsys.common.IOA <> e:212 var
+R24282:24285 dsys.common.IOA <> comp:211 var
+R24294:24297 Coq.Init.Datatypes <> None constr
+R24373:24375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24328:24334 dsys.common.IOA <> opt_act proj
+R24337:24337 dsys.common.IOA <> IOA.A var
+R24339:24342 dsys.common.IOA <> comp:211 var
+R24346:24362 dsys.common.IOA <> project_execution def
+R24371:24371 dsys.common.IOA <> i:213 var
+R24369:24369 dsys.common.IOA <> e:212 var
+R24364:24367 dsys.common.IOA <> comp:211 var
+R24376:24379 Coq.Init.Datatypes <> Some constr
+R24463:24471 Coq.Init.Specif <> proj2_sig def
+R24474:24494 dsys.common.IOA <> project_execution_aux def
+R24463:24471 Coq.Init.Specif <> proj2_sig def
+R24474:24494 dsys.common.IOA <> project_execution_aux def
+prf 24526:24548 <> project_execution_exist
+R24559:24580 dsys.common.IOA <> CompositionExtendedHyp def
+binder 24555:24555 <> H:214
+R24608:24611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24598:24607 dsys.common.IOA <> IOA.ActionPool var
+R24612:24615 Coq.Init.Datatypes <> bool ind
+binder 24588:24594 <> FOutput:215
+R24637:24646 dsys.common.IOA <> OutputSpec def
+R24648:24654 dsys.common.IOA <> FOutput:215 var
+binder 24623:24633 <> FOutputSpec:216
+R24681:24684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24671:24680 dsys.common.IOA <> IOA.ActionPool var
+R24685:24688 Coq.Init.Datatypes <> bool ind
+binder 24662:24667 <> FInput:217
+R24709:24717 dsys.common.IOA <> InputSpec def
+R24719:24724 dsys.common.IOA <> FInput:217 var
+binder 24696:24705 <> FInputSpec:218
+R24752:24755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24742:24751 dsys.common.IOA <> IOA.ActionPool var
+R24756:24759 Coq.Init.Datatypes <> bool ind
+binder 24732:24738 <> FUnused:219
+R24781:24790 dsys.common.IOA <> UnusedSpec def
+R24792:24798 dsys.common.IOA <> FUnused:219 var
+binder 24767:24777 <> FUnusedSpec:220
+R24823:24836 dsys.common.IOA <> IOA.CompositionSet var
+binder 24816:24819 <> comp:221
+R24856:24871 dsys.common.IOA <> ExecFragmentType def
+binder 24852:24852 <> e:222
+R24882:24888 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24910:24921 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24894:24909 dsys.common.IOA <> ExecFragmentType def
+binder 24889:24890 <> e':223
+R24933:24935 Coq.Init.Datatypes <> nat ind
+binder 24929:24929 <> i:224
+R25043:25060 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25022:25024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24950:24951 dsys.common.IOA <> st proj
+R24954:24972 dsys.common.IOA <> CompositionExtended def
+R24999:25009 dsys.common.IOA <> FUnusedSpec:220 var
+R24988:24997 dsys.common.IOA <> FInputSpec:218 var
+R24976:24986 dsys.common.IOA <> FOutputSpec:216 var
+R24974:24974 dsys.common.IOA <> H:214 var
+R25013:25013 dsys.common.IOA <> e:222 var
+R25015:25015 dsys.common.IOA <> i:224 var
+R25018:25021 dsys.common.IOA <> comp:221 var
+R25025:25026 dsys.common.IOA <> st proj
+R25029:25029 dsys.common.IOA <> IOA.A var
+R25031:25034 dsys.common.IOA <> comp:221 var
+R25038:25039 dsys.common.IOA <> e':223 var
+R25041:25041 dsys.common.IOA <> i:224 var
+R25156:25167 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25134:25136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25061:25063 dsys.common.IOA <> st' proj
+R25066:25084 dsys.common.IOA <> CompositionExtended def
+R25111:25121 dsys.common.IOA <> FUnusedSpec:220 var
+R25100:25109 dsys.common.IOA <> FInputSpec:218 var
+R25088:25098 dsys.common.IOA <> FOutputSpec:216 var
+R25086:25086 dsys.common.IOA <> H:214 var
+R25125:25125 dsys.common.IOA <> e:222 var
+R25127:25127 dsys.common.IOA <> i:224 var
+R25130:25133 dsys.common.IOA <> comp:221 var
+R25137:25139 dsys.common.IOA <> st' proj
+R25142:25142 dsys.common.IOA <> IOA.A var
+R25144:25147 dsys.common.IOA <> comp:221 var
+R25151:25152 dsys.common.IOA <> e':223 var
+R25154:25154 dsys.common.IOA <> i:224 var
+R25174:25180 dsys.common.IOA <> opt_act proj
+R25183:25201 dsys.common.IOA <> CompositionExtended def
+R25228:25238 dsys.common.IOA <> FUnusedSpec:220 var
+R25217:25226 dsys.common.IOA <> FInputSpec:218 var
+R25205:25215 dsys.common.IOA <> FOutputSpec:216 var
+R25203:25203 dsys.common.IOA <> H:214 var
+R25242:25242 dsys.common.IOA <> e:222 var
+R25244:25244 dsys.common.IOA <> i:224 var
+R25270:25273 Coq.Init.Datatypes <> None constr
+R25301:25303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25278:25284 dsys.common.IOA <> opt_act proj
+R25287:25287 dsys.common.IOA <> IOA.A var
+R25289:25292 dsys.common.IOA <> comp:221 var
+R25296:25297 dsys.common.IOA <> e':223 var
+R25299:25299 dsys.common.IOA <> i:224 var
+R25304:25307 Coq.Init.Datatypes <> None constr
+R25327:25330 Coq.Init.Datatypes <> Some constr
+R25365:25375 dsys.common.IOA <> ActionClass proj
+R25383:25383 dsys.common.IOA <> IOA.A var
+R25385:25388 dsys.common.IOA <> comp:221 var
+R25424:25429 dsys.common.IOA <> Unused constr
+R25457:25459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25434:25440 dsys.common.IOA <> opt_act proj
+R25443:25443 dsys.common.IOA <> IOA.A var
+R25445:25448 dsys.common.IOA <> comp:221 var
+R25452:25453 dsys.common.IOA <> e':223 var
+R25455:25455 dsys.common.IOA <> i:224 var
+R25460:25463 Coq.Init.Datatypes <> None constr
+R25517:25519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25494:25500 dsys.common.IOA <> opt_act proj
+R25503:25503 dsys.common.IOA <> IOA.A var
+R25505:25508 dsys.common.IOA <> comp:221 var
+R25512:25513 dsys.common.IOA <> e':223 var
+R25515:25515 dsys.common.IOA <> i:224 var
+R25520:25523 Coq.Init.Datatypes <> Some constr
+R25607:25623 dsys.common.IOA <> project_execution def
+R25607:25623 dsys.common.IOA <> project_execution def
+R25653:25661 Coq.Init.Specif <> proj2_sig def
+R25664:25684 dsys.common.IOA <> project_execution_aux def
+R25653:25661 Coq.Init.Specif <> proj2_sig def
+R25664:25684 dsys.common.IOA <> project_execution_aux def
+prf 25716:25748 <> project_execution_exist_with_exec
+R25759:25780 dsys.common.IOA <> CompositionExtendedHyp def
+binder 25755:25755 <> H:225
+R25808:25811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25798:25807 dsys.common.IOA <> IOA.ActionPool var
+R25812:25815 Coq.Init.Datatypes <> bool ind
+binder 25788:25794 <> FOutput:226
+R25837:25846 dsys.common.IOA <> OutputSpec def
+R25848:25854 dsys.common.IOA <> FOutput:226 var
+binder 25823:25833 <> FOutputSpec:227
+R25881:25884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25871:25880 dsys.common.IOA <> IOA.ActionPool var
+R25885:25888 Coq.Init.Datatypes <> bool ind
+binder 25862:25867 <> FInput:228
+R25909:25917 dsys.common.IOA <> InputSpec def
+R25919:25924 dsys.common.IOA <> FInput:228 var
+binder 25896:25905 <> FInputSpec:229
+R25952:25955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25942:25951 dsys.common.IOA <> IOA.ActionPool var
+R25956:25959 Coq.Init.Datatypes <> bool ind
+binder 25932:25938 <> FUnused:230
+R25981:25990 dsys.common.IOA <> UnusedSpec def
+R25992:25998 dsys.common.IOA <> FUnused:230 var
+binder 25967:25977 <> FUnusedSpec:231
+R26023:26036 dsys.common.IOA <> IOA.CompositionSet var
+binder 26016:26019 <> comp:232
+R26056:26071 dsys.common.IOA <> ExecFragmentType def
+binder 26052:26052 <> e:233
+R26088:26099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26082:26085 dsys.common.IOA <> Exec def
+R26087:26087 dsys.common.IOA <> e:233 var
+R26100:26106 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26128:26139 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26112:26127 dsys.common.IOA <> ExecFragmentType def
+binder 26107:26108 <> e':234
+R26147:26162 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26140:26143 dsys.common.IOA <> Exec def
+R26145:26146 dsys.common.IOA <> e':234 var
+R26174:26176 Coq.Init.Datatypes <> nat ind
+binder 26170:26170 <> i:235
+R26284:26301 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26263:26265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26191:26192 dsys.common.IOA <> st proj
+R26195:26213 dsys.common.IOA <> CompositionExtended def
+R26240:26250 dsys.common.IOA <> FUnusedSpec:231 var
+R26229:26238 dsys.common.IOA <> FInputSpec:229 var
+R26217:26227 dsys.common.IOA <> FOutputSpec:227 var
+R26215:26215 dsys.common.IOA <> H:225 var
+R26254:26254 dsys.common.IOA <> e:233 var
+R26256:26256 dsys.common.IOA <> i:235 var
+R26259:26262 dsys.common.IOA <> comp:232 var
+R26266:26267 dsys.common.IOA <> st proj
+R26270:26270 dsys.common.IOA <> IOA.A var
+R26272:26275 dsys.common.IOA <> comp:232 var
+R26279:26280 dsys.common.IOA <> e':234 var
+R26282:26282 dsys.common.IOA <> i:235 var
+R26397:26408 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26375:26377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26302:26304 dsys.common.IOA <> st' proj
+R26307:26325 dsys.common.IOA <> CompositionExtended def
+R26352:26362 dsys.common.IOA <> FUnusedSpec:231 var
+R26341:26350 dsys.common.IOA <> FInputSpec:229 var
+R26329:26339 dsys.common.IOA <> FOutputSpec:227 var
+R26327:26327 dsys.common.IOA <> H:225 var
+R26366:26366 dsys.common.IOA <> e:233 var
+R26368:26368 dsys.common.IOA <> i:235 var
+R26371:26374 dsys.common.IOA <> comp:232 var
+R26378:26380 dsys.common.IOA <> st' proj
+R26383:26383 dsys.common.IOA <> IOA.A var
+R26385:26388 dsys.common.IOA <> comp:232 var
+R26392:26393 dsys.common.IOA <> e':234 var
+R26395:26395 dsys.common.IOA <> i:235 var
+R26415:26421 dsys.common.IOA <> opt_act proj
+R26424:26442 dsys.common.IOA <> CompositionExtended def
+R26469:26479 dsys.common.IOA <> FUnusedSpec:231 var
+R26458:26467 dsys.common.IOA <> FInputSpec:229 var
+R26446:26456 dsys.common.IOA <> FOutputSpec:227 var
+R26444:26444 dsys.common.IOA <> H:225 var
+R26483:26483 dsys.common.IOA <> e:233 var
+R26485:26485 dsys.common.IOA <> i:235 var
+R26511:26514 Coq.Init.Datatypes <> None constr
+R26542:26544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26519:26525 dsys.common.IOA <> opt_act proj
+R26528:26528 dsys.common.IOA <> IOA.A var
+R26530:26533 dsys.common.IOA <> comp:232 var
+R26537:26538 dsys.common.IOA <> e':234 var
+R26540:26540 dsys.common.IOA <> i:235 var
+R26545:26548 Coq.Init.Datatypes <> None constr
+R26568:26571 Coq.Init.Datatypes <> Some constr
+R26606:26616 dsys.common.IOA <> ActionClass proj
+R26624:26624 dsys.common.IOA <> IOA.A var
+R26626:26629 dsys.common.IOA <> comp:232 var
+R26665:26670 dsys.common.IOA <> Unused constr
+R26698:26700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26675:26681 dsys.common.IOA <> opt_act proj
+R26684:26684 dsys.common.IOA <> IOA.A var
+R26686:26689 dsys.common.IOA <> comp:232 var
+R26693:26694 dsys.common.IOA <> e':234 var
+R26696:26696 dsys.common.IOA <> i:235 var
+R26701:26704 Coq.Init.Datatypes <> None constr
+R26758:26760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26735:26741 dsys.common.IOA <> opt_act proj
+R26744:26744 dsys.common.IOA <> IOA.A var
+R26746:26749 dsys.common.IOA <> comp:232 var
+R26753:26754 dsys.common.IOA <> e':234 var
+R26756:26756 dsys.common.IOA <> i:235 var
+R26761:26764 Coq.Init.Datatypes <> Some constr
+R26848:26854 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26876:26887 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26860:26875 dsys.common.IOA <> ExecFragmentType def
+binder 26855:26856 <> e':236
+R26899:26901 Coq.Init.Datatypes <> nat ind
+binder 26895:26895 <> i:237
+R27009:27026 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26988:26990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26916:26917 dsys.common.IOA <> st proj
+R26920:26938 dsys.common.IOA <> CompositionExtended def
+R26981:26981 dsys.common.IOA <> i:237 var
+R26991:26992 dsys.common.IOA <> st proj
+R26995:26995 dsys.common.IOA <> IOA.A var
+R27004:27005 dsys.common.IOA <> e':236 var
+R27007:27007 dsys.common.IOA <> i:237 var
+R27122:27133 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27100:27102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27027:27029 dsys.common.IOA <> st' proj
+R27032:27050 dsys.common.IOA <> CompositionExtended def
+R27093:27093 dsys.common.IOA <> i:237 var
+R27103:27105 dsys.common.IOA <> st' proj
+R27108:27108 dsys.common.IOA <> IOA.A var
+R27117:27118 dsys.common.IOA <> e':236 var
+R27120:27120 dsys.common.IOA <> i:237 var
+R27140:27146 dsys.common.IOA <> opt_act proj
+R27149:27167 dsys.common.IOA <> CompositionExtended def
+R27210:27210 dsys.common.IOA <> i:237 var
+R27236:27239 Coq.Init.Datatypes <> None constr
+R27267:27269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27244:27250 dsys.common.IOA <> opt_act proj
+R27253:27253 dsys.common.IOA <> IOA.A var
+R27262:27263 dsys.common.IOA <> e':236 var
+R27265:27265 dsys.common.IOA <> i:237 var
+R27270:27273 Coq.Init.Datatypes <> None constr
+R27293:27296 Coq.Init.Datatypes <> Some constr
+R27331:27341 dsys.common.IOA <> ActionClass proj
+R27349:27349 dsys.common.IOA <> IOA.A var
+R27390:27395 dsys.common.IOA <> Unused constr
+R27423:27425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27400:27406 dsys.common.IOA <> opt_act proj
+R27409:27409 dsys.common.IOA <> IOA.A var
+R27418:27419 dsys.common.IOA <> e':236 var
+R27421:27421 dsys.common.IOA <> i:237 var
+R27426:27429 Coq.Init.Datatypes <> None constr
+R27483:27485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27460:27466 dsys.common.IOA <> opt_act proj
+R27469:27469 dsys.common.IOA <> IOA.A var
+R27478:27479 dsys.common.IOA <> e':236 var
+R27481:27481 dsys.common.IOA <> i:237 var
+R27486:27489 Coq.Init.Datatypes <> Some constr
+R26848:26854 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26876:26887 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26860:26875 dsys.common.IOA <> ExecFragmentType def
+binder 26855:26856 <> e':238
+R26899:26901 Coq.Init.Datatypes <> nat ind
+binder 26895:26895 <> i:239
+R27009:27026 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26988:26990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26916:26917 dsys.common.IOA <> st proj
+R26920:26938 dsys.common.IOA <> CompositionExtended def
+R26981:26981 dsys.common.IOA <> i:239 var
+R26991:26992 dsys.common.IOA <> st proj
+R26995:26995 dsys.common.IOA <> IOA.A var
+R27004:27005 dsys.common.IOA <> e':238 var
+R27007:27007 dsys.common.IOA <> i:239 var
+R27122:27133 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27100:27102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27027:27029 dsys.common.IOA <> st' proj
+R27032:27050 dsys.common.IOA <> CompositionExtended def
+R27093:27093 dsys.common.IOA <> i:239 var
+R27103:27105 dsys.common.IOA <> st' proj
+R27108:27108 dsys.common.IOA <> IOA.A var
+R27117:27118 dsys.common.IOA <> e':238 var
+R27120:27120 dsys.common.IOA <> i:239 var
+R27140:27146 dsys.common.IOA <> opt_act proj
+R27149:27167 dsys.common.IOA <> CompositionExtended def
+R27210:27210 dsys.common.IOA <> i:239 var
+R27236:27239 Coq.Init.Datatypes <> None constr
+R27267:27269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27244:27250 dsys.common.IOA <> opt_act proj
+R27253:27253 dsys.common.IOA <> IOA.A var
+R27262:27263 dsys.common.IOA <> e':238 var
+R27265:27265 dsys.common.IOA <> i:239 var
+R27270:27273 Coq.Init.Datatypes <> None constr
+R27293:27296 Coq.Init.Datatypes <> Some constr
+R27331:27341 dsys.common.IOA <> ActionClass proj
+R27349:27349 dsys.common.IOA <> IOA.A var
+R27390:27395 dsys.common.IOA <> Unused constr
+R27423:27425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27400:27406 dsys.common.IOA <> opt_act proj
+R27409:27409 dsys.common.IOA <> IOA.A var
+R27418:27419 dsys.common.IOA <> e':238 var
+R27421:27421 dsys.common.IOA <> i:239 var
+R27426:27429 Coq.Init.Datatypes <> None constr
+R27483:27485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27460:27466 dsys.common.IOA <> opt_act proj
+R27469:27469 dsys.common.IOA <> IOA.A var
+R27478:27479 dsys.common.IOA <> e':238 var
+R27481:27481 dsys.common.IOA <> i:239 var
+R27486:27489 Coq.Init.Datatypes <> Some constr
+R27548:27570 dsys.common.IOA <> project_execution_exist thm
+R27548:27570 dsys.common.IOA <> project_execution_exist thm
+R27629:27632 dsys.common.IOA <> Exec def
+R27635:27639 dsys.common.IOA <> Start proj
+R27642:27653 dsys.common.IOA <> ExecFragment def
+R27827:27829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27751:27752 dsys.common.IOA <> st proj
+R27755:27773 dsys.common.IOA <> CompositionExtended def
+R27818:27818 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27830:27831 dsys.common.IOA <> st proj
+R27834:27834 dsys.common.IOA <> IOA.A var
+R27847:27847 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27827:27829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27751:27752 dsys.common.IOA <> st proj
+R27755:27773 dsys.common.IOA <> CompositionExtended def
+R27818:27818 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27830:27831 dsys.common.IOA <> st proj
+R27834:27834 dsys.common.IOA <> IOA.A var
+R27847:27847 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27906:27911 Coq.Init.Logic <> eq_sym thm
+R27906:27911 Coq.Init.Logic <> eq_sym thm
+R28008:28010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27936:27937 dsys.common.IOA <> st proj
+R27940:27958 dsys.common.IOA <> CompositionExtended def
+R28011:28012 dsys.common.IOA <> st proj
+R28015:28015 dsys.common.IOA <> IOA.A var
+R28008:28010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27936:27937 dsys.common.IOA <> st proj
+R27940:27958 dsys.common.IOA <> CompositionExtended def
+R28011:28012 dsys.common.IOA <> st proj
+R28015:28015 dsys.common.IOA <> IOA.A var
+R28070:28088 dsys.common.IOA <> CompositionExtended def
+R28141:28145 dsys.common.IOA <> Start proj
+R28165:28183 dsys.common.IOA <> CompositionExtended def
+prf 28210:28233 <> extend_safety_properties
+R28244:28265 dsys.common.IOA <> CompositionExtendedHyp def
+binder 28240:28240 <> H:240
+R28293:28296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28283:28292 dsys.common.IOA <> IOA.ActionPool var
+R28297:28300 Coq.Init.Datatypes <> bool ind
+binder 28273:28279 <> FOutput:241
+R28322:28331 dsys.common.IOA <> OutputSpec def
+R28333:28339 dsys.common.IOA <> FOutput:241 var
+binder 28308:28318 <> FOutputSpec:242
+R28366:28369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28356:28365 dsys.common.IOA <> IOA.ActionPool var
+R28370:28373 Coq.Init.Datatypes <> bool ind
+binder 28347:28352 <> FInput:243
+R28394:28402 dsys.common.IOA <> InputSpec def
+R28404:28409 dsys.common.IOA <> FInput:243 var
+binder 28381:28390 <> FInputSpec:244
+R28437:28440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28427:28436 dsys.common.IOA <> IOA.ActionPool var
+R28441:28444 Coq.Init.Datatypes <> bool ind
+binder 28417:28423 <> FUnused:245
+R28466:28475 dsys.common.IOA <> UnusedSpec def
+R28477:28483 dsys.common.IOA <> FUnused:245 var
+binder 28452:28462 <> FUnusedSpec:246
+R28506:28519 dsys.common.IOA <> IOA.CompositionSet var
+binder 28499:28502 <> comp:247
+R28551:28554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28537:28541 dsys.common.IOA <> State proj
+R28544:28544 dsys.common.IOA <> IOA.A var
+R28546:28549 dsys.common.IOA <> comp:247 var
+binder 28533:28533 <> Q:248
+R28565:28565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28654:28662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28577:28592 dsys.common.IOA <> ExecFragmentType def
+binder 28573:28573 <> e:249
+R28607:28616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28601:28604 dsys.common.IOA <> Exec def
+R28606:28606 dsys.common.IOA <> e:249 var
+R28628:28630 Coq.Init.Datatypes <> nat ind
+binder 28624:28624 <> i:250
+R28633:28633 dsys.common.IOA <> Q:248 var
+R28636:28637 dsys.common.IOA <> st proj
+R28640:28640 dsys.common.IOA <> IOA.A var
+R28642:28645 dsys.common.IOA <> comp:247 var
+R28649:28649 dsys.common.IOA <> e:249 var
+R28651:28651 dsys.common.IOA <> i:250 var
+R28674:28689 dsys.common.IOA <> ExecFragmentType def
+binder 28670:28670 <> e:251
+R28704:28713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28698:28701 dsys.common.IOA <> Exec def
+R28703:28703 dsys.common.IOA <> e:251 var
+R28725:28727 Coq.Init.Datatypes <> nat ind
+binder 28721:28721 <> i:252
+R28738:28738 dsys.common.IOA <> Q:248 var
+R28741:28742 dsys.common.IOA <> st proj
+R28745:28763 dsys.common.IOA <> CompositionExtended def
+R28790:28800 dsys.common.IOA <> FUnusedSpec:246 var
+R28779:28788 dsys.common.IOA <> FInputSpec:244 var
+R28767:28777 dsys.common.IOA <> FOutputSpec:242 var
+R28765:28765 dsys.common.IOA <> H:240 var
+R28804:28804 dsys.common.IOA <> e:251 var
+R28806:28806 dsys.common.IOA <> i:252 var
+R28809:28812 dsys.common.IOA <> comp:247 var
+R28849:28855 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28877:28888 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28861:28876 dsys.common.IOA <> ExecFragmentType def
+binder 28856:28857 <> e':253
+R28896:28911 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28889:28892 dsys.common.IOA <> Exec def
+R28894:28895 dsys.common.IOA <> e':253 var
+R28923:28925 Coq.Init.Datatypes <> nat ind
+binder 28919:28919 <> i:254
+R29033:29050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29012:29014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28940:28941 dsys.common.IOA <> st proj
+R28944:28962 dsys.common.IOA <> CompositionExtended def
+R29005:29005 dsys.common.IOA <> i:254 var
+R29015:29016 dsys.common.IOA <> st proj
+R29019:29019 dsys.common.IOA <> IOA.A var
+R29028:29029 dsys.common.IOA <> e':253 var
+R29031:29031 dsys.common.IOA <> i:254 var
+R29146:29157 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29124:29126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29051:29053 dsys.common.IOA <> st' proj
+R29056:29074 dsys.common.IOA <> CompositionExtended def
+R29117:29117 dsys.common.IOA <> i:254 var
+R29127:29129 dsys.common.IOA <> st' proj
+R29132:29132 dsys.common.IOA <> IOA.A var
+R29141:29142 dsys.common.IOA <> e':253 var
+R29144:29144 dsys.common.IOA <> i:254 var
+R29164:29170 dsys.common.IOA <> opt_act proj
+R29173:29191 dsys.common.IOA <> CompositionExtended def
+R29234:29234 dsys.common.IOA <> i:254 var
+R29260:29263 Coq.Init.Datatypes <> None constr
+R29291:29293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29268:29274 dsys.common.IOA <> opt_act proj
+R29277:29277 dsys.common.IOA <> IOA.A var
+R29286:29287 dsys.common.IOA <> e':253 var
+R29289:29289 dsys.common.IOA <> i:254 var
+R29294:29297 Coq.Init.Datatypes <> None constr
+R29317:29320 Coq.Init.Datatypes <> Some constr
+R29355:29365 dsys.common.IOA <> ActionClass proj
+R29373:29373 dsys.common.IOA <> IOA.A var
+R29414:29419 dsys.common.IOA <> Unused constr
+R29447:29449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29424:29430 dsys.common.IOA <> opt_act proj
+R29433:29433 dsys.common.IOA <> IOA.A var
+R29442:29443 dsys.common.IOA <> e':253 var
+R29445:29445 dsys.common.IOA <> i:254 var
+R29450:29453 Coq.Init.Datatypes <> None constr
+R29507:29509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29484:29490 dsys.common.IOA <> opt_act proj
+R29493:29493 dsys.common.IOA <> IOA.A var
+R29502:29503 dsys.common.IOA <> e':253 var
+R29505:29505 dsys.common.IOA <> i:254 var
+R29510:29513 Coq.Init.Datatypes <> Some constr
+R28849:28855 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28877:28888 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28861:28876 dsys.common.IOA <> ExecFragmentType def
+binder 28856:28857 <> e':255
+R28896:28911 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28889:28892 dsys.common.IOA <> Exec def
+R28894:28895 dsys.common.IOA <> e':255 var
+R28923:28925 Coq.Init.Datatypes <> nat ind
+binder 28919:28919 <> i:256
+R29033:29050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29012:29014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28940:28941 dsys.common.IOA <> st proj
+R28944:28962 dsys.common.IOA <> CompositionExtended def
+R29005:29005 dsys.common.IOA <> i:256 var
+R29015:29016 dsys.common.IOA <> st proj
+R29019:29019 dsys.common.IOA <> IOA.A var
+R29028:29029 dsys.common.IOA <> e':255 var
+R29031:29031 dsys.common.IOA <> i:256 var
+R29146:29157 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29124:29126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29051:29053 dsys.common.IOA <> st' proj
+R29056:29074 dsys.common.IOA <> CompositionExtended def
+R29117:29117 dsys.common.IOA <> i:256 var
+R29127:29129 dsys.common.IOA <> st' proj
+R29132:29132 dsys.common.IOA <> IOA.A var
+R29141:29142 dsys.common.IOA <> e':255 var
+R29144:29144 dsys.common.IOA <> i:256 var
+R29164:29170 dsys.common.IOA <> opt_act proj
+R29173:29191 dsys.common.IOA <> CompositionExtended def
+R29234:29234 dsys.common.IOA <> i:256 var
+R29260:29263 Coq.Init.Datatypes <> None constr
+R29291:29293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29268:29274 dsys.common.IOA <> opt_act proj
+R29277:29277 dsys.common.IOA <> IOA.A var
+R29286:29287 dsys.common.IOA <> e':255 var
+R29289:29289 dsys.common.IOA <> i:256 var
+R29294:29297 Coq.Init.Datatypes <> None constr
+R29317:29320 Coq.Init.Datatypes <> Some constr
+R29355:29365 dsys.common.IOA <> ActionClass proj
+R29373:29373 dsys.common.IOA <> IOA.A var
+R29414:29419 dsys.common.IOA <> Unused constr
+R29447:29449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29424:29430 dsys.common.IOA <> opt_act proj
+R29433:29433 dsys.common.IOA <> IOA.A var
+R29442:29443 dsys.common.IOA <> e':255 var
+R29445:29445 dsys.common.IOA <> i:256 var
+R29450:29453 Coq.Init.Datatypes <> None constr
+R29507:29509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29484:29490 dsys.common.IOA <> opt_act proj
+R29493:29493 dsys.common.IOA <> IOA.A var
+R29502:29503 dsys.common.IOA <> e':255 var
+R29505:29505 dsys.common.IOA <> i:256 var
+R29510:29513 Coq.Init.Datatypes <> Some constr
+R29571:29603 dsys.common.IOA <> project_execution_exist_with_exec thm
+R29571:29603 dsys.common.IOA <> project_execution_exist_with_exec thm
+def 29736:29755 <> past_property_act_st
+R29768:29774 dsys.common.IOA <> IOAType def
+binder 29762:29764 <> ioa:257
+R29796:29799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29786:29795 dsys.common.IOA <> IOA.ActionPool var
+binder 29782:29782 <> Q:258
+R29824:29827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29815:29819 dsys.common.IOA <> State proj
+R29821:29823 dsys.common.IOA <> ioa:257 var
+binder 29811:29811 <> P:259
+binder 29850:29850 <> e:260
+R29867:29878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29861:29864 dsys.common.IOA <> Exec def
+R29866:29866 dsys.common.IOA <> e:260 var
+R29890:29892 Coq.Init.Datatypes <> nat ind
+binder 29886:29886 <> i:261
+R29908:29917 dsys.common.IOA <> IOA.ActionPool var
+binder 29902:29904 <> act:262
+R29958:29971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29947:29949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29930:29936 dsys.common.IOA <> opt_act proj
+R29938:29940 dsys.common.IOA <> ioa:257 var
+R29943:29943 dsys.common.IOA <> e:260 var
+R29945:29945 dsys.common.IOA <> i:261 var
+R29950:29953 Coq.Init.Datatypes <> Some constr
+R29955:29957 dsys.common.IOA <> act:262 var
+R29977:29990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29972:29972 dsys.common.IOA <> Q:258 var
+R29974:29976 dsys.common.IOA <> act:262 var
+R29991:29997 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30005:30006 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30002:30004 Coq.Init.Datatypes <> nat ind
+binder 29998:29998 <> j:263
+R30012:30015 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30008:30010 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30007:30007 dsys.common.IOA <> j:263 var
+R30011:30011 dsys.common.IOA <> i:261 var
+R30016:30016 dsys.common.IOA <> P:259 var
+R30019:30020 dsys.common.IOA <> st proj
+R30022:30024 dsys.common.IOA <> ioa:257 var
+R30027:30027 dsys.common.IOA <> e:260 var
+R30029:30029 dsys.common.IOA <> j:263 var
+prf 30045:30073 <> extend_past_properties_act_st
+R30084:30105 dsys.common.IOA <> CompositionExtendedHyp def
+binder 30080:30080 <> H:264
+R30133:30136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30123:30132 dsys.common.IOA <> IOA.ActionPool var
+R30137:30140 Coq.Init.Datatypes <> bool ind
+binder 30113:30119 <> FOutput:265
+R30162:30171 dsys.common.IOA <> OutputSpec def
+R30173:30179 dsys.common.IOA <> FOutput:265 var
+binder 30148:30158 <> FOutputSpec:266
+R30206:30209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30196:30205 dsys.common.IOA <> IOA.ActionPool var
+R30210:30213 Coq.Init.Datatypes <> bool ind
+binder 30187:30192 <> FInput:267
+R30234:30242 dsys.common.IOA <> InputSpec def
+R30244:30249 dsys.common.IOA <> FInput:267 var
+binder 30221:30230 <> FInputSpec:268
+R30277:30280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30267:30276 dsys.common.IOA <> IOA.ActionPool var
+R30281:30284 Coq.Init.Datatypes <> bool ind
+binder 30257:30263 <> FUnused:269
+R30306:30315 dsys.common.IOA <> UnusedSpec def
+R30317:30323 dsys.common.IOA <> FUnused:269 var
+binder 30292:30302 <> FUnusedSpec:270
+R30346:30359 dsys.common.IOA <> IOA.CompositionSet var
+binder 30339:30342 <> comp:271
+R30387:30390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30377:30386 dsys.common.IOA <> IOA.ActionPool var
+binder 30373:30373 <> Q:272
+R30426:30429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30412:30416 dsys.common.IOA <> State proj
+R30419:30419 dsys.common.IOA <> IOA.A var
+R30421:30424 dsys.common.IOA <> comp:271 var
+binder 30408:30408 <> P:273
+R30440:30440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30501:30509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 30448:30450 <> act:274
+R30458:30461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30453:30453 dsys.common.IOA <> Q:272 var
+R30455:30457 dsys.common.IOA <> act:274 var
+R30491:30494 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30462:30472 dsys.common.IOA <> ActionClass proj
+R30488:30490 dsys.common.IOA <> act:274 var
+R30480:30480 dsys.common.IOA <> IOA.A var
+R30482:30485 dsys.common.IOA <> comp:271 var
+R30495:30500 dsys.common.IOA <> Unused constr
+R30510:30510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30544:30552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30511:30530 dsys.common.IOA <> past_property_act_st def
+R30543:30543 dsys.common.IOA <> P:273 var
+R30541:30541 dsys.common.IOA <> Q:272 var
+R30533:30533 dsys.common.IOA <> IOA.A var
+R30535:30538 dsys.common.IOA <> comp:271 var
+R30553:30572 dsys.common.IOA <> past_property_act_st def
+binder 30658:30658 <> s:275
+R30663:30663 dsys.common.IOA <> P:273 var
+R30666:30666 dsys.common.IOA <> s:275 var
+R30668:30671 dsys.common.IOA <> comp:271 var
+R30645:30645 dsys.common.IOA <> Q:272 var
+R30581:30599 dsys.common.IOA <> CompositionExtended def
+R30626:30636 dsys.common.IOA <> FUnusedSpec:270 var
+R30615:30624 dsys.common.IOA <> FInputSpec:268 var
+R30603:30613 dsys.common.IOA <> FOutputSpec:266 var
+R30601:30601 dsys.common.IOA <> H:264 var
+R30699:30718 dsys.common.IOA <> past_property_act_st def
+R30745:30751 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30773:30784 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30757:30772 dsys.common.IOA <> ExecFragmentType def
+binder 30752:30753 <> e':276
+R30792:30807 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30785:30788 dsys.common.IOA <> Exec def
+R30790:30791 dsys.common.IOA <> e':276 var
+R30819:30821 Coq.Init.Datatypes <> nat ind
+binder 30815:30815 <> i:277
+R30929:30946 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30908:30910 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30836:30837 dsys.common.IOA <> st proj
+R30840:30858 dsys.common.IOA <> CompositionExtended def
+R30901:30901 dsys.common.IOA <> i:277 var
+R30911:30912 dsys.common.IOA <> st proj
+R30915:30915 dsys.common.IOA <> IOA.A var
+R30924:30925 dsys.common.IOA <> e':276 var
+R30927:30927 dsys.common.IOA <> i:277 var
+R31042:31053 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31020:31022 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30947:30949 dsys.common.IOA <> st' proj
+R30952:30970 dsys.common.IOA <> CompositionExtended def
+R31013:31013 dsys.common.IOA <> i:277 var
+R31023:31025 dsys.common.IOA <> st' proj
+R31028:31028 dsys.common.IOA <> IOA.A var
+R31037:31038 dsys.common.IOA <> e':276 var
+R31040:31040 dsys.common.IOA <> i:277 var
+R31060:31066 dsys.common.IOA <> opt_act proj
+R31069:31087 dsys.common.IOA <> CompositionExtended def
+R31130:31130 dsys.common.IOA <> i:277 var
+R31156:31159 Coq.Init.Datatypes <> None constr
+R31187:31189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31164:31170 dsys.common.IOA <> opt_act proj
+R31173:31173 dsys.common.IOA <> IOA.A var
+R31182:31183 dsys.common.IOA <> e':276 var
+R31185:31185 dsys.common.IOA <> i:277 var
+R31190:31193 Coq.Init.Datatypes <> None constr
+R31213:31216 Coq.Init.Datatypes <> Some constr
+R31251:31261 dsys.common.IOA <> ActionClass proj
+R31269:31269 dsys.common.IOA <> IOA.A var
+R31310:31315 dsys.common.IOA <> Unused constr
+R31343:31345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31320:31326 dsys.common.IOA <> opt_act proj
+R31329:31329 dsys.common.IOA <> IOA.A var
+R31338:31339 dsys.common.IOA <> e':276 var
+R31341:31341 dsys.common.IOA <> i:277 var
+R31346:31349 Coq.Init.Datatypes <> None constr
+R31403:31405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31380:31386 dsys.common.IOA <> opt_act proj
+R31389:31389 dsys.common.IOA <> IOA.A var
+R31398:31399 dsys.common.IOA <> e':276 var
+R31401:31401 dsys.common.IOA <> i:277 var
+R31406:31409 Coq.Init.Datatypes <> Some constr
+R30745:30751 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30773:30784 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30757:30772 dsys.common.IOA <> ExecFragmentType def
+binder 30752:30753 <> e':278
+R30792:30807 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30785:30788 dsys.common.IOA <> Exec def
+R30790:30791 dsys.common.IOA <> e':278 var
+R30819:30821 Coq.Init.Datatypes <> nat ind
+binder 30815:30815 <> i:279
+R30929:30946 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30908:30910 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30836:30837 dsys.common.IOA <> st proj
+R30840:30858 dsys.common.IOA <> CompositionExtended def
+R30901:30901 dsys.common.IOA <> i:279 var
+R30911:30912 dsys.common.IOA <> st proj
+R30915:30915 dsys.common.IOA <> IOA.A var
+R30924:30925 dsys.common.IOA <> e':278 var
+R30927:30927 dsys.common.IOA <> i:279 var
+R31042:31053 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31020:31022 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30947:30949 dsys.common.IOA <> st' proj
+R30952:30970 dsys.common.IOA <> CompositionExtended def
+R31013:31013 dsys.common.IOA <> i:279 var
+R31023:31025 dsys.common.IOA <> st' proj
+R31028:31028 dsys.common.IOA <> IOA.A var
+R31037:31038 dsys.common.IOA <> e':278 var
+R31040:31040 dsys.common.IOA <> i:279 var
+R31060:31066 dsys.common.IOA <> opt_act proj
+R31069:31087 dsys.common.IOA <> CompositionExtended def
+R31130:31130 dsys.common.IOA <> i:279 var
+R31156:31159 Coq.Init.Datatypes <> None constr
+R31187:31189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31164:31170 dsys.common.IOA <> opt_act proj
+R31173:31173 dsys.common.IOA <> IOA.A var
+R31182:31183 dsys.common.IOA <> e':278 var
+R31185:31185 dsys.common.IOA <> i:279 var
+R31190:31193 Coq.Init.Datatypes <> None constr
+R31213:31216 Coq.Init.Datatypes <> Some constr
+R31251:31261 dsys.common.IOA <> ActionClass proj
+R31269:31269 dsys.common.IOA <> IOA.A var
+R31310:31315 dsys.common.IOA <> Unused constr
+R31343:31345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31320:31326 dsys.common.IOA <> opt_act proj
+R31329:31329 dsys.common.IOA <> IOA.A var
+R31338:31339 dsys.common.IOA <> e':278 var
+R31341:31341 dsys.common.IOA <> i:279 var
+R31346:31349 Coq.Init.Datatypes <> None constr
+R31403:31405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31380:31386 dsys.common.IOA <> opt_act proj
+R31389:31389 dsys.common.IOA <> IOA.A var
+R31398:31399 dsys.common.IOA <> e':278 var
+R31401:31401 dsys.common.IOA <> i:279 var
+R31406:31409 Coq.Init.Datatypes <> Some constr
+R31467:31499 dsys.common.IOA <> project_execution_exist_with_exec thm
+R31467:31499 dsys.common.IOA <> project_execution_exist_with_exec thm
+R31662:31672 dsys.common.IOA <> ActionClass proj
+R31680:31680 dsys.common.IOA <> IOA.A var
+R31811:31827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31739:31745 dsys.common.IOA <> opt_act proj
+R31748:31766 dsys.common.IOA <> CompositionExtended def
+R31828:31834 dsys.common.IOA <> opt_act proj
+R31837:31837 dsys.common.IOA <> IOA.A var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:280
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:280 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:280 var
+R32107:32119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32034:32035 dsys.common.IOA <> st proj
+R32038:32056 dsys.common.IOA <> CompositionExtended def
+R32120:32121 dsys.common.IOA <> st proj
+R32124:32124 dsys.common.IOA <> IOA.A var
+R31662:31672 dsys.common.IOA <> ActionClass proj
+R31680:31680 dsys.common.IOA <> IOA.A var
+R31811:31827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31739:31745 dsys.common.IOA <> opt_act proj
+R31748:31766 dsys.common.IOA <> CompositionExtended def
+R31828:31834 dsys.common.IOA <> opt_act proj
+R31837:31837 dsys.common.IOA <> IOA.A var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:281
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:281 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:281 var
+R32107:32119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32034:32035 dsys.common.IOA <> st proj
+R32038:32056 dsys.common.IOA <> CompositionExtended def
+R32120:32121 dsys.common.IOA <> st proj
+R32124:32124 dsys.common.IOA <> IOA.A var
+R31811:31827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31739:31745 dsys.common.IOA <> opt_act proj
+R31748:31766 dsys.common.IOA <> CompositionExtended def
+R31828:31834 dsys.common.IOA <> opt_act proj
+R31837:31837 dsys.common.IOA <> IOA.A var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:282
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:282 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:282 var
+R32107:32119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32034:32035 dsys.common.IOA <> st proj
+R32038:32056 dsys.common.IOA <> CompositionExtended def
+R32120:32121 dsys.common.IOA <> st proj
+R32124:32124 dsys.common.IOA <> IOA.A var
+R31811:31827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31739:31745 dsys.common.IOA <> opt_act proj
+R31748:31766 dsys.common.IOA <> CompositionExtended def
+R31828:31834 dsys.common.IOA <> opt_act proj
+R31837:31837 dsys.common.IOA <> IOA.A var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:283
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:283 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:283 var
+R32107:32119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32034:32035 dsys.common.IOA <> st proj
+R32038:32056 dsys.common.IOA <> CompositionExtended def
+R32120:32121 dsys.common.IOA <> st proj
+R32124:32124 dsys.common.IOA <> IOA.A var
+R31811:31827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31739:31745 dsys.common.IOA <> opt_act proj
+R31748:31766 dsys.common.IOA <> CompositionExtended def
+R31828:31834 dsys.common.IOA <> opt_act proj
+R31837:31837 dsys.common.IOA <> IOA.A var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:284
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:284 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:284 var
+R31911:31917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31919:31920 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31918:31918 <> j:285
+R31926:31929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31922:31924 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31921:31921 dsys.common.IOA <> j:285 var
+R31933:31934 dsys.common.IOA <> st proj
+R31937:31937 dsys.common.IOA <> IOA.A var
+R31948:31948 dsys.common.IOA <> j:285 var
+R32268:32271 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32239:32249 dsys.common.IOA <> ActionClass proj
+R32257:32257 dsys.common.IOA <> IOA.A var
+R32272:32277 dsys.common.IOA <> Unused constr
+R32268:32271 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32239:32249 dsys.common.IOA <> ActionClass proj
+R32257:32257 dsys.common.IOA <> IOA.A var
+R32272:32277 dsys.common.IOA <> Unused constr
+def 32337:32356 <> past_property_st_act
+R32369:32375 dsys.common.IOA <> IOAType def
+binder 32363:32365 <> ioa:286
+R32396:32399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32387:32391 dsys.common.IOA <> State proj
+R32393:32395 dsys.common.IOA <> ioa:286 var
+binder 32383:32383 <> Q:287
+R32425:32428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32415:32424 dsys.common.IOA <> IOA.ActionPool var
+binder 32411:32411 <> P:288
+binder 32451:32451 <> e:289
+R32468:32479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32462:32465 dsys.common.IOA <> Exec def
+R32467:32467 dsys.common.IOA <> e:289 var
+R32491:32493 Coq.Init.Datatypes <> nat ind
+binder 32487:32487 <> i:290
+R32522:32535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32506:32506 dsys.common.IOA <> Q:287 var
+R32509:32510 dsys.common.IOA <> st proj
+R32512:32514 dsys.common.IOA <> ioa:286 var
+R32517:32517 dsys.common.IOA <> e:289 var
+R32519:32519 dsys.common.IOA <> i:290 var
+R32536:32542 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32550:32551 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32547:32549 Coq.Init.Datatypes <> nat ind
+binder 32543:32543 <> j:291
+R32552:32558 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32563:32564 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32559:32562 <> act':292
+R32570:32573 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R32565:32565 dsys.common.IOA <> j:291 var
+R32569:32569 dsys.common.IOA <> i:290 var
+R32603:32606 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32591:32593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32574:32580 dsys.common.IOA <> opt_act proj
+R32582:32584 dsys.common.IOA <> ioa:286 var
+R32587:32587 dsys.common.IOA <> e:289 var
+R32589:32589 dsys.common.IOA <> j:291 var
+R32594:32597 Coq.Init.Datatypes <> Some constr
+R32599:32602 dsys.common.IOA <> act':292 var
+R32607:32607 dsys.common.IOA <> P:288 var
+R32609:32612 dsys.common.IOA <> act':292 var
+prf 32626:32654 <> extend_past_properties_st_act
+R32665:32686 dsys.common.IOA <> CompositionExtendedHyp def
+binder 32661:32661 <> H:293
+R32714:32717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32704:32713 dsys.common.IOA <> IOA.ActionPool var
+R32718:32721 Coq.Init.Datatypes <> bool ind
+binder 32694:32700 <> FOutput:294
+R32743:32752 dsys.common.IOA <> OutputSpec def
+R32754:32760 dsys.common.IOA <> FOutput:294 var
+binder 32729:32739 <> FOutputSpec:295
+R32787:32790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32777:32786 dsys.common.IOA <> IOA.ActionPool var
+R32791:32794 Coq.Init.Datatypes <> bool ind
+binder 32768:32773 <> FInput:296
+R32815:32823 dsys.common.IOA <> InputSpec def
+R32825:32830 dsys.common.IOA <> FInput:296 var
+binder 32802:32811 <> FInputSpec:297
+R32858:32861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32848:32857 dsys.common.IOA <> IOA.ActionPool var
+R32862:32865 Coq.Init.Datatypes <> bool ind
+binder 32838:32844 <> FUnused:298
+R32887:32896 dsys.common.IOA <> UnusedSpec def
+R32898:32904 dsys.common.IOA <> FUnused:298 var
+binder 32873:32883 <> FUnusedSpec:299
+R32927:32940 dsys.common.IOA <> IOA.CompositionSet var
+binder 32920:32923 <> comp:300
+R32972:32975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32958:32962 dsys.common.IOA <> State proj
+R32965:32965 dsys.common.IOA <> IOA.A var
+R32967:32970 dsys.common.IOA <> comp:300 var
+binder 32954:32954 <> Q:301
+R33007:33010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32997:33006 dsys.common.IOA <> IOA.ActionPool var
+binder 32993:32993 <> P:302
+R33021:33021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33055:33063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33022:33041 dsys.common.IOA <> past_property_st_act def
+R33054:33054 dsys.common.IOA <> P:302 var
+R33052:33052 dsys.common.IOA <> Q:301 var
+R33044:33044 dsys.common.IOA <> IOA.A var
+R33046:33049 dsys.common.IOA <> comp:300 var
+R33064:33083 dsys.common.IOA <> past_property_st_act def
+R33184:33184 dsys.common.IOA <> P:302 var
+binder 33161:33161 <> s:303
+R33166:33166 dsys.common.IOA <> Q:301 var
+R33169:33169 dsys.common.IOA <> s:303 var
+R33171:33174 dsys.common.IOA <> comp:300 var
+R33092:33110 dsys.common.IOA <> CompositionExtended def
+R33137:33147 dsys.common.IOA <> FUnusedSpec:299 var
+R33126:33135 dsys.common.IOA <> FInputSpec:297 var
+R33114:33124 dsys.common.IOA <> FOutputSpec:295 var
+R33112:33112 dsys.common.IOA <> H:293 var
+R33207:33226 dsys.common.IOA <> past_property_st_act def
+R33253:33259 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33281:33292 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33265:33280 dsys.common.IOA <> ExecFragmentType def
+binder 33260:33261 <> e':304
+R33300:33315 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33293:33296 dsys.common.IOA <> Exec def
+R33298:33299 dsys.common.IOA <> e':304 var
+R33327:33329 Coq.Init.Datatypes <> nat ind
+binder 33323:33323 <> i:305
+R33437:33454 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33416:33418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33344:33345 dsys.common.IOA <> st proj
+R33348:33366 dsys.common.IOA <> CompositionExtended def
+R33409:33409 dsys.common.IOA <> i:305 var
+R33419:33420 dsys.common.IOA <> st proj
+R33423:33423 dsys.common.IOA <> IOA.A var
+R33432:33433 dsys.common.IOA <> e':304 var
+R33435:33435 dsys.common.IOA <> i:305 var
+R33550:33561 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33528:33530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33455:33457 dsys.common.IOA <> st' proj
+R33460:33478 dsys.common.IOA <> CompositionExtended def
+R33521:33521 dsys.common.IOA <> i:305 var
+R33531:33533 dsys.common.IOA <> st' proj
+R33536:33536 dsys.common.IOA <> IOA.A var
+R33545:33546 dsys.common.IOA <> e':304 var
+R33548:33548 dsys.common.IOA <> i:305 var
+R33568:33574 dsys.common.IOA <> opt_act proj
+R33577:33595 dsys.common.IOA <> CompositionExtended def
+R33638:33638 dsys.common.IOA <> i:305 var
+R33664:33667 Coq.Init.Datatypes <> None constr
+R33695:33697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33672:33678 dsys.common.IOA <> opt_act proj
+R33681:33681 dsys.common.IOA <> IOA.A var
+R33690:33691 dsys.common.IOA <> e':304 var
+R33693:33693 dsys.common.IOA <> i:305 var
+R33698:33701 Coq.Init.Datatypes <> None constr
+R33721:33724 Coq.Init.Datatypes <> Some constr
+R33759:33769 dsys.common.IOA <> ActionClass proj
+R33777:33777 dsys.common.IOA <> IOA.A var
+R33818:33823 dsys.common.IOA <> Unused constr
+R33851:33853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33828:33834 dsys.common.IOA <> opt_act proj
+R33837:33837 dsys.common.IOA <> IOA.A var
+R33846:33847 dsys.common.IOA <> e':304 var
+R33849:33849 dsys.common.IOA <> i:305 var
+R33854:33857 Coq.Init.Datatypes <> None constr
+R33911:33913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33888:33894 dsys.common.IOA <> opt_act proj
+R33897:33897 dsys.common.IOA <> IOA.A var
+R33906:33907 dsys.common.IOA <> e':304 var
+R33909:33909 dsys.common.IOA <> i:305 var
+R33914:33917 Coq.Init.Datatypes <> Some constr
+R33253:33259 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33281:33292 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33265:33280 dsys.common.IOA <> ExecFragmentType def
+binder 33260:33261 <> e':306
+R33300:33315 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33293:33296 dsys.common.IOA <> Exec def
+R33298:33299 dsys.common.IOA <> e':306 var
+R33327:33329 Coq.Init.Datatypes <> nat ind
+binder 33323:33323 <> i:307
+R33437:33454 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33416:33418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33344:33345 dsys.common.IOA <> st proj
+R33348:33366 dsys.common.IOA <> CompositionExtended def
+R33409:33409 dsys.common.IOA <> i:307 var
+R33419:33420 dsys.common.IOA <> st proj
+R33423:33423 dsys.common.IOA <> IOA.A var
+R33432:33433 dsys.common.IOA <> e':306 var
+R33435:33435 dsys.common.IOA <> i:307 var
+R33550:33561 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33528:33530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33455:33457 dsys.common.IOA <> st' proj
+R33460:33478 dsys.common.IOA <> CompositionExtended def
+R33521:33521 dsys.common.IOA <> i:307 var
+R33531:33533 dsys.common.IOA <> st' proj
+R33536:33536 dsys.common.IOA <> IOA.A var
+R33545:33546 dsys.common.IOA <> e':306 var
+R33548:33548 dsys.common.IOA <> i:307 var
+R33568:33574 dsys.common.IOA <> opt_act proj
+R33577:33595 dsys.common.IOA <> CompositionExtended def
+R33638:33638 dsys.common.IOA <> i:307 var
+R33664:33667 Coq.Init.Datatypes <> None constr
+R33695:33697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33672:33678 dsys.common.IOA <> opt_act proj
+R33681:33681 dsys.common.IOA <> IOA.A var
+R33690:33691 dsys.common.IOA <> e':306 var
+R33693:33693 dsys.common.IOA <> i:307 var
+R33698:33701 Coq.Init.Datatypes <> None constr
+R33721:33724 Coq.Init.Datatypes <> Some constr
+R33759:33769 dsys.common.IOA <> ActionClass proj
+R33777:33777 dsys.common.IOA <> IOA.A var
+R33818:33823 dsys.common.IOA <> Unused constr
+R33851:33853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33828:33834 dsys.common.IOA <> opt_act proj
+R33837:33837 dsys.common.IOA <> IOA.A var
+R33846:33847 dsys.common.IOA <> e':306 var
+R33849:33849 dsys.common.IOA <> i:307 var
+R33854:33857 Coq.Init.Datatypes <> None constr
+R33911:33913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33888:33894 dsys.common.IOA <> opt_act proj
+R33897:33897 dsys.common.IOA <> IOA.A var
+R33906:33907 dsys.common.IOA <> e':306 var
+R33909:33909 dsys.common.IOA <> i:307 var
+R33914:33917 Coq.Init.Datatypes <> Some constr
+R33975:34007 dsys.common.IOA <> project_execution_exist_with_exec thm
+R33975:34007 dsys.common.IOA <> project_execution_exist_with_exec thm
+R34303:34313 dsys.common.IOA <> ActionClass proj
+R34321:34321 dsys.common.IOA <> IOA.A var
+R34303:34313 dsys.common.IOA <> ActionClass proj
+R34321:34321 dsys.common.IOA <> IOA.A var
+def 34517:34537 <> past_property_act_act
+R34550:34556 dsys.common.IOA <> IOAType def
+binder 34544:34546 <> ioa:308
+R34578:34581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34568:34577 dsys.common.IOA <> IOA.ActionPool var
+binder 34564:34564 <> Q:309
+R34607:34610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34597:34606 dsys.common.IOA <> IOA.ActionPool var
+binder 34593:34593 <> P:310
+binder 34633:34633 <> e:311
+R34650:34661 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34644:34647 dsys.common.IOA <> Exec def
+R34649:34649 dsys.common.IOA <> e:311 var
+R34673:34675 Coq.Init.Datatypes <> nat ind
+binder 34669:34669 <> i:312
+R34691:34700 dsys.common.IOA <> IOA.ActionPool var
+binder 34685:34687 <> act:313
+R34741:34754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34730:34732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34713:34719 dsys.common.IOA <> opt_act proj
+R34721:34723 dsys.common.IOA <> ioa:308 var
+R34726:34726 dsys.common.IOA <> e:311 var
+R34728:34728 dsys.common.IOA <> i:312 var
+R34733:34736 Coq.Init.Datatypes <> Some constr
+R34738:34740 dsys.common.IOA <> act:313 var
+R34760:34773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34755:34755 dsys.common.IOA <> Q:309 var
+R34757:34759 dsys.common.IOA <> act:313 var
+R34774:34780 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34788:34789 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34785:34787 Coq.Init.Datatypes <> nat ind
+binder 34781:34781 <> j:314
+R34790:34796 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34814:34827 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34804:34813 dsys.common.IOA <> IOA.ActionPool var
+binder 34797:34800 <> act':315
+R34833:34836 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34829:34831 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R34828:34828 dsys.common.IOA <> j:314 var
+R34832:34832 dsys.common.IOA <> i:312 var
+R34866:34869 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34854:34856 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34837:34843 dsys.common.IOA <> opt_act proj
+R34845:34847 dsys.common.IOA <> ioa:308 var
+R34850:34850 dsys.common.IOA <> e:311 var
+R34852:34852 dsys.common.IOA <> j:314 var
+R34857:34860 Coq.Init.Datatypes <> Some constr
+R34862:34865 dsys.common.IOA <> act':315 var
+R34870:34870 dsys.common.IOA <> P:310 var
+R34872:34875 dsys.common.IOA <> act':315 var
+prf 34889:34918 <> extend_past_properties_act_act
+R34929:34950 dsys.common.IOA <> CompositionExtendedHyp def
+binder 34925:34925 <> H:316
+R34978:34981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34968:34977 dsys.common.IOA <> IOA.ActionPool var
+R34982:34985 Coq.Init.Datatypes <> bool ind
+binder 34958:34964 <> FOutput:317
+R35007:35016 dsys.common.IOA <> OutputSpec def
+R35018:35024 dsys.common.IOA <> FOutput:317 var
+binder 34993:35003 <> FOutputSpec:318
+R35051:35054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35041:35050 dsys.common.IOA <> IOA.ActionPool var
+R35055:35058 Coq.Init.Datatypes <> bool ind
+binder 35032:35037 <> FInput:319
+R35079:35087 dsys.common.IOA <> InputSpec def
+R35089:35094 dsys.common.IOA <> FInput:319 var
+binder 35066:35075 <> FInputSpec:320
+R35122:35125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35112:35121 dsys.common.IOA <> IOA.ActionPool var
+R35126:35129 Coq.Init.Datatypes <> bool ind
+binder 35102:35108 <> FUnused:321
+R35151:35160 dsys.common.IOA <> UnusedSpec def
+R35162:35168 dsys.common.IOA <> FUnused:321 var
+binder 35137:35147 <> FUnusedSpec:322
+R35191:35204 dsys.common.IOA <> IOA.CompositionSet var
+binder 35184:35187 <> comp:323
+R35234:35237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35224:35233 dsys.common.IOA <> IOA.ActionPool var
+binder 35218:35218 <> Q:324
+binder 35220:35220 <> P:325
+R35248:35248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35309:35317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 35256:35258 <> act:326
+R35266:35269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35261:35261 dsys.common.IOA <> Q:324 var
+R35263:35265 dsys.common.IOA <> act:326 var
+R35299:35302 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R35270:35280 dsys.common.IOA <> ActionClass proj
+R35296:35298 dsys.common.IOA <> act:326 var
+R35288:35288 dsys.common.IOA <> IOA.A var
+R35290:35293 dsys.common.IOA <> comp:323 var
+R35303:35308 dsys.common.IOA <> Unused constr
+R35318:35318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35353:35361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35319:35339 dsys.common.IOA <> past_property_act_act def
+R35352:35352 dsys.common.IOA <> P:325 var
+R35350:35350 dsys.common.IOA <> Q:324 var
+R35342:35342 dsys.common.IOA <> IOA.A var
+R35344:35347 dsys.common.IOA <> comp:323 var
+R35362:35382 dsys.common.IOA <> past_property_act_act def
+R35457:35457 dsys.common.IOA <> P:325 var
+R35455:35455 dsys.common.IOA <> Q:324 var
+R35391:35409 dsys.common.IOA <> CompositionExtended def
+R35436:35446 dsys.common.IOA <> FUnusedSpec:322 var
+R35425:35434 dsys.common.IOA <> FInputSpec:320 var
+R35413:35423 dsys.common.IOA <> FOutputSpec:318 var
+R35411:35411 dsys.common.IOA <> H:316 var
+R35480:35500 dsys.common.IOA <> past_property_act_act def
+R35527:35533 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35555:35566 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35539:35554 dsys.common.IOA <> ExecFragmentType def
+binder 35534:35535 <> e':327
+R35574:35589 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35567:35570 dsys.common.IOA <> Exec def
+R35572:35573 dsys.common.IOA <> e':327 var
+R35601:35603 Coq.Init.Datatypes <> nat ind
+binder 35597:35597 <> i:328
+R35711:35728 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35690:35692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35618:35619 dsys.common.IOA <> st proj
+R35622:35640 dsys.common.IOA <> CompositionExtended def
+R35683:35683 dsys.common.IOA <> i:328 var
+R35693:35694 dsys.common.IOA <> st proj
+R35697:35697 dsys.common.IOA <> IOA.A var
+R35706:35707 dsys.common.IOA <> e':327 var
+R35709:35709 dsys.common.IOA <> i:328 var
+R35824:35835 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35802:35804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35729:35731 dsys.common.IOA <> st' proj
+R35734:35752 dsys.common.IOA <> CompositionExtended def
+R35795:35795 dsys.common.IOA <> i:328 var
+R35805:35807 dsys.common.IOA <> st' proj
+R35810:35810 dsys.common.IOA <> IOA.A var
+R35819:35820 dsys.common.IOA <> e':327 var
+R35822:35822 dsys.common.IOA <> i:328 var
+R35842:35848 dsys.common.IOA <> opt_act proj
+R35851:35869 dsys.common.IOA <> CompositionExtended def
+R35912:35912 dsys.common.IOA <> i:328 var
+R35938:35941 Coq.Init.Datatypes <> None constr
+R35969:35971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35946:35952 dsys.common.IOA <> opt_act proj
+R35955:35955 dsys.common.IOA <> IOA.A var
+R35964:35965 dsys.common.IOA <> e':327 var
+R35967:35967 dsys.common.IOA <> i:328 var
+R35972:35975 Coq.Init.Datatypes <> None constr
+R35995:35998 Coq.Init.Datatypes <> Some constr
+R36033:36043 dsys.common.IOA <> ActionClass proj
+R36051:36051 dsys.common.IOA <> IOA.A var
+R36092:36097 dsys.common.IOA <> Unused constr
+R36125:36127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36102:36108 dsys.common.IOA <> opt_act proj
+R36111:36111 dsys.common.IOA <> IOA.A var
+R36120:36121 dsys.common.IOA <> e':327 var
+R36123:36123 dsys.common.IOA <> i:328 var
+R36128:36131 Coq.Init.Datatypes <> None constr
+R36185:36187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36162:36168 dsys.common.IOA <> opt_act proj
+R36171:36171 dsys.common.IOA <> IOA.A var
+R36180:36181 dsys.common.IOA <> e':327 var
+R36183:36183 dsys.common.IOA <> i:328 var
+R36188:36191 Coq.Init.Datatypes <> Some constr
+R35527:35533 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35555:35566 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35539:35554 dsys.common.IOA <> ExecFragmentType def
+binder 35534:35535 <> e':329
+R35574:35589 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35567:35570 dsys.common.IOA <> Exec def
+R35572:35573 dsys.common.IOA <> e':329 var
+R35601:35603 Coq.Init.Datatypes <> nat ind
+binder 35597:35597 <> i:330
+R35711:35728 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35690:35692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35618:35619 dsys.common.IOA <> st proj
+R35622:35640 dsys.common.IOA <> CompositionExtended def
+R35683:35683 dsys.common.IOA <> i:330 var
+R35693:35694 dsys.common.IOA <> st proj
+R35697:35697 dsys.common.IOA <> IOA.A var
+R35706:35707 dsys.common.IOA <> e':329 var
+R35709:35709 dsys.common.IOA <> i:330 var
+R35824:35835 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35802:35804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35729:35731 dsys.common.IOA <> st' proj
+R35734:35752 dsys.common.IOA <> CompositionExtended def
+R35795:35795 dsys.common.IOA <> i:330 var
+R35805:35807 dsys.common.IOA <> st' proj
+R35810:35810 dsys.common.IOA <> IOA.A var
+R35819:35820 dsys.common.IOA <> e':329 var
+R35822:35822 dsys.common.IOA <> i:330 var
+R35842:35848 dsys.common.IOA <> opt_act proj
+R35851:35869 dsys.common.IOA <> CompositionExtended def
+R35912:35912 dsys.common.IOA <> i:330 var
+R35938:35941 Coq.Init.Datatypes <> None constr
+R35969:35971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35946:35952 dsys.common.IOA <> opt_act proj
+R35955:35955 dsys.common.IOA <> IOA.A var
+R35964:35965 dsys.common.IOA <> e':329 var
+R35967:35967 dsys.common.IOA <> i:330 var
+R35972:35975 Coq.Init.Datatypes <> None constr
+R35995:35998 Coq.Init.Datatypes <> Some constr
+R36033:36043 dsys.common.IOA <> ActionClass proj
+R36051:36051 dsys.common.IOA <> IOA.A var
+R36092:36097 dsys.common.IOA <> Unused constr
+R36125:36127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36102:36108 dsys.common.IOA <> opt_act proj
+R36111:36111 dsys.common.IOA <> IOA.A var
+R36120:36121 dsys.common.IOA <> e':329 var
+R36123:36123 dsys.common.IOA <> i:330 var
+R36128:36131 Coq.Init.Datatypes <> None constr
+R36185:36187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36162:36168 dsys.common.IOA <> opt_act proj
+R36171:36171 dsys.common.IOA <> IOA.A var
+R36180:36181 dsys.common.IOA <> e':329 var
+R36183:36183 dsys.common.IOA <> i:330 var
+R36188:36191 Coq.Init.Datatypes <> Some constr
+R36249:36281 dsys.common.IOA <> project_execution_exist_with_exec thm
+R36249:36281 dsys.common.IOA <> project_execution_exist_with_exec thm
+R36625:36631 dsys.common.IOA <> opt_act proj
+R36634:36652 dsys.common.IOA <> CompositionExtended def
+R36625:36631 dsys.common.IOA <> opt_act proj
+R36634:36652 dsys.common.IOA <> CompositionExtended def
+R36744:36754 dsys.common.IOA <> ActionClass proj
+R36762:36762 dsys.common.IOA <> IOA.A var
+R36744:36754 dsys.common.IOA <> ActionClass proj
+R36762:36762 dsys.common.IOA <> IOA.A var
+R36950:36960 dsys.common.IOA <> ActionClass proj
+R36968:36968 dsys.common.IOA <> IOA.A var
+R36950:36960 dsys.common.IOA <> ActionClass proj
+R36968:36968 dsys.common.IOA <> IOA.A var
+R44651:44653 dsys.common.IOA IOA <> sec
+R44746:44756 dsys.common.IOA <> ActionClass proj
+R44746:44756 dsys.common.IOA <> ActionClass proj
+R44957:44967 dsys.common.IOA <> ActionClass proj
+R44957:44967 dsys.common.IOA <> ActionClass proj
+R45237:45246 dsys.common.IOA <> Transition proj
+R45237:45246 dsys.common.IOA <> Transition proj
+R45456:45465 dsys.common.IOA <> Transition proj
+R45456:45465 dsys.common.IOA <> Transition proj
+R45868:45870 Coq.micromega.Lia <> <> lib
+R45945:45960 dsys.common.IOA <> ExecFragmentType def
+R45945:45960 dsys.common.IOA <> ExecFragmentType def
+R46004:46015 dsys.common.IOA <> FairFragment def
+R46004:46015 dsys.common.IOA <> FairFragment def
+R46059:46061 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R46064:46067 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R46059:46061 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R46064:46067 dsys.common.LTL <> ::ltl_scope:x_'$'_x_'|='_x not
+R46393:46396 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R46578:46584 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R46592:46593 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R46589:46591 Coq.Init.Datatypes <> nat ind
+binder 46585:46585 <> n:331
+R46595:46597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46594:46594 dsys.common.IOA <> n:331 var
+R46599:46601 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R46617:46619 Coq.Init.Nat <> ::nat_scope:x_'-'_x not

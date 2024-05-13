@@ -1,0 +1,65 @@
+DIGEST 6d2d89e539079229481564e4ba1e0f06
+Fdsys.reliable_broadcast.normal
+R15:24 dsys.common.IOA <> <> lib
+R42:51 dsys.common.LTL <> <> lib
+R69:75 dsys.P2P.P2P <> <> lib
+R93:105 dsys.common.tactic <> <> lib
+R123:152 dsys.reliable_broadcast.definitions <> <> lib
+R170:172 Coq.micromega.Lia <> <> lib
+R190:194 Coq.Arith.Arith <> <> lib
+sec 231:236 <> Normal
+var 250:254 Normal count
+R258:260 Coq.Init.Datatypes <> nat ind
+def 277:294 <> Process_other_type
+R299:299 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R301:303 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R307:309 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R328:328 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R304:306 Coq.Init.Datatypes <> nat ind
+binder 300:300 <> n:2
+R319:322 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R311:313 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R310:310 dsys.reliable_broadcast.normal <> n:2 var
+R314:318 dsys.reliable_broadcast.normal <> Normal.count var
+R324:326 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R323:323 dsys.reliable_broadcast.normal <> n:2 var
+ind 344:362 <> BrachaRBComposeType
+constr 379:394 <> BrachaRBLeader_T
+constr 424:438 <> BrachaRBOther_T
+constr 490:506 <> BrachaRBNetwork_T
+R398:416 dsys.reliable_broadcast.normal <> BrachaRBComposeType:3 ind
+R460:463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R442:459 dsys.reliable_broadcast.normal <> Process_other_type def
+R464:482 dsys.reliable_broadcast.normal <> BrachaRBComposeType:3 ind
+R510:528 dsys.reliable_broadcast.normal <> BrachaRBComposeType:3 ind
+scheme 344:362 <> BrachaRBComposeType_rect
+scheme 344:362 <> BrachaRBComposeType_ind
+scheme 344:362 <> BrachaRBComposeType_rec
+scheme 344:362 <> BrachaRBComposeType_sind
+def 545:566 <> BrachaRBComposeType_eq
+R575:593 dsys.reliable_broadcast.normal <> BrachaRBComposeType ind
+binder 569:569 <> i:5
+binder 571:571 <> j:6
+R616:616 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R618:619 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R621:621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R617:617 dsys.reliable_broadcast.normal <> i:5 var
+R620:620 dsys.reliable_broadcast.normal <> j:6 var
+R636:636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R656:657 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R677:677 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R637:651 dsys.reliable_broadcast.normal <> BrachaRBOther_T constr
+R658:672 dsys.reliable_broadcast.normal <> BrachaRBOther_T constr
+R695:697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R682:690 Coq.Init.Specif <> proj1_sig def
+R698:706 Coq.Init.Specif <> proj1_sig def
+R726:728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R725:725 dsys.reliable_broadcast.normal <> i:5 var
+R729:729 dsys.reliable_broadcast.normal <> j:6 var
+def 754:764 <> BrachaRBRef
+R771:773 Coq.Init.Datatypes <> nat ind
+binder 767:767 <> f:7
+R781:799 dsys.reliable_broadcast.normal <> BrachaRBComposeType ind
+binder 777:777 <> n:8
+R804:809 dsys.common.IOA <> IOADef rec
+R811:824 dsys.reliable_broadcast.definitions <> BrachaRBAction ind

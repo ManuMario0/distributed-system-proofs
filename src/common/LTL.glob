@@ -1,0 +1,627 @@
+DIGEST 700584ea7d8b741f46e5656501bc6aee
+Fdsys.common.LTL
+R15:18 Coq.Lists.List <> <> lib
+R36:40 Coq.Arith.Arith <> <> lib
+R58:60 Coq.Init.Nat <> <> lib
+R78:80 Coq.micromega.Lia <> <> lib
+sec 118:120 <> ltl
+var 160:160 ltl A
+def 183:185 <> Run
+R193:196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R190:192 Coq.Init.Datatypes <> nat ind
+R197:197 dsys.common.LTL <> ltl.A var
+def 213:222 <> LTLFormula
+R230:233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R227:229 dsys.common.LTL <> Run def
+R237:240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R234:236 Coq.Init.Datatypes <> nat ind
+def 261:269 <> ltl_apply
+R276:278 dsys.common.LTL <> Run def
+binder 272:272 <> l:2
+R286:288 Coq.Init.Datatypes <> nat ind
+binder 282:282 <> i:3
+R296:305 dsys.common.LTL <> LTLFormula def
+binder 292:292 <> P:4
+R322:322 dsys.common.LTL <> P:4 var
+R324:324 dsys.common.LTL <> l:2 var
+R326:326 dsys.common.LTL <> i:3 var
+R357:365 dsys.common.LTL <> ltl_apply def
+not 340:340 ltl ::ltl_scope:x_'$'_x_'|='_x
+def 414:420 <> ltl_not
+R427:429 dsys.common.LTL <> Run def
+binder 423:423 <> l:5
+R437:439 Coq.Init.Datatypes <> nat ind
+binder 433:433 <> i:6
+R447:456 dsys.common.LTL <> LTLFormula def
+binder 443:443 <> P:7
+R473:475 Coq.Init.Logic <> ::type_scope:'~'_x not
+R481:481 Coq.Init.Logic <> ::type_scope:'~'_x not
+R476:476 dsys.common.LTL <> P:7 var
+R478:478 dsys.common.LTL <> l:5 var
+R480:480 dsys.common.LTL <> i:6 var
+binder 509:509 <> l:8
+binder 511:511 <> i:9
+R516:522 dsys.common.LTL <> ltl_not def
+R526:526 dsys.common.LTL <> i:9 var
+R524:524 dsys.common.LTL <> l:8 var
+not 495:495 ltl ::ltl_scope:'~'_x
+def 557:562 <> ltl_or
+R569:571 dsys.common.LTL <> Run def
+binder 565:565 <> l:10
+R579:581 Coq.Init.Datatypes <> nat ind
+binder 575:575 <> i:11
+R591:600 dsys.common.LTL <> LTLFormula def
+binder 585:585 <> P:12
+binder 587:587 <> Q:13
+R617:617 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R623:628 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R634:634 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R618:618 dsys.common.LTL <> P:12 var
+R620:620 dsys.common.LTL <> l:10 var
+R622:622 dsys.common.LTL <> i:11 var
+R629:629 dsys.common.LTL <> Q:13 var
+R631:631 dsys.common.LTL <> l:10 var
+R633:633 dsys.common.LTL <> i:11 var
+binder 665:665 <> l:14
+binder 667:667 <> i:15
+R672:677 dsys.common.LTL <> ltl_or def
+R681:681 dsys.common.LTL <> i:15 var
+R679:679 dsys.common.LTL <> l:14 var
+not 648:648 ltl ::ltl_scope:x_'\/'_x
+def 714:720 <> ltl_and
+R727:729 dsys.common.LTL <> Run def
+binder 723:723 <> l:16
+R737:739 Coq.Init.Datatypes <> nat ind
+binder 733:733 <> i:17
+R749:758 dsys.common.LTL <> LTLFormula def
+binder 743:743 <> P:18
+binder 745:745 <> Q:19
+R775:775 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R781:786 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R792:792 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R776:776 dsys.common.LTL <> P:18 var
+R778:778 dsys.common.LTL <> l:16 var
+R780:780 dsys.common.LTL <> i:17 var
+R787:787 dsys.common.LTL <> Q:19 var
+R789:789 dsys.common.LTL <> l:16 var
+R791:791 dsys.common.LTL <> i:17 var
+binder 823:823 <> l:20
+binder 825:825 <> i:21
+R830:836 dsys.common.LTL <> ltl_and def
+R840:840 dsys.common.LTL <> i:21 var
+R838:838 dsys.common.LTL <> l:20 var
+not 806:806 ltl ::ltl_scope:x_'/\'_x
+def 873:880 <> ltl_impl
+R887:889 dsys.common.LTL <> Run def
+binder 883:883 <> l:22
+R897:899 Coq.Init.Datatypes <> nat ind
+binder 893:893 <> i:23
+R909:918 dsys.common.LTL <> LTLFormula def
+binder 903:903 <> P:24
+binder 905:905 <> Q:25
+R935:935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R941:946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R952:952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R936:936 dsys.common.LTL <> P:24 var
+R938:938 dsys.common.LTL <> l:22 var
+R940:940 dsys.common.LTL <> i:23 var
+R947:947 dsys.common.LTL <> Q:25 var
+R949:949 dsys.common.LTL <> l:22 var
+R951:951 dsys.common.LTL <> i:23 var
+binder 983:983 <> l:26
+binder 985:985 <> i:27
+R990:997 dsys.common.LTL <> ltl_impl def
+R1001:1001 dsys.common.LTL <> i:27 var
+R999:999 dsys.common.LTL <> l:26 var
+not 966:966 ltl ::ltl_scope:x_'->'_x
+def 1035:1041 <> ltl_now
+R1048:1050 dsys.common.LTL <> Run def
+binder 1044:1044 <> l:28
+R1058:1060 Coq.Init.Datatypes <> nat ind
+binder 1054:1054 <> i:29
+R1069:1072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1068:1068 dsys.common.LTL <> ltl.A var
+binder 1064:1064 <> P:30
+R1093:1093 dsys.common.LTL <> P:30 var
+R1096:1096 dsys.common.LTL <> l:28 var
+R1098:1098 dsys.common.LTL <> i:29 var
+binder 1129:1129 <> l:31
+binder 1131:1131 <> i:32
+R1136:1142 dsys.common.LTL <> ltl_now def
+R1146:1146 dsys.common.LTL <> i:32 var
+R1144:1144 dsys.common.LTL <> l:31 var
+not 1113:1113 ltl ::ltl_scope:'N'_x
+def 1192:1207 <> ltl_strict_until
+R1214:1216 dsys.common.LTL <> Run def
+binder 1210:1210 <> l:33
+R1224:1226 Coq.Init.Datatypes <> nat ind
+binder 1220:1220 <> i:34
+R1236:1245 dsys.common.LTL <> LTLFormula def
+binder 1230:1230 <> P:35
+binder 1232:1232 <> Q:36
+R1262:1268 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1276:1277 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1273:1275 Coq.Init.Datatypes <> nat ind
+binder 1269:1269 <> j:37
+R1283:1286 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1279:1281 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1278:1278 dsys.common.LTL <> i:34 var
+R1282:1282 dsys.common.LTL <> j:37 var
+R1287:1287 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1293:1298 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1340:1340 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1288:1288 dsys.common.LTL <> Q:36 var
+R1290:1290 dsys.common.LTL <> l:33 var
+R1292:1292 dsys.common.LTL <> j:37 var
+R1310:1312 Coq.Init.Datatypes <> nat ind
+binder 1306:1306 <> k:38
+R1320:1323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1316:1318 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1315:1315 dsys.common.LTL <> k:38 var
+R1319:1319 dsys.common.LTL <> j:37 var
+R1329:1333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1339:1339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1325:1327 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1324:1324 dsys.common.LTL <> i:34 var
+R1328:1328 dsys.common.LTL <> k:38 var
+R1334:1334 dsys.common.LTL <> P:35 var
+R1336:1336 dsys.common.LTL <> l:33 var
+R1338:1338 dsys.common.LTL <> k:38 var
+binder 1373:1373 <> l:39
+binder 1375:1375 <> i:40
+R1380:1395 dsys.common.LTL <> ltl_strict_until def
+R1399:1399 dsys.common.LTL <> i:40 var
+R1397:1397 dsys.common.LTL <> l:39 var
+not 1354:1354 ltl ::ltl_scope:x_'SU'_x
+prf 1467:1487 <> ltl_strict_until_fold
+R1507:1509 dsys.common.LTL <> Run def
+binder 1503:1503 <> l:41
+R1517:1519 Coq.Init.Datatypes <> nat ind
+binder 1513:1513 <> i:42
+R1529:1538 dsys.common.LTL <> LTLFormula def
+binder 1523:1523 <> P:43
+binder 1525:1525 <> Q:44
+R1549:1549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1566:1570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1551:1552 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1556:1559 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1550:1550 dsys.common.LTL <> l:41 var
+R1554:1554 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1553:1553 dsys.common.LTL <> i:42 var
+R1561:1564 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R1560:1560 dsys.common.LTL <> P:43 var
+R1565:1565 dsys.common.LTL <> Q:44 var
+R1571:1571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1584:1589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1604:1604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1573:1575 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1579:1582 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1572:1572 dsys.common.LTL <> l:41 var
+R1577:1577 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1576:1576 dsys.common.LTL <> i:42 var
+R1583:1583 dsys.common.LTL <> P:43 var
+R1591:1592 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1594:1597 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R1590:1590 dsys.common.LTL <> l:41 var
+R1593:1593 dsys.common.LTL <> i:42 var
+R1599:1602 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R1598:1598 dsys.common.LTL <> P:43 var
+R1603:1603 dsys.common.LTL <> Q:44 var
+R1800:1803 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1798:1798 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1800:1803 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1798:1798 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R1826:1844 Coq.Arith.PeanoNat Nat eqb_eq thm
+R1826:1844 Coq.Arith.PeanoNat Nat eqb_eq thm
+R1884:1903 Coq.Arith.PeanoNat Nat eqb_neq thm
+R1884:1903 Coq.Arith.PeanoNat Nat eqb_neq thm
+prf 1948:1970 <> ltl_strict_until_unfold
+R1990:1992 dsys.common.LTL <> Run def
+binder 1986:1986 <> l:45
+R2000:2002 Coq.Init.Datatypes <> nat ind
+binder 1996:1996 <> i:46
+R2012:2021 dsys.common.LTL <> LTLFormula def
+binder 2006:2006 <> P:47
+binder 2008:2008 <> Q:48
+R2031:2031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2046:2050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2033:2034 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2036:2039 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2032:2032 dsys.common.LTL <> l:45 var
+R2035:2035 dsys.common.LTL <> i:46 var
+R2041:2044 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R2040:2040 dsys.common.LTL <> P:47 var
+R2045:2045 dsys.common.LTL <> Q:48 var
+R2051:2051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2063:2067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2053:2054 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2058:2061 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2052:2052 dsys.common.LTL <> l:45 var
+R2056:2056 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2055:2055 dsys.common.LTL <> i:46 var
+R2062:2062 dsys.common.LTL <> P:47 var
+R2068:2068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2082:2087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2105:2105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2070:2072 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2076:2079 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2069:2069 dsys.common.LTL <> l:45 var
+R2074:2074 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2073:2073 dsys.common.LTL <> i:46 var
+R2080:2080 dsys.common.LTL ltl ::ltl_scope:'~'_x not
+R2081:2081 dsys.common.LTL <> Q:48 var
+R2089:2091 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2095:2098 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2088:2088 dsys.common.LTL <> l:45 var
+R2093:2093 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2092:2092 dsys.common.LTL <> i:46 var
+R2100:2103 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R2099:2099 dsys.common.LTL <> P:47 var
+R2104:2104 dsys.common.LTL <> Q:48 var
+R2230:2233 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2228:2228 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2230:2233 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R2228:2228 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R2256:2274 Coq.Arith.PeanoNat Nat eqb_eq thm
+R2256:2274 Coq.Arith.PeanoNat Nat eqb_eq thm
+R2328:2347 Coq.Arith.PeanoNat Nat eqb_neq thm
+R2328:2347 Coq.Arith.PeanoNat Nat eqb_neq thm
+def 2551:2559 <> ltl_until
+R2566:2568 dsys.common.LTL <> Run def
+binder 2562:2562 <> l:49
+R2576:2578 Coq.Init.Datatypes <> nat ind
+binder 2572:2572 <> i:50
+R2588:2597 dsys.common.LTL <> LTLFormula def
+binder 2582:2582 <> P:51
+binder 2584:2584 <> Q:52
+R2614:2620 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2628:2629 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2625:2627 Coq.Init.Datatypes <> nat ind
+binder 2621:2621 <> j:53
+R2636:2639 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2631:2634 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2630:2630 dsys.common.LTL <> i:50 var
+R2635:2635 dsys.common.LTL <> j:53 var
+R2640:2640 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2646:2651 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2694:2694 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2641:2641 dsys.common.LTL <> Q:52 var
+R2643:2643 dsys.common.LTL <> l:49 var
+R2645:2645 dsys.common.LTL <> j:53 var
+R2663:2665 Coq.Init.Datatypes <> nat ind
+binder 2659:2659 <> k:54
+R2674:2677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2669:2672 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2668:2668 dsys.common.LTL <> k:54 var
+R2673:2673 dsys.common.LTL <> j:53 var
+R2683:2687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2693:2693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2679:2681 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2678:2678 dsys.common.LTL <> i:50 var
+R2682:2682 dsys.common.LTL <> k:54 var
+R2688:2688 dsys.common.LTL <> P:51 var
+R2690:2690 dsys.common.LTL <> l:49 var
+R2692:2692 dsys.common.LTL <> k:54 var
+binder 2842:2842 <> l:55
+binder 2844:2844 <> i:56
+R2849:2857 dsys.common.LTL <> ltl_until def
+R2861:2861 dsys.common.LTL <> i:56 var
+R2859:2859 dsys.common.LTL <> l:55 var
+not 2824:2824 ltl ::ltl_scope:x_'U'_x
+def 2933:2940 <> ltl_next
+R2947:2949 dsys.common.LTL <> Run def
+binder 2943:2943 <> l:57
+R2957:2959 Coq.Init.Datatypes <> nat ind
+binder 2953:2953 <> i:58
+R2967:2976 dsys.common.LTL <> LTLFormula def
+binder 2963:2963 <> P:59
+R2994:2995 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2997:3000 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R2993:2993 dsys.common.LTL <> l:57 var
+R2996:2996 dsys.common.LTL <> i:58 var
+R3001:3001 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R3034:3038 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R3011:3013 dsys.common.LTL <> Run def
+binder 3007:3007 <> l:60
+R3021:3023 Coq.Init.Datatypes <> nat ind
+binder 3017:3017 <> i:61
+R3029:3033 Coq.Init.Logic <> False ind
+R3039:3039 dsys.common.LTL <> P:59 var
+binder 3069:3069 <> l:62
+binder 3071:3071 <> i:63
+R3076:3083 dsys.common.LTL <> ltl_next def
+R3087:3087 dsys.common.LTL <> i:63 var
+R3085:3085 dsys.common.LTL <> l:62 var
+not 3053:3053 ltl ::ltl_scope:'X'_x
+prf 3128:3142 <> ltl_next_unfold
+R3162:3164 dsys.common.LTL <> Run def
+binder 3158:3158 <> l:64
+R3172:3174 Coq.Init.Datatypes <> nat ind
+binder 3168:3168 <> i:65
+R3182:3191 dsys.common.LTL <> LTLFormula def
+binder 3178:3178 <> P:66
+R3195:3195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3207:3212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3224:3224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3197:3198 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3200:3203 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3196:3196 dsys.common.LTL <> l:64 var
+R3199:3199 dsys.common.LTL <> i:65 var
+R3204:3205 dsys.common.LTL ltl ::ltl_scope:'X'_x not
+R3206:3206 dsys.common.LTL <> P:66 var
+R3214:3215 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3219:3222 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3213:3213 dsys.common.LTL <> l:64 var
+R3217:3217 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3216:3216 dsys.common.LTL <> i:65 var
+R3223:3223 dsys.common.LTL <> P:66 var
+R3318:3321 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R3323:3323 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3318:3321 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R3323:3323 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3346:3364 Coq.Arith.PeanoNat Nat eqb_eq thm
+R3346:3364 Coq.Arith.PeanoNat Nat eqb_eq thm
+R3404:3423 Coq.Arith.PeanoNat Nat eqb_neq thm
+R3404:3423 Coq.Arith.PeanoNat Nat eqb_neq thm
+R3453:3453 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3453:3453 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3466:3470 Coq.Init.Logic <> False ind
+R3466:3470 Coq.Init.Logic <> False ind
+prf 3521:3533 <> ltl_next_fold
+R3553:3555 dsys.common.LTL <> Run def
+binder 3549:3549 <> l:67
+R3563:3565 Coq.Init.Datatypes <> nat ind
+binder 3559:3559 <> i:68
+R3573:3582 dsys.common.LTL <> LTLFormula def
+binder 3569:3569 <> P:69
+R3586:3586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3598:3603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3616:3616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3588:3589 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3593:3596 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3587:3587 dsys.common.LTL <> l:67 var
+R3591:3591 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3590:3590 dsys.common.LTL <> i:68 var
+R3597:3597 dsys.common.LTL <> P:69 var
+R3605:3607 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3609:3612 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3604:3604 dsys.common.LTL <> l:67 var
+R3608:3608 dsys.common.LTL <> i:68 var
+R3613:3614 dsys.common.LTL ltl ::ltl_scope:'X'_x not
+R3615:3615 dsys.common.LTL <> P:69 var
+R3668:3668 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3668:3668 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+def 3807:3823 <> ltl_strict_future
+R3830:3832 dsys.common.LTL <> Run def
+binder 3826:3826 <> l:70
+R3840:3842 Coq.Init.Datatypes <> nat ind
+binder 3836:3836 <> i:71
+R3850:3859 dsys.common.LTL <> LTLFormula def
+binder 3846:3846 <> P:72
+R3877:3878 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3880:3883 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R3876:3876 dsys.common.LTL <> l:70 var
+R3879:3879 dsys.common.LTL <> i:71 var
+R3884:3884 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R3900:3904 dsys.common.LTL ltl ::ltl_scope:x_'SU'_x not
+R3896:3899 Coq.Init.Logic <> True ind
+R3905:3905 dsys.common.LTL <> P:72 var
+binder 3936:3936 <> l:73
+binder 3938:3938 <> i:74
+R3943:3959 dsys.common.LTL <> ltl_strict_future def
+R3963:3963 dsys.common.LTL <> i:74 var
+R3961:3961 dsys.common.LTL <> l:73 var
+not 3919:3919 ltl ::ltl_scope:'SF'_x
+def 4009:4018 <> ltl_future
+R4025:4027 dsys.common.LTL <> Run def
+binder 4021:4021 <> l:75
+R4035:4037 Coq.Init.Datatypes <> nat ind
+binder 4031:4031 <> i:76
+R4045:4054 dsys.common.LTL <> LTLFormula def
+binder 4041:4041 <> P:77
+R4072:4073 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4075:4078 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4071:4071 dsys.common.LTL <> l:75 var
+R4074:4074 dsys.common.LTL <> i:76 var
+R4079:4079 dsys.common.LTL ltl ::ltl_scope:x_'U'_x not
+R4095:4098 dsys.common.LTL ltl ::ltl_scope:x_'U'_x not
+R4091:4094 Coq.Init.Logic <> True ind
+R4099:4099 dsys.common.LTL <> P:77 var
+binder 4129:4129 <> l:78
+binder 4131:4131 <> i:79
+R4136:4145 dsys.common.LTL <> ltl_future def
+R4149:4149 dsys.common.LTL <> i:79 var
+R4147:4147 dsys.common.LTL <> l:78 var
+not 4113:4113 ltl ::ltl_scope:'F'_x
+prf 4190:4209 <> ltl_future_is_exists
+R4229:4231 dsys.common.LTL <> Run def
+binder 4225:4225 <> l:80
+R4239:4241 Coq.Init.Datatypes <> nat ind
+binder 4235:4235 <> i:81
+R4249:4258 dsys.common.LTL <> LTLFormula def
+binder 4245:4245 <> P:82
+R4274:4279 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4321:4321 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4263:4265 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4267:4270 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4262:4262 dsys.common.LTL <> l:80 var
+R4266:4266 dsys.common.LTL <> i:81 var
+R4271:4272 dsys.common.LTL ltl ::ltl_scope:'F'_x not
+R4273:4273 dsys.common.LTL <> P:82 var
+R4280:4286 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4294:4295 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4291:4293 Coq.Init.Datatypes <> nat ind
+binder 4287:4287 <> j:83
+R4296:4298 Coq.Init.Logic <> and ind
+R4311:4313 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4315:4318 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R4310:4310 dsys.common.LTL <> l:80 var
+R4314:4314 dsys.common.LTL <> j:83 var
+R4319:4319 dsys.common.LTL <> P:82 var
+R4302:4305 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R4301:4301 dsys.common.LTL <> j:83 var
+R4306:4306 dsys.common.LTL <> i:81 var
+def 5552:5562 <> ltl_general
+R5569:5571 dsys.common.LTL <> Run def
+binder 5565:5565 <> l:84
+R5579:5581 Coq.Init.Datatypes <> nat ind
+binder 5575:5575 <> i:85
+R5589:5598 dsys.common.LTL <> LTLFormula def
+binder 5585:5585 <> P:86
+R5626:5628 Coq.Init.Datatypes <> nat ind
+binder 5622:5622 <> j:87
+R5637:5640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5632:5635 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R5631:5631 dsys.common.LTL <> j:87 var
+R5636:5636 dsys.common.LTL <> i:85 var
+R5642:5644 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R5646:5649 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R5641:5641 dsys.common.LTL <> l:84 var
+R5645:5645 dsys.common.LTL <> j:87 var
+R5650:5650 dsys.common.LTL <> P:86 var
+binder 5787:5787 <> l:88
+binder 5789:5789 <> i:89
+R5794:5804 dsys.common.LTL <> ltl_general def
+R5808:5808 dsys.common.LTL <> i:89 var
+R5806:5806 dsys.common.LTL <> l:88 var
+not 5771:5771 ltl ::ltl_scope:'G'_x
+def 8263:8276 <> ltl_weak_until
+R8283:8285 dsys.common.LTL <> Run def
+binder 8279:8279 <> l:90
+R8293:8295 Coq.Init.Datatypes <> nat ind
+binder 8289:8289 <> i:91
+R8305:8314 dsys.common.LTL <> LTLFormula def
+binder 8299:8299 <> P:92
+binder 8301:8301 <> Q:93
+R8332:8333 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R8335:8339 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R8356:8356 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R8331:8331 dsys.common.LTL <> l:90 var
+R8334:8334 dsys.common.LTL <> i:91 var
+R8340:8340 dsys.common.LTL ltl ::ltl_scope:x_'\/'_x not
+R8344:8349 dsys.common.LTL ltl ::ltl_scope:x_'\/'_x not
+R8355:8355 dsys.common.LTL ltl ::ltl_scope:x_'\/'_x not
+R8341:8342 dsys.common.LTL ltl ::ltl_scope:'G'_x not
+R8343:8343 dsys.common.LTL <> P:92 var
+R8351:8353 dsys.common.LTL ltl ::ltl_scope:x_'U'_x not
+R8350:8350 dsys.common.LTL <> P:92 var
+R8354:8354 dsys.common.LTL <> Q:93 var
+binder 8388:8388 <> l:94
+binder 8390:8390 <> i:95
+R8395:8408 dsys.common.LTL <> ltl_weak_until def
+R8412:8412 dsys.common.LTL <> i:95 var
+R8410:8410 dsys.common.LTL <> l:94 var
+not 8370:8370 ltl ::ltl_scope:x_'W'_x
+def 8460:8476 <> ltl_finitely_many
+R8483:8485 dsys.common.LTL <> Run def
+binder 8479:8479 <> l:96
+R8493:8495 Coq.Init.Datatypes <> nat ind
+binder 8489:8489 <> i:97
+R8503:8512 dsys.common.LTL <> LTLFormula def
+binder 8499:8499 <> p:98
+R8530:8531 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R8533:8536 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R8529:8529 dsys.common.LTL <> l:96 var
+R8532:8532 dsys.common.LTL <> i:97 var
+R8537:8539 dsys.common.LTL ltl ::ltl_scope:'F'_x not
+R8547:8547 dsys.common.LTL ltl ::ltl_scope:'F'_x not
+R8540:8542 dsys.common.LTL ltl ::ltl_scope:'G'_x not
+R8546:8546 dsys.common.LTL ltl ::ltl_scope:'G'_x not
+R8543:8544 dsys.common.LTL ltl ::ltl_scope:'~'_x not
+R8545:8545 dsys.common.LTL <> p:98 var
+binder 8578:8578 <> l:99
+binder 8580:8580 <> i:100
+R8585:8601 dsys.common.LTL <> ltl_finitely_many def
+R8605:8605 dsys.common.LTL <> i:100 var
+R8603:8603 dsys.common.LTL <> l:99 var
+not 8561:8561 ltl ::ltl_scope:'FM'_x
+def 9714:9732 <> ltl_infinitely_many
+R9739:9741 dsys.common.LTL <> Run def
+binder 9735:9735 <> l:101
+R9749:9751 Coq.Init.Datatypes <> nat ind
+binder 9745:9745 <> i:102
+R9759:9768 dsys.common.LTL <> LTLFormula def
+binder 9755:9755 <> P:103
+R9786:9787 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R9789:9792 dsys.common.LTL ltl ::ltl_scope:x_'$'_x_'|='_x not
+R9785:9785 dsys.common.LTL <> l:101 var
+R9788:9788 dsys.common.LTL <> i:102 var
+R9793:9795 dsys.common.LTL ltl ::ltl_scope:'G'_x not
+R9799:9799 dsys.common.LTL ltl ::ltl_scope:'G'_x not
+R9796:9797 dsys.common.LTL ltl ::ltl_scope:'F'_x not
+R9798:9798 dsys.common.LTL <> P:103 var
+binder 9830:9830 <> l:104
+binder 9832:9832 <> i:105
+R9837:9855 dsys.common.LTL <> ltl_infinitely_many def
+R9859:9859 dsys.common.LTL <> i:105 var
+R9857:9857 dsys.common.LTL <> l:104 var
+not 9813:9813 ltl ::ltl_scope:'IM'_x
+R11137:11139 dsys.common.LTL ltl <> sec
+R11176:11184 dsys.common.LTL <> ltl_apply def
+not 11159:11159 <> ::ltl_scope:x_'$'_x_'|='_x
+binder 11463:11463 <> l:106
+binder 11465:11465 <> i:107
+R11470:11477 dsys.common.LTL <> ltl_impl def
+R11481:11481 dsys.common.LTL <> i:107 var
+R11479:11479 dsys.common.LTL <> l:106 var
+not 11445:11445 <> ::ltl_scope:x_'-->'_x
+binder 11547:11547 <> l:108
+binder 11549:11549 <> i:109
+R11554:11560 dsys.common.LTL <> ltl_now def
+R11564:11564 dsys.common.LTL <> i:109 var
+R11562:11562 dsys.common.LTL <> l:108 var
+not 11531:11531 <> ::ltl_scope:'N'_x
+binder 11631:11631 <> l:110
+binder 11633:11633 <> i:111
+R11638:11653 dsys.common.LTL <> ltl_strict_until def
+R11657:11657 dsys.common.LTL <> i:111 var
+R11655:11655 dsys.common.LTL <> l:110 var
+not 11612:11612 <> ::ltl_scope:x_'SU'_x
+binder 11725:11725 <> l:112
+binder 11727:11727 <> i:113
+R11732:11740 dsys.common.LTL <> ltl_until def
+R11744:11744 dsys.common.LTL <> i:113 var
+R11742:11742 dsys.common.LTL <> l:112 var
+not 11707:11707 <> ::ltl_scope:x_'U'_x
+binder 11810:11810 <> l:114
+binder 11812:11812 <> i:115
+R11817:11824 dsys.common.LTL <> ltl_next def
+R11828:11828 dsys.common.LTL <> i:115 var
+R11826:11826 dsys.common.LTL <> l:114 var
+not 11794:11794 <> ::ltl_scope:'X'_x
+binder 11893:11893 <> l:116
+binder 11895:11895 <> i:117
+R11900:11916 dsys.common.LTL <> ltl_strict_future def
+R11920:11920 dsys.common.LTL <> i:117 var
+R11918:11918 dsys.common.LTL <> l:116 var
+not 11876:11876 <> ::ltl_scope:'SF'_x
+binder 11984:11984 <> l:118
+binder 11986:11986 <> i:119
+R11991:12000 dsys.common.LTL <> ltl_future def
+R12004:12004 dsys.common.LTL <> i:119 var
+R12002:12002 dsys.common.LTL <> l:118 var
+not 11968:11968 <> ::ltl_scope:'F'_x
+binder 12068:12068 <> l:120
+binder 12070:12070 <> i:121
+R12075:12085 dsys.common.LTL <> ltl_general def
+R12089:12089 dsys.common.LTL <> i:121 var
+R12087:12087 dsys.common.LTL <> l:120 var
+not 12052:12052 <> ::ltl_scope:'G'_x
+binder 12155:12155 <> l:122
+binder 12157:12157 <> i:123
+R12162:12175 dsys.common.LTL <> ltl_weak_until def
+R12179:12179 dsys.common.LTL <> i:123 var
+R12177:12177 dsys.common.LTL <> l:122 var
+not 12137:12137 <> ::ltl_scope:x_'W'_x
+binder 12246:12246 <> l:124
+binder 12248:12248 <> i:125
+R12253:12269 dsys.common.LTL <> ltl_finitely_many def
+R12273:12273 dsys.common.LTL <> i:125 var
+R12271:12271 dsys.common.LTL <> l:124 var
+not 12229:12229 <> ::ltl_scope:'FM'_x
+binder 12338:12338 <> l:126
+binder 12340:12340 <> i:127
+R12345:12363 dsys.common.LTL <> ltl_infinitely_many def
+R12367:12367 dsys.common.LTL <> i:127 var
+R12365:12365 dsys.common.LTL <> l:126 var
+not 12321:12321 <> ::ltl_scope:'IM'_x

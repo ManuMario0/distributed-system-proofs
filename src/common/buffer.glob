@@ -1,0 +1,906 @@
+DIGEST 0d69190934afc8a3b8dcd6f94c527224
+Fdsys.common.buffer
+R15:24 dsys.common.IOA <> <> lib
+R42:51 dsys.common.LTL <> <> lib
+R69:81 dsys.common.tactic <> <> lib
+R99:101 Coq.micromega.Lia <> <> lib
+R119:123 Coq.Arith.Arith <> <> lib
+R141:144 Coq.Bool.Bool <> <> lib
+R162:185 Coq.Logic.FunctionalExtensionality <> <> lib
+sec 197:202 <> Buffer
+var 243:243 Buffer P
+var 265:270 Buffer eq_dec
+R287:287 dsys.common.buffer <> Buffer.P var
+binder 281:281 <> p:2
+binder 283:283 <> q:3
+R290:290 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R296:298 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R305:305 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R292:294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R291:291 dsys.common.buffer <> p:2 var
+R295:295 dsys.common.buffer <> q:3 var
+R300:303 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R299:299 dsys.common.buffer <> p:2 var
+R304:304 dsys.common.buffer <> q:3 var
+def 322:327 <> buffer
+R333:336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R332:332 dsys.common.buffer <> Buffer.P var
+R337:340 Coq.Init.Datatypes <> bool ind
+def 356:367 <> empty_buffer
+R371:376 dsys.common.buffer <> buffer def
+binder 385:385 <> p:5
+R390:394 Coq.Init.Datatypes <> false constr
+def 410:419 <> buffer_add
+R430:435 dsys.common.buffer <> buffer def
+binder 426:426 <> b:6
+R447:447 dsys.common.buffer <> Buffer.P var
+binder 443:443 <> p:7
+binder 461:462 <> p':8
+R470:475 dsys.common.buffer <> Buffer.eq_dec var
+R479:480 dsys.common.buffer <> p':8 var
+R477:477 dsys.common.buffer <> p:7 var
+R497:497 dsys.common.buffer <> b:6 var
+R499:500 dsys.common.buffer <> p':8 var
+R487:490 Coq.Init.Datatypes <> true constr
+def 516:525 <> buffer_sub
+R536:541 dsys.common.buffer <> buffer def
+binder 532:532 <> b:9
+R553:553 dsys.common.buffer <> Buffer.P var
+binder 549:549 <> p:10
+binder 567:568 <> p':11
+R576:581 dsys.common.buffer <> Buffer.eq_dec var
+R585:586 dsys.common.buffer <> p':11 var
+R583:583 dsys.common.buffer <> p:10 var
+R604:604 dsys.common.buffer <> b:9 var
+R606:607 dsys.common.buffer <> p':11 var
+R593:597 Coq.Init.Datatypes <> false constr
+def 623:631 <> in_buffer
+R642:647 dsys.common.buffer <> buffer def
+binder 638:638 <> b:12
+R659:659 dsys.common.buffer <> Buffer.P var
+binder 655:655 <> p:13
+R672:674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R669:669 dsys.common.buffer <> b:12 var
+R671:671 dsys.common.buffer <> p:13 var
+R675:678 Coq.Init.Datatypes <> true constr
+prf 690:712 <> buffer_empty_then_false
+R731:731 dsys.common.buffer <> Buffer.P var
+binder 727:727 <> p:14
+R748:750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R734:745 dsys.common.buffer <> empty_buffer def
+R747:747 dsys.common.buffer <> p:14 var
+R751:755 Coq.Init.Datatypes <> false constr
+prf 793:822 <> buffer_add_in_buffer_invariant
+R841:846 dsys.common.buffer <> buffer def
+binder 837:837 <> b:15
+R860:860 dsys.common.buffer <> Buffer.P var
+binder 856:856 <> p:16
+R879:882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R872:874 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R869:869 dsys.common.buffer <> b:15 var
+R871:871 dsys.common.buffer <> p:16 var
+R875:878 Coq.Init.Datatypes <> true constr
+R897:899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R883:892 dsys.common.buffer <> buffer_add def
+R896:896 dsys.common.buffer <> p:16 var
+R894:894 dsys.common.buffer <> b:15 var
+R900:900 dsys.common.buffer <> b:15 var
+R935:944 dsys.common.buffer <> buffer_add def
+R957:981 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R957:981 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R1007:1012 dsys.common.buffer <> Buffer.eq_dec var
+R1007:1012 dsys.common.buffer <> Buffer.eq_dec var
+prf 1056:1080 <> buffer_add_then_in_buffer
+R1099:1104 dsys.common.buffer <> buffer def
+binder 1095:1095 <> b:17
+R1118:1118 dsys.common.buffer <> Buffer.P var
+binder 1114:1114 <> p:18
+R1143:1145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1127:1136 dsys.common.buffer <> buffer_add def
+R1142:1142 dsys.common.buffer <> p:18 var
+R1140:1140 dsys.common.buffer <> p:18 var
+R1138:1138 dsys.common.buffer <> b:17 var
+R1146:1149 Coq.Init.Datatypes <> true constr
+R1184:1193 dsys.common.buffer <> buffer_add def
+R1209:1214 dsys.common.buffer <> Buffer.eq_dec var
+R1209:1214 dsys.common.buffer <> Buffer.eq_dec var
+prf 1249:1278 <> buffer_add_in_buffer_keep_true
+R1297:1302 dsys.common.buffer <> buffer def
+binder 1293:1293 <> b:19
+R1319:1319 dsys.common.buffer <> Buffer.P var
+binder 1312:1312 <> p:20
+binder 1314:1315 <> p':21
+R1338:1341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1331:1333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1328:1328 dsys.common.buffer <> b:19 var
+R1330:1330 dsys.common.buffer <> p:20 var
+R1334:1337 Coq.Init.Datatypes <> true constr
+R1359:1361 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1342:1351 dsys.common.buffer <> buffer_add def
+R1358:1358 dsys.common.buffer <> p:20 var
+R1355:1356 dsys.common.buffer <> p':21 var
+R1353:1353 dsys.common.buffer <> b:19 var
+R1362:1365 Coq.Init.Datatypes <> true constr
+R1400:1409 dsys.common.buffer <> buffer_add def
+R1425:1430 dsys.common.buffer <> Buffer.eq_dec var
+R1425:1430 dsys.common.buffer <> Buffer.eq_dec var
+prf 1466:1495 <> buffer_add_keep_other_unchaged
+R1514:1519 dsys.common.buffer <> buffer def
+binder 1510:1510 <> b:22
+R1536:1536 dsys.common.buffer <> Buffer.P var
+binder 1529:1529 <> p:23
+binder 1531:1532 <> p':24
+R1552:1555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1546:1549 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1545:1545 dsys.common.buffer <> p:23 var
+R1550:1551 dsys.common.buffer <> p':24 var
+R1573:1575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1556:1565 dsys.common.buffer <> buffer_add def
+R1571:1572 dsys.common.buffer <> p':24 var
+R1569:1569 dsys.common.buffer <> p:23 var
+R1567:1567 dsys.common.buffer <> b:22 var
+R1576:1576 dsys.common.buffer <> b:22 var
+R1578:1579 dsys.common.buffer <> p':24 var
+R1614:1623 dsys.common.buffer <> buffer_add def
+R1639:1644 dsys.common.buffer <> Buffer.eq_dec var
+R1639:1644 dsys.common.buffer <> Buffer.eq_dec var
+prf 1696:1719 <> buffer_add_twice_permute
+R1738:1743 dsys.common.buffer <> buffer def
+binder 1734:1734 <> b:25
+R1760:1760 dsys.common.buffer <> Buffer.P var
+binder 1753:1753 <> p:26
+binder 1755:1756 <> p':27
+R1799:1801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1769:1778 dsys.common.buffer <> buffer_add def
+R1797:1798 dsys.common.buffer <> p':27 var
+R1781:1790 dsys.common.buffer <> buffer_add def
+R1794:1794 dsys.common.buffer <> p:26 var
+R1792:1792 dsys.common.buffer <> b:25 var
+R1802:1811 dsys.common.buffer <> buffer_add def
+R1831:1831 dsys.common.buffer <> p:26 var
+R1814:1823 dsys.common.buffer <> buffer_add def
+R1827:1828 dsys.common.buffer <> p':27 var
+R1825:1825 dsys.common.buffer <> b:25 var
+R1865:1889 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R1865:1889 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R1912:1921 dsys.common.buffer <> buffer_add def
+R1937:1942 dsys.common.buffer <> Buffer.eq_dec var
+R1965:1970 dsys.common.buffer <> Buffer.eq_dec var
+R1937:1942 dsys.common.buffer <> Buffer.eq_dec var
+R1965:1970 dsys.common.buffer <> Buffer.eq_dec var
+R1965:1970 dsys.common.buffer <> Buffer.eq_dec var
+prf 2005:2038 <> buffer_sub_not_in_buffer_invariant
+R2057:2062 dsys.common.buffer <> buffer def
+binder 2053:2053 <> b:28
+R2076:2076 dsys.common.buffer <> Buffer.P var
+binder 2072:2072 <> p:29
+R2096:2099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2088:2090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2085:2085 dsys.common.buffer <> b:28 var
+R2087:2087 dsys.common.buffer <> p:29 var
+R2091:2095 Coq.Init.Datatypes <> false constr
+R2114:2116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2100:2109 dsys.common.buffer <> buffer_sub def
+R2113:2113 dsys.common.buffer <> p:29 var
+R2111:2111 dsys.common.buffer <> b:28 var
+R2117:2117 dsys.common.buffer <> b:28 var
+R2151:2175 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2151:2175 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2198:2207 dsys.common.buffer <> buffer_sub def
+R2223:2228 dsys.common.buffer <> Buffer.eq_dec var
+R2223:2228 dsys.common.buffer <> Buffer.eq_dec var
+prf 2271:2299 <> buffer_sub_then_not_in_buffer
+R2318:2323 dsys.common.buffer <> buffer def
+binder 2314:2314 <> b:30
+R2337:2337 dsys.common.buffer <> Buffer.P var
+binder 2333:2333 <> p:31
+R2362:2364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2346:2355 dsys.common.buffer <> buffer_sub def
+R2361:2361 dsys.common.buffer <> p:31 var
+R2359:2359 dsys.common.buffer <> p:31 var
+R2357:2357 dsys.common.buffer <> b:30 var
+R2365:2369 Coq.Init.Datatypes <> false constr
+R2404:2413 dsys.common.buffer <> buffer_sub def
+R2429:2434 dsys.common.buffer <> Buffer.eq_dec var
+R2429:2434 dsys.common.buffer <> Buffer.eq_dec var
+prf 2485:2519 <> buffer_sub_not_in_buffer_keep_false
+R2538:2543 dsys.common.buffer <> buffer def
+binder 2534:2534 <> b:32
+R2560:2560 dsys.common.buffer <> Buffer.P var
+binder 2553:2553 <> p:33
+binder 2555:2556 <> p':34
+R2580:2583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2572:2574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2569:2569 dsys.common.buffer <> b:32 var
+R2571:2571 dsys.common.buffer <> p:33 var
+R2575:2579 Coq.Init.Datatypes <> false constr
+R2601:2603 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2584:2593 dsys.common.buffer <> buffer_sub def
+R2600:2600 dsys.common.buffer <> p:33 var
+R2597:2598 dsys.common.buffer <> p':34 var
+R2595:2595 dsys.common.buffer <> b:32 var
+R2604:2608 Coq.Init.Datatypes <> false constr
+R2643:2652 dsys.common.buffer <> buffer_sub def
+R2668:2673 dsys.common.buffer <> Buffer.eq_dec var
+R2668:2673 dsys.common.buffer <> Buffer.eq_dec var
+prf 2709:2732 <> buffer_sub_twice_permute
+R2751:2756 dsys.common.buffer <> buffer def
+binder 2747:2747 <> b:35
+R2773:2773 dsys.common.buffer <> Buffer.P var
+binder 2766:2766 <> p:36
+binder 2768:2769 <> p':37
+R2812:2814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2782:2791 dsys.common.buffer <> buffer_sub def
+R2810:2811 dsys.common.buffer <> p':37 var
+R2794:2803 dsys.common.buffer <> buffer_sub def
+R2807:2807 dsys.common.buffer <> p:36 var
+R2805:2805 dsys.common.buffer <> b:35 var
+R2815:2824 dsys.common.buffer <> buffer_sub def
+R2844:2844 dsys.common.buffer <> p:36 var
+R2827:2836 dsys.common.buffer <> buffer_sub def
+R2840:2841 dsys.common.buffer <> p':37 var
+R2838:2838 dsys.common.buffer <> b:35 var
+R2878:2902 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2878:2902 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2925:2934 dsys.common.buffer <> buffer_sub def
+R2950:2955 dsys.common.buffer <> Buffer.eq_dec var
+R2978:2983 dsys.common.buffer <> Buffer.eq_dec var
+R2950:2955 dsys.common.buffer <> Buffer.eq_dec var
+R2978:2983 dsys.common.buffer <> Buffer.eq_dec var
+R2978:2983 dsys.common.buffer <> Buffer.eq_dec var
+prf 3018:3047 <> buffer_sub_keep_other_unchaged
+R3066:3071 dsys.common.buffer <> buffer def
+binder 3062:3062 <> b:38
+R3088:3088 dsys.common.buffer <> Buffer.P var
+binder 3081:3081 <> p:39
+binder 3083:3084 <> p':40
+R3104:3107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3098:3101 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3097:3097 dsys.common.buffer <> p:39 var
+R3102:3103 dsys.common.buffer <> p':40 var
+R3125:3127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3108:3117 dsys.common.buffer <> buffer_sub def
+R3123:3124 dsys.common.buffer <> p':40 var
+R3121:3121 dsys.common.buffer <> p:39 var
+R3119:3119 dsys.common.buffer <> b:38 var
+R3128:3128 dsys.common.buffer <> b:38 var
+R3130:3131 dsys.common.buffer <> p':40 var
+R3166:3175 dsys.common.buffer <> buffer_sub def
+R3191:3196 dsys.common.buffer <> Buffer.eq_dec var
+R3191:3196 dsys.common.buffer <> Buffer.eq_dec var
+prf 3248:3290 <> buffer_sub_add_not_in_buffer_then_invarient
+R3309:3314 dsys.common.buffer <> buffer def
+binder 3305:3305 <> b:41
+R3328:3328 dsys.common.buffer <> Buffer.P var
+binder 3324:3324 <> p:42
+R3348:3351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3340:3342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3337:3337 dsys.common.buffer <> b:41 var
+R3339:3339 dsys.common.buffer <> p:42 var
+R3343:3347 Coq.Init.Datatypes <> false constr
+R3381:3383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3352:3361 dsys.common.buffer <> buffer_sub def
+R3380:3380 dsys.common.buffer <> p:42 var
+R3364:3373 dsys.common.buffer <> buffer_add def
+R3377:3377 dsys.common.buffer <> p:42 var
+R3375:3375 dsys.common.buffer <> b:41 var
+R3384:3384 dsys.common.buffer <> b:41 var
+R3418:3442 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3418:3442 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3465:3474 dsys.common.buffer <> buffer_sub def
+R3477:3486 dsys.common.buffer <> buffer_add def
+prf 3544:3574 <> buffer_sub_add_distinct_permute
+R3593:3598 dsys.common.buffer <> buffer def
+binder 3589:3589 <> b:43
+R3615:3615 dsys.common.buffer <> Buffer.P var
+binder 3608:3608 <> p:44
+binder 3610:3611 <> p':45
+R3631:3634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3625:3628 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3624:3624 dsys.common.buffer <> p:44 var
+R3629:3630 dsys.common.buffer <> p':45 var
+R3665:3667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3635:3644 dsys.common.buffer <> buffer_sub def
+R3663:3664 dsys.common.buffer <> p':45 var
+R3647:3656 dsys.common.buffer <> buffer_add def
+R3660:3660 dsys.common.buffer <> p:44 var
+R3658:3658 dsys.common.buffer <> b:43 var
+R3668:3677 dsys.common.buffer <> buffer_add def
+R3697:3697 dsys.common.buffer <> p:44 var
+R3680:3689 dsys.common.buffer <> buffer_sub def
+R3693:3694 dsys.common.buffer <> p':45 var
+R3691:3691 dsys.common.buffer <> b:43 var
+R3731:3755 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3731:3755 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R3778:3787 dsys.common.buffer <> buffer_sub def
+R3790:3799 dsys.common.buffer <> buffer_add def
+prf 3857:3895 <> buffer_add_sub_in_buffer_then_invarient
+R3914:3919 dsys.common.buffer <> buffer def
+binder 3910:3910 <> b:46
+R3933:3933 dsys.common.buffer <> Buffer.P var
+binder 3929:3929 <> p:47
+R3952:3955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3945:3947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3942:3942 dsys.common.buffer <> b:46 var
+R3944:3944 dsys.common.buffer <> p:47 var
+R3948:3951 Coq.Init.Datatypes <> true constr
+R3985:3987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3956:3965 dsys.common.buffer <> buffer_add def
+R3984:3984 dsys.common.buffer <> p:47 var
+R3968:3977 dsys.common.buffer <> buffer_sub def
+R3981:3981 dsys.common.buffer <> p:47 var
+R3979:3979 dsys.common.buffer <> b:46 var
+R3988:3988 dsys.common.buffer <> b:46 var
+R4022:4046 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4022:4046 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R4069:4078 dsys.common.buffer <> buffer_sub def
+R4081:4090 dsys.common.buffer <> buffer_add def
+R4271:4273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4267:4270 Coq.Init.Datatypes <> true constr
+R4274:4278 Coq.Init.Datatypes <> false constr
+R4271:4273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4267:4270 Coq.Init.Datatypes <> true constr
+R4274:4278 Coq.Init.Datatypes <> false constr
+R4317:4319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4312:4316 Coq.Init.Datatypes <> false constr
+R4320:4323 Coq.Init.Datatypes <> true constr
+R4317:4319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4312:4316 Coq.Init.Datatypes <> false constr
+R4320:4323 Coq.Init.Datatypes <> true constr
+R4400:4411 dsys.common.buffer <> empty_buffer def
+R4400:4411 dsys.common.buffer <> empty_buffer def
+R4482:4493 dsys.common.buffer <> empty_buffer def
+R4482:4493 dsys.common.buffer <> empty_buffer def
+R4606:4615 dsys.common.buffer <> buffer_add def
+R4606:4615 dsys.common.buffer <> buffer_add def
+R4693:4702 dsys.common.buffer <> buffer_sub def
+R4693:4702 dsys.common.buffer <> buffer_sub def
+R4785:4794 dsys.common.buffer <> buffer_add def
+R4785:4794 dsys.common.buffer <> buffer_add def
+R4883:4892 dsys.common.buffer <> buffer_sub def
+R4883:4892 dsys.common.buffer <> buffer_sub def
+R5028:5030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5031:5034 Coq.Init.Datatypes <> true constr
+R5028:5030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5031:5034 Coq.Init.Datatypes <> true constr
+R5049:5058 dsys.common.buffer <> buffer_add def
+R5049:5058 dsys.common.buffer <> buffer_add def
+R5145:5147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5148:5151 Coq.Init.Datatypes <> true constr
+R5145:5147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5148:5151 Coq.Init.Datatypes <> true constr
+R5166:5175 dsys.common.buffer <> buffer_add def
+R5166:5175 dsys.common.buffer <> buffer_add def
+R5264:5266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5267:5271 Coq.Init.Datatypes <> false constr
+R5264:5266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5267:5271 Coq.Init.Datatypes <> false constr
+R5286:5295 dsys.common.buffer <> buffer_sub def
+R5286:5295 dsys.common.buffer <> buffer_sub def
+R5386:5388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5389:5393 Coq.Init.Datatypes <> false constr
+R5386:5388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5389:5393 Coq.Init.Datatypes <> false constr
+R5408:5417 dsys.common.buffer <> buffer_sub def
+R5408:5417 dsys.common.buffer <> buffer_sub def
+R5511:5513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5514:5517 Coq.Init.Datatypes <> true constr
+R5511:5513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5514:5517 Coq.Init.Datatypes <> true constr
+R5534:5543 dsys.common.buffer <> buffer_add def
+R5534:5543 dsys.common.buffer <> buffer_add def
+R5640:5642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5643:5646 Coq.Init.Datatypes <> true constr
+R5640:5642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5643:5646 Coq.Init.Datatypes <> true constr
+R5663:5672 dsys.common.buffer <> buffer_add def
+R5663:5672 dsys.common.buffer <> buffer_add def
+R5771:5773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5774:5778 Coq.Init.Datatypes <> false constr
+R5771:5773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5774:5778 Coq.Init.Datatypes <> false constr
+R5795:5804 dsys.common.buffer <> buffer_sub def
+R5795:5804 dsys.common.buffer <> buffer_sub def
+R5905:5907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5908:5912 Coq.Init.Datatypes <> false constr
+R5905:5907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5908:5912 Coq.Init.Datatypes <> false constr
+R5929:5938 dsys.common.buffer <> buffer_sub def
+R5929:5938 dsys.common.buffer <> buffer_sub def
+R6087:6089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6090:6094 Coq.Init.Datatypes <> false constr
+R6087:6089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6090:6094 Coq.Init.Datatypes <> false constr
+R6119:6128 dsys.common.buffer <> buffer_sub def
+R6131:6140 dsys.common.buffer <> buffer_add def
+R6119:6128 dsys.common.buffer <> buffer_sub def
+R6131:6140 dsys.common.buffer <> buffer_add def
+R6174:6216 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R5975:6009 dsys.common.buffer <> buffer_sub_not_in_buffer_keep_false thm
+R5839:5872 dsys.common.buffer <> buffer_sub_not_in_buffer_invariant thm
+R5709:5738 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R5578:5607 dsys.common.buffer <> buffer_add_in_buffer_invariant thm
+R5449:5483 dsys.common.buffer <> buffer_sub_not_in_buffer_keep_false thm
+R5325:5358 dsys.common.buffer <> buffer_sub_not_in_buffer_invariant thm
+R5207:5236 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R5088:5117 dsys.common.buffer <> buffer_add_in_buffer_invariant thm
+R4929:4957 dsys.common.buffer <> buffer_sub_then_not_in_buffer thm
+R4831:4855 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R4734:4762 dsys.common.buffer <> buffer_sub_then_not_in_buffer thm
+R4647:4671 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R4524:4546 dsys.common.buffer <> buffer_empty_then_false thm
+R4437:4459 dsys.common.buffer <> buffer_empty_then_false thm
+def 9437:9448 <> buffer_union
+R9458:9463 dsys.common.buffer <> buffer def
+binder 9451:9451 <> b:48
+binder 9453:9454 <> b':49
+binder 9477:9477 <> p:50
+R9485:9488 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R9482:9482 dsys.common.buffer <> b:48 var
+R9484:9484 dsys.common.buffer <> p:50 var
+R9489:9490 dsys.common.buffer <> b':49 var
+R9492:9492 dsys.common.buffer <> p:50 var
+prf 9504:9533 <> buffer_add_left_then_add_union
+R9555:9560 dsys.common.buffer <> buffer def
+binder 9548:9548 <> b:51
+binder 9550:9551 <> b':52
+R9574:9574 dsys.common.buffer <> Buffer.P var
+binder 9570:9570 <> p:53
+R9615:9617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9583:9594 dsys.common.buffer <> buffer_union def
+R9613:9614 dsys.common.buffer <> b':52 var
+R9597:9606 dsys.common.buffer <> buffer_add def
+R9610:9610 dsys.common.buffer <> p:53 var
+R9608:9608 dsys.common.buffer <> b:51 var
+R9618:9627 dsys.common.buffer <> buffer_add def
+R9649:9649 dsys.common.buffer <> p:53 var
+R9630:9641 dsys.common.buffer <> buffer_union def
+R9645:9646 dsys.common.buffer <> b':52 var
+R9643:9643 dsys.common.buffer <> b:51 var
+R9683:9707 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R9683:9707 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R9730:9741 dsys.common.buffer <> buffer_union def
+R9744:9753 dsys.common.buffer <> buffer_add def
+prf 9796:9826 <> buffer_add_right_then_add_union
+R9848:9853 dsys.common.buffer <> buffer def
+binder 9841:9841 <> b:54
+binder 9843:9844 <> b':55
+R9867:9867 dsys.common.buffer <> Buffer.P var
+binder 9863:9863 <> p:56
+R9908:9910 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9876:9887 dsys.common.buffer <> buffer_union def
+R9892:9901 dsys.common.buffer <> buffer_add def
+R9906:9906 dsys.common.buffer <> p:56 var
+R9903:9904 dsys.common.buffer <> b':55 var
+R9889:9889 dsys.common.buffer <> b:54 var
+R9911:9920 dsys.common.buffer <> buffer_add def
+R9942:9942 dsys.common.buffer <> p:56 var
+R9923:9934 dsys.common.buffer <> buffer_union def
+R9938:9939 dsys.common.buffer <> b':55 var
+R9936:9936 dsys.common.buffer <> b:54 var
+R9976:10000 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R9976:10000 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R10023:10034 dsys.common.buffer <> buffer_union def
+R10037:10046 dsys.common.buffer <> buffer_add def
+prf 10099:10127 <> buffer_sub_union_is_union_sub
+R10149:10154 dsys.common.buffer <> buffer def
+binder 10142:10142 <> b:57
+binder 10144:10145 <> b':58
+R10168:10168 dsys.common.buffer <> Buffer.P var
+binder 10164:10164 <> p:59
+R10209:10211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10177:10186 dsys.common.buffer <> buffer_sub def
+R10208:10208 dsys.common.buffer <> p:59 var
+R10189:10200 dsys.common.buffer <> buffer_union def
+R10204:10205 dsys.common.buffer <> b':58 var
+R10202:10202 dsys.common.buffer <> b:57 var
+R10212:10223 dsys.common.buffer <> buffer_union def
+R10243:10252 dsys.common.buffer <> buffer_sub def
+R10257:10257 dsys.common.buffer <> p:59 var
+R10254:10255 dsys.common.buffer <> b':58 var
+R10226:10235 dsys.common.buffer <> buffer_sub def
+R10239:10239 dsys.common.buffer <> p:59 var
+R10237:10237 dsys.common.buffer <> b:57 var
+R10292:10316 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R10292:10316 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R10339:10350 dsys.common.buffer <> buffer_union def
+R10353:10362 dsys.common.buffer <> buffer_sub def
+prf 10415:10434 <> buffer_union_commute
+R10456:10461 dsys.common.buffer <> buffer def
+binder 10449:10449 <> b:60
+binder 10451:10452 <> b':61
+R10487:10489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10470:10481 dsys.common.buffer <> buffer_union def
+R10485:10486 dsys.common.buffer <> b':61 var
+R10483:10483 dsys.common.buffer <> b:60 var
+R10490:10501 dsys.common.buffer <> buffer_union def
+R10506:10506 dsys.common.buffer <> b:60 var
+R10503:10504 dsys.common.buffer <> b':61 var
+R10540:10564 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R10540:10564 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R10587:10598 dsys.common.buffer <> buffer_union def
+ind 10637:10647 <> buffer_size
+constr 10682:10693 <> buffer_empty
+constr 10730:10740 <> buffer_some
+R10657:10660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10651:10656 dsys.common.buffer <> buffer def
+R10664:10667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10661:10663 Coq.Init.Datatypes <> nat ind
+R10697:10707 dsys.common.buffer <> buffer_size:62 ind
+R10709:10720 dsys.common.buffer <> empty_buffer def
+R10755:10760 dsys.common.buffer <> buffer def
+binder 10751:10751 <> b:64
+R10774:10776 Coq.Init.Datatypes <> nat ind
+binder 10770:10770 <> n:65
+R10794:10797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10779:10789 dsys.common.buffer <> buffer_size:62 ind
+R10793:10793 dsys.common.buffer <> n:65 var
+R10791:10791 dsys.common.buffer <> b:64 var
+R10809:10809 dsys.common.buffer <> Buffer.P var
+binder 10805:10805 <> p:66
+R10823:10826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10815:10817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10812:10812 dsys.common.buffer <> b:64 var
+R10814:10814 dsys.common.buffer <> p:66 var
+R10818:10822 Coq.Init.Datatypes <> false constr
+R10827:10837 dsys.common.buffer <> buffer_size:62 ind
+R10857:10857 Coq.Init.Datatypes <> S constr
+R10859:10859 dsys.common.buffer <> n:65 var
+R10840:10849 dsys.common.buffer <> buffer_add def
+R10853:10853 dsys.common.buffer <> p:66 var
+R10851:10851 dsys.common.buffer <> b:64 var
+scheme 10637:10647 <> buffer_size_ind
+scheme 10637:10647 <> buffer_size_sind
+prf 10872:10894 <> nul_size_then_empty_set
+R10913:10918 dsys.common.buffer <> buffer def
+binder 10909:10909 <> b:67
+R10942:10945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10927:10937 dsys.common.buffer <> buffer_size ind
+R10939:10939 dsys.common.buffer <> b:67 var
+R10947:10949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10946:10946 dsys.common.buffer <> b:67 var
+R10950:10961 dsys.common.buffer <> empty_buffer def
+prf 11024:11045 <> buffer_sub_reduce_size
+R11064:11066 Coq.Init.Datatypes <> nat ind
+binder 11060:11060 <> i:68
+R11080:11085 dsys.common.buffer <> buffer def
+binder 11076:11076 <> b:69
+R11099:11099 dsys.common.buffer <> Buffer.P var
+binder 11095:11095 <> p:70
+R11127:11130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11108:11118 dsys.common.buffer <> buffer_size ind
+R11123:11123 Coq.Init.Datatypes <> S constr
+R11125:11125 dsys.common.buffer <> i:68 var
+R11120:11120 dsys.common.buffer <> b:69 var
+R11141:11144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11134:11136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11131:11131 dsys.common.buffer <> b:69 var
+R11133:11133 dsys.common.buffer <> p:70 var
+R11137:11140 Coq.Init.Datatypes <> true constr
+R11145:11155 dsys.common.buffer <> buffer_size ind
+R11174:11174 dsys.common.buffer <> i:68 var
+R11158:11167 dsys.common.buffer <> buffer_sub def
+R11171:11171 dsys.common.buffer <> p:70 var
+R11169:11169 dsys.common.buffer <> b:69 var
+R11264:11273 dsys.common.buffer <> buffer_add def
+R11316:11358 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11316:11358 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11316:11358 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11316:11358 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11382:11404 dsys.common.buffer <> buffer_empty_then_false thm
+R11382:11404 dsys.common.buffer <> buffer_empty_then_false thm
+R11382:11404 dsys.common.buffer <> buffer_empty_then_false thm
+R11476:11481 dsys.common.buffer <> Buffer.eq_dec var
+R11476:11481 dsys.common.buffer <> Buffer.eq_dec var
+R11515:11557 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11515:11557 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11515:11557 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11515:11557 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R11581:11611 dsys.common.buffer <> buffer_sub_add_distinct_permute thm
+R11581:11611 dsys.common.buffer <> buffer_sub_add_distinct_permute thm
+R11581:11611 dsys.common.buffer <> buffer_sub_add_distinct_permute thm
+R11581:11611 dsys.common.buffer <> buffer_sub_add_distinct_permute thm
+R11620:11630 dsys.common.buffer <> buffer_some constr
+R11620:11630 dsys.common.buffer <> buffer_some constr
+R11667:11676 dsys.common.buffer <> buffer_add def
+prf 11756:11794 <> size_of_union_bigger_than_distinct_size
+R11815:11817 Coq.Init.Datatypes <> nat ind
+binder 11809:11809 <> j:71
+binder 11811:11811 <> i:72
+R11834:11839 dsys.common.buffer <> buffer def
+binder 11827:11827 <> b:73
+binder 11829:11830 <> b':74
+R11881:11890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11848:11858 dsys.common.buffer <> buffer_size ind
+R11880:11880 dsys.common.buffer <> j:71 var
+R11861:11872 dsys.common.buffer <> buffer_union def
+R11876:11877 dsys.common.buffer <> b':74 var
+R11874:11874 dsys.common.buffer <> b:73 var
+R11906:11915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11891:11901 dsys.common.buffer <> buffer_size ind
+R11905:11905 dsys.common.buffer <> i:72 var
+R11903:11903 dsys.common.buffer <> b:73 var
+R11917:11920 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11916:11916 dsys.common.buffer <> i:72 var
+R11921:11921 dsys.common.buffer <> j:71 var
+R11976:11998 dsys.common.buffer <> nul_size_then_empty_set thm
+R11976:11998 dsys.common.buffer <> nul_size_then_empty_set thm
+R12080:12082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12046:12057 dsys.common.buffer <> buffer_union def
+R12060:12069 dsys.common.buffer <> buffer_add def
+R12083:12094 dsys.common.buffer <> empty_buffer def
+R12080:12082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12046:12057 dsys.common.buffer <> buffer_union def
+R12060:12069 dsys.common.buffer <> buffer_add def
+R12083:12094 dsys.common.buffer <> empty_buffer def
+R12130:12141 dsys.common.buffer <> buffer_union def
+R12241:12244 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12241:12244 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12299:12320 dsys.common.buffer <> buffer_sub_reduce_size thm
+R12299:12320 dsys.common.buffer <> buffer_sub_reduce_size thm
+R12336:12364 dsys.common.buffer <> buffer_sub_union_is_union_sub thm
+R12336:12364 dsys.common.buffer <> buffer_sub_union_is_union_sub thm
+R12336:12364 dsys.common.buffer <> buffer_sub_union_is_union_sub thm
+R12436:12478 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R12436:12478 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R12436:12478 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R12436:12478 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R12502:12531 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R12502:12531 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R12502:12531 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R12542:12566 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R12542:12566 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R12542:12566 dsys.common.buffer <> buffer_add_then_in_buffer thm
+prf 12591:12627 <> intersection_of_big_sets_is_non_empty
+R12651:12653 Coq.Init.Datatypes <> nat ind
+binder 12642:12642 <> j:75
+binder 12644:12644 <> i:76
+binder 12646:12647 <> i':77
+R12670:12675 dsys.common.buffer <> buffer def
+binder 12663:12663 <> b:78
+binder 12665:12666 <> b':79
+R12717:12726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12684:12694 dsys.common.buffer <> buffer_size ind
+R12716:12716 dsys.common.buffer <> j:75 var
+R12697:12708 dsys.common.buffer <> buffer_union def
+R12712:12713 dsys.common.buffer <> b':79 var
+R12710:12710 dsys.common.buffer <> b:78 var
+R12742:12751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12727:12737 dsys.common.buffer <> buffer_size ind
+R12741:12741 dsys.common.buffer <> i:76 var
+R12739:12739 dsys.common.buffer <> b:78 var
+R12769:12778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12752:12762 dsys.common.buffer <> buffer_size ind
+R12767:12768 dsys.common.buffer <> i':77 var
+R12764:12765 dsys.common.buffer <> b':79 var
+R12789:12798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12780:12782 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R12779:12779 dsys.common.buffer <> j:75 var
+R12784:12786 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R12783:12783 dsys.common.buffer <> i:76 var
+R12787:12788 dsys.common.buffer <> i':77 var
+R12799:12805 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12811:12812 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12810:12810 dsys.common.buffer <> Buffer.P var
+binder 12806:12806 <> p:80
+R12823:12827 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12816:12818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12813:12813 dsys.common.buffer <> b:78 var
+R12815:12815 dsys.common.buffer <> p:80 var
+R12819:12822 Coq.Init.Datatypes <> true constr
+R12832:12834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12828:12829 dsys.common.buffer <> b':79 var
+R12831:12831 dsys.common.buffer <> p:80 var
+R12835:12838 Coq.Init.Datatypes <> true constr
+R12896:12899 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12896:12899 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12917:12955 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R12917:12955 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R12989:12992 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12989:12992 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13010:13048 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13010:13048 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13059:13078 dsys.common.buffer <> buffer_union_commute thm
+R13059:13078 dsys.common.buffer <> buffer_union_commute thm
+R13059:13078 dsys.common.buffer <> buffer_union_commute thm
+R13135:13138 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13139:13139 Coq.Init.Datatypes <> S constr
+R13135:13138 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13139:13139 Coq.Init.Datatypes <> S constr
+R13158:13196 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13158:13196 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13230:13233 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13234:13234 Coq.Init.Datatypes <> S constr
+R13230:13233 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13234:13234 Coq.Init.Datatypes <> S constr
+R13253:13291 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13253:13291 dsys.common.buffer <> size_of_union_bigger_than_distinct_size thm
+R13302:13321 dsys.common.buffer <> buffer_union_commute thm
+R13302:13321 dsys.common.buffer <> buffer_union_commute thm
+R13302:13321 dsys.common.buffer <> buffer_union_commute thm
+R13359:13361 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R13359:13361 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R13381:13383 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R13381:13383 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R13474:13479 dsys.common.buffer <> Buffer.eq_dec var
+R13474:13479 dsys.common.buffer <> Buffer.eq_dec var
+R13532:13556 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R13532:13556 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R13532:13556 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R13617:13641 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R13617:13641 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R13650:13679 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R13650:13679 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R13702:13708 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13714:13715 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13713:13713 dsys.common.buffer <> Buffer.P var
+binder 13709:13709 <> p:81
+R13727:13730 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13720:13722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13719:13719 dsys.common.buffer <> p:81 var
+R13723:13726 Coq.Init.Datatypes <> true constr
+R13748:13750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13731:13740 dsys.common.buffer <> buffer_add def
+R13747:13747 dsys.common.buffer <> p:81 var
+R13751:13754 Coq.Init.Datatypes <> true constr
+R13702:13708 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13714:13715 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13713:13713 dsys.common.buffer <> Buffer.P var
+binder 13709:13709 <> p:82
+R13727:13730 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13720:13722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13719:13719 dsys.common.buffer <> p:82 var
+R13723:13726 Coq.Init.Datatypes <> true constr
+R13748:13750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13731:13740 dsys.common.buffer <> buffer_add def
+R13747:13747 dsys.common.buffer <> p:82 var
+R13751:13754 Coq.Init.Datatypes <> true constr
+R13783:13804 dsys.common.buffer <> buffer_sub_reduce_size thm
+R13783:13804 dsys.common.buffer <> buffer_sub_reduce_size thm
+R13826:13855 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R13826:13855 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R13826:13855 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R13940:13942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13877:13886 dsys.common.buffer <> buffer_sub def
+R13889:13898 dsys.common.buffer <> buffer_add def
+R13901:13912 dsys.common.buffer <> buffer_union def
+R13918:13927 dsys.common.buffer <> buffer_add def
+R13943:13954 dsys.common.buffer <> buffer_union def
+R13960:13969 dsys.common.buffer <> buffer_add def
+R13940:13942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13877:13886 dsys.common.buffer <> buffer_sub def
+R13889:13898 dsys.common.buffer <> buffer_add def
+R13901:13912 dsys.common.buffer <> buffer_union def
+R13918:13927 dsys.common.buffer <> buffer_add def
+R13943:13954 dsys.common.buffer <> buffer_union def
+R13960:13969 dsys.common.buffer <> buffer_add def
+R13985:14027 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R13985:14027 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R14044:14074 dsys.common.buffer <> buffer_add_right_then_add_union thm
+R14044:14074 dsys.common.buffer <> buffer_add_right_then_add_union thm
+R14044:14074 dsys.common.buffer <> buffer_add_right_then_add_union thm
+R14085:14114 dsys.common.buffer <> buffer_add_keep_other_unchaged thm
+R14085:14114 dsys.common.buffer <> buffer_add_keep_other_unchaged thm
+R14085:14114 dsys.common.buffer <> buffer_add_keep_other_unchaged thm
+R14085:14114 dsys.common.buffer <> buffer_add_keep_other_unchaged thm
+R14130:14141 dsys.common.buffer <> buffer_union def
+R14221:14250 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R14221:14250 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R14221:14250 dsys.common.buffer <> buffer_add_left_then_add_union thm
+R14261:14285 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R14261:14285 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R14261:14285 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R14308:14318 dsys.common.buffer <> buffer_size ind
+R14321:14330 dsys.common.buffer <> buffer_sub def
+R14333:14342 dsys.common.buffer <> buffer_add def
+R14308:14318 dsys.common.buffer <> buffer_size ind
+R14321:14330 dsys.common.buffer <> buffer_sub def
+R14333:14342 dsys.common.buffer <> buffer_add def
+R14363:14384 dsys.common.buffer <> buffer_sub_reduce_size thm
+R14363:14384 dsys.common.buffer <> buffer_sub_reduce_size thm
+R14405:14429 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R14405:14429 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R14440:14482 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R14440:14482 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R14440:14482 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R14440:14482 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R14583:14612 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R14583:14612 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R14583:14612 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R14583:14612 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R14645:14650 dsys.common.buffer Buffer <> sec
+R14790:14792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14786:14789 Coq.Init.Datatypes <> true constr
+R14793:14797 Coq.Init.Datatypes <> false constr
+R14790:14792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14786:14789 Coq.Init.Datatypes <> true constr
+R14793:14797 Coq.Init.Datatypes <> false constr
+R14836:14838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14831:14835 Coq.Init.Datatypes <> false constr
+R14839:14842 Coq.Init.Datatypes <> true constr
+R14836:14838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14831:14835 Coq.Init.Datatypes <> false constr
+R14839:14842 Coq.Init.Datatypes <> true constr
+R14919:14930 dsys.common.buffer <> empty_buffer def
+R14919:14930 dsys.common.buffer <> empty_buffer def
+R15003:15014 dsys.common.buffer <> empty_buffer def
+R15003:15014 dsys.common.buffer <> empty_buffer def
+R15129:15138 dsys.common.buffer <> buffer_add def
+R15129:15138 dsys.common.buffer <> buffer_add def
+R15218:15227 dsys.common.buffer <> buffer_sub def
+R15218:15227 dsys.common.buffer <> buffer_sub def
+R15312:15321 dsys.common.buffer <> buffer_add def
+R15312:15321 dsys.common.buffer <> buffer_add def
+R15412:15421 dsys.common.buffer <> buffer_sub def
+R15412:15421 dsys.common.buffer <> buffer_sub def
+R15559:15561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15562:15565 Coq.Init.Datatypes <> true constr
+R15559:15561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15562:15565 Coq.Init.Datatypes <> true constr
+R15580:15589 dsys.common.buffer <> buffer_add def
+R15580:15589 dsys.common.buffer <> buffer_add def
+R15678:15680 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15681:15684 Coq.Init.Datatypes <> true constr
+R15678:15680 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15681:15684 Coq.Init.Datatypes <> true constr
+R15699:15708 dsys.common.buffer <> buffer_add def
+R15699:15708 dsys.common.buffer <> buffer_add def
+R15799:15801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15802:15806 Coq.Init.Datatypes <> false constr
+R15799:15801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15802:15806 Coq.Init.Datatypes <> false constr
+R15821:15830 dsys.common.buffer <> buffer_sub def
+R15821:15830 dsys.common.buffer <> buffer_sub def
+R15923:15925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15926:15930 Coq.Init.Datatypes <> false constr
+R15923:15925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15926:15930 Coq.Init.Datatypes <> false constr
+R15945:15954 dsys.common.buffer <> buffer_sub def
+R15945:15954 dsys.common.buffer <> buffer_sub def
+R16050:16052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16053:16056 Coq.Init.Datatypes <> true constr
+R16050:16052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16053:16056 Coq.Init.Datatypes <> true constr
+R16073:16082 dsys.common.buffer <> buffer_add def
+R16073:16082 dsys.common.buffer <> buffer_add def
+R16181:16183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16184:16187 Coq.Init.Datatypes <> true constr
+R16181:16183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16184:16187 Coq.Init.Datatypes <> true constr
+R16204:16213 dsys.common.buffer <> buffer_add def
+R16204:16213 dsys.common.buffer <> buffer_add def
+R16314:16316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16317:16321 Coq.Init.Datatypes <> false constr
+R16314:16316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16317:16321 Coq.Init.Datatypes <> false constr
+R16338:16347 dsys.common.buffer <> buffer_sub def
+R16338:16347 dsys.common.buffer <> buffer_sub def
+R16450:16452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16453:16457 Coq.Init.Datatypes <> false constr
+R16450:16452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16453:16457 Coq.Init.Datatypes <> false constr
+R16474:16483 dsys.common.buffer <> buffer_sub def
+R16474:16483 dsys.common.buffer <> buffer_sub def
+R16634:16636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16637:16641 Coq.Init.Datatypes <> false constr
+R16634:16636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16637:16641 Coq.Init.Datatypes <> false constr
+R16666:16675 dsys.common.buffer <> buffer_sub def
+R16680:16689 dsys.common.buffer <> buffer_add def
+R16666:16675 dsys.common.buffer <> buffer_sub def
+R16680:16689 dsys.common.buffer <> buffer_add def
+R16723:16765 dsys.common.buffer <> buffer_sub_add_not_in_buffer_then_invarient thm
+R16522:16556 dsys.common.buffer <> buffer_sub_not_in_buffer_keep_false thm
+R16384:16417 dsys.common.buffer <> buffer_sub_not_in_buffer_invariant thm
+R16252:16281 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R16119:16148 dsys.common.buffer <> buffer_add_in_buffer_invariant thm
+R15988:16022 dsys.common.buffer <> buffer_sub_not_in_buffer_keep_false thm
+R15862:15895 dsys.common.buffer <> buffer_sub_not_in_buffer_invariant thm
+R15742:15771 dsys.common.buffer <> buffer_add_in_buffer_keep_true thm
+R15621:15650 dsys.common.buffer <> buffer_add_in_buffer_invariant thm
+R15460:15488 dsys.common.buffer <> buffer_sub_then_not_in_buffer thm
+R15360:15384 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R15261:15289 dsys.common.buffer <> buffer_sub_then_not_in_buffer thm
+R15172:15196 dsys.common.buffer <> buffer_add_then_in_buffer thm
+R15047:15069 dsys.common.buffer <> buffer_empty_then_false thm
+R14958:14980 dsys.common.buffer <> buffer_empty_then_false thm

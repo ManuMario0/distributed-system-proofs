@@ -1,0 +1,1430 @@
+DIGEST 010c9bf86ccfb824e6194b7319238edb
+Fdsys.reliable_broadcast.definitions
+R15:24 dsys.common.IOA <> <> lib
+R42:51 dsys.common.LTL <> <> lib
+R69:81 dsys.common.buffer <> <> lib
+R99:101 Coq.micromega.Lia <> <> lib
+R119:123 Coq.Arith.Arith <> <> lib
+R141:147 dsys.P2P.P2P <> <> lib
+R165:177 dsys.common.tactic <> <> lib
+R195:218 Coq.Logic.FunctionalExtensionality <> <> lib
+ax 232:238 <> Message
+ax 257:267 <> Message_dec
+R285:291 dsys.reliable_broadcast.definitions <> Message defax
+binder 278:278 <> m:2
+binder 280:281 <> m':3
+R294:294 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R301:303 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R311:311 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R296:298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R295:295 dsys.reliable_broadcast.definitions <> m:2 var
+R299:300 dsys.reliable_broadcast.definitions <> m':3 var
+R305:308 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R304:304 dsys.reliable_broadcast.definitions <> m:2 var
+R309:310 dsys.reliable_broadcast.definitions <> m':3 var
+ax 324:341 <> Message_forall_dec
+R363:366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R356:362 dsys.reliable_broadcast.definitions <> Message defax
+binder 352:352 <> P:5
+R373:373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R406:410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R385:391 dsys.reliable_broadcast.definitions <> Message defax
+binder 381:381 <> m:6
+R394:394 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R398:400 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R405:405 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R395:395 dsys.reliable_broadcast.definitions <> P:5 var
+R397:397 dsys.reliable_broadcast.definitions <> m:6 var
+R401:401 Coq.Init.Logic <> ::type_scope:'~'_x not
+R402:402 dsys.reliable_broadcast.definitions <> P:5 var
+R404:404 dsys.reliable_broadcast.definitions <> m:6 var
+R411:411 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R435:437 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R462:462 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R423:429 dsys.reliable_broadcast.definitions <> Message defax
+binder 419:419 <> m:7
+R432:432 dsys.reliable_broadcast.definitions <> P:5 var
+R434:434 dsys.reliable_broadcast.definitions <> m:7 var
+R438:438 Coq.Init.Logic <> ::type_scope:'~'_x not
+R450:456 dsys.reliable_broadcast.definitions <> Message defax
+binder 446:446 <> m:8
+R459:459 dsys.reliable_broadcast.definitions <> P:5 var
+R461:461 dsys.reliable_broadcast.definitions <> m:8 var
+ax 476:480 <> count
+R484:486 Coq.Init.Datatypes <> nat ind
+ax 499:504 <> Hcount
+R513:515 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R508:512 dsys.reliable_broadcast.definitions <> count defax
+sec 553:570 <> RealiableBroadcast
+R582:585 Coq.Bool.Bool <> <> mod
+R597:599 Coq.Arith.PeanoNat Nat <> mod
+def 616:622 <> Process
+R633:633 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R635:637 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R641:643 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R653:653 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R638:640 Coq.Init.Datatypes <> nat ind
+binder 634:634 <> n:12
+R645:647 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R644:644 dsys.reliable_broadcast.definitions <> n:12 var
+R648:652 dsys.reliable_broadcast.definitions <> count defax
+ax 665:689 <> process_proof_irrelevence
+R710:716 dsys.reliable_broadcast.definitions <> Process def
+binder 704:704 <> p:13
+binder 706:706 <> q:14
+R744:747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R730:732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R719:727 Coq.Init.Specif <> proj1_sig def
+R729:729 dsys.reliable_broadcast.definitions <> p:13 var
+R733:741 Coq.Init.Specif <> proj1_sig def
+R743:743 dsys.reliable_broadcast.definitions <> q:14 var
+R749:751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R748:748 dsys.reliable_broadcast.definitions <> p:13 var
+R752:752 dsys.reliable_broadcast.definitions <> q:14 var
+prf 764:774 <> Process_dec
+R796:802 dsys.reliable_broadcast.definitions <> Process def
+binder 789:789 <> p:16
+binder 791:792 <> p':17
+R805:805 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R812:814 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R822:822 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R807:809 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R806:806 dsys.reliable_broadcast.definitions <> p:16 var
+R810:811 dsys.reliable_broadcast.definitions <> p':17 var
+R816:819 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R815:815 dsys.reliable_broadcast.definitions <> p:16 var
+R820:821 dsys.reliable_broadcast.definitions <> p':17 var
+R870:873 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R859:867 Coq.Init.Specif <> proj1_sig def
+R874:882 Coq.Init.Specif <> proj1_sig def
+R870:873 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R859:867 Coq.Init.Specif <> proj1_sig def
+R874:882 Coq.Init.Specif <> proj1_sig def
+R932:956 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R932:956 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+def 1028:1039 <> process_zero
+R1043:1049 dsys.reliable_broadcast.definitions <> Process def
+R1065:1071 dsys.reliable_broadcast.definitions <> Process def
+R1095:1097 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R1090:1094 dsys.reliable_broadcast.definitions <> count defax
+R1110:1115 dsys.reliable_broadcast.definitions <> Hcount defax
+R1095:1097 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R1090:1094 dsys.reliable_broadcast.definitions <> count defax
+R1110:1115 dsys.reliable_broadcast.definitions <> Hcount defax
+def 1161:1185 <> process_from_nat_and_prop
+R1192:1194 Coq.Init.Datatypes <> nat ind
+binder 1188:1188 <> n:18
+R1203:1205 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1202:1202 dsys.reliable_broadcast.definitions <> n:18 var
+R1206:1210 dsys.reliable_broadcast.definitions <> count defax
+binder 1198:1198 <> H:19
+R1215:1221 dsys.reliable_broadcast.definitions <> Process def
+R1239:1245 dsys.reliable_broadcast.definitions <> Process def
+prf 1289:1321 <> forall_process_property_decidable
+R1345:1348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1338:1344 dsys.reliable_broadcast.definitions <> Process def
+binder 1334:1334 <> P:20
+R1359:1359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1382:1390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1367:1367 <> p:21
+R1370:1370 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1374:1376 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1381:1381 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1371:1371 dsys.reliable_broadcast.definitions <> P:20 var
+R1373:1373 dsys.reliable_broadcast.definitions <> p:21 var
+R1377:1377 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1378:1378 dsys.reliable_broadcast.definitions <> P:20 var
+R1380:1380 dsys.reliable_broadcast.definitions <> p:21 var
+R1391:1391 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1405:1407 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1422:1422 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+binder 1399:1399 <> p:22
+R1402:1402 dsys.reliable_broadcast.definitions <> P:20 var
+R1404:1404 dsys.reliable_broadcast.definitions <> p:22 var
+R1408:1414 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1416:1417 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1415:1415 <> p:23
+R1418:1418 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1419:1419 dsys.reliable_broadcast.definitions <> P:20 var
+R1421:1421 dsys.reliable_broadcast.definitions <> p:23 var
+R1478:1480 Coq.Init.Datatypes <> nat ind
+binder 1474:1474 <> i:24
+R1483:1483 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1516:1518 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1553:1553 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+binder 1491:1491 <> p:25
+R1509:1512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1505:1507 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1494:1502 Coq.Init.Specif <> proj1_sig def
+R1504:1504 dsys.reliable_broadcast.definitions <> p:25 var
+R1508:1508 dsys.reliable_broadcast.definitions <> i:24 var
+R1515:1515 dsys.reliable_broadcast.definitions <> p:25 var
+R1519:1525 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1527:1528 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1526:1526 <> p:26
+R1544:1547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1540:1542 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1529:1537 Coq.Init.Specif <> proj1_sig def
+R1539:1539 dsys.reliable_broadcast.definitions <> p:26 var
+R1543:1543 dsys.reliable_broadcast.definitions <> i:24 var
+R1548:1549 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1552:1552 dsys.reliable_broadcast.definitions <> p:26 var
+R1478:1480 Coq.Init.Datatypes <> nat ind
+binder 1474:1474 <> i:27
+R1483:1483 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1516:1518 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1553:1553 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+binder 1491:1491 <> p:28
+R1509:1512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1505:1507 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1494:1502 Coq.Init.Specif <> proj1_sig def
+R1504:1504 dsys.reliable_broadcast.definitions <> p:28 var
+R1508:1508 dsys.reliable_broadcast.definitions <> i:27 var
+R1515:1515 dsys.reliable_broadcast.definitions <> p:28 var
+R1519:1525 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1527:1528 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1526:1526 <> p:29
+R1544:1547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1540:1542 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1529:1537 Coq.Init.Specif <> proj1_sig def
+R1539:1539 dsys.reliable_broadcast.definitions <> p:29 var
+R1543:1543 dsys.reliable_broadcast.definitions <> i:27 var
+R1548:1549 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1552:1552 dsys.reliable_broadcast.definitions <> p:29 var
+R1622:1626 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R1617:1621 dsys.reliable_broadcast.definitions <> count defax
+R1622:1626 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R1617:1621 dsys.reliable_broadcast.definitions <> count defax
+R1831:1837 dsys.reliable_broadcast.definitions <> Process def
+R1921:1924 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1908:1916 Coq.Init.Specif <> proj1_sig def
+R1925:1933 Coq.Init.Specif <> proj1_sig def
+R1921:1924 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1908:1916 Coq.Init.Specif <> proj1_sig def
+R1925:1933 Coq.Init.Specif <> proj1_sig def
+R1979:2003 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R1979:2003 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R2220:2224 dsys.reliable_broadcast.definitions <> count defax
+R2220:2224 dsys.reliable_broadcast.definitions <> count defax
+ind 2365:2377 <> InternMessage
+constr 2394:2397 <> Init
+constr 2432:2435 <> Echo
+constr 2470:2474 <> Ready
+R2408:2411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2401:2407 dsys.reliable_broadcast.definitions <> Message defax
+R2412:2424 dsys.reliable_broadcast.definitions <> InternMessage:30 ind
+R2446:2449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2439:2445 dsys.reliable_broadcast.definitions <> Message defax
+R2450:2462 dsys.reliable_broadcast.definitions <> InternMessage:30 ind
+R2485:2488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2478:2484 dsys.reliable_broadcast.definitions <> Message defax
+R2489:2501 dsys.reliable_broadcast.definitions <> InternMessage:30 ind
+scheme 2365:2377 <> InternMessage_rect
+scheme 2365:2377 <> InternMessage_ind
+scheme 2365:2377 <> InternMessage_rec
+scheme 2365:2377 <> InternMessage_sind
+prf 2513:2529 <> InternMessage_dec
+R2551:2563 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 2544:2544 <> m:32
+binder 2546:2547 <> m':33
+R2566:2566 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2573:2575 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2583:2583 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2568:2570 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2567:2567 dsys.reliable_broadcast.definitions <> m:32 var
+R2571:2572 dsys.reliable_broadcast.definitions <> m':33 var
+R2577:2580 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2576:2576 dsys.reliable_broadcast.definitions <> m:32 var
+R2581:2582 dsys.reliable_broadcast.definitions <> m':33 var
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+R2657:2667 dsys.reliable_broadcast.definitions <> Message_dec defax
+def 2780:2801 <> InternMessage_dec_bool
+R2811:2823 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 2804:2804 <> m:34
+binder 2806:2807 <> m':35
+R2828:2831 Coq.Init.Datatypes <> bool ind
+R2843:2859 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R2863:2864 dsys.reliable_broadcast.definitions <> m':35 var
+R2861:2861 dsys.reliable_broadcast.definitions <> m:34 var
+R2881:2885 Coq.Init.Datatypes <> false constr
+R2871:2874 Coq.Init.Datatypes <> true constr
+prf 2897:2923 <> InternMessage_dec_bool_true
+R2945:2957 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 2938:2938 <> m:36
+binder 2940:2941 <> m':37
+R2994:2997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2987:2989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2960:2981 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R2985:2986 dsys.reliable_broadcast.definitions <> m':37 var
+R2983:2983 dsys.reliable_broadcast.definitions <> m:36 var
+R2990:2993 Coq.Init.Datatypes <> true constr
+R2999:3001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2998:2998 dsys.reliable_broadcast.definitions <> m:36 var
+R3002:3003 dsys.reliable_broadcast.definitions <> m':37 var
+R3038:3059 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+prf 3119:3146 <> InternMessage_dec_bool_false
+R3168:3180 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 3161:3161 <> m:38
+binder 3163:3164 <> m':39
+R3218:3221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3210:3212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3204 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R3208:3209 dsys.reliable_broadcast.definitions <> m':39 var
+R3206:3206 dsys.reliable_broadcast.definitions <> m:38 var
+R3213:3217 Coq.Init.Datatypes <> false constr
+R3223:3226 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3222:3222 dsys.reliable_broadcast.definitions <> m:38 var
+R3227:3228 dsys.reliable_broadcast.definitions <> m':39 var
+R3263:3284 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+ind 3348:3361 <> BrachaRBAction
+constr 3378:3394 <> BrachaRBBroadcast
+constr 3430:3444 <> BrachaRBDeliver
+constr 3491:3505 <> BrachaRBP2PRecv
+constr 3569:3583 <> BrachaRBP2PSend
+R3405:3408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3398:3404 dsys.reliable_broadcast.definitions <> Message defax
+R3409:3422 dsys.reliable_broadcast.definitions <> BrachaRBAction:40 ind
+R3455:3458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3448:3454 dsys.reliable_broadcast.definitions <> Process def
+R3466:3469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3459:3465 dsys.reliable_broadcast.definitions <> Message defax
+R3470:3483 dsys.reliable_broadcast.definitions <> BrachaRBAction:40 ind
+R3516:3519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3509:3515 dsys.reliable_broadcast.definitions <> Process def
+R3527:3530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3520:3526 dsys.reliable_broadcast.definitions <> Process def
+R3544:3547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3531:3543 dsys.reliable_broadcast.definitions <> InternMessage ind
+R3548:3561 dsys.reliable_broadcast.definitions <> BrachaRBAction:40 ind
+R3594:3597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3587:3593 dsys.reliable_broadcast.definitions <> Process def
+R3605:3608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3598:3604 dsys.reliable_broadcast.definitions <> Process def
+R3622:3625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3609:3621 dsys.reliable_broadcast.definitions <> InternMessage ind
+R3626:3639 dsys.reliable_broadcast.definitions <> BrachaRBAction:40 ind
+scheme 3348:3361 <> BrachaRBAction_rect
+scheme 3348:3361 <> BrachaRBAction_ind
+scheme 3348:3361 <> BrachaRBAction_rec
+scheme 3348:3361 <> BrachaRBAction_sind
+prf 3651:3681 <> destruct_diff_BrachaRBBroadcast
+R3703:3709 dsys.reliable_broadcast.definitions <> Message defax
+binder 3696:3696 <> m:42
+binder 3698:3699 <> m':43
+R3761:3764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3737:3740 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3718:3734 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R3736:3736 dsys.reliable_broadcast.definitions <> m:42 var
+R3741:3757 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R3759:3760 dsys.reliable_broadcast.definitions <> m':43 var
+R3766:3769 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3765:3765 dsys.reliable_broadcast.definitions <> m:42 var
+R3770:3771 dsys.reliable_broadcast.definitions <> m':43 var
+R3805:3815 dsys.reliable_broadcast.definitions <> Message_dec defax
+R3805:3815 dsys.reliable_broadcast.definitions <> Message_dec defax
+prf 3877:3905 <> destruct_diff_BrachaRBDeliver
+R3927:3933 dsys.reliable_broadcast.definitions <> Message defax
+binder 3920:3920 <> m:44
+binder 3922:3923 <> m':45
+R3950:3956 dsys.reliable_broadcast.definitions <> Process def
+binder 3943:3943 <> p:46
+binder 3945:3946 <> p':47
+R4009:4012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3984:3987 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3965:3979 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R3983:3983 dsys.reliable_broadcast.definitions <> m:44 var
+R3981:3981 dsys.reliable_broadcast.definitions <> p:46 var
+R3988:4002 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R4007:4008 dsys.reliable_broadcast.definitions <> m':45 var
+R4004:4005 dsys.reliable_broadcast.definitions <> p':47 var
+R4020:4023 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4014:4017 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4013:4013 dsys.reliable_broadcast.definitions <> m:44 var
+R4018:4019 dsys.reliable_broadcast.definitions <> m':45 var
+R4025:4028 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4024:4024 dsys.reliable_broadcast.definitions <> p:46 var
+R4029:4030 dsys.reliable_broadcast.definitions <> p':47 var
+R4064:4074 dsys.reliable_broadcast.definitions <> Message_dec defax
+R4064:4074 dsys.reliable_broadcast.definitions <> Message_dec defax
+R4108:4118 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4108:4118 dsys.reliable_broadcast.definitions <> Process_dec thm
+prf 4184:4212 <> destruct_diff_BrachaRBP2PRecv
+R4234:4246 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 4227:4227 <> m:48
+binder 4229:4230 <> m':49
+R4263:4269 dsys.reliable_broadcast.definitions <> Process def
+binder 4256:4256 <> p:50
+binder 4258:4259 <> p':51
+R4286:4292 dsys.reliable_broadcast.definitions <> Process def
+binder 4279:4279 <> q:52
+binder 4281:4282 <> q':53
+R4350:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4322:4325 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4301:4315 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R4321:4321 dsys.reliable_broadcast.definitions <> m:48 var
+R4319:4319 dsys.reliable_broadcast.definitions <> q:52 var
+R4317:4317 dsys.reliable_broadcast.definitions <> p:50 var
+R4326:4340 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R4348:4349 dsys.reliable_broadcast.definitions <> m':49 var
+R4345:4346 dsys.reliable_broadcast.definitions <> q':53 var
+R4342:4343 dsys.reliable_broadcast.definitions <> p':51 var
+R4361:4364 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4355:4358 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4354:4354 dsys.reliable_broadcast.definitions <> m:48 var
+R4359:4360 dsys.reliable_broadcast.definitions <> m':49 var
+R4372:4375 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4366:4369 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4365:4365 dsys.reliable_broadcast.definitions <> p:50 var
+R4370:4371 dsys.reliable_broadcast.definitions <> p':51 var
+R4377:4380 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4376:4376 dsys.reliable_broadcast.definitions <> q:52 var
+R4381:4382 dsys.reliable_broadcast.definitions <> q':53 var
+R4416:4432 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R4416:4432 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R4466:4476 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4466:4476 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4510:4520 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4510:4520 dsys.reliable_broadcast.definitions <> Process_dec thm
+prf 4586:4614 <> destruct_diff_BrachaRBP2PSend
+R4636:4648 dsys.reliable_broadcast.definitions <> InternMessage ind
+binder 4629:4629 <> m:54
+binder 4631:4632 <> m':55
+R4665:4671 dsys.reliable_broadcast.definitions <> Process def
+binder 4658:4658 <> p:56
+binder 4660:4661 <> p':57
+R4688:4694 dsys.reliable_broadcast.definitions <> Process def
+binder 4681:4681 <> q:58
+binder 4683:4684 <> q':59
+R4752:4755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4724:4727 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4703:4717 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R4723:4723 dsys.reliable_broadcast.definitions <> m:54 var
+R4721:4721 dsys.reliable_broadcast.definitions <> q:58 var
+R4719:4719 dsys.reliable_broadcast.definitions <> p:56 var
+R4728:4742 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R4750:4751 dsys.reliable_broadcast.definitions <> m':55 var
+R4747:4748 dsys.reliable_broadcast.definitions <> q':59 var
+R4744:4745 dsys.reliable_broadcast.definitions <> p':57 var
+R4763:4766 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4757:4760 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4756:4756 dsys.reliable_broadcast.definitions <> m:54 var
+R4761:4762 dsys.reliable_broadcast.definitions <> m':55 var
+R4774:4777 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4768:4771 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4767:4767 dsys.reliable_broadcast.definitions <> p:56 var
+R4772:4773 dsys.reliable_broadcast.definitions <> p':57 var
+R4779:4782 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4778:4778 dsys.reliable_broadcast.definitions <> q:58 var
+R4783:4784 dsys.reliable_broadcast.definitions <> q':59 var
+R4818:4834 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R4818:4834 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R4868:4878 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4868:4878 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4912:4922 dsys.reliable_broadcast.definitions <> Process_dec thm
+R4912:4922 dsys.reliable_broadcast.definitions <> Process_dec thm
+R5367:5395 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBP2PSend thm
+R5319:5347 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBP2PRecv thm
+R5271:5299 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBDeliver thm
+R5221:5251 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBBroadcast thm
+prf 5454:5471 <> BrachaRBAction_dec
+R5497:5510 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 5486:5488 <> act:60
+binder 5490:5493 <> act':61
+R5513:5513 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5524:5526 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5538:5538 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5517:5519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5514:5516 dsys.reliable_broadcast.definitions <> act:60 var
+R5520:5523 dsys.reliable_broadcast.definitions <> act':61 var
+R5530:5533 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5527:5529 dsys.reliable_broadcast.definitions <> act:60 var
+R5534:5537 dsys.reliable_broadcast.definitions <> act':61 var
+R5623:5633 dsys.reliable_broadcast.definitions <> Message_dec defax
+R5623:5633 dsys.reliable_broadcast.definitions <> Message_dec defax
+R5735:5738 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R5724:5732 Coq.Init.Specif <> proj1_sig def
+R5739:5747 Coq.Init.Specif <> proj1_sig def
+R5735:5738 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R5724:5732 Coq.Init.Specif <> proj1_sig def
+R5739:5747 Coq.Init.Specif <> proj1_sig def
+R5796:5806 dsys.reliable_broadcast.definitions <> Message_dec defax
+R5796:5806 dsys.reliable_broadcast.definitions <> Message_dec defax
+R5837:5861 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R5837:5861 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6011:6027 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R6011:6027 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R6066:6069 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6055:6063 Coq.Init.Specif <> proj1_sig def
+R6070:6078 Coq.Init.Specif <> proj1_sig def
+R6066:6069 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6055:6063 Coq.Init.Specif <> proj1_sig def
+R6070:6078 Coq.Init.Specif <> proj1_sig def
+R6139:6142 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6127:6135 Coq.Init.Specif <> proj1_sig def
+R6143:6151 Coq.Init.Specif <> proj1_sig def
+R6139:6142 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6127:6135 Coq.Init.Specif <> proj1_sig def
+R6143:6151 Coq.Init.Specif <> proj1_sig def
+R6203:6227 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6203:6227 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6203:6227 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6441:6457 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R6441:6457 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R6496:6499 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6485:6493 Coq.Init.Specif <> proj1_sig def
+R6500:6508 Coq.Init.Specif <> proj1_sig def
+R6496:6499 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6485:6493 Coq.Init.Specif <> proj1_sig def
+R6500:6508 Coq.Init.Specif <> proj1_sig def
+R6569:6572 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6557:6565 Coq.Init.Specif <> proj1_sig def
+R6573:6581 Coq.Init.Specif <> proj1_sig def
+R6569:6572 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6557:6565 Coq.Init.Specif <> proj1_sig def
+R6573:6581 Coq.Init.Specif <> proj1_sig def
+R6633:6657 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6633:6657 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+R6633:6657 dsys.reliable_broadcast.definitions <> process_proof_irrelevence prfax
+prf 6872:6895 <> BrachaRBOptionAction_dec
+R6921:6926 Coq.Init.Datatypes <> option ind
+R6928:6941 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 6910:6912 <> act:62
+binder 6914:6917 <> act':63
+R6944:6944 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6955:6957 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6969:6969 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6948:6950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6945:6947 dsys.reliable_broadcast.definitions <> act:62 var
+R6951:6954 dsys.reliable_broadcast.definitions <> act':63 var
+R6961:6964 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6958:6960 dsys.reliable_broadcast.definitions <> act:62 var
+R6965:6968 dsys.reliable_broadcast.definitions <> act':63 var
+R7055:7072 dsys.reliable_broadcast.definitions <> BrachaRBAction_dec thm
+R7055:7072 dsys.reliable_broadcast.definitions <> BrachaRBAction_dec thm
+def 7176:7189 <> P2PInterface_f
+R7196:7202 dsys.reliable_broadcast.definitions <> Process def
+binder 7192:7192 <> n:64
+R7210:7216 dsys.reliable_broadcast.definitions <> Process def
+binder 7206:7206 <> m:65
+R7226:7239 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 7220:7222 <> act:66
+R7248:7253 Coq.Init.Datatypes <> option ind
+R7256:7267 dsys.P2P.P2P <> P2PInterface ind
+R7269:7281 dsys.reliable_broadcast.definitions <> InternMessage ind
+R7297:7299 dsys.reliable_broadcast.definitions <> act:66 var
+R7314:7328 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R7348:7348 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7375:7380 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7407:7407 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7360:7363 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R7349:7357 Coq.Init.Specif <> proj1_sig def
+R7364:7372 Coq.Init.Specif <> proj1_sig def
+R7374:7374 dsys.reliable_broadcast.definitions <> n:64 var
+R7392:7395 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R7381:7389 Coq.Init.Specif <> proj1_sig def
+R7396:7404 Coq.Init.Specif <> proj1_sig def
+R7406:7406 dsys.reliable_broadcast.definitions <> m:65 var
+R7442:7445 Coq.Init.Datatypes <> None constr
+R7414:7417 Coq.Init.Datatypes <> Some constr
+R7420:7426 dsys.P2P.P2P <> P2PRecv constr
+R7455:7469 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R7489:7489 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7516:7521 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7548:7548 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R7501:7504 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R7490:7498 Coq.Init.Specif <> proj1_sig def
+R7505:7513 Coq.Init.Specif <> proj1_sig def
+R7515:7515 dsys.reliable_broadcast.definitions <> n:64 var
+R7533:7536 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R7522:7530 Coq.Init.Specif <> proj1_sig def
+R7537:7545 Coq.Init.Specif <> proj1_sig def
+R7547:7547 dsys.reliable_broadcast.definitions <> m:65 var
+R7583:7586 Coq.Init.Datatypes <> None constr
+R7555:7558 Coq.Init.Datatypes <> Some constr
+R7561:7567 dsys.P2P.P2P <> P2PSend constr
+R7601:7604 Coq.Init.Datatypes <> None constr
+def 7629:7652 <> BrachaP2PCompositionType
+R7663:7663 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7665:7667 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7675:7677 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7723:7723 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7671:7671 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7668:7670 Coq.Init.Datatypes <> nat ind
+R7672:7674 Coq.Init.Datatypes <> nat ind
+binder 7664:7664 <> n:68
+R7692:7692 dsys.reliable_broadcast.definitions <> n:68 var
+binder 7683:7683 <> p:69
+binder 7686:7686 <> q:70
+R7697:7697 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7707:7712 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7722:7722 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7699:7701 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7698:7698 dsys.reliable_broadcast.definitions <> p:69 var
+R7702:7706 dsys.reliable_broadcast.definitions <> count defax
+R7714:7716 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7713:7713 dsys.reliable_broadcast.definitions <> q:70 var
+R7717:7721 dsys.reliable_broadcast.definitions <> count defax
+prf 7735:7766 <> zero_is_BrachaP2PCompositionType
+R7784:7784 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7786:7787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7789:7789 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 7775:7775 <> p:71
+binder 7778:7778 <> q:72
+R7794:7794 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7804:7809 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7819:7819 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7796:7798 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7795:7795 dsys.reliable_broadcast.definitions <> p:71 var
+R7799:7803 dsys.reliable_broadcast.definitions <> count defax
+R7811:7813 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R7810:7810 dsys.reliable_broadcast.definitions <> q:72 var
+R7814:7818 dsys.reliable_broadcast.definitions <> count defax
+R7857:7862 dsys.reliable_broadcast.definitions <> Hcount defax
+R7857:7862 dsys.reliable_broadcast.definitions <> Hcount defax
+R7857:7862 dsys.reliable_broadcast.definitions <> Hcount defax
+def 7886:7912 <> BrachaP2PCompositionType_eq
+R7921:7944 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+binder 7915:7915 <> a:73
+binder 7917:7917 <> b:74
+R7968:7970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7957:7965 Coq.Init.Specif <> proj1_sig def
+R7967:7967 dsys.reliable_broadcast.definitions <> a:73 var
+R7971:7979 Coq.Init.Specif <> proj1_sig def
+R7981:7981 dsys.reliable_broadcast.definitions <> b:74 var
+prf 7993:8019 <> split_composition_type_left
+R8038:8061 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+binder 8034:8034 <> i:75
+R8081:8083 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8064:8066 Coq.Init.Datatypes <> fst def
+R8069:8077 Coq.Init.Specif <> proj1_sig def
+R8079:8079 dsys.reliable_broadcast.definitions <> i:75 var
+R8084:8088 dsys.reliable_broadcast.definitions <> count defax
+prf 8183:8210 <> split_composition_type_right
+R8229:8252 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+binder 8225:8225 <> i:76
+R8272:8274 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8255:8257 Coq.Init.Datatypes <> snd def
+R8260:8268 Coq.Init.Specif <> proj1_sig def
+R8270:8270 dsys.reliable_broadcast.definitions <> i:76 var
+R8275:8279 dsys.reliable_broadcast.definitions <> count defax
+def 8379:8390 <> AutomatonRef
+R8397:8420 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+binder 8393:8393 <> i:77
+R8425:8430 dsys.common.IOA <> IOADef rec
+R8432:8445 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R8454:8456 dsys.P2P.P2P <> P2P def
+R8486:8499 dsys.reliable_broadcast.definitions <> P2PInterface_f def
+R8609:8613 Coq.Init.Specif <> exist constr
+R8663:8690 dsys.reliable_broadcast.definitions <> split_composition_type_right thm
+R8692:8692 dsys.reliable_broadcast.definitions <> i:77 var
+R8643:8645 Coq.Init.Datatypes <> snd def
+R8648:8656 Coq.Init.Specif <> proj1_sig def
+R8658:8658 dsys.reliable_broadcast.definitions <> i:77 var
+R8624:8626 Coq.Init.Datatypes <> nat ind
+binder 8620:8620 <> n:78
+R8632:8634 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8631:8631 dsys.reliable_broadcast.definitions <> n:78 var
+R8635:8639 dsys.reliable_broadcast.definitions <> count defax
+R8512:8516 Coq.Init.Specif <> exist constr
+R8566:8592 dsys.reliable_broadcast.definitions <> split_composition_type_left thm
+R8594:8594 dsys.reliable_broadcast.definitions <> i:77 var
+R8546:8548 Coq.Init.Datatypes <> fst def
+R8551:8559 Coq.Init.Specif <> proj1_sig def
+R8561:8561 dsys.reliable_broadcast.definitions <> i:77 var
+R8527:8529 Coq.Init.Datatypes <> nat ind
+binder 8523:8523 <> n:79
+R8535:8537 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8534:8534 dsys.reliable_broadcast.definitions <> n:79 var
+R8538:8542 dsys.reliable_broadcast.definitions <> count defax
+R8458:8474 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+def 8719:8750 <> zero_of_BrachaP2PCompositionType
+R8754:8777 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+R8786:8790 Coq.Init.Specif <> exist constr
+R8866:8897 dsys.reliable_broadcast.definitions <> zero_is_BrachaP2PCompositionType thm
+R8859:8859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8861:8862 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8864:8864 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8804:8804 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8801:8803 Coq.Init.Datatypes <> nat ind
+R8805:8807 Coq.Init.Datatypes <> nat ind
+binder 8797:8797 <> i:80
+R8826:8826 dsys.reliable_broadcast.definitions <> i:80 var
+binder 8817:8817 <> p:81
+binder 8820:8820 <> q:82
+R8831:8831 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8841:8846 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8856:8856 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8833:8835 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8832:8832 dsys.reliable_broadcast.definitions <> p:81 var
+R8836:8840 dsys.reliable_broadcast.definitions <> count defax
+R8848:8850 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8847:8847 dsys.reliable_broadcast.definitions <> q:82 var
+R8851:8855 dsys.reliable_broadcast.definitions <> count defax
+R8955:8966 dsys.reliable_broadcast.definitions <> AutomatonRef def
+prf 9008:9024 <> P2PCompositionHyp
+R9028:9049 dsys.common.IOA <> CompositionExtendedHyp def
+R9079:9090 dsys.reliable_broadcast.definitions <> AutomatonRef def
+R9051:9077 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType_eq def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9231:9239 Coq.Init.Specif <> proj1_sig def
+R9609:9635 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType_eq def
+R9665:9673 Coq.Init.Specif <> proj1_sig def
+R9716:9724 Coq.Init.Specif <> proj1_sig def
+R9665:9673 Coq.Init.Specif <> proj1_sig def
+R9716:9724 Coq.Init.Specif <> proj1_sig def
+def 9878:9891 <> NetworkFOutput
+R9900:9913 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 9894:9896 <> act:83
+R9918:9921 Coq.Init.Datatypes <> bool ind
+R9936:9938 dsys.reliable_broadcast.definitions <> act:83 var
+R9953:9969 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R9975:9989 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R9997:10011 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R10022:10026 Coq.Init.Datatypes <> false constr
+R10022:10026 Coq.Init.Datatypes <> false constr
+R10022:10026 Coq.Init.Datatypes <> false constr
+R10036:10050 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R10061:10064 Coq.Init.Datatypes <> true constr
+prf 10084:10101 <> NetworkFOutputSpec
+R10109:10118 dsys.common.IOA <> OutputSpec def
+R10133:10146 dsys.reliable_broadcast.definitions <> NetworkFOutput def
+R10120:10131 dsys.reliable_broadcast.definitions <> AutomatonRef def
+R10379:10379 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10381:10382 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10385:10385 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10354:10377 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+R10379:10379 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10381:10382 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10385:10385 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 10610:10622 <> NetworkFInput
+R10631:10644 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 10625:10627 <> act:85
+R10649:10652 Coq.Init.Datatypes <> bool ind
+R10667:10669 dsys.reliable_broadcast.definitions <> act:85 var
+R10684:10700 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R10706:10720 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R10728:10742 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R10753:10757 Coq.Init.Datatypes <> false constr
+R10753:10757 Coq.Init.Datatypes <> false constr
+R10753:10757 Coq.Init.Datatypes <> false constr
+R10767:10781 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R10792:10795 Coq.Init.Datatypes <> true constr
+prf 10815:10831 <> NetworkFInputSpec
+R10839:10847 dsys.common.IOA <> InputSpec def
+R10862:10874 dsys.reliable_broadcast.definitions <> NetworkFInput def
+R10849:10860 dsys.reliable_broadcast.definitions <> AutomatonRef def
+R11107:11107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11109:11110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11113:11113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11082:11105 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+R11107:11107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11109:11110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11113:11113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 11338:11351 <> NetworkFUnused
+R11360:11373 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 11354:11356 <> act:87
+R11378:11381 Coq.Init.Datatypes <> bool ind
+R11396:11398 dsys.reliable_broadcast.definitions <> act:87 var
+R11413:11429 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R11435:11449 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R11458:11461 Coq.Init.Datatypes <> true constr
+R11458:11461 Coq.Init.Datatypes <> true constr
+R11471:11485 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R11495:11509 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R11520:11524 Coq.Init.Datatypes <> false constr
+R11520:11524 Coq.Init.Datatypes <> false constr
+prf 11544:11561 <> NetworkFUnusedSpec
+R11569:11578 dsys.common.IOA <> UnusedSpec def
+R11593:11606 dsys.reliable_broadcast.definitions <> NetworkFUnused def
+R11580:11591 dsys.reliable_broadcast.definitions <> AutomatonRef def
+R11855:11867 Coq.Bool.Bool <> negb_true_iff thm
+R12096:12096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12098:12099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12102:12102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12071:12094 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+R12096:12096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12098:12099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12102:12102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12258:12258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12260:12261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12264:12264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12233:12256 dsys.reliable_broadcast.definitions <> BrachaP2PCompositionType def
+R12258:12258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12260:12261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12264:12264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 12377:12386 <> P2PNetwork
+R12390:12395 dsys.common.IOA <> IOADef rec
+R12397:12410 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R12419:12437 dsys.common.IOA <> CompositionExtended def
+R12527:12544 dsys.reliable_broadcast.definitions <> NetworkFUnusedSpec thm
+R12509:12525 dsys.reliable_broadcast.definitions <> NetworkFInputSpec thm
+R12490:12507 dsys.reliable_broadcast.definitions <> NetworkFOutputSpec thm
+R12472:12488 dsys.reliable_broadcast.definitions <> P2PCompositionHyp thm
+R12439:12470 dsys.reliable_broadcast.definitions <> zero_of_BrachaP2PCompositionType def
+prf 12558:12565 <> NoIntern
+R12586:12599 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 12580:12582 <> act:89
+R12628:12631 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12602:12612 dsys.common.IOA <> ActionClass proj
+R12625:12627 dsys.reliable_broadcast.definitions <> act:89 var
+R12614:12623 dsys.reliable_broadcast.definitions <> P2PNetwork def
+R12632:12637 dsys.common.IOA <> Intern constr
+R12768:12768 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12779:12784 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12796:12796 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12770:12773 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R12774:12778 dsys.reliable_broadcast.definitions <> count defax
+R12787:12790 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R12791:12795 dsys.reliable_broadcast.definitions <> count defax
+def 12861:12866 <> Packet
+R12888:12890 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12881:12887 dsys.reliable_broadcast.definitions <> Process def
+R12891:12903 dsys.reliable_broadcast.definitions <> InternMessage ind
+prf 12915:12924 <> packet_dec
+R12946:12951 dsys.reliable_broadcast.definitions <> Packet def
+binder 12939:12939 <> p:90
+binder 12941:12942 <> p':91
+R12954:12954 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12961:12963 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12971:12971 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12956:12958 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12955:12955 dsys.reliable_broadcast.definitions <> p:90 var
+R12959:12960 dsys.reliable_broadcast.definitions <> p':91 var
+R12965:12968 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12964:12964 dsys.reliable_broadcast.definitions <> p:90 var
+R12969:12970 dsys.reliable_broadcast.definitions <> p':91 var
+R13028:13044 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R13028:13044 dsys.reliable_broadcast.definitions <> InternMessage_dec thm
+R13070:13080 dsys.reliable_broadcast.definitions <> Process_dec thm
+R13070:13080 dsys.reliable_broadcast.definitions <> Process_dec thm
+def 24984:24997 <> BrachaRBBuffer
+R25002:25007 dsys.common.buffer <> buffer def
+R25009:25014 dsys.reliable_broadcast.definitions <> Packet def
+rec 25027:25039 <> BrachaRBState
+proj 25080:25091 <> BrachaRBStep
+proj 25108:25125 <> BrachaRBRecvBuffer
+proj 25153:25174 <> BrachaRBRecvBufferSize
+proj 25208:25225 <> BrachaRBSendBuffer
+R25095:25097 Coq.Init.Datatypes <> nat ind
+R25129:25142 dsys.reliable_broadcast.definitions <> BrachaRBBuffer def
+R25191:25194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25178:25190 dsys.reliable_broadcast.definitions <> InternMessage ind
+R25195:25197 Coq.Init.Datatypes <> nat ind
+R25229:25242 dsys.reliable_broadcast.definitions <> BrachaRBBuffer def
+def 25270:25296 <> BrachaRB_compute_transition
+R25307:25309 Coq.Init.Datatypes <> nat ind
+binder 25303:25303 <> f:97
+R25320:25326 dsys.reliable_broadcast.definitions <> Process def
+binder 25313:25316 <> proc:98
+R25335:25347 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+binder 25330:25331 <> st:99
+R25357:25370 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 25351:25353 <> act:100
+R25375:25380 Coq.Init.Datatypes <> option ind
+R25382:25394 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+R25409:25411 dsys.reliable_broadcast.definitions <> act:100 var
+R25426:25442 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R25477:25480 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R25463:25471 Coq.Init.Specif <> proj1_sig def
+R25473:25476 dsys.reliable_broadcast.definitions <> proc:98 var
+R25963:25966 Coq.Init.Datatypes <> None constr
+R25519:25522 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R25504:25515 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R25517:25518 dsys.reliable_broadcast.definitions <> st:99 var
+R25928:25931 Coq.Init.Datatypes <> Some constr
+R25933:25934 dsys.reliable_broadcast.definitions <> st:99 var
+R25544:25547 Coq.Init.Datatypes <> Some constr
+R25568:25579 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R25568:25579 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R25568:25579 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R25603:25620 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R25603:25620 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R25664:25685 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R25664:25685 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R25733:25750 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R25733:25750 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R25625:25642 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R25644:25645 dsys.reliable_broadcast.definitions <> st:99 var
+R25690:25711 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R25713:25714 dsys.reliable_broadcast.definitions <> st:99 var
+R25782:25787 dsys.reliable_broadcast.definitions <> Packet def
+binder 25778:25778 <> p:102
+R25808:25808 dsys.reliable_broadcast.definitions <> p:102 var
+binder 25797:25797 <> n:103
+binder 25800:25802 <> im':104
+R25836:25840 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R25876:25876 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R25813:25830 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R25835:25835 dsys.reliable_broadcast.definitions <> p:102 var
+R25832:25833 dsys.reliable_broadcast.definitions <> st:99 var
+R25841:25862 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R25869:25872 dsys.reliable_broadcast.definitions <> Init constr
+R25864:25866 dsys.reliable_broadcast.definitions <> im':104 var
+R25976:25990 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R26069:26073 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26119:26119 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26012:26012 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26042:26047 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26068:26068 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26024:26027 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R26013:26021 Coq.Init.Specif <> proj1_sig def
+R26028:26036 Coq.Init.Specif <> proj1_sig def
+R26038:26041 dsys.reliable_broadcast.definitions <> proc:98 var
+R26063:26066 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R26048:26059 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R26061:26062 dsys.reliable_broadcast.definitions <> st:99 var
+R26079:26083 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R26077:26077 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R26075:26075 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R26076:26076 dsys.reliable_broadcast.definitions <> f:97 var
+R26084:26105 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26111:26115 dsys.reliable_broadcast.definitions <> Ready constr
+R26107:26108 dsys.reliable_broadcast.definitions <> st:99 var
+R26416:26419 Coq.Init.Datatypes <> None constr
+R26138:26141 Coq.Init.Datatypes <> Some constr
+R26162:26173 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R26162:26173 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R26162:26173 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R26197:26214 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R26197:26214 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R26258:26279 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26258:26279 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26327:26344 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R26327:26344 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R26219:26236 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R26238:26239 dsys.reliable_broadcast.definitions <> st:99 var
+R26284:26305 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26307:26308 dsys.reliable_broadcast.definitions <> st:99 var
+R26349:26366 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R26368:26369 dsys.reliable_broadcast.definitions <> st:99 var
+R26429:26443 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R26480:26483 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R26469:26477 Coq.Init.Specif <> proj1_sig def
+R26484:26492 Coq.Init.Specif <> proj1_sig def
+R26494:26497 dsys.reliable_broadcast.definitions <> proc:98 var
+R31085:31088 Coq.Init.Datatypes <> None constr
+R26558:26575 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R26580:26580 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26582:26583 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26586:26586 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26577:26578 dsys.reliable_broadcast.definitions <> st:99 var
+binder 26675:26675 <> m:105
+R26702:26723 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R26725:26725 dsys.reliable_broadcast.definitions <> m:105 var
+R26833:26854 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26859:26859 dsys.reliable_broadcast.definitions <> m:105 var
+R26856:26857 dsys.reliable_broadcast.definitions <> st:99 var
+R26783:26785 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R26756:26777 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26782:26782 dsys.reliable_broadcast.definitions <> m:105 var
+R26779:26780 dsys.reliable_broadcast.definitions <> st:99 var
+R26609:26630 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R26632:26633 dsys.reliable_broadcast.definitions <> st:99 var
+binder 26521:26536 <> recv_buffer_size:106
+R26922:26925 dsys.reliable_broadcast.definitions <> Init constr
+R26953:26953 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26974:26979 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26996:26996 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26969:26972 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R26954:26965 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R26967:26968 dsys.reliable_broadcast.definitions <> st:99 var
+R26991:26994 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R26980:26988 Coq.Init.Specif <> proj1_sig def
+R27457:27460 Coq.Init.Datatypes <> Some constr
+R27487:27498 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27487:27498 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27487:27498 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27542:27559 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27542:27559 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27641:27662 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R27641:27662 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R27707:27724 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27707:27724 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27503:27514 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27516:27517 dsys.reliable_broadcast.definitions <> st:99 var
+R27564:27573 dsys.common.buffer <> buffer_add def
+R27610:27610 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27612:27613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27616:27616 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27587:27604 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27606:27607 dsys.reliable_broadcast.definitions <> st:99 var
+R27575:27584 dsys.reliable_broadcast.definitions <> packet_dec thm
+R27667:27682 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R27729:27746 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27748:27749 dsys.reliable_broadcast.definitions <> st:99 var
+R27023:27026 Coq.Init.Datatypes <> Some constr
+R27053:27064 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27053:27064 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27053:27064 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27094:27111 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27094:27111 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27193:27214 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R27193:27214 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R27259:27276 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27259:27276 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27116:27125 dsys.common.buffer <> buffer_add def
+R27162:27162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27164:27165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27168:27168 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27139:27156 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27158:27159 dsys.reliable_broadcast.definitions <> st:99 var
+R27127:27136 dsys.reliable_broadcast.definitions <> packet_dec thm
+R27219:27234 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R27291:27296 dsys.reliable_broadcast.definitions <> Packet def
+binder 27286:27287 <> m0:108
+R27317:27318 dsys.reliable_broadcast.definitions <> m0:108 var
+binder 27306:27306 <> n:109
+binder 27309:27311 <> im':110
+R27347:27351 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R27387:27387 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R27323:27340 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27345:27346 dsys.reliable_broadcast.definitions <> m0:108 var
+R27342:27343 dsys.reliable_broadcast.definitions <> st:99 var
+R27352:27373 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R27380:27383 dsys.reliable_broadcast.definitions <> Echo constr
+R27375:27377 dsys.reliable_broadcast.definitions <> im':110 var
+R27789:27792 dsys.reliable_broadcast.definitions <> Echo constr
+R27820:27820 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27841:27846 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27875:27875 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27836:27839 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R27821:27832 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27834:27835 dsys.reliable_broadcast.definitions <> st:99 var
+R27866:27869 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R27847:27862 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R27873:27873 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R27871:27871 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R27872:27872 dsys.reliable_broadcast.definitions <> f:97 var
+R28343:28343 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28364:28369 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28398:28398 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R28359:28362 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R28344:28355 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28357:28358 dsys.reliable_broadcast.definitions <> st:99 var
+R28389:28392 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R28370:28385 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R28396:28396 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R28394:28394 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R28395:28395 dsys.reliable_broadcast.definitions <> f:97 var
+R28884:28887 Coq.Init.Datatypes <> Some constr
+R28914:28925 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28914:28925 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28914:28925 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28969:28986 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28969:28986 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29068:29089 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R29068:29089 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R29134:29151 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29134:29151 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28930:28941 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28943:28944 dsys.reliable_broadcast.definitions <> st:99 var
+R28991:29000 dsys.common.buffer <> buffer_add def
+R29037:29037 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29039:29040 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29043:29043 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29014:29031 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29033:29034 dsys.reliable_broadcast.definitions <> st:99 var
+R29002:29011 dsys.reliable_broadcast.definitions <> packet_dec thm
+R29094:29109 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R29156:29173 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29175:29176 dsys.reliable_broadcast.definitions <> st:99 var
+R28425:28428 Coq.Init.Datatypes <> Some constr
+R28455:28466 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28455:28466 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28455:28466 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R28496:28513 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28496:28513 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28595:28616 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R28595:28616 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R28661:28678 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28661:28678 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28518:28527 dsys.common.buffer <> buffer_add def
+R28564:28564 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28566:28567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28570:28570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28541:28558 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28560:28561 dsys.reliable_broadcast.definitions <> st:99 var
+R28529:28538 dsys.reliable_broadcast.definitions <> packet_dec thm
+R28621:28636 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R28717:28722 dsys.reliable_broadcast.definitions <> Packet def
+binder 28712:28713 <> m0:111
+R28743:28744 dsys.reliable_broadcast.definitions <> m0:111 var
+binder 28732:28732 <> n:112
+binder 28735:28737 <> im':113
+R28773:28777 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R28814:28814 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R28749:28766 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28771:28772 dsys.reliable_broadcast.definitions <> m0:111 var
+R28768:28769 dsys.reliable_broadcast.definitions <> st:99 var
+R28778:28799 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R28806:28810 dsys.reliable_broadcast.definitions <> Ready constr
+R28801:28803 dsys.reliable_broadcast.definitions <> im':113 var
+R27902:27905 Coq.Init.Datatypes <> Some constr
+R27932:27943 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27932:27943 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27932:27943 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R27973:27990 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R27973:27990 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28072:28093 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R28072:28093 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R28138:28155 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28138:28155 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R27995:28004 dsys.common.buffer <> buffer_add def
+R28041:28041 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28043:28044 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28047:28047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28018:28035 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R28037:28038 dsys.reliable_broadcast.definitions <> st:99 var
+R28006:28015 dsys.reliable_broadcast.definitions <> packet_dec thm
+R28098:28113 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R28194:28199 dsys.reliable_broadcast.definitions <> Packet def
+binder 28189:28190 <> m0:114
+R28220:28221 dsys.reliable_broadcast.definitions <> m0:114 var
+binder 28209:28209 <> n:115
+binder 28212:28214 <> im':116
+R28250:28254 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R28290:28290 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R28226:28243 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R28248:28249 dsys.reliable_broadcast.definitions <> m0:114 var
+R28245:28246 dsys.reliable_broadcast.definitions <> st:99 var
+R28255:28276 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R28283:28286 dsys.reliable_broadcast.definitions <> Echo constr
+R28278:28280 dsys.reliable_broadcast.definitions <> im':116 var
+R29216:29220 dsys.reliable_broadcast.definitions <> Ready constr
+R29246:29246 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29267:29272 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29299:29299 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29262:29265 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R29247:29258 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29260:29261 dsys.reliable_broadcast.definitions <> st:99 var
+R29292:29295 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R29273:29288 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R29297:29297 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29296:29296 dsys.reliable_broadcast.definitions <> f:97 var
+R29767:29767 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29788:29793 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29820:29820 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29783:29786 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R29768:29779 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29781:29782 dsys.reliable_broadcast.definitions <> st:99 var
+R29813:29816 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R29794:29809 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R29818:29818 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R29817:29817 dsys.reliable_broadcast.definitions <> f:97 var
+R30289:30289 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30310:30315 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30344:30344 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R30305:30308 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R30290:30301 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30303:30304 dsys.reliable_broadcast.definitions <> st:99 var
+R30335:30338 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R30316:30331 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R30342:30342 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R30340:30340 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R30341:30341 dsys.reliable_broadcast.definitions <> f:97 var
+R30718:30721 Coq.Init.Datatypes <> Some constr
+R30748:30759 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30748:30759 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30748:30759 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30803:30820 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30803:30820 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30902:30923 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30902:30923 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30968:30985 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30968:30985 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30764:30775 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30777:30778 dsys.reliable_broadcast.definitions <> st:99 var
+R30825:30834 dsys.common.buffer <> buffer_add def
+R30871:30871 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30873:30874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30877:30877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30848:30865 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30867:30868 dsys.reliable_broadcast.definitions <> st:99 var
+R30836:30845 dsys.reliable_broadcast.definitions <> packet_dec thm
+R30928:30943 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R30990:31007 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R31009:31010 dsys.reliable_broadcast.definitions <> st:99 var
+R30371:30374 Coq.Init.Datatypes <> Some constr
+R30401:30412 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30401:30412 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30401:30412 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R30442:30459 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30442:30459 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30541:30562 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30541:30562 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30607:30624 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30607:30624 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30464:30473 dsys.common.buffer <> buffer_add def
+R30510:30510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30512:30513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30516:30516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30487:30504 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30506:30507 dsys.reliable_broadcast.definitions <> st:99 var
+R30475:30484 dsys.reliable_broadcast.definitions <> packet_dec thm
+R30567:30582 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R30629:30646 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30648:30649 dsys.reliable_broadcast.definitions <> st:99 var
+R29847:29850 Coq.Init.Datatypes <> Some constr
+R29877:29888 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29877:29888 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29877:29888 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29918:29935 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29918:29935 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R30017:30038 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30017:30038 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R30083:30100 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30083:30100 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29940:29949 dsys.common.buffer <> buffer_add def
+R29986:29986 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29988:29989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29992:29992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29963:29980 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29982:29983 dsys.reliable_broadcast.definitions <> st:99 var
+R29951:29960 dsys.reliable_broadcast.definitions <> packet_dec thm
+R30043:30058 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R30139:30144 dsys.reliable_broadcast.definitions <> Packet def
+binder 30134:30135 <> m0:117
+R30165:30166 dsys.reliable_broadcast.definitions <> m0:117 var
+binder 30154:30154 <> n:118
+binder 30157:30159 <> im':119
+R30195:30199 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R30236:30236 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R30171:30188 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R30193:30194 dsys.reliable_broadcast.definitions <> m0:117 var
+R30190:30191 dsys.reliable_broadcast.definitions <> st:99 var
+R30200:30221 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R30228:30232 dsys.reliable_broadcast.definitions <> Ready constr
+R30223:30225 dsys.reliable_broadcast.definitions <> im':119 var
+R29326:29329 Coq.Init.Datatypes <> Some constr
+R29356:29367 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29356:29367 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29356:29367 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R29397:29414 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29397:29414 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29496:29517 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R29496:29517 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R29562:29579 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29562:29579 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29419:29428 dsys.common.buffer <> buffer_add def
+R29465:29465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29467:29468 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29471:29471 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29442:29459 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R29461:29462 dsys.reliable_broadcast.definitions <> st:99 var
+R29430:29439 dsys.reliable_broadcast.definitions <> packet_dec thm
+R29522:29537 dsys.reliable_broadcast.definitions <> recv_buffer_size:106 var
+R29618:29623 dsys.reliable_broadcast.definitions <> Packet def
+binder 29613:29614 <> m0:120
+R29644:29645 dsys.reliable_broadcast.definitions <> m0:120 var
+binder 29633:29633 <> n:121
+binder 29636:29638 <> im':122
+R29674:29678 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R29714:29714 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R29650:29667 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R29672:29673 dsys.reliable_broadcast.definitions <> m0:120 var
+R29669:29670 dsys.reliable_broadcast.definitions <> st:99 var
+R29679:29700 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R29707:29710 dsys.reliable_broadcast.definitions <> Echo constr
+R29702:29704 dsys.reliable_broadcast.definitions <> im':122 var
+R31096:31110 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R31133:31133 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R31163:31168 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R31198:31198 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R31145:31148 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R31134:31142 Coq.Init.Specif <> proj1_sig def
+R31149:31157 Coq.Init.Specif <> proj1_sig def
+R31159:31162 dsys.reliable_broadcast.definitions <> proc:98 var
+R31169:31186 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R31191:31191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31193:31194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31197:31197 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31188:31189 dsys.reliable_broadcast.definitions <> st:99 var
+R31525:31528 Coq.Init.Datatypes <> None constr
+R31215:31218 Coq.Init.Datatypes <> Some constr
+R31237:31248 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R31237:31248 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R31237:31248 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R31284:31301 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R31284:31301 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R31343:31364 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R31343:31364 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R31410:31427 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R31410:31427 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R31253:31264 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R31266:31267 dsys.reliable_broadcast.definitions <> st:99 var
+R31306:31323 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R31325:31326 dsys.reliable_broadcast.definitions <> st:99 var
+R31369:31390 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R31392:31393 dsys.reliable_broadcast.definitions <> st:99 var
+R31432:31441 dsys.common.buffer <> buffer_sub def
+R31478:31478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31480:31481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31484:31484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31455:31472 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R31474:31475 dsys.reliable_broadcast.definitions <> st:99 var
+R31443:31452 dsys.reliable_broadcast.definitions <> packet_dec thm
+def 31551:31568 <> BrachaRBTransition
+R31579:31581 Coq.Init.Datatypes <> nat ind
+binder 31575:31575 <> f:123
+R31592:31598 dsys.reliable_broadcast.definitions <> Process def
+binder 31585:31588 <> proc:124
+R31611:31623 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+binder 31606:31607 <> st:125
+R31633:31646 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 31627:31629 <> act:126
+R31656:31668 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+binder 31650:31652 <> st':127
+R31719:31721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31678:31704 dsys.reliable_broadcast.definitions <> BrachaRB_compute_transition def
+R31716:31718 dsys.reliable_broadcast.definitions <> act:126 var
+R31713:31714 dsys.reliable_broadcast.definitions <> st:125 var
+R31708:31711 dsys.reliable_broadcast.definitions <> proc:124 var
+R31706:31706 dsys.reliable_broadcast.definitions <> f:123 var
+R31722:31725 Coq.Init.Datatypes <> Some constr
+R31727:31729 dsys.reliable_broadcast.definitions <> st':127 var
+def 31746:31764 <> BrachaRBActionClass
+R31778:31784 dsys.reliable_broadcast.definitions <> Process def
+binder 31771:31774 <> proc:128
+R31794:31807 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 31788:31790 <> act:129
+R31812:31821 dsys.common.IOA <> ActionType ind
+R31836:31838 dsys.reliable_broadcast.definitions <> act:129 var
+R31853:31867 dsys.reliable_broadcast.definitions <> BrachaRBP2PRecv constr
+R31894:31897 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R31883:31891 Coq.Init.Specif <> proj1_sig def
+R31898:31906 Coq.Init.Specif <> proj1_sig def
+R31908:31911 dsys.reliable_broadcast.definitions <> proc:128 var
+R31930:31935 dsys.common.IOA <> Unused constr
+R31919:31923 dsys.common.IOA <> Input constr
+R31945:31959 dsys.reliable_broadcast.definitions <> BrachaRBDeliver constr
+R31982:31985 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R31971:31979 Coq.Init.Specif <> proj1_sig def
+R31986:31994 Coq.Init.Specif <> proj1_sig def
+R31996:31999 dsys.reliable_broadcast.definitions <> proc:128 var
+R32018:32023 dsys.common.IOA <> Unused constr
+R32006:32011 dsys.common.IOA <> Output constr
+R32033:32047 dsys.reliable_broadcast.definitions <> BrachaRBP2PSend constr
+R32074:32077 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R32063:32071 Coq.Init.Specif <> proj1_sig def
+R32078:32086 Coq.Init.Specif <> proj1_sig def
+R32088:32091 dsys.reliable_broadcast.definitions <> proc:128 var
+R32111:32116 dsys.common.IOA <> Unused constr
+R32099:32104 dsys.common.IOA <> Output constr
+R32126:32142 dsys.reliable_broadcast.definitions <> BrachaRBBroadcast constr
+R32167:32170 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R32153:32161 Coq.Init.Specif <> proj1_sig def
+R32163:32166 dsys.reliable_broadcast.definitions <> proc:128 var
+R32190:32195 dsys.common.IOA <> Unused constr
+R32179:32183 dsys.common.IOA <> Input constr
+prf 32215:32238 <> BrachaRBUnusedActionProp
+R32249:32251 Coq.Init.Datatypes <> nat ind
+binder 32245:32245 <> f:131
+R32262:32268 dsys.reliable_broadcast.definitions <> Process def
+binder 32255:32258 <> proc:132
+R32290:32303 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+binder 32284:32286 <> act:133
+R32343:32374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32334:32336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32306:32324 dsys.reliable_broadcast.definitions <> BrachaRBActionClass def
+R32331:32333 dsys.reliable_broadcast.definitions <> act:133 var
+R32326:32329 dsys.reliable_broadcast.definitions <> proc:132 var
+R32337:32342 dsys.common.IOA <> Unused constr
+R32391:32403 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+binder 32382:32383 <> st:134
+binder 32385:32387 <> st':135
+R32406:32407 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32408:32425 dsys.reliable_broadcast.definitions <> BrachaRBTransition def
+R32441:32443 dsys.reliable_broadcast.definitions <> st':135 var
+R32437:32439 dsys.reliable_broadcast.definitions <> act:133 var
+R32434:32435 dsys.reliable_broadcast.definitions <> st:134 var
+R32429:32432 dsys.reliable_broadcast.definitions <> proc:132 var
+R32427:32427 dsys.reliable_broadcast.definitions <> f:131 var
+R32549:32566 dsys.reliable_broadcast.definitions <> BrachaRBTransition def
+R32583:32609 dsys.reliable_broadcast.definitions <> BrachaRB_compute_transition def
+def 32842:32854 <> BrachaRBStart
+R32861:32867 dsys.reliable_broadcast.definitions <> Process def
+binder 32857:32857 <> p:136
+R32876:32888 dsys.reliable_broadcast.definitions <> BrachaRBState rec
+binder 32871:32872 <> st:137
+R32907:32923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33163:33175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32905:32906 dsys.reliable_broadcast.definitions <> st:137 var
+R32924:32935 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R32924:32935 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R32924:32935 dsys.reliable_broadcast.definitions <> BrachaRBStep proj
+R32986:33003 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R32986:33003 dsys.reliable_broadcast.definitions <> BrachaRBRecvBuffer proj
+R33047:33068 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R33047:33068 dsys.reliable_broadcast.definitions <> BrachaRBRecvBufferSize proj
+R33114:33131 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R33114:33131 dsys.reliable_broadcast.definitions <> BrachaRBSendBuffer proj
+R32954:32957 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R32943:32951 Coq.Init.Specif <> proj1_sig def
+R32953:32953 dsys.reliable_broadcast.definitions <> p:136 var
+R33008:33019 dsys.common.buffer <> empty_buffer def
+R33027:33032 dsys.reliable_broadcast.definitions <> Packet def
+R33082:33094 dsys.reliable_broadcast.definitions <> InternMessage ind
+R33136:33147 dsys.common.buffer <> empty_buffer def
+R33155:33160 dsys.reliable_broadcast.definitions <> Packet def
+def 33192:33206 <> BrachaRBProcess
+R33217:33219 Coq.Init.Datatypes <> nat ind
+binder 33213:33213 <> f:138
+R33230:33236 dsys.reliable_broadcast.definitions <> Process def
+binder 33223:33226 <> proc:139
+R33241:33246 dsys.common.IOA <> IOADef rec
+R33248:33261 dsys.reliable_broadcast.definitions <> BrachaRBAction ind
+R33270:33277 dsys.common.IOA <> mkIOADef constr
+R33380:33403 dsys.reliable_broadcast.definitions <> BrachaRBUnusedActionProp thm
+R33414:33417 dsys.reliable_broadcast.definitions <> proc:139 var
+R33426:33426 dsys.reliable_broadcast.definitions <> f:138 var
+R33346:33363 dsys.reliable_broadcast.definitions <> BrachaRBTransition def
+R33367:33370 dsys.reliable_broadcast.definitions <> proc:139 var
+R33365:33365 dsys.reliable_broadcast.definitions <> f:138 var
+R33319:33331 dsys.reliable_broadcast.definitions <> BrachaRBStart def
+R33333:33336 dsys.reliable_broadcast.definitions <> proc:139 var
+R33286:33304 dsys.reliable_broadcast.definitions <> BrachaRBActionClass def
+R33306:33309 dsys.reliable_broadcast.definitions <> proc:139 var
+R33438:33455 dsys.reliable_broadcast.definitions RealiableBroadcast <> sec
+R39976:40004 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBP2PSend thm
+R39928:39956 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBP2PRecv thm
+R39880:39908 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBDeliver thm
+R39830:39860 dsys.reliable_broadcast.definitions <> destruct_diff_BrachaRBBroadcast thm
+R40168:40170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40139:40160 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R40171:40174 Coq.Init.Datatypes <> true constr
+R40168:40170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40139:40160 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R40171:40174 Coq.Init.Datatypes <> true constr
+R40284:40286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40255:40276 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R40287:40291 Coq.Init.Datatypes <> false constr
+R40284:40286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40255:40276 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool def
+R40287:40291 Coq.Init.Datatypes <> false constr
+R40318:40345 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool_false thm
+R40201:40227 dsys.reliable_broadcast.definitions <> InternMessage_dec_bool_true thm
