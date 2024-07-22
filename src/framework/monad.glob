@@ -1,0 +1,331 @@
+DIGEST 9295b3ec29c1947bce91fd648ba2e7dd
+Fdsys.framework.monad
+R99:102 Coq.Lists.List <> <> lib
+R113:125 Coq.Lists.List ListNotations <> mod
+def 140:149 <> GenHandler
+binder 152:152 <> W:1
+binder 154:154 <> S:2
+binder 156:156 <> O:3
+binder 158:158 <> A:4
+R179:182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R178:178 dsys.framework.monad <> S:2 var
+R197:199 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R193:195 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R184:186 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R183:183 dsys.framework.monad <> A:4 var
+R187:190 Coq.Init.Datatypes <> list ind
+R192:192 dsys.framework.monad <> O:3 var
+R196:196 dsys.framework.monad <> S:2 var
+R200:203 Coq.Init.Datatypes <> list ind
+R205:205 dsys.framework.monad <> W:1 var
+def 227:229 <> ret
+binder 232:232 <> W:5
+binder 234:234 <> S:6
+binder 236:236 <> O:7
+binder 238:238 <> A:8
+R253:253 dsys.framework.monad <> A:8 var
+binder 249:249 <> a:9
+R258:267 dsys.framework.monad <> GenHandler def
+R269:269 dsys.framework.monad <> W:5 var
+R271:271 dsys.framework.monad <> S:6 var
+R273:273 dsys.framework.monad <> O:7 var
+R275:275 dsys.framework.monad <> A:8 var
+binder 284:284 <> s:10
+R289:289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R291:292 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R295:296 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R298:299 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R302:302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R290:290 dsys.framework.monad <> a:9 var
+R293:294 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R297:297 dsys.framework.monad <> s:10 var
+R300:301 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 317:320 <> bind
+binder 323:323 <> W:11
+binder 325:325 <> S:12
+binder 327:327 <> O:13
+binder 329:329 <> A:14
+binder 331:331 <> B:15
+R346:355 dsys.framework.monad <> GenHandler def
+R357:357 dsys.framework.monad <> W:11 var
+R359:359 dsys.framework.monad <> S:12 var
+R361:361 dsys.framework.monad <> O:13 var
+R363:363 dsys.framework.monad <> A:14 var
+binder 342:342 <> m:16
+R372:375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R371:371 dsys.framework.monad <> A:14 var
+R376:385 dsys.framework.monad <> GenHandler def
+R387:387 dsys.framework.monad <> W:11 var
+R389:389 dsys.framework.monad <> S:12 var
+R391:391 dsys.framework.monad <> O:13 var
+R393:393 dsys.framework.monad <> B:15 var
+binder 367:367 <> f:17
+R398:407 dsys.framework.monad <> GenHandler def
+R409:409 dsys.framework.monad <> W:11 var
+R411:411 dsys.framework.monad <> S:12 var
+R413:413 dsys.framework.monad <> O:13 var
+R415:415 dsys.framework.monad <> B:15 var
+binder 426:426 <> s:18
+R461:461 dsys.framework.monad <> m:16 var
+R463:463 dsys.framework.monad <> s:18 var
+R440:440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R442:443 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R447:448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R451:452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R456:456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R499:499 dsys.framework.monad <> f:17 var
+R477:477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R479:480 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R484:485 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R489:490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R494:494 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R513:513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R515:516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R527:528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R532:533 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R544:544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R520:523 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R537:540 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+def 559:562 <> send
+binder 565:565 <> W:19
+binder 567:567 <> S:20
+binder 569:569 <> O:21
+R577:577 dsys.framework.monad <> W:19 var
+binder 573:573 <> w:22
+R582:591 dsys.framework.monad <> GenHandler def
+R593:593 dsys.framework.monad <> W:19 var
+R595:595 dsys.framework.monad <> S:20 var
+R597:597 dsys.framework.monad <> O:21 var
+R599:602 Coq.Init.Datatypes <> unit ind
+binder 611:611 <> s:23
+R616:616 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R619:620 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R623:624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R626:627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R631:631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R617:618 Coq.Init.Datatypes <> tt constr
+R621:622 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R625:625 dsys.framework.monad <> s:23 var
+R628:628 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R630:630 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R629:629 dsys.framework.monad <> w:22 var
+def 646:657 <> write_output
+binder 660:660 <> W:24
+binder 662:662 <> S:25
+binder 664:664 <> O:26
+R672:672 dsys.framework.monad <> O:26 var
+binder 668:668 <> o:27
+R677:686 dsys.framework.monad <> GenHandler def
+R688:688 dsys.framework.monad <> W:24 var
+R690:690 dsys.framework.monad <> S:25 var
+R692:692 dsys.framework.monad <> O:26 var
+R694:697 Coq.Init.Datatypes <> unit ind
+binder 706:706 <> s:28
+R711:711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R714:715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R719:720 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R722:723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R726:726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R712:713 Coq.Init.Datatypes <> tt constr
+R716:716 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R718:718 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R717:717 dsys.framework.monad <> o:27 var
+R721:721 dsys.framework.monad <> s:28 var
+R724:725 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 741:746 <> modify
+binder 749:749 <> W:29
+binder 751:751 <> S:30
+binder 753:753 <> O:31
+R762:765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R761:761 dsys.framework.monad <> S:30 var
+R766:766 dsys.framework.monad <> S:30 var
+binder 757:757 <> f:32
+R771:780 dsys.framework.monad <> GenHandler def
+R782:782 dsys.framework.monad <> W:29 var
+R784:784 dsys.framework.monad <> S:30 var
+R786:786 dsys.framework.monad <> O:31 var
+R788:791 Coq.Init.Datatypes <> unit ind
+binder 800:800 <> s:33
+R805:805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R808:809 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R812:813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R817:818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R821:821 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R806:807 Coq.Init.Datatypes <> tt constr
+R810:811 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R814:814 dsys.framework.monad <> f:32 var
+R816:816 dsys.framework.monad <> s:33 var
+R819:820 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 836:838 <> put
+binder 841:841 <> W:34
+binder 843:843 <> S:35
+binder 845:845 <> O:36
+R853:853 dsys.framework.monad <> S:35 var
+binder 849:849 <> s:37
+R858:867 dsys.framework.monad <> GenHandler def
+R869:869 dsys.framework.monad <> W:34 var
+R871:871 dsys.framework.monad <> S:35 var
+R873:873 dsys.framework.monad <> O:36 var
+R875:878 Coq.Init.Datatypes <> unit ind
+R892:892 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R895:896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R899:900 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R902:903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R906:906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R893:894 Coq.Init.Datatypes <> tt constr
+R897:898 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R901:901 dsys.framework.monad <> s:37 var
+R904:905 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 921:923 <> get
+binder 926:926 <> W:38
+binder 928:928 <> S:39
+binder 930:930 <> O:40
+R935:944 dsys.framework.monad <> GenHandler def
+R946:946 dsys.framework.monad <> W:38 var
+R948:948 dsys.framework.monad <> S:39 var
+R950:950 dsys.framework.monad <> O:40 var
+R952:952 dsys.framework.monad <> S:39 var
+binder 961:961 <> s:41
+R966:966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R968:969 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R972:973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R975:976 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R979:979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R967:967 dsys.framework.monad <> s:41 var
+R970:971 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R974:974 dsys.framework.monad <> s:41 var
+R977:978 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 994:1006 <> runGenHandler
+binder 1009:1009 <> W:42
+binder 1011:1011 <> S:43
+binder 1013:1013 <> O:44
+binder 1015:1015 <> A:45
+R1023:1023 dsys.framework.monad <> S:43 var
+binder 1019:1019 <> s:46
+R1031:1040 dsys.framework.monad <> GenHandler def
+R1042:1042 dsys.framework.monad <> W:42 var
+R1044:1044 dsys.framework.monad <> S:43 var
+R1046:1046 dsys.framework.monad <> O:44 var
+R1048:1048 dsys.framework.monad <> A:45 var
+binder 1027:1027 <> h:47
+R1069:1071 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1065:1067 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1056:1058 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1055:1055 dsys.framework.monad <> A:45 var
+R1059:1062 Coq.Init.Datatypes <> list ind
+R1064:1064 dsys.framework.monad <> O:44 var
+R1068:1068 dsys.framework.monad <> S:43 var
+R1072:1075 Coq.Init.Datatypes <> list ind
+R1077:1077 dsys.framework.monad <> W:42 var
+R1091:1091 dsys.framework.monad <> h:47 var
+R1093:1093 dsys.framework.monad <> s:46 var
+def 1108:1127 <> runGenHandler_ignore
+binder 1130:1130 <> W:48
+binder 1132:1132 <> S:49
+binder 1134:1134 <> O:50
+binder 1136:1136 <> A:51
+R1144:1144 dsys.framework.monad <> S:49 var
+binder 1140:1140 <> s:52
+R1152:1161 dsys.framework.monad <> GenHandler def
+R1163:1163 dsys.framework.monad <> W:48 var
+R1165:1165 dsys.framework.monad <> S:49 var
+R1167:1167 dsys.framework.monad <> O:50 var
+R1169:1169 dsys.framework.monad <> A:51 var
+binder 1148:1148 <> h:53
+R1186:1188 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1182:1184 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1176:1179 Coq.Init.Datatypes <> list ind
+R1181:1181 dsys.framework.monad <> O:50 var
+R1185:1185 dsys.framework.monad <> S:49 var
+R1189:1192 Coq.Init.Datatypes <> list ind
+R1194:1194 dsys.framework.monad <> W:48 var
+R1232:1232 dsys.framework.monad <> h:53 var
+R1234:1234 dsys.framework.monad <> s:52 var
+R1213:1213 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1215:1216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1219:1220 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1223:1224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1227:1227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1239:1239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1242:1243 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1246:1247 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1250:1250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 1297:1317 <> runGenHandler1_ignore
+binder 1320:1320 <> W:54
+binder 1322:1322 <> S:55
+binder 1324:1324 <> O:56
+binder 1326:1326 <> A:57
+R1334:1343 dsys.framework.monad <> GenHandler def
+R1345:1345 dsys.framework.monad <> W:54 var
+R1347:1347 dsys.framework.monad <> S:55 var
+R1349:1349 dsys.framework.monad <> O:56 var
+R1351:1351 dsys.framework.monad <> A:57 var
+binder 1330:1330 <> h:58
+R1359:1359 dsys.framework.monad <> S:55 var
+binder 1355:1355 <> s:59
+R1370:1372 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1364:1367 Coq.Init.Datatypes <> list ind
+R1369:1369 dsys.framework.monad <> O:56 var
+R1373:1373 dsys.framework.monad <> S:55 var
+R1403:1415 dsys.framework.monad <> runGenHandler def
+R1419:1419 dsys.framework.monad <> h:58 var
+R1417:1417 dsys.framework.monad <> s:59 var
+R1386:1386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1388:1389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1392:1393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1395:1396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1398:1398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1426:1426 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1429:1430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1432:1432 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 1447:1449 <> nop
+binder 1452:1452 <> W:60
+binder 1454:1454 <> S:61
+binder 1456:1456 <> O:62
+R1470:1472 dsys.framework.monad <> ret def
+R1474:1474 dsys.framework.monad <> W:60 var
+R1476:1476 dsys.framework.monad <> S:61 var
+R1478:1478 dsys.framework.monad <> O:62 var
+R1482:1483 Coq.Init.Datatypes <> tt constr
+R1638:1641 dsys.framework.monad <> bind def
+binder 1661:1661 <> x:63
+not 1617:1617 <> ::monad_scope:x_'<-'_x_';;'_x
+R1796:1799 dsys.framework.monad <> ::monad_scope:x_'<-'_x_';;'_x not
+R1802:1805 dsys.framework.monad <> ::monad_scope:x_'<-'_x_';;'_x not
+not 1780:1780 <> ::monad_scope:x_';;'_x
+def 1898:1901 <> when
+binder 1904:1904 <> W:64
+binder 1906:1906 <> S:65
+binder 1908:1908 <> O:66
+binder 1910:1910 <> A:67
+R1918:1921 Coq.Init.Datatypes <> bool ind
+binder 1914:1914 <> b:68
+R1929:1938 dsys.framework.monad <> GenHandler def
+R1940:1940 dsys.framework.monad <> W:64 var
+R1942:1942 dsys.framework.monad <> S:65 var
+R1944:1944 dsys.framework.monad <> O:66 var
+R1946:1946 dsys.framework.monad <> A:67 var
+binder 1925:1925 <> m:69
+R1951:1960 dsys.framework.monad <> GenHandler def
+R1962:1962 dsys.framework.monad <> W:64 var
+R1964:1964 dsys.framework.monad <> S:65 var
+R1966:1966 dsys.framework.monad <> O:66 var
+R1968:1971 Coq.Init.Datatypes <> unit ind
+R1981:1981 dsys.framework.monad <> b:68 var
+R2005:2007 dsys.framework.monad <> nop def
+R1989:1992 dsys.framework.monad <> ::monad_scope:x_';;'_x not
+R1988:1988 dsys.framework.monad <> m:69 var
+R1993:1995 dsys.framework.monad <> ret def
+R1997:1998 Coq.Init.Datatypes <> tt constr
+R2083:2102 dsys.framework.monad <> runGenHandler_ignore def
+R2114:2126 dsys.framework.monad <> runGenHandler def
+R2138:2158 dsys.framework.monad <> runGenHandler1_ignore def
+R2170:2173 dsys.framework.monad <> bind def
+R2185:2188 dsys.framework.monad <> send def
+R2200:2211 dsys.framework.monad <> write_output def
+R2223:2225 dsys.framework.monad <> get def
+R2237:2240 dsys.framework.monad <> when def
+R2252:2254 dsys.framework.monad <> put def
+R2266:2268 dsys.framework.monad <> nop def
+R2280:2285 dsys.framework.monad <> modify def
+R2297:2299 dsys.framework.monad <> ret def

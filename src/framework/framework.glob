@@ -1,0 +1,287 @@
+DIGEST cb5121d8b17caf42534f08c09a4cb3d9
+Fdsys.framework.framework
+R15:17 Coq.Vectors.Fin <> <> lib
+R35:40 Coq.Array.PArray <> <> lib
+R42:50 Coq.Init.Byte <> <> lib
+R68:82 dsys.framework.monad <> <> lib
+def 97:99 <> fin
+R104:108 Coq.Vectors.Fin <> t ind
+def 123:129 <> NodeSet
+R136:138 Coq.Init.Datatypes <> nat ind
+binder 132:132 <> n:1
+R144:146 dsys.framework.framework <> fin def
+R148:148 dsys.framework.framework <> n:1 var
+def 162:168 <> Message
+R173:177 Coq.Array.PArray <> array prim
+R179:182 Coq.Init.Byte <> byte ind
+ind 196:202 <> IAction
+constr 224:228 <> ISend
+constr 249:253 <> IRecv
+binder 205:205 <> I:2
+binder 207:207 <> O:3
+R233:236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R232:232 dsys.framework.framework <> I:2 var
+R237:243 dsys.framework.framework <> IAction:4 ind
+R258:261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R257:257 dsys.framework.framework <> O:3 var
+R262:268 dsys.framework.framework <> IAction:4 ind
+scheme 196:202 <> IAction_rect
+scheme 196:202 <> IAction_ind
+scheme 196:202 <> IAction_rec
+scheme 196:202 <> IAction_sind
+def 284:293 <> NodeAction
+binder 296:296 <> I:6
+binder 298:298 <> O:7
+binder 300:301 <> I':8
+binder 303:304 <> O':9
+R323:325 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R312:318 dsys.framework.framework <> IAction ind
+R320:320 dsys.framework.framework <> I:6 var
+R322:322 dsys.framework.framework <> O:7 var
+R327:333 dsys.framework.framework <> IAction ind
+R335:336 dsys.framework.framework <> I':8 var
+R338:339 dsys.framework.framework <> O':9 var
+R374:376 Coq.Init.Datatypes <> inl constr
+not 358:358 <> :::'frontend'
+R403:405 Coq.Init.Datatypes <> inr constr
+not 388:388 <> :::'backend'
+R432:436 dsys.framework.framework <> IRecv constr
+not 417:417 <> :::'IOutput'
+R462:466 dsys.framework.framework <> ISend constr
+not 448:448 <> :::'IInput'
+R493:509 dsys.framework.framework <> :::'backend' not
+R502:506 dsys.framework.framework <> ISend constr
+not 478:478 <> :::'Send'_x
+R552:568 dsys.framework.framework <> :::'backend' not
+R561:565 dsys.framework.framework <> IRecv constr
+not 537:537 <> :::'Recv'_x
+R613:632 dsys.framework.framework <> :::'frontend' not
+R623:631 dsys.framework.framework <> :::'IOutput' not
+not 596:596 <> :::'Output'_x
+R676:694 dsys.framework.framework <> :::'frontend' not
+R686:693 dsys.framework.framework <> :::'IInput' not
+not 660:660 <> :::'Input'_x
+def 725:735 <> ModelAction
+binder 738:738 <> I:10
+binder 740:740 <> O:11
+binder 742:743 <> I':12
+binder 745:746 <> O':13
+R754:756 Coq.Init.Datatypes <> nat ind
+binder 750:750 <> n:14
+R772:774 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R763:769 dsys.framework.framework <> NodeSet def
+R771:771 dsys.framework.framework <> n:14 var
+R776:785 dsys.framework.framework <> NodeAction def
+R787:787 dsys.framework.framework <> I:10 var
+R789:789 dsys.framework.framework <> O:11 var
+R791:792 dsys.framework.framework <> I':12 var
+R794:795 dsys.framework.framework <> O':13 var
+def 816:820 <> Trace
+binder 823:828 <> Action:15
+R844:847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R841:843 Coq.Init.Datatypes <> nat ind
+R848:853 Coq.Init.Datatypes <> option ind
+R855:860 dsys.framework.framework <> Action:15 var
+def 874:887 <> TransformTrace
+binder 890:890 <> A:16
+binder 892:892 <> B:17
+R908:911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R907:907 dsys.framework.framework <> A:16 var
+R912:917 Coq.Init.Datatypes <> option ind
+R919:919 dsys.framework.framework <> B:17 var
+binder 903:903 <> f:18
+R927:931 dsys.framework.framework <> Trace def
+R933:933 dsys.framework.framework <> A:16 var
+binder 923:923 <> t:19
+R938:942 dsys.framework.framework <> Trace def
+R944:944 dsys.framework.framework <> B:17 var
+binder 956:956 <> i:20
+R967:967 dsys.framework.framework <> t:19 var
+R969:969 dsys.framework.framework <> i:20 var
+R989:992 Coq.Init.Datatypes <> Some constr
+R999:999 dsys.framework.framework <> f:18 var
+R1016:1019 Coq.Init.Datatypes <> None constr
+R1025:1028 Coq.Init.Datatypes <> None constr
+R1030:1030 dsys.framework.framework <> B:17 var
+def 1057:1070 <> InvarientTrace
+binder 1073:1073 <> A:21
+R1089:1092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1088:1088 dsys.framework.framework <> A:21 var
+binder 1084:1084 <> P:22
+R1104:1108 dsys.framework.framework <> Trace def
+R1110:1110 dsys.framework.framework <> A:21 var
+binder 1100:1100 <> t:23
+binder 1132:1132 <> i:24
+R1141:1141 dsys.framework.framework <> t:23 var
+R1143:1143 dsys.framework.framework <> i:24 var
+R1161:1164 Coq.Init.Datatypes <> Some constr
+R1171:1171 dsys.framework.framework <> P:22 var
+R1191:1194 Coq.Init.Logic <> True ind
+def 1219:1241 <> InterfaceTraceAsBackend
+binder 1244:1244 <> I:25
+binder 1246:1246 <> O:26
+binder 1248:1249 <> I':27
+binder 1251:1252 <> O':28
+R1260:1262 Coq.Init.Datatypes <> nat ind
+binder 1256:1256 <> n:29
+R1299:1302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1271 dsys.framework.framework <> Trace def
+R1283:1285 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1274:1280 dsys.framework.framework <> NodeSet def
+R1282:1282 dsys.framework.framework <> n:29 var
+R1286:1292 dsys.framework.framework <> IAction ind
+R1303:1307 dsys.framework.framework <> Trace def
+R1311:1321 dsys.framework.framework <> ModelAction def
+R1323:1323 dsys.framework.framework <> I:25 var
+R1325:1325 dsys.framework.framework <> O:26 var
+R1327:1328 dsys.framework.framework <> I':27 var
+R1330:1331 dsys.framework.framework <> O':28 var
+R1333:1333 dsys.framework.framework <> n:29 var
+R1341:1354 dsys.framework.framework <> TransformTrace def
+binder 1361:1361 <> a:30
+R1388:1388 dsys.framework.framework <> a:30 var
+R1371:1371 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1373:1374 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1383:1383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1393:1396 Coq.Init.Datatypes <> Some constr
+R1398:1398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1400:1401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1418:1418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1402:1417 dsys.framework.framework <> :::'backend' not
+def 1434:1446 <> Specification
+binder 1449:1454 <> Action:32
+R1479:1482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1467:1471 dsys.framework.framework <> Trace def
+R1473:1478 dsys.framework.framework <> Action:32 var
+def 1501:1509 <> Interface
+binder 1512:1512 <> I:33
+binder 1514:1514 <> O:34
+R1531:1533 Coq.Init.Datatypes <> nat ind
+binder 1527:1527 <> i:35
+R1536:1548 dsys.framework.framework <> Specification def
+R1560:1562 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1551:1557 dsys.framework.framework <> NodeSet def
+R1559:1559 dsys.framework.framework <> i:35 var
+R1564:1570 dsys.framework.framework <> IAction ind
+R1572:1572 dsys.framework.framework <> I:33 var
+R1574:1574 dsys.framework.framework <> O:34 var
+def 1595:1612 <> ProjectTraceOnNode
+binder 1617:1617 <> I:36
+binder 1619:1619 <> O:37
+binder 1621:1622 <> I':38
+binder 1624:1625 <> O':39
+R1635:1637 Coq.Init.Datatypes <> nat ind
+binder 1631:1631 <> n:40
+R1647:1649 dsys.framework.framework <> fin def
+R1651:1651 dsys.framework.framework <> n:40 var
+binder 1643:1643 <> p:41
+R1690:1693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1658:1662 dsys.framework.framework <> Trace def
+R1666:1676 dsys.framework.framework <> ModelAction def
+R1678:1678 dsys.framework.framework <> I:36 var
+R1680:1680 dsys.framework.framework <> O:37 var
+R1682:1683 dsys.framework.framework <> I':38 var
+R1685:1686 dsys.framework.framework <> O':39 var
+R1688:1688 dsys.framework.framework <> n:40 var
+R1694:1698 dsys.framework.framework <> Trace def
+R1701:1710 dsys.framework.framework <> NodeAction def
+R1718:1731 dsys.framework.framework <> TransformTrace def
+binder 1738:1738 <> a:42
+R1765:1765 dsys.framework.framework <> a:42 var
+R1748:1748 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1750:1751 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1760:1760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1770:1773 Coq.Init.Datatypes <> Some constr
+def 1812:1832 <> ProjectTraceOnBackend
+binder 1837:1837 <> I:44
+binder 1839:1839 <> O:45
+binder 1841:1842 <> I':46
+binder 1844:1845 <> O':47
+R1855:1857 Coq.Init.Datatypes <> nat ind
+binder 1851:1851 <> n:48
+R1896:1899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1864:1868 dsys.framework.framework <> Trace def
+R1872:1882 dsys.framework.framework <> ModelAction def
+R1884:1884 dsys.framework.framework <> I:44 var
+R1886:1886 dsys.framework.framework <> O:45 var
+R1888:1889 dsys.framework.framework <> I':46 var
+R1891:1892 dsys.framework.framework <> O':47 var
+R1894:1894 dsys.framework.framework <> n:48 var
+R1900:1904 dsys.framework.framework <> Trace def
+R1916:1918 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1907:1913 dsys.framework.framework <> NodeSet def
+R1915:1915 dsys.framework.framework <> n:48 var
+R1919:1925 dsys.framework.framework <> IAction ind
+R1938:1951 dsys.framework.framework <> TransformTrace def
+binder 1965:1965 <> a:49
+R1992:1992 dsys.framework.framework <> a:49 var
+R1975:1975 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1977:1978 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1987:1987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2045:2054 dsys.framework.framework <> :::'backend' not
+R2059:2062 Coq.Init.Datatypes <> Some constr
+R2064:2064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2066:2067 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2070:2070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2093:2096 Coq.Init.Datatypes <> None constr
+modtype 2762:2769 <> Protocol
+ax 2784:2784 Protocol I
+ax 2786:2786 Protocol O
+ax 2788:2789 Protocol I'
+ax 2791:2792 Protocol O'
+ax 2814:2821 Protocol Frontend
+R2826:2834 dsys.framework.framework <> Interface def
+R2836:2836 dsys.framework.framework Protocol I defax
+R2838:2838 dsys.framework.framework Protocol O defax
+ax 2853:2859 Protocol Backend
+R2864:2872 dsys.framework.framework <> Interface def
+R2874:2875 dsys.framework.framework Protocol I' defax
+R2877:2878 dsys.framework.framework Protocol O' defax
+ax 2893:2897 Protocol State
+ax 2919:2931 Protocol input_handler
+ax 2933:2946 Protocol output_handler
+ax 2968:2971 Protocol Spec
+R2975:2987 dsys.framework.framework <> Specification def
+R2991:3000 dsys.framework.framework <> NodeAction def
+R3002:3002 dsys.framework.framework Protocol I defax
+R3004:3004 dsys.framework.framework Protocol O defax
+R3006:3007 dsys.framework.framework Protocol I' defax
+R3009:3010 dsys.framework.framework Protocol O' defax
+ax 3026:3036 Protocol Consistency
+R3495:3502 dsys.framework.framework Protocol <> modtype
+ind 3517:3527 <> ActionClass
+constr 3536:3545 <> Intern_act
+constr 3551:3560 <> Output_act
+constr 3566:3574 <> Input_act
+constr 3580:3589 <> Unused_act
+scheme 3517:3527 <> ActionClass_rect
+scheme 3517:3527 <> ActionClass_ind
+scheme 3517:3527 <> ActionClass_rec
+scheme 3517:3527 <> ActionClass_sind
+rec 3601:3604 <> AIOA
+proj 3644:3653 <> Classifier
+proj 3688:3691 <> Spec
+proj 3725:3733 <> UnusedHyp
+binder 3607:3616 <> ActionPool:65
+R3667:3670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3657:3666 dsys.framework.framework <> ActionPool:65 var
+R3671:3681 dsys.framework.framework <> ActionClass ind
+R3695:3707 dsys.framework.framework <> Specification def
+R3709:3718 dsys.framework.framework <> ActionPool:65 var
+R3754:3758 dsys.framework.framework <> Trace def
+R3760:3769 dsys.framework.framework <> ActionPool:65 var
+binder 3750:3750 <> t:69
+R3786:3789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3780:3783 dsys.framework.framework <> Spec:68 meth
+R3785:3785 dsys.framework.framework <> t:69 var
+R3790:3803 dsys.framework.framework <> InvarientTrace def
+R3843:3843 dsys.framework.framework <> t:69 var
+binder 3810:3810 <> a:70
+R3827:3830 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3815:3824 dsys.framework.framework <> Classifier:67 meth
+R3826:3826 dsys.framework.framework <> a:70 var
+R3831:3840 dsys.framework.framework <> Unused_act constr
+R3862:3865 dsys.framework.framework <> Spec proj
+R3862:3865 dsys.framework.framework <> Spec proj
+R3891:3900 dsys.framework.framework <> Classifier proj
+R3891:3900 dsys.framework.framework <> Classifier proj

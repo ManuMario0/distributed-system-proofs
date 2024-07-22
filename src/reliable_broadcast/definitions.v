@@ -5,6 +5,214 @@ Require Import P2P.P2P.
 Require Import Lia.
 Require Import Arith.
 Require Import MSets.
+Require Import PArray.
+Require Import List.
+Import ListNotations.
+
+Definition run (Node : Type) (Message : Type) : Type :=
+  nat -> Node -> Node -> Message.
+
+Module Type Interface.
+  Parameter Node : Type.
+  Parameter Message : Type.
+  Parameter Spec : run Node Message -> Prop.
+End Interface.
+
+Structure Interface (Node : Type) :=
+  mkInterface {
+    Message : Type;
+    Spec : run Node Message -> Prop
+  }.
+
+Definition GenHandler (State O I A : Type) := State -> State * list O * list I * A.
+
+Definition ret {State O I A : Type} (a : A) : GenHandler State O I A := fun st => (st, [], [], a).
+Definition bind {State O I A B : Type} (m : GenHandler State O I A) (f : A -> GenHandler State O I B) : GenHandler State O I B :=
+  fun s => let '(st, o, i, a) := m s in
+        let '(st', o', i', a') := f a st in
+        (st', o++o', i++i', a').
+
+Definition send {State O I : Type} (i : I) : GenHandler State O I unit :=
+  fun s => (s, [], [i], tt).
+
+Definition output {State O I : Type} (o : O) : GenHandler State O I unit :=
+  fun s => (s, [o], [], tt).
+
+Definition get {State O I : Type} : GenHandler State O I State :=
+  fun s => (s, [], [], s).
+
+
+
+
+Module Type Protocol (i : Interface).
+  Definition Node := i.Node.
+  Parameter State : Type.
+  Parameter Message : Type.
+  Parameter GetState : State.
+  Definition Handler := GenHandler State.
+  Parameter GivenInterface : Node -> Message -> Handler.
+  Parameter RequiredInterface : Node -> Message -> Handler.
+End Protocol.
+
+Module Type test.
+  Parameter n : nat.
+End test.
+
+Module A (t : test) : test.
+  Definition n := t.n + 1.
+End A.
+
+Module B (t : test) : test.
+  Definition n := t.n + 2.
+End B.
+
+Print B.
+
+Module Type test1.
+  Parameter i : nat.
+End test1.
+
+Module Type test2.
+  Parameter i : nat.
+  Parameter j : nat.
+End test2.
+
+Module Type test3.
+  Parameter i : nat.
+  Parameter j : nat.
+  Parameter k : nat.
+End test3.
+
+Module testA (t : test1) : test2.
+  Include t.
+  Definition j := 0.
+End testA.
+
+Module testB (t : test2) : test3.
+  Include t.
+  Definition k := 0.
+End testB.
+
+Module testC (t : test1) : test3.
+  Module interim := testA t.
+  Module res := testB interim.
+  Include res.
+End testC.
+
+Print testC.
+
+Module C (t : test1) : test3 := testB using Module t := testA t.
+
+
+
+Module C (A B :) (t : test) : test.
+  Definition n := A.n (B.n)
+
+Module Type functor (C : test) <: test.
+End functor.
+
+Module A (t : test) : test.
+End A.
+
+Module B (t : test) : test.
+End B.
+
+Module C (t : test) : test := A t.
+
+
+Module Type Protocol.
+  Parameter Node : Type.
+
+  Parameter GivenInterface : Interface Node.
+  Parameter RequiredInterface : Interface Node.
+
+  Parameter State : Type.
+  Parameter InitialState : Type.
+  Parameter GivenInputFunc : Node -> GivenInterface.(Message Node) -> State -> State.
+  Parameter RequiredInputFunc : Node -> RequiredInterface.(Message Node) -> State -> State.
+
+
+
+
+
+
+
+
+Module Type Coordinator.
+  Parameter Handler : Type.
+  Parameter Interface : Type.
+  Parameter Message : Interface -> Type.
+
+
+  Parameter send_ops : Handler -> forall i : Interface, Message i -> Handler.
+  Definition send (i : Interface) (m : Message i) := (fun t => send_ops t i m).
+
+  Notation "p ;; q" :=
+    (fun t => p (q t))
+      (at level 100, right associativity).
+End Coordinator.
+
+Module ProofCoordinator : Coordinator.
+  Parameter Interface : Type.
+  Parameter Message : Interface -> Type.
+  Definition Handler := list (forall i : Interface, Message i).
+
+
+Module Type Protocol.
+  Parameter send : Type.
+  Parameter GivenInterface : Type.
+  Parameter RequiredInterface : Type.
+
+  Parameter GivenInterfaceProp : GivenInterface -> Prop.
+  Parameter RequiredInterfaceProp : RequiredInterface -> Prop.
+
+  Parameter given_interface_input : GivenInterface -> unit.
+
+  Parameter Message : Interface -> Type.
+
+
+
+  Parameter State : Type.
+
+
+
+
+
+
+
+  Definition send_ops
+    (t : Handler)
+    (i : Interface)
+    (m : Message i) :=
+    (i, m) :: t.
+
+
+
+Notation "'CreateRecv' { code }" :=
+  (let __send := nil in (code ;; nil)).
+
+Module InterfacesCoordinator.
+  Parameter Tracker : Type.
+  Parameter Interface : Type.
+  Parameter Message : Interface -> Type.
+
+  Parameter send : Tracker -> forall (i : Interface), Message i -> Tracker.
+  Parameter recv : Tracker -> forall i : Interface, Message i * Tracker.
+
+
+
+Module Interface (Tracker : Type, Message : OrderedType).
+
+
+Section Interface.
+  Variable Tracker : Type.
+  Variable Interface : Type.
+  Variable Message : Type.
+
+  Definition Send :
+
+Module ReliableBroadcastNode (Message : OrderedType).
+
 
 Module ReliableBroadcast (Message : OrderedType).
   Module Buffer := Make Message.
